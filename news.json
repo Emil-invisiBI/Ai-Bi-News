@@ -1,92 +1,92 @@
 [
   {
-    "title": "Power BI 2025 holiday recap: A decade of innovation and impact",
-    "description": "2025 was a monumental year for Microsoft Power BI, marked by its 10-year anniversary and a series of community celebrations, global contests, and product advancements that delivered new capabilities e...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
+    "title": "On-premises data gateway December 2025 release",
+    "description": "Here is the December 2025 release of the on-premises data gateway (version 3000.298)....",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-december-2025-release/",
+    "image": null
+  },
+  {
+    "title": "DATE_BUCKET() function in Fabric Data Warehouse (Generally Available)",
+    "description": "Unlock Flexible Time-Based Reporting with DATE_BUCKET() in Microsoft Fabric DW!\nMicrosoft Fabric Data Warehouse continues to evolve with powerful features that make analytics easier and more adaptable...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/date_bucket-function-in-fabric-data-warehouse/",
+    "image": null
+  },
+  {
+    "title": "2025 Year in Review: What&#8217;s new across SQL Server, Azure SQL and SQL database in Fabric",
+    "description": "What a year 2025 has been for SQL! ICYMI and are looking for some hype, might I recommend you start with this blog from Priya Sathy, the product leader for all of SQL at Microsoft: One consistent SQL:...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T07:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/2025-year-in-review-whats-new-across-sql-server-azure-sql-and-sql-database-in-fabric/",
+    "image": null
+  },
+  {
+    "title": "SQL Telemetry &amp; Intelligence &#8211; How we built a Petabyte-scale Data Platform with Fabric",
+    "description": "Building a Petabyte-scale Data Platform with Fabric and SQL Telemetry and Intelligence Engineering team....",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-16T10:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-telemetry-intelligence-how-we-built-a-petabyte-scale-data-platform-with-fabric/",
+    "image": null
+  },
+  {
+    "title": "Announcing the Fabric Extensibility Toolkit Contest",
+    "description": "We’re launching a new community contest inviting you to build innovative workload concepts that showcase what’s possible with the Fabric Extensibility Toolkit....",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-16T09:30:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-the-fabric-extensibility-toolkit-contest/",
+    "image": null
+  },
+  {
+    "title": "From Simple Prompts to Complex Insights: AI Expands the Boundaries of Data Transformation (Preview)",
+    "description": "In today’s fast-paced business environment, efficiency, and adaptability are essential. Organizations are under constant pressure to streamline processes, reduce complexity, and deliver results faster...",
+    "category": "fabric",
+    "source": "Unknown",
     "date": "2025-12-16T09:00:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-simple-prompts-to-complex-insights-ai-expands-the-boundaries-of-data-transformation/",
     "image": null
   },
   {
-    "title": "Drillthrough in Excel now supported for Direct Lake and DirectQuery Models",
-    "description": "The previous limitation preventing drillthrough (via Excel’s Show Details feature when using Analyze in Excel) on Direct Lake and DirectQuery semantic model has been removed....",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-12-09T13:27:42.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/drillthrough-in-excel-now-supported-for-direct-lake-and-directquery-models/",
+    "title": "Microsoft Fabric 2025 holiday recap: Unified Data and AI Innovation",
+    "description": "As 2025 ends, we’re taking a moment to reflect on Microsoft Fabric’s second year in the market and the collective progress made alongside our community, customers, and partners. What began as a unifie...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-16T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-fabric-2025-holiday-recap-unified-data-an-ai-innovation/",
     "image": null
   },
   {
-    "title": "Deprecating Power BI Q&amp;A",
-    "description": "We are announcing the deprecation of Q&A, our legacy natural language tool, which will take place in December 2026. Moving forward, users can instead utilize Power BI Copilot, which provides a more ad...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-12-01T10:00:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/deprecating-power-bi-qa/",
+    "title": "Understanding Operations Agent Capacity Consumption, Usage Reporting and Billing (Preview)",
+    "description": "At Ignite, we announced operations agents that helps create autonomous agents that monitor data, infer goals, and recommend actions. Soon, we will enable billing for these agents as the Preview period...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-15T11:59:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/understanding-operations-agent-capacity-consumption-usage-reporting-and-billing/",
     "image": null
   },
   {
-    "title": "Image Visual Enhancements for Report Creators",
-    "description": "This update empowers report creators to craft more engaging experiences for report consumers. Report creators can easily maintain image visuals with more image formatting options, more image source op...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-11-24T10:00:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/image-visual-enhancements-for-report-creators/",
+    "title": "Fabric Environment Library Management Performance Improvement",
+    "description": "Major performance improvements are here for Fabric Environment! Environment publishing is now up to 2.5x faster, and session startup speeds have improved by up to 3x, delivering a smoother and more re...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-15T10:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-environment-library-management-performance-improvement/",
     "image": null
   },
   {
-    "title": "TMDL Visual Studio Code Extension (Generally Available)",
-    "description": "This update brings DAX semantic highlighting support within TMDL documents alongside other enhanced authoring features like Power Query semantic highlighting, breadcrumb navigation, code actions, code...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-11-20T13:36:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/tmdl-visual-studio-code-extension-generally-available/",
-    "image": null
-  },
-  {
-    "title": "New Card visual in reports (Generally Available)",
-    "description": "The new card visual now generally available brings a modern and visually engaging way to highlight key metrics in your reports, now with support for hero images, new defaults, and consistent formattin...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-11-20T13:00:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-the-new-card-visual-in-reports-generally-available/",
-    "image": null
-  },
-  {
-    "title": "Standalone Copilot in Power BI mobile apps: Chat with your data anytime anywhere (Preview)",
-    "description": "We’re excited to announce the release of the Standalone Copilot experience in Power BI Mobile apps! Copilot in Power BI on mobile is a new way to get insights from your Power BI data. You no longer ha...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-11-19T15:19:34.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/standalone-copilot-in-power-bi-mobile-apps-chat-with-your-data-anytime-anywhere-preview/",
-    "image": null
-  },
-  {
-    "title": "Bringing Context Aware Intelligence to Power BI",
-    "description": "Ten years ago, Power BI entered the market and transformed how businesses interact with data. Before self-service BI, business users waited days, sometimes weeks, for IT teams to build reports and ans...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-11-18T10:30:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/bringing-context-aware-intelligence-to-power-bi/",
-    "image": null
-  },
-  {
-    "title": "Power BI November 2025 Feature Summary",
-    "description": "The November 2025 Power BI feature update brings several important announcements and enhancements across the platform. Key highlights include the deprecation of R and Python visuals in the Embed for y...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-11-18T09:00:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-november-2025-feature-summary/",
-    "image": null
-  },
-  {
-    "title": "PBIR will become the default Power BI Report Format &#8211; Get Ready for the Transition",
-    "description": "Starting in January 2026, all new reports created in both Power BI Service and Desktop will use the PBIR format by default, and existing reports will be automatically converted to PBIR when edited and...",
-    "category": "powerbi",
-    "source": "Power BI Blog",
-    "date": "2025-11-17T08:00:00.000Z",
-    "url": "https://powerbi.microsoft.com/en-us/blog/pbir-will-become-the-default-power-bi-report-format-get-ready-for-the-transition/",
+    "title": "Fabric Runtime 2.0 (Preview)",
+    "description": "Fabric Runtime provides seamless integration within the Microsoft Fabric ecosystem, delivering a powerful environment for data engineering and data science projects built on Apache Spark. Fabric Runti...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-15T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-runtime-2-0-experimental-public-preview/",
     "image": null
   }
 ]
