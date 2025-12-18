@@ -27,8 +27,8 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        .container {
-            max-width: 900px;
+        .page-wrapper {
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 24px;
         }
@@ -36,6 +36,7 @@
         /* Header */
         header {
             padding: 60px 0 40px;
+            max-width: 900px;
         }
 
         .header-top {
@@ -73,11 +74,83 @@
             max-width: 500px;
         }
 
+        /* Layout */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 48px;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: sticky;
+            top: 24px;
+            height: fit-content;
+        }
+
+        .sidebar-section {
+            margin-bottom: 32px;
+        }
+
+        .sidebar-title {
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+
+        .sidebar-list {
+            list-style: none;
+        }
+
+        .sidebar-list li {
+            margin-bottom: 4px;
+        }
+
+        .sidebar-list a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.15s;
+            cursor: pointer;
+        }
+
+        .sidebar-list a:hover {
+            background: var(--hover);
+            color: var(--text);
+        }
+
+        .sidebar-list a.active {
+            background: var(--text);
+            color: white;
+        }
+
+        .sidebar-count {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .sidebar-list a.active .sidebar-count {
+            color: rgba(255,255,255,0.7);
+        }
+
+        /* Main Content */
+        .main-content {
+            min-width: 0;
+        }
+
         /* Navigation */
         .nav-wrapper {
             border-top: 1px solid var(--border);
             border-bottom: 1px solid var(--border);
-            margin-bottom: 48px;
+            margin-bottom: 32px;
         }
 
         nav {
@@ -101,13 +174,9 @@
 
         nav a:first-child { padding-left: 0; }
 
-        nav a:hover {
-            color: var(--text);
-        }
+        nav a:hover { color: var(--text); }
 
-        nav a.active {
-            color: var(--text);
-        }
+        nav a.active { color: var(--text); }
 
         nav a.active::after {
             content: '';
@@ -119,22 +188,20 @@
             background: var(--accent);
         }
 
-        nav a:first-child.active::after {
-            left: 0;
-        }
+        nav a:first-child.active::after { left: 0; }
 
         /* Search */
         .search-wrapper {
-            margin-bottom: 48px;
+            margin-bottom: 32px;
         }
 
         .search-input {
             width: 100%;
-            padding: 16px 20px;
+            padding: 14px 18px;
             background: var(--hover);
             border: none;
-            border-radius: 12px;
-            font-size: 0.95rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
             font-family: inherit;
             color: var(--text);
             outline: none;
@@ -151,7 +218,7 @@
 
         /* Featured Article */
         .featured {
-            margin-bottom: 64px;
+            margin-bottom: 48px;
             cursor: pointer;
         }
 
@@ -165,11 +232,11 @@
         }
 
         .featured-title {
-            font-size: clamp(1.5rem, 4vw, 2.25rem);
+            font-size: clamp(1.5rem, 4vw, 2rem);
             font-weight: 700;
             letter-spacing: -0.02em;
             line-height: 1.2;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             transition: opacity 0.2s;
         }
 
@@ -178,11 +245,11 @@
         }
 
         .featured-desc {
-            font-size: 1.05rem;
+            font-size: 1rem;
             color: var(--text-secondary);
-            line-height: 1.7;
-            margin-bottom: 16px;
-            max-width: 700px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            max-width: 600px;
         }
 
         .featured-meta {
@@ -197,15 +264,15 @@
             color: var(--text-secondary);
         }
 
-        /* Articles Grid */
+        /* Articles */
         .section-label {
             font-size: 0.7rem;
             font-weight: 600;
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: var(--text-muted);
-            margin-bottom: 24px;
-            padding-bottom: 16px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
             border-bottom: 1px solid var(--border);
         }
 
@@ -217,9 +284,9 @@
         .article {
             display: grid;
             grid-template-columns: 1fr auto;
-            gap: 32px;
+            gap: 24px;
             align-items: start;
-            padding: 24px 0;
+            padding: 20px 0;
             border-bottom: 1px solid var(--border);
             cursor: pointer;
             transition: opacity 0.2s;
@@ -237,7 +304,7 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
             font-size: 0.75rem;
         }
 
@@ -251,7 +318,7 @@
         }
 
         .article-title {
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 600;
             color: var(--text);
             line-height: 1.4;
@@ -260,7 +327,7 @@
         }
 
         .article-desc {
-            font-size: 0.875rem;
+            font-size: 0.85rem;
             color: var(--text-secondary);
             line-height: 1.5;
             display: -webkit-box;
@@ -270,25 +337,18 @@
         }
 
         .article-number {
-            font-size: 0.8rem;
+            font-size: 0.75rem;
             font-weight: 600;
             color: var(--text-muted);
             font-variant-numeric: tabular-nums;
         }
 
-        /* Loading */
-        .loading {
+        /* Loading & Empty */
+        .loading, .empty-state {
             text-align: center;
-            padding: 80px 20px;
+            padding: 60px 20px;
             color: var(--text-muted);
             font-size: 0.9rem;
-        }
-
-        /* Empty State */
-        .empty-state {
-            text-align: center;
-            padding: 80px 20px;
-            color: var(--text-muted);
         }
 
         /* Footer */
@@ -319,7 +379,29 @@
         }
 
         /* Responsive */
-        @media (max-width: 640px) {
+        @media (max-width: 800px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+            .sidebar {
+                position: static;
+                display: flex;
+                gap: 24px;
+                overflow-x: auto;
+                padding-bottom: 16px;
+                border-bottom: 1px solid var(--border);
+                margin-bottom: 24px;
+            }
+            .sidebar-section {
+                margin-bottom: 0;
+                flex-shrink: 0;
+            }
+            .sidebar-list {
+                display: flex;
+                gap: 8px;
+            }
+            .sidebar-list li { margin: 0; }
             header { padding: 40px 0 32px; }
             .header-top { flex-direction: column; gap: 8px; }
             nav a { padding: 14px 16px; }
@@ -330,58 +412,78 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="page-wrapper">
         <header>
             <div class="header-top">
                 <div class="logo">AI & BI News</div>
                 <div class="header-date" id="currentDate"></div>
             </div>
             <h1 class="hero-title">The latest in Data<br>& Intelligence</h1>
-            <p class="hero-subtitle">Curated news from Power BI, Microsoft Fabric, and AI research. Updated automatically every 4 hours.</p>
+            <p class="hero-subtitle">Curated news from Power BI, Microsoft Fabric, and AI research. Updated automatically.</p>
         </header>
 
-        <div class="nav-wrapper">
-            <nav id="nav">
-                <a class="active" data-category="all">All Stories</a>
-                <a data-category="powerbi">Power BI</a>
-                <a data-category="fabric">Microsoft Fabric</a>
-                <a data-category="ai">AI & ML</a>
-            </nav>
+        <div class="main-layout">
+            <aside class="sidebar">
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Archive</div>
+                    <ul class="sidebar-list" id="monthList">
+                        <!-- Months populated by JS -->
+                    </ul>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Sources</div>
+                    <ul class="sidebar-list" id="sourceList">
+                        <!-- Sources populated by JS -->
+                    </ul>
+                </div>
+            </aside>
+
+            <main class="main-content">
+                <div class="nav-wrapper">
+                    <nav id="nav">
+                        <a class="active" data-category="all">All Stories</a>
+                        <a data-category="powerbi">Power BI</a>
+                        <a data-category="fabric">Microsoft Fabric</a>
+                        <a data-category="ai">AI & ML</a>
+                    </nav>
+                </div>
+
+                <div class="search-wrapper">
+                    <input type="text" class="search-input" id="search" placeholder="Search articles...">
+                </div>
+
+                <div class="loading" id="loading">Loading...</div>
+
+                <div id="featured" style="display:none;"></div>
+
+                <div id="articlesSection" style="display:none;">
+                    <div class="section-label">Latest Articles</div>
+                    <div class="articles" id="articles"></div>
+                </div>
+                
+                <div class="empty-state" id="emptyState" style="display:none;">No articles found.</div>
+            </main>
         </div>
-
-        <div class="search-wrapper">
-            <input type="text" class="search-input" id="search" placeholder="Search articles...">
-        </div>
-
-        <div class="loading" id="loading">Loading...</div>
-
-        <div id="featured" style="display:none;"></div>
-
-        <div id="articlesSection" style="display:none;">
-            <div class="section-label">Latest Articles</div>
-            <div class="articles" id="articles"></div>
-        </div>
-        
-        <div class="empty-state" id="emptyState" style="display:none;">No articles found.</div>
 
         <footer>
             <div>Powered by n8n automation</div>
             <div class="footer-links">
                 <a href="#">Power BI Blog</a>
                 <a href="#">OpenAI</a>
-                <a href="#">TechCrunch</a>
+                <a href="#">Microsoft Fabric</a>
             </div>
         </footer>
     </div>
 
     <script>
-        // Set current date
         document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { 
             weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' 
         });
 
         var newsData = [];
         var currentCategory = 'all';
+        var currentMonth = 'all';
+        var currentSource = 'all';
         var searchQuery = '';
 
         function loadNews() {
@@ -390,11 +492,43 @@
                 .then(function(data) {
                     newsData = data;
                     document.getElementById('loading').style.display = 'none';
+                    buildSidebar();
                     renderNews();
                 })
                 .catch(function(e) {
                     document.getElementById('loading').textContent = 'Unable to load articles.';
                 });
+        }
+
+        function buildSidebar() {
+            // Build month list
+            var months = {};
+            var sources = {};
+            
+            newsData.forEach(function(item) {
+                var d = new Date(item.date);
+                var monthKey = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0');
+                var monthLabel = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+                if (!months[monthKey]) months[monthKey] = { label: monthLabel, count: 0 };
+                months[monthKey].count++;
+                
+                if (!sources[item.source]) sources[item.source] = 0;
+                sources[item.source]++;
+            });
+
+            // Render months
+            var monthHtml = '<li><a class="active" data-month="all">All time<span class="sidebar-count">' + newsData.length + '</span></a></li>';
+            Object.keys(months).sort().reverse().forEach(function(key) {
+                monthHtml += '<li><a data-month="' + key + '">' + months[key].label + '<span class="sidebar-count">' + months[key].count + '</span></a></li>';
+            });
+            document.getElementById('monthList').innerHTML = monthHtml;
+
+            // Render sources
+            var sourceHtml = '<li><a class="active" data-source="all">All sources<span class="sidebar-count">' + newsData.length + '</span></a></li>';
+            Object.keys(sources).forEach(function(key) {
+                sourceHtml += '<li><a data-source="' + key + '">' + key + '<span class="sidebar-count">' + sources[key] + '</span></a></li>';
+            });
+            document.getElementById('sourceList').innerHTML = sourceHtml;
         }
 
         function formatDate(dateStr) {
@@ -413,7 +547,17 @@
                 var matchSearch = !searchQuery || 
                     item.title.toLowerCase().indexOf(searchQuery) !== -1 ||
                     item.description.toLowerCase().indexOf(searchQuery) !== -1;
-                return matchCat && matchSearch;
+                
+                var matchMonth = true;
+                if (currentMonth !== 'all') {
+                    var d = new Date(item.date);
+                    var itemMonth = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0');
+                    matchMonth = itemMonth === currentMonth;
+                }
+                
+                var matchSource = currentSource === 'all' || item.source === currentSource;
+                
+                return matchCat && matchSearch && matchMonth && matchSource;
             });
 
             var featuredEl = document.getElementById('featured');
@@ -430,7 +574,6 @@
 
             emptyEl.style.display = 'none';
 
-            // Featured article (first one)
             var first = filtered[0];
             featuredEl.style.display = 'block';
             featuredEl.innerHTML = '<div class="featured" onclick="window.open(\'' + first.url + '\', \'_blank\')">' +
@@ -443,7 +586,6 @@
                 '</div>' +
             '</div>';
 
-            // Rest of articles
             if (filtered.length > 1) {
                 sectionEl.style.display = 'block';
                 var html = '';
@@ -474,6 +616,28 @@
                 document.querySelectorAll('nav a').forEach(function(a) { a.classList.remove('active'); });
                 e.target.classList.add('active');
                 currentCategory = e.target.dataset.category;
+                renderNews();
+            }
+        });
+
+        // Month clicks
+        document.getElementById('monthList').addEventListener('click', function(e) {
+            var link = e.target.closest('a');
+            if (link) {
+                document.querySelectorAll('#monthList a').forEach(function(a) { a.classList.remove('active'); });
+                link.classList.add('active');
+                currentMonth = link.dataset.month;
+                renderNews();
+            }
+        });
+
+        // Source clicks
+        document.getElementById('sourceList').addEventListener('click', function(e) {
+            var link = e.target.closest('a');
+            if (link) {
+                document.querySelectorAll('#sourceList a').forEach(function(a) { a.classList.remove('active'); });
+                link.classList.add('active');
+                currentSource = link.dataset.source;
                 renderNews();
             }
         });
