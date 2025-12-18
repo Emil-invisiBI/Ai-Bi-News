@@ -4,7 +4,7 @@
     "description": "2025 was a monumental year for Microsoft Power BI, marked by its 10-year anniversary and a series of community celebrations, global contests, and product advancements that delivered new capabilities e...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.137854Z",
+    "date": "2025-12-18T16:14:25.009270Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/",
     "image": null
   },
@@ -13,7 +13,7 @@
     "description": "The previous limitation preventing drillthrough (via Excel\u2019s Show Details feature when using Analyze in Excel) on Direct Lake and DirectQuery semantic model has been removed....",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.137950Z",
+    "date": "2025-12-18T16:14:25.009332Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/drillthrough-in-excel-now-supported-for-direct-lake-and-directquery-models/",
     "image": null
   },
@@ -22,7 +22,7 @@
     "description": "We are announcing the deprecation of Q&amp;A, our legacy natural language tool, which will take place in December 2026. Moving forward, users can instead utilize Power BI Copilot, which provides a mor...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138002Z",
+    "date": "2025-12-18T16:14:25.009369Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/deprecating-power-bi-qa/",
     "image": null
   },
@@ -31,7 +31,7 @@
     "description": "This update empowers report creators to craft more engaging experiences for report consumers. Report creators can easily maintain image visuals with more image formatting options, more image source op...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138037Z",
+    "date": "2025-12-18T16:14:25.009387Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/image-visual-enhancements-for-report-creators/",
     "image": null
   },
@@ -40,7 +40,7 @@
     "description": "This update brings DAX semantic highlighting support within TMDL documents\u00a0alongside\u00a0other enhanced authoring features like Power Query semantic highlighting, breadcrumb navigation, code actions, code...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138095Z",
+    "date": "2025-12-18T16:14:25.009422Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/tmdl-visual-studio-code-extension-generally-available/",
     "image": null
   },
@@ -49,7 +49,7 @@
     "description": "The new card visual now generally available brings a modern and visually engaging way to highlight key metrics in your reports, now with support for hero images, new defaults, and consistent formattin...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138125Z",
+    "date": "2025-12-18T16:14:25.009439Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-the-new-card-visual-in-reports-generally-available/",
     "image": null
   },
@@ -58,7 +58,7 @@
     "description": "We\u2019re excited to announce the release of the Standalone Copilot experience in Power BI Mobile apps! Copilot in Power BI on mobile is a new way to get insights from your Power BI data. You no longer ha...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138202Z",
+    "date": "2025-12-18T16:14:25.009484Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/standalone-copilot-in-power-bi-mobile-apps-chat-with-your-data-anytime-anywhere-preview/",
     "image": null
   },
@@ -67,7 +67,7 @@
     "description": "Ten years ago, Power BI entered the market and transformed how businesses interact with data. Before self-service BI, business users waited days, sometimes weeks, for IT teams to build reports and ans...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138247Z",
+    "date": "2025-12-18T16:14:25.009516Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/bringing-context-aware-intelligence-to-power-bi/",
     "image": null
   },
@@ -76,7 +76,7 @@
     "description": "The November 2025 Power BI feature update brings several important announcements and enhancements across the platform. Key highlights include the deprecation of R and Python visuals in the Embed for y...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138284Z",
+    "date": "2025-12-18T16:14:25.009547Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-november-2025-feature-summary/",
     "image": null
   },
@@ -85,7 +85,7 @@
     "description": "Starting in January 2026, all new reports created in both Power BI Service and Desktop will use the PBIR format by default, and existing reports will be automatically converted to PBIR when edited and...",
     "category": "powerbi",
     "source": "Power BI Blog",
-    "date": "2025-12-18T16:09:48.138303Z",
+    "date": "2025-12-18T16:14:25.009563Z",
     "url": "https://powerbi.microsoft.com/en-us/blog/pbir-will-become-the-default-power-bi-report-format-get-ready-for-the-transition/",
     "image": null
   },
@@ -94,7 +94,7 @@
     "description": "Here is the December 2025 release of the on-premises data gateway (version 3000.298)....",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944089Z",
+    "date": "2025-12-18T16:14:27.780154Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-december-2025-release/",
     "image": null
   },
@@ -103,7 +103,7 @@
     "description": "Unlock Flexible Time-Based Reporting with DATE_BUCKET() in Microsoft Fabric DW!\nMicrosoft Fabric Data Warehouse continues to evolve with powerful features that make analytics easier and more adaptable...",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944307Z",
+    "date": "2025-12-18T16:14:27.780210Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/date_bucket-function-in-fabric-data-warehouse/",
     "image": null
   },
@@ -112,7 +112,7 @@
     "description": "What a year 2025 has been for SQL! ICYMI and are looking for some hype, might I recommend you start with this blog from Priya Sathy, the product leader for all of SQL at Microsoft: One consistent SQL:...",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944396Z",
+    "date": "2025-12-18T16:14:27.780247Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/2025-year-in-review-whats-new-across-sql-server-azure-sql-and-sql-database-in-fabric/",
     "image": null
   },
@@ -121,7 +121,7 @@
     "description": "Building a Petabyte-scale Data Platform with Fabric and SQL Telemetry and Intelligence Engineering team....",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944431Z",
+    "date": "2025-12-18T16:14:27.780267Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-telemetry-intelligence-how-we-built-a-petabyte-scale-data-platform-with-fabric/",
     "image": null
   },
@@ -130,7 +130,7 @@
     "description": "We\u2019re launching a new community contest inviting you to build innovative workload concepts that showcase what\u2019s possible with the Fabric Extensibility Toolkit....",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944478Z",
+    "date": "2025-12-18T16:14:27.780298Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-the-fabric-extensibility-toolkit-contest/",
     "image": null
   },
@@ -139,7 +139,7 @@
     "description": "In today\u2019s fast-paced business environment, efficiency, and adaptability are essential. Organizations are under constant pressure to streamline processes, reduce complexity, and deliver results faster...",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944541Z",
+    "date": "2025-12-18T16:14:27.780336Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-simple-prompts-to-complex-insights-ai-expands-the-boundaries-of-data-transformation/",
     "image": null
   },
@@ -148,7 +148,7 @@
     "description": "As 2025 ends, we\u2019re taking a moment to reflect on Microsoft Fabric\u2019s second year in the market and the collective progress made alongside our community, customers, and partners. What began as a unifie...",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944595Z",
+    "date": "2025-12-18T16:14:27.780370Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-fabric-2025-holiday-recap-unified-data-an-ai-innovation/",
     "image": null
   },
@@ -157,7 +157,7 @@
     "description": "At Ignite, we announced operations agents that helps create autonomous agents that monitor data, infer goals, and recommend actions. Soon, we will enable billing for these agents as the Preview period...",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944653Z",
+    "date": "2025-12-18T16:14:27.780406Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/understanding-operations-agent-capacity-consumption-usage-reporting-and-billing/",
     "image": null
   },
@@ -166,7 +166,7 @@
     "description": "Major performance improvements are here for Fabric Environment! Environment publishing is now up to 2.5x faster, and session startup speeds have improved by up to 3x, delivering a smoother and more re...",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944712Z",
+    "date": "2025-12-18T16:14:27.780436Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-environment-library-management-performance-improvement/",
     "image": null
   },
@@ -175,7 +175,7 @@
     "description": "Fabric Runtime provides seamless integration within the Microsoft Fabric ecosystem, delivering a powerful environment for data engineering and data science projects built on Apache Spark. Fabric Runti...",
     "category": "fabric",
     "source": "Microsoft Fabric Blog",
-    "date": "2025-12-18T16:09:50.944761Z",
+    "date": "2025-12-18T16:14:27.780467Z",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-runtime-2-0-experimental-public-preview/",
     "image": null
   },
@@ -184,7 +184,7 @@
     "description": "OpenAI is launching the OpenAI Academy for News Organizations, a new learning hub built with the American Journalism Project and The Lenfest Institute to help newsrooms use AI effectively. The Academy...",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253688Z",
+    "date": "2025-12-18T16:14:30.196053Z",
     "url": "https://openai.com/index/openai-academy-for-news-organizations",
     "image": null
   },
@@ -193,7 +193,7 @@
     "description": "Developers can now submit apps for review and publication in ChatGPT, with approved apps appearing in a new in-product directory for easy discovery. Updated tools, guidelines, and the Apps SDK help de...",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253745Z",
+    "date": "2025-12-18T16:14:30.196106Z",
     "url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt",
     "image": null
   },
@@ -202,7 +202,7 @@
     "description": "OpenAI introduces FrontierScience, a benchmark testing AI reasoning in physics, chemistry, and biology to measure progress toward real scientific research....",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253764Z",
+    "date": "2025-12-18T16:14:30.196124Z",
     "url": "https://openai.com/index/frontierscience",
     "image": null
   },
@@ -211,7 +211,7 @@
     "description": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both th...",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253783Z",
+    "date": "2025-12-18T16:14:30.196141Z",
     "url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
     "image": null
   },
@@ -220,7 +220,7 @@
     "description": "The new ChatGPT Images is powered by our flagship image generation model, delivering more precise edits, consistent details, and image generation up to 4\u00d7 faster. The upgraded model is rolling out to...",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253803Z",
+    "date": "2025-12-18T16:14:30.196160Z",
     "url": "https://openai.com/index/new-chatgpt-images-is-here",
     "image": null
   },
@@ -229,7 +229,7 @@
     "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e...",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253822Z",
+    "date": "2025-12-18T16:14:30.196178Z",
     "url": "https://openai.com/index/bbva-collaboration-expansion",
     "image": null
   },
@@ -238,7 +238,7 @@
     "description": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes....",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253844Z",
+    "date": "2025-12-18T16:14:30.196199Z",
     "url": "https://openai.com/index/bny",
     "image": null
   },
@@ -247,7 +247,7 @@
     "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development....",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253860Z",
+    "date": "2025-12-18T16:14:30.196215Z",
     "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
     "image": null
   },
@@ -256,7 +256,7 @@
     "description": "GPT-5.2 is OpenAI\u2019s strongest model yet for math and science, setting new state-of-the-art results on benchmarks like GPQA Diamond and FrontierMath. This post shows how those gains translate into real...",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253881Z",
+    "date": "2025-12-18T16:14:30.196235Z",
     "url": "https://openai.com/index/gpt-5-2-for-science-and-math",
     "image": null
   },
@@ -265,98 +265,8 @@
     "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to pow...",
     "category": "ai",
     "source": "OpenAI Blog",
-    "date": "2025-12-18T16:09:53.253897Z",
+    "date": "2025-12-18T16:14:30.196250Z",
     "url": "https://openai.com/index/introducing-gpt-5-2",
-    "image": null
-  },
-  {
-    "title": "Peripheral Labs taps into self-driving car sensors to bring sports fans right into the game",
-    "description": "The startup has raised a $3.6 million seed round led by Khosla Ventures....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.358848Z",
-    "url": "https://techcrunch.com/2025/12/18/peripheral-labs-taps-into-self-driving-car-sensors-to-bring-sports-fans-right-into-the-game/",
-    "image": null
-  },
-  {
-    "title": "Luma releases a new AI model that lets users generate a video from a start  and end frame",
-    "description": "Luma AI's new model is available through the company's Dream Machine platform....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.358907Z",
-    "url": "https://techcrunch.com/2025/12/18/luma-releases-a-new-ai-model-that-lets-users-generate-a-video-from-a-start-and-end-frame/",
-    "image": null
-  },
-  {
-    "title": "Vibe-coding startup Lovable raises $330M at a $6.6B valuation",
-    "description": "Lovable has seen its valuation more than triple just five months after the company's last funding round in July....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.358926Z",
-    "url": "https://techcrunch.com/2025/12/18/vibe-coding-startup-lovable-raises-330m-at-a-6-6b-valuation/",
-    "image": null
-  },
-  {
-    "title": "Amazon\u2019s new Alexa+ feature adds conversational AI to Ring doorbells",
-    "description": "Amazon said that the feature uses the Ring doorbell's video descriptions to determine who the person in front the camera is based on their uniform, actions, and what they are holding....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.358952Z",
-    "url": "https://techcrunch.com/2025/12/18/amazons-new-alexa-feature-adds-conversational-ai-to-ring-doorbells/",
-    "image": null
-  },
-  {
-    "title": "Adobe hit with proposed class-action, accused of misusing authors\u2019 work in AI training",
-    "description": "The lawsuit is just the latest in a string of copyright-related legal complaints aimed at the AI industry....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.358970Z",
-    "url": "https://techcrunch.com/2025/12/17/adobe-hit-with-proposed-class-action-accused-of-misusing-authors-work-in-ai-training/",
-    "image": null
-  },
-  {
-    "title": "Amazon appoints longtime AWS exec Peter DeSantis to lead new AI org",
-    "description": "DeSantis has spent 27 years at Amazon, including eight years as an SVP for AWS, the cloud provider that powers about one-third of the internet....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.358986Z",
-    "url": "https://techcrunch.com/2025/12/17/amazon-appoints-longtime-aws-exec-peter-desantis-to-lead-new-ai-org/",
-    "image": null
-  },
-  {
-    "title": "Google launches Gemini 3 Flash, makes it the default model in the Gemini app",
-    "description": "Google is making Gemini 3 Flash the default model in the Gemini app and oAI model for Search...",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.359001Z",
-    "url": "https://techcrunch.com/2025/12/17/google-launches-gemini-3-flash-makes-it-the-default-model-in-the-gemini-app/",
-    "image": null
-  },
-  {
-    "title": "Mozilla\u2019s new CEO says AI is coming to Firefox, but will remain a choice",
-    "description": "Mozilla has appointed Anthony Enzor-DeMeo as its CEO as the Firefox developer scrambles to adapt in a rapidly changing browser market....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.359018Z",
-    "url": "https://techcrunch.com/2025/12/17/mozillas-new-ceo-says-ai-is-coming-to-firefox-but-will-remain-a-choice/",
-    "image": null
-  },
-  {
-    "title": "Google\u2019s vibe-coding tool Opal comes to Gemini",
-    "description": "The company on Wednesday said it is integrating the tool, which lets you build AI-powered mini apps, inside the Gemini web app, allowing users to create their own custom apps....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.359036Z",
-    "url": "https://techcrunch.com/2025/12/17/googles-vibe-coding-tool-opal-comes-to-gemini/",
-    "image": null
-  },
-  {
-    "title": "Skana\u00a0Robotics helps fleets of underwater robots communicate with each other",
-    "description": "Skana Robotics built a decision-making algorithm that helps unmanned vessels react and adapt to data from other vessels....",
-    "category": "ai",
-    "source": "TechCrunch",
-    "date": "2025-12-18T16:09:57.359052Z",
-    "url": "https://techcrunch.com/2025/12/17/skana-robotics-helps-fleets-of-underwater-robots-communicate-with-each-other/",
     "image": null
   }
 ]
