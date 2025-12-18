@@ -96,12 +96,12 @@
         <div class="main-layout">
             <aside class="sidebar">
                 <div class="sidebar-section">
-                    <div class="sidebar-title">Archive</div>
-                    <div id="archiveList"></div>
-                </div>
-                <div class="sidebar-section">
                     <div class="sidebar-title">Sources</div>
                     <ul class="sidebar-list" id="sourceList"></ul>
+                </div>
+                <div class="sidebar-section">
+                    <div class="sidebar-title">Archive</div>
+                    <div id="archiveList"></div>
                 </div>
                 <div class="sidebar-section">
                     <div class="sidebar-title">Certifications</div>
@@ -201,9 +201,8 @@
             var html = '<ul class="sidebar-list"><li><a class="' + (currentMonth === 'all' ? 'active' : '') + '" data-month="all">All time<span class="sidebar-count">' + total + '</span></a></li></ul>';
             Object.keys(years).sort().reverse().forEach(function(year, idx) {
                 var yc = 0; Object.values(years[year]).forEach(function(m) { yc += m.count; });
-                var open = idx === 0 ? ' open' : '';
-                html += '<div class="year-group"><div class="year-header' + open + '">' + year + ' <span class="sidebar-count">' + yc + '</span><span class="arrow">▼</span></div>';
-                html += '<ul class="sidebar-list year-months' + open + '">';
+                html += '<div class="year-group"><div class="year-header">' + year + ' <span class="sidebar-count">' + yc + '</span><span class="arrow">▼</span></div>';
+                html += '<ul class="sidebar-list year-months">';
                 Object.keys(years[year]).sort().reverse().forEach(function(mk) {
                     html += '<li><a class="' + (currentMonth === mk ? 'active' : '') + '" data-month="' + mk + '">' + years[year][mk].label + '<span class="sidebar-count">' + years[year][mk].count + '</span></a></li>';
                 });
