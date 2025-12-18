@@ -1,92 +1,272 @@
 [
   {
-    "title": "On-premises data gateway December 2025 release",
-    "description": "Here is the December 2025 release of the on-premises data gateway (version 3000.298)....",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-18T09:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-december-2025-release/",
+    "title": "Introducing OpenAI Academy for News Organizations",
+    "description": "OpenAI is launching the OpenAI Academy for News Organizations, a new learning hub built with the American Journalism Project and The Lenfest Institute to help newsrooms use AI effectively. The Academy...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-17T06:00:00.000Z",
+    "url": "https://openai.com/index/openai-academy-for-news-organizations",
     "image": null
   },
   {
-    "title": "DATE_BUCKET() function in Fabric Data Warehouse (Generally Available)",
-    "description": "Unlock Flexible Time-Based Reporting with DATE_BUCKET() in Microsoft Fabric DW!\nMicrosoft Fabric Data Warehouse continues to evolve with powerful features that make analytics easier and more adaptable...",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-18T09:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/date_bucket-function-in-fabric-data-warehouse/",
+    "title": "Developers can now submit apps to ChatGPT",
+    "description": "Developers can now submit apps for review and publication in ChatGPT, with approved apps appearing in a new in-product directory for easy discovery. Updated tools, guidelines, and the Apps SDK help de...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-17T00:00:00.000Z",
+    "url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt",
     "image": null
   },
   {
-    "title": "2025 Year in Review: What&#8217;s new across SQL Server, Azure SQL and SQL database in Fabric",
-    "description": "What a year 2025 has been for SQL! ICYMI and are looking for some hype, might I recommend you start with this blog from Priya Sathy, the product leader for all of SQL at Microsoft: One consistent SQL:...",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-18T07:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/2025-year-in-review-whats-new-across-sql-server-azure-sql-and-sql-database-in-fabric/",
-    "image": null
-  },
-  {
-    "title": "SQL Telemetry &amp; Intelligence &#8211; How we built a Petabyte-scale Data Platform with Fabric",
-    "description": "Building a Petabyte-scale Data Platform with Fabric and SQL Telemetry and Intelligence Engineering team....",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-16T10:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-telemetry-intelligence-how-we-built-a-petabyte-scale-data-platform-with-fabric/",
-    "image": null
-  },
-  {
-    "title": "Announcing the Fabric Extensibility Toolkit Contest",
-    "description": "We’re launching a new community contest inviting you to build innovative workload concepts that showcase what’s possible with the Fabric Extensibility Toolkit....",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-16T09:30:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-the-fabric-extensibility-toolkit-contest/",
-    "image": null
-  },
-  {
-    "title": "From Simple Prompts to Complex Insights: AI Expands the Boundaries of Data Transformation (Preview)",
-    "description": "In today’s fast-paced business environment, efficiency, and adaptability are essential. Organizations are under constant pressure to streamline processes, reduce complexity, and deliver results faster...",
-    "category": "fabric",
-    "source": "Unknown",
+    "title": "Evaluating AI’s ability to perform scientific research tasks",
+    "description": "OpenAI introduces FrontierScience, a benchmark testing AI reasoning in physics, chemistry, and biology to measure progress toward real scientific research....",
+    "category": "ai",
+    "source": "OpenAI Blog",
     "date": "2025-12-16T09:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-simple-prompts-to-complex-insights-ai-expands-the-boundaries-of-data-transformation/",
+    "url": "https://openai.com/index/frontierscience",
     "image": null
   },
   {
-    "title": "Microsoft Fabric 2025 holiday recap: Unified Data and AI Innovation",
-    "description": "As 2025 ends, we’re taking a moment to reflect on Microsoft Fabric’s second year in the market and the collective progress made alongside our community, customers, and partners. What began as a unifie...",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-16T09:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-fabric-2025-holiday-recap-unified-data-an-ai-innovation/",
+    "title": "Measuring AI’s capability to accelerate biological research",
+    "description": "OpenAI introduces a real-world evaluation framework to measure how AI can accelerate biological research in the wet lab. Using GPT-5 to optimize a molecular cloning protocol, the work explores both th...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-16T08:00:00.000Z",
+    "url": "https://openai.com/index/accelerating-biological-research-in-the-wet-lab",
     "image": null
   },
   {
-    "title": "Understanding Operations Agent Capacity Consumption, Usage Reporting and Billing (Preview)",
-    "description": "At Ignite, we announced operations agents that helps create autonomous agents that monitor data, infer goals, and recommend actions. Soon, we will enable billing for these agents as the Preview period...",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-15T11:59:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/understanding-operations-agent-capacity-consumption-usage-reporting-and-billing/",
+    "title": "The new ChatGPT Images is here",
+    "description": "The new ChatGPT Images is powered by our flagship image generation model, delivering more precise edits, consistent details, and image generation up to 4× faster. The upgraded model is rolling out to...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-16T00:00:00.000Z",
+    "url": "https://openai.com/index/new-chatgpt-images-is-here",
     "image": null
   },
   {
-    "title": "Fabric Environment Library Management Performance Improvement",
-    "description": "Major performance improvements are here for Fabric Environment! Environment publishing is now up to 2.5x faster, and session startup speeds have improved by up to 3x, delivering a smoother and more re...",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-15T10:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-environment-library-management-performance-improvement/",
+    "title": "BBVA and OpenAI collaborate to transform global banking",
+    "description": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that e...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-12T00:00:00.000Z",
+    "url": "https://openai.com/index/bbva-collaboration-expansion",
     "image": null
   },
   {
-    "title": "Fabric Runtime 2.0 (Preview)",
-    "description": "Fabric Runtime provides seamless integration within the Microsoft Fabric ecosystem, delivering a powerful environment for data engineering and data science projects built on Apache Spark. Fabric Runti...",
-    "category": "fabric",
-    "source": "Unknown",
-    "date": "2025-12-15T09:00:00.000Z",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-runtime-2-0-experimental-public-preview/",
+    "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
+    "description": "BNY is using OpenAI technology to expand AI adoption enterprise-wide. Through its Eliza platform, 20,000+ employees are building AI agents that enhance efficiency and improve client outcomes....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-12T00:00:00.000Z",
+    "url": "https://openai.com/index/bny",
+    "image": null
+  },
+  {
+    "title": "How We Used Codex to Ship Sora for Android in 28 Days",
+    "description": "OpenAI shipped Sora for Android in 28 days using Codex. AI-assisted planning, translation, and parallel coding workflows helped a nimble team deliver rapid, reliable development....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-12T00:00:00.000Z",
+    "url": "https://openai.com/index/shipping-sora-for-android-with-codex",
+    "image": null
+  },
+  {
+    "title": "Advancing science and math with GPT-5.2",
+    "description": "GPT-5.2 is OpenAI’s strongest model yet for math and science, setting new state-of-the-art results on benchmarks like GPQA Diamond and FrontierMath. This post shows how those gains translate into real...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T10:00:00.000Z",
+    "url": "https://openai.com/index/gpt-5-2-for-science-and-math",
+    "image": null
+  },
+  {
+    "title": "Introducing GPT-5.2",
+    "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to pow...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "url": "https://openai.com/index/introducing-gpt-5-2",
+    "image": null
+  },
+  {
+    "title": "Ten years",
+    "description": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "url": "https://openai.com/index/ten-years",
+    "image": null
+  },
+  {
+    "title": "Update to GPT-5 System Card: GPT-5.2",
+    "description": "GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
+    "image": null
+  },
+  {
+    "title": "Increasing revenue 300% by bringing AI to SMBs",
+    "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "url": "https://openai.com/index/podium",
+    "image": null
+  },
+  {
+    "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+    "description": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in ente...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-11T00:00:00.000Z",
+    "url": "https://openai.com/index/disney-sora-agreement",
+    "image": null
+  },
+  {
+    "title": "Strengthening cyber resilience as AI capabilities advance",
+    "description": "OpenAI is investing in stronger safeguards and defensive capabilities as AI models become more powerful in cybersecurity. We explain how we assess risk, limit misuse, and work with the security commun...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-10T12:00:00.000Z",
+    "url": "https://openai.com/index/strengthening-cyber-resilience",
+    "image": null
+  },
+  {
+    "title": "How Scout24 is building the next generation of real-estate search with AI",
+    "description": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T16:00:00.000Z",
+    "url": "https://openai.com/index/scout24",
+    "image": null
+  },
+  {
+    "title": "OpenAI co-founds Agentic AI Foundation, donates AGENTS.md",
+    "description": "OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T09:00:00.000Z",
+    "url": "https://openai.com/index/agentic-ai-foundation",
+    "image": null
+  },
+  {
+    "title": "Launching our first OpenAI Certifications courses",
+    "description": "Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T06:00:00.000Z",
+    "url": "https://openai.com/index/openai-certificate-courses",
+    "image": null
+  },
+  {
+    "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+    "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T00:00:00.000Z",
+    "url": "https://openai.com/index/deutsche-telekom-collaboration",
+    "image": null
+  },
+  {
+    "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
+    "description": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T00:00:00.000Z",
+    "url": "https://openai.com/index/openai-appoints-denise-dresser",
+    "image": null
+  },
+  {
+    "title": "Building AI fluency at scale with ChatGPT Enterprise",
+    "description": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-09T00:00:00.000Z",
+    "url": "https://openai.com/index/commonwealth-bank-of-australia",
+    "image": null
+  },
+  {
+    "title": "Instacart and OpenAI partner on AI shopping experiences",
+    "description": "OpenAI and Instacart are deepening their longstanding partnership by bringing the first fully integrated grocery shopping and Instant Checkout payment app to ChatGPT....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-08T06:00:00.000Z",
+    "url": "https://openai.com/index/instacart-partnership",
+    "image": null
+  },
+  {
+    "title": "The state of enterprise AI",
+    "description": "Key findings from OpenAI’s enterprise data show accelerating AI adoption, deeper integration, and measurable productivity gains across industries in 2025....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-08T04:00:00.000Z",
+    "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
+    "image": null
+  },
+  {
+    "title": "How Virgin Atlantic uses AI to enhance every step of travel",
+    "description": "Virgin Atlantic CFO Oliver Byers shares how the airline is using AI to speed up development, improve decision-making, and elevate customer experience....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-08T00:00:00.000Z",
+    "url": "https://openai.com/index/virgin-atlantic-oliver-byers",
+    "image": null
+  },
+  {
+    "title": "Introducing OpenAI for Australia",
+    "description": "OpenAI is launching OpenAI for Australia to build sovereign AI infrastructure, upskill more than 1.5 million workers, and accelerate innovation across the country’s growing AI ecosystem....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-04T19:00:00.000Z",
+    "url": "https://openai.com/global-affairs/openai-for-australia",
+    "image": null
+  },
+  {
+    "title": "OpenAI to acquire Neptune",
+    "description": "OpenAI is acquiring Neptune to deepen visibility into model behavior and strengthen the tools researchers use to track experiments and monitor training....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-03T10:00:00.000Z",
+    "url": "https://openai.com/index/openai-to-acquire-neptune",
+    "image": null
+  },
+  {
+    "title": "How confessions can keep language models honest",
+    "description": "OpenAI researchers are testing “confessions,” a method that trains models to admit when they make mistakes or act undesirably, helping improve AI honesty, transparency, and trust in model outputs....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-03T10:00:00.000Z",
+    "url": "https://openai.com/index/how-confessions-can-keep-language-models-honest",
+    "image": null
+  },
+  {
+    "title": "Announcing the initial People-First AI Fund grantees",
+    "description": "The OpenAI Foundation announces the initial recipients of the People-First AI Fund, awarding $40.5M in unrestricted grants to 208 nonprofits supporting community innovation and opportunity....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-03T08:00:00.000Z",
+    "url": "https://openai.com/index/people-first-ai-fund-grantees",
+    "image": null
+  },
+  {
+    "title": "Inside Mirakl's agentic commerce vision",
+    "description": "Mirakl is redefining commerce through AI agents and ChatGPT Enterprise—achieving faster documentation, smarter customer support, and building toward agent-native commerce with Mirakl Nexus....",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-01T22:00:00.000Z",
+    "url": "https://openai.com/index/mirakl",
+    "image": null
+  },
+  {
+    "title": "Funding grants for new research into AI and mental health",
+    "description": "OpenAI is awarding up to $2 million in grants for research at the intersection of AI and mental health. The program supports projects that study real-world risks, benefits, and applications to improve...",
+    "category": "ai",
+    "source": "OpenAI Blog",
+    "date": "2025-12-01T12:00:00.000Z",
+    "url": "https://openai.com/index/ai-mental-health-research-grants",
     "image": null
   }
 ]
