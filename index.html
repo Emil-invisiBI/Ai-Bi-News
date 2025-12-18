@@ -4,65 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI & BI News Hub - Latest Power BI, Microsoft Fabric & AI Updates</title>
-    <meta name="description" content="Your premier destination for the latest news, updates, and insights on Power BI, Microsoft Fabric, and Artificial Intelligence. Updated every 4 hours.">
-    <meta name="keywords" content="Power BI, Microsoft Fabric, AI, Artificial Intelligence, Data Analytics, Business Intelligence, Machine Learning">
+    <meta name="description" content="Your premier destination for the latest news, updates, and insights on Power BI, Microsoft Fabric, and Artificial Intelligence.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #667eea;
-            --primary-dark: #5568d3;
-            --secondary: #764ba2;
-            --accent: #f2c811;
-            --fabric-blue: #0078d4;
-            --ai-cyan: #00d4ff;
-            --dark: #1a1a2e;
-            --dark-light: #2d2d44;
-            --text-primary: #ffffff;
-            --text-secondary: #a0a0c0;
-            --card-bg: #16213e;
-            --success: #4ade80;
+            --bg-primary: #0a0e27;
+            --bg-secondary: #111727;
+            --bg-card: #1a1f3a;
+            --accent-primary: #6366f1;
+            --accent-secondary: #a855f7;
+            --accent-tertiary: #ec4899;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --powerbi: #f2c811;
+            --fabric: #0078d4;
+            --ai: #06b6d4;
+            --border: rgba(148, 163, 184, 0.1);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--dark);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
             overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
         }
 
-        /* Animated Background */
-        .bg-animation {
+        .bg-gradient {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             z-index: 0;
-            background: linear-gradient(135deg, var(--dark) 0%, var(--dark-light) 100%);
+            overflow: hidden;
         }
 
-        .bg-animation::before {
+        .bg-gradient::before,
+        .bg-gradient::after {
             content: '';
             position: absolute;
-            width: 200%;
-            height: 200%;
-            background: radial-gradient(circle at 20% 50%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 80%, rgba(118, 75, 162, 0.1) 0%, transparent 50%);
-            animation: bgRotate 30s linear infinite;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.15;
         }
 
-        @keyframes bgRotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        .bg-gradient::before {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, var(--accent-primary), transparent);
+            top: -200px;
+            right: -100px;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .bg-gradient::after {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, var(--accent-secondary), transparent);
+            bottom: -150px;
+            left: -100px;
+            animation: float 25s ease-in-out infinite reverse;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(50px, 50px); }
         }
 
         .container {
@@ -70,249 +83,269 @@
             z-index: 1;
             max-width: 1400px;
             margin: 0 auto;
-            padding: 0 20px;
+            padding: 0 24px;
         }
 
-        /* Header */
-        header {
-            padding: 60px 20px 40px;
-            text-align: center;
-            background: linear-gradient(180deg, rgba(22, 33, 62, 0.9) 0%, transparent 100%);
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 32px 0;
+            border-bottom: 1px solid var(--border);
+            backdrop-filter: blur(20px);
         }
 
         .logo {
-            font-size: 3.5em;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            margin-bottom: 15px;
-            letter-spacing: -2px;
+            letter-spacing: -0.02em;
         }
 
-        .tagline {
-            font-size: 1.4em;
-            color: var(--text-secondary);
-            font-weight: 300;
-            margin-bottom: 20px;
-        }
-
-        .stats-bar {
+        .nav-stats {
             display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 30px;
-            padding: 20px;
-            background: rgba(102, 126, 234, 0.1);
-            border-radius: 15px;
-            backdrop-filter: blur(10px);
+            gap: 32px;
+            align-items: center;
         }
 
-        .stat-item {
-            text-align: center;
+        .stat {
+            text-align: right;
         }
 
-        .stat-number {
-            font-size: 2em;
-            font-weight: 700;
-            color: var(--accent);
+        .stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-primary);
         }
 
         .stat-label {
-            font-size: 0.9em;
-            color: var(--text-secondary);
+            font-size: 0.75rem;
+            color: var(--text-muted);
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.05em;
         }
 
-        /* Filter Bar */
-        .filter-bar {
+        header {
+            padding: 80px 0 60px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 24px;
+            background: linear-gradient(135deg, var(--text-primary), var(--text-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .filters {
             display: flex;
             justify-content: center;
-            gap: 15px;
-            margin: 40px 0;
+            gap: 12px;
+            margin: 48px 0;
             flex-wrap: wrap;
         }
 
         .filter-btn {
-            padding: 12px 30px;
-            background: var(--card-bg);
-            border: 2px solid transparent;
-            border-radius: 30px;
-            color: var(--text-primary);
-            font-weight: 600;
+            padding: 12px 28px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 0.875rem;
             cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 0.95em;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .filter-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .filter-btn span {
+            position: relative;
+            z-index: 1;
         }
 
         .filter-btn:hover {
+            border-color: var(--accent-primary);
             transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
         }
 
         .filter-btn.active {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-color: var(--primary);
-            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+            color: white;
+            border-color: transparent;
         }
 
-        .filter-btn.powerbi { border-color: var(--accent); }
-        .filter-btn.fabric { border-color: var(--fabric-blue); }
-        .filter-btn.ai { border-color: var(--ai-cyan); }
-
-        /* Featured Section */
-        .featured-section {
-            margin: 60px 0;
+        .filter-btn.active::before {
+            opacity: 1;
         }
 
-        .section-title {
-            font-size: 2em;
-            font-weight: 700;
-            margin-bottom: 30px;
+        .news-section {
+            margin: 64px 0;
+        }
+
+        .section-header {
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 16px;
+            margin-bottom: 32px;
         }
 
-        .section-title::before {
-            content: '';
-            width: 5px;
-            height: 40px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            border-radius: 5px;
+        .section-header h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.875rem;
+            font-weight: 600;
+            letter-spacing: -0.01em;
         }
 
-        .featured-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 30px;
-            margin-bottom: 60px;
+        .section-line {
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, var(--border), transparent);
         }
 
-        .featured-main {
-            position: relative;
-            height: 500px;
-            border-radius: 20px;
-            overflow: hidden;
-            cursor: pointer;
-            background: var(--card-bg);
-        }
-
-        .featured-side {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        .featured-small {
-            position: relative;
-            height: 235px;
-            border-radius: 20px;
-            overflow: hidden;
-            cursor: pointer;
-            background: var(--card-bg);
-        }
-
-        /* News Grid */
         .news-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
+            grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+            gap: 24px;
         }
 
         .news-card {
-            background: var(--card-bg);
-            border-radius: 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
             overflow: hidden;
-            transition: all 0.4s ease;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             cursor: pointer;
-            border: 1px solid rgba(102, 126, 234, 0.1);
             position: relative;
         }
 
         .news-card::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary), var(--secondary), var(--accent));
+            inset: 0;
+            border-radius: 16px;
+            padding: 1px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
             opacity: 0;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.3s;
         }
 
         .news-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.3);
-            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -10px rgba(99, 102, 241, 0.3);
         }
 
         .news-card:hover::before {
             opacity: 1;
         }
 
+        .news-image-container {
+            position: relative;
+            height: 220px;
+            overflow: hidden;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+        }
+
         .news-image {
             width: 100%;
-            height: 240px;
+            height: 100%;
             object-fit: cover;
-            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .news-card:hover .news-image {
+            transform: scale(1.05);
+        }
+
+        .news-badge {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            padding: 6px 14px;
+            border-radius: 100px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            backdrop-filter: blur(12px);
+        }
+
+        .badge-powerbi {
+            background: rgba(242, 200, 17, 0.2);
+            border: 1px solid rgba(242, 200, 17, 0.3);
+            color: var(--powerbi);
+        }
+
+        .badge-fabric {
+            background: rgba(0, 120, 212, 0.2);
+            border: 1px solid rgba(0, 120, 212, 0.3);
+            color: var(--fabric);
+        }
+
+        .badge-ai {
+            background: rgba(6, 182, 212, 0.2);
+            border: 1px solid rgba(6, 182, 212, 0.3);
+            color: var(--ai);
         }
 
         .news-content {
-            padding: 25px;
+            padding: 24px;
         }
 
-        .news-header {
+        .news-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 15px;
+            margin-bottom: 16px;
+            font-size: 0.75rem;
         }
 
-        .news-category {
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.75em;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .category-powerbi {
-            background: rgba(242, 200, 17, 0.2);
-            color: var(--accent);
-            border: 1px solid var(--accent);
-        }
-
-        .category-fabric {
-            background: rgba(0, 120, 212, 0.2);
-            color: var(--fabric-blue);
-            border: 1px solid var(--fabric-blue);
-        }
-
-        .category-ai {
-            background: rgba(0, 212, 255, 0.2);
-            color: var(--ai-cyan);
-            border: 1px solid var(--ai-cyan);
+        .news-source {
+            color: var(--accent-primary);
+            font-weight: 600;
         }
 
         .news-date {
-            font-size: 0.85em;
-            color: var(--text-secondary);
+            color: var(--text-muted);
         }
 
         .news-title {
-            font-size: 1.4em;
-            font-weight: 700;
-            margin: 15px 0;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            line-height: 1.4;
+            margin-bottom: 12px;
             color: var(--text-primary);
-            line-height: 1.3;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
@@ -321,8 +354,8 @@
 
         .news-description {
             color: var(--text-secondary);
-            line-height: 1.7;
-            margin-bottom: 20px;
+            font-size: 0.9375rem;
+            line-height: 1.6;
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
@@ -331,62 +364,130 @@
 
         .news-footer {
             display: flex;
-            justify-content: space-between;
             align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
             padding-top: 20px;
-            border-top: 1px solid rgba(102, 126, 234, 0.1);
-        }
-
-        .news-source {
-            font-weight: 600;
-            color: var(--primary);
-            font-size: 0.9em;
+            border-top: 1px solid var(--border);
         }
 
         .read-more {
-            color: var(--accent);
-            font-weight: 600;
-            font-size: 0.9em;
             display: flex;
             align-items: center;
-            gap: 5px;
+            gap: 8px;
+            color: var(--accent-primary);
+            font-weight: 500;
+            font-size: 0.875rem;
         }
 
         .read-more::after {
             content: '→';
-            transition: transform 0.3s ease;
+            transition: transform 0.3s;
         }
 
         .news-card:hover .read-more::after {
-            transform: translateX(5px);
+            transform: translateX(4px);
         }
 
-        /* Loading Animation */
-        .loading {
-            text-align: center;
-            padding: 100px 20px;
+        .featured-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 24px;
+            margin-bottom: 64px;
         }
 
-        .spinner {
-            width: 60px;
-            height: 60px;
-            margin: 0 auto 20px;
-            border: 4px solid rgba(102, 126, 234, 0.1);
-            border-top-color: var(--primary);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
+        .featured-main {
+            height: 550px;
+            position: relative;
+            border-radius: 24px;
+            overflow: hidden;
+            cursor: pointer;
         }
 
-        @keyframes spin {
-            to { transform: rotate(360deg); }
+        .featured-main::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 0%, rgba(10, 14, 39, 0.9) 100%);
+            z-index: 1;
         }
 
-        /* Footer */
+        .featured-main-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s;
+        }
+
+        .featured-main:hover .featured-main-image {
+            transform: scale(1.05);
+        }
+
+        .featured-main-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px;
+            z-index: 2;
+        }
+
+        .featured-main-content .news-title {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        .featured-side {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .featured-small {
+            height: 263px;
+            border-radius: 24px;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .featured-small::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 0%, rgba(10, 14, 39, 0.85) 100%);
+            z-index: 1;
+        }
+
+        .featured-small-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s;
+        }
+
+        .featured-small:hover .featured-small-image {
+            transform: scale(1.05);
+        }
+
+        .featured-small-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 24px;
+            z-index: 2;
+        }
+
+        .featured-small-content .news-title {
+            font-size: 1.125rem;
+        }
+
         footer {
+            margin-top: 120px;
+            padding: 60px 0;
+            border-top: 1px solid var(--border);
             text-align: center;
-            padding: 60px 20px;
-            margin-top: 80px;
-            border-top: 1px solid rgba(102, 126, 234, 0.1);
         }
 
         .footer-content {
@@ -395,190 +496,164 @@
         }
 
         .footer-title {
-            font-size: 1.5em;
-            font-weight: 700;
-            margin-bottom: 15px;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 16px;
         }
 
         .footer-text {
             color: var(--text-secondary);
-            margin-bottom: 20px;
+            margin-bottom: 32px;
             line-height: 1.8;
         }
 
-        .social-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin: 30px 0;
-        }
-
-        .social-link {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: var(--card-bg);
-            display: flex;
+        .footer-badge {
+            display: inline-flex;
             align-items: center;
-            justify-content: center;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-        }
-
-        .social-link:hover {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            transform: translateY(-3px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
-        }
-
-        .powered-by {
-            margin-top: 30px;
-            font-size: 0.9em;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            font-size: 0.875rem;
             color: var(--text-secondary);
         }
 
-        .powered-by strong {
-            color: var(--success);
+        .footer-badge strong {
+            color: var(--accent-primary);
         }
 
-        /* Responsive */
-        @media (max-width: 1024px) {
-            .featured-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .featured-main {
-                height: 400px;
-            }
-            
-            .featured-side {
-                flex-direction: row;
-            }
-            
-            .featured-small {
-                height: 200px;
-            }
-        }
-
-        @media (max-width: 768px) {
-            .logo {
-                font-size: 2.5em;
-            }
-            
-            .tagline {
-                font-size: 1.1em;
-            }
-            
-            .stats-bar {
-                flex-direction: column;
-                gap: 20px;
-            }
-            
-            .news-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .featured-side {
-                flex-direction: column;
-            }
-            
-            .filter-bar {
-                gap: 10px;
-            }
-            
-            .filter-btn {
-                padding: 10px 20px;
-                font-size: 0.85em;
-            }
-        }
-
-        /* Scroll to top button */
         .scroll-top {
             position: fixed;
-            bottom: 30px;
-            right: 30px;
-            width: 50px;
-            height: 50px;
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            bottom: 32px;
+            right: 32px;
+            width: 48px;
+            height: 48px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
             border-radius: 50%;
             display: none;
             align-items: center;
             justify-content: center;
             cursor: pointer;
+            font-size: 1.25rem;
+            color: var(--text-primary);
+            transition: all 0.3s;
             z-index: 1000;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
         }
 
         .scroll-top:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.6);
+            background: var(--accent-primary);
+            border-color: var(--accent-primary);
+            transform: translateY(-4px);
         }
 
         .scroll-top.show {
             display: flex;
         }
+
+        .loading {
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .spinner {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 24px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent-primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        @media (max-width: 1024px) {
+            .featured-grid { grid-template-columns: 1fr; }
+            .featured-main { height: 450px; }
+            .featured-side { flex-direction: row; }
+            .featured-small { height: 250px; }
+            .nav-stats { gap: 16px; }
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .subtitle { font-size: 1.125rem; }
+            .news-grid { grid-template-columns: 1fr; }
+            .featured-side { flex-direction: column; }
+            .nav-stats { display: none; }
+            .filters { gap: 8px; }
+            .filter-btn { padding: 10px 20px; font-size: 0.8125rem; }
+        }
     </style>
 </head>
 <body>
-    <div class="bg-animation"></div>
+    <div class="bg-gradient"></div>
     
     <div class="container">
-        <header>
+        <nav>
             <div class="logo">AI & BI News Hub</div>
-            <div class="tagline">Your Premier Source for Power BI, Microsoft Fabric & AI Insights</div>
-            
-            <div class="stats-bar">
-                <div class="stat-item">
-                    <div class="stat-number" id="totalArticles">0</div>
+            <div class="nav-stats">
+                <div class="stat">
+                    <div class="stat-value" id="totalArticles">0</div>
                     <div class="stat-label">Articles</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number">4hr</div>
-                    <div class="stat-label">Update Cycle</div>
+                <div class="stat">
+                    <div class="stat-value">4h</div>
+                    <div class="stat-label">Updates</div>
                 </div>
-                <div class="stat-item">
-                    <div class="stat-number" id="lastUpdateTime">—</div>
-                    <div class="stat-label">Last Updated</div>
+                <div class="stat">
+                    <div class="stat-value" id="lastUpdate">—</div>
+                    <div class="stat-label">Last Update</div>
                 </div>
             </div>
+        </nav>
+
+        <header>
+            <h1>Your Premier Source for AI & BI Intelligence</h1>
+            <p class="subtitle">Stay ahead with curated insights from Power BI, Microsoft Fabric, and cutting-edge AI developments</p>
         </header>
 
-        <div class="filter-bar">
-            <button class="filter-btn active" data-filter="all">All News</button>
-            <button class="filter-btn powerbi" data-filter="powerbi">Power BI</button>
-            <button class="filter-btn fabric" data-filter="fabric">Fabric</button>
-            <button class="filter-btn ai" data-filter="ai">AI & ML</button>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all"><span>All News</span></button>
+            <button class="filter-btn" data-filter="powerbi"><span>Power BI</span></button>
+            <button class="filter-btn" data-filter="fabric"><span>Microsoft Fabric</span></button>
+            <button class="filter-btn" data-filter="ai"><span>AI & ML</span></button>
         </div>
 
         <div class="loading" id="loading">
             <div class="spinner"></div>
-            <div style="font-size: 1.2em; color: var(--text-secondary);">Loading latest news...</div>
+            <div style="font-size: 1.125rem; color: var(--text-secondary);">Loading latest insights...</div>
         </div>
-        
-        <div id="content" style="display: none;">
-            <div class="featured-section">
-                <h2 class="section-title">🔥 Featured Stories</h2>
-                <div class="featured-grid" id="featuredGrid"></div>
-            </div>
 
-            <div class="featured-section">
-                <h2 class="section-title">📰 Latest Updates</h2>
+        <div id="content" style="display: none;">
+            <section class="news-section">
+                <div class="section-header">
+                    <h2>🔥 Featured Stories</h2>
+                    <div class="section-line"></div>
+                </div>
+                <div class="featured-grid" id="featuredGrid"></div>
+            </section>
+
+            <section class="news-section">
+                <div class="section-header">
+                    <h2>📰 Latest Updates</h2>
+                    <div class="section-line"></div>
+                </div>
                 <div class="news-grid" id="newsGrid"></div>
-            </div>
+            </section>
         </div>
 
         <footer>
             <div class="footer-content">
                 <div class="footer-title">Stay Ahead of the Curve</div>
-                <div class="footer-text">
-                    Automated news aggregation bringing you the freshest insights from the world's 
-                    leading sources in Business Intelligence and Artificial Intelligence.
-                </div>
-                
-                <div class="powered-by">
-                    Powered by <strong>n8n</strong> automation on <strong>Raspberry Pi</strong> • 
-                    Updates every 4 hours • 100% automated
+                <p class="footer-text">Automated news aggregation bringing you the freshest insights from the world's leading sources in Business Intelligence and Artificial Intelligence.</p>
+                <div class="footer-badge">
+                    Powered by <strong>n8n</strong> on <strong>Raspberry Pi</strong> • Updated every 4 hours
                 </div>
             </div>
         </footer>
@@ -590,10 +665,9 @@
         let newsData = [];
         let currentFilter = 'all';
 
-        // Fetch news data from JSON file
         async function loadNews() {
             try {
-                const response = await fetch('news.json?' + new Date().getTime()); // Cache bust
+                const response = await fetch('news.json?' + new Date().getTime());
                 newsData = await response.json();
                 renderNews();
             } catch (error) {
@@ -612,8 +686,8 @@
         }
 
         function getCategoryClass(category) {
-            const map = { 'powerbi': 'category-powerbi', 'fabric': 'category-fabric', 'ai': 'category-ai' };
-            return map[category] || 'category-ai';
+            const map = { 'powerbi': 'badge-powerbi', 'fabric': 'badge-fabric', 'ai': 'badge-ai' };
+            return map[category] || 'badge-ai';
         }
 
         function getCategoryName(category) {
@@ -634,43 +708,42 @@
             return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         }
 
-        function createNewsCard(item, featured = false) {
-            return `
-                <div class="news-card ${featured ? 'featured-main' : ''}" onclick="window.open('${item.url}', '_blank')" data-category="${item.category}">
-                    ${item.image ? `<img src="${item.image}" alt="${item.title}" class="news-image">` : '<div class="news-image"></div>'}
+        function createNewsCard(item) {
+            return \`
+                <div class="news-card" onclick="window.open('\${item.url}', '_blank')" data-category="\${item.category}">
+                    <div class="news-image-container">
+                        \${item.image ? \`<img src="\${item.image}" alt="\${item.title}" class="news-image">\` : ''}
+                        <span class="news-badge \${getCategoryClass(item.category)}">\${getCategoryName(item.category)}</span>
+                    </div>
                     <div class="news-content">
-                        <div class="news-header">
-                            <span class="news-category ${getCategoryClass(item.category)}">
-                                ${getCategoryName(item.category)}
-                            </span>
-                            <span class="news-date">${formatDate(item.date)}</span>
+                        <div class="news-meta">
+                            <span class="news-source">\${item.source}</span>
+                            <span class="news-date">\${formatDate(item.date)}</span>
                         </div>
-                        <div class="news-title">${item.title}</div>
-                        <div class="news-description">${item.description}</div>
+                        <h3 class="news-title">\${item.title}</h3>
+                        <p class="news-description">\${item.description}</p>
                         <div class="news-footer">
-                            <span class="news-source">${item.source}</span>
-                            <span class="read-more">Read More</span>
+                            <span class="read-more">Read Article</span>
                         </div>
                     </div>
                 </div>
-            `;
+            \`;
         }
 
         function filterNews(category) {
             currentFilter = category;
-            const cards = document.querySelectorAll('.news-card');
+            const cards = document.querySelectorAll('.news-card, .featured-main, .featured-small');
             
             cards.forEach(card => {
                 if (category === 'all' || card.dataset.category === category) {
-                    card.style.display = 'block';
-                    setTimeout(() => card.style.opacity = '1', 10);
+                    card.style.display = '';
+                    card.style.opacity = '1';
                 } else {
                     card.style.opacity = '0';
                     setTimeout(() => card.style.display = 'none', 300);
                 }
             });
 
-            // Update filter buttons
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.filter === category);
             });
@@ -679,71 +752,59 @@
         function renderNews() {
             const loading = document.getElementById('loading');
             const content = document.getElementById('content');
-            const featuredGrid = document.getElementById('featuredGrid');
-            const grid = document.getElementById('newsGrid');
             
             loading.style.display = 'none';
             content.style.display = 'block';
 
-            // Featured articles (top 3)
             const featured = newsData.slice(0, 3);
-            featuredGrid.innerHTML = `
-                <div class="featured-main" onclick="window.open('${featured[0].url}', '_blank')">
-                    ${featured[0].image ? `<img src="${featured[0].image}" alt="${featured[0].title}" class="news-image" style="height: 100%;">` : '<div class="news-image" style="height: 100%;"></div>'}
-                    <div class="news-content">
-                        <div class="news-header">
-                            <span class="news-category ${getCategoryClass(featured[0].category)}">
-                                ${getCategoryName(featured[0].category)}
-                            </span>
-                            <span class="news-date">${formatDate(featured[0].date)}</span>
+            const featuredGrid = document.getElementById('featuredGrid');
+            
+            featuredGrid.innerHTML = \`
+                <div class="featured-main" onclick="window.open('\${featured[0].url}', '_blank')" data-category="\${featured[0].category}">
+                    \${featured[0].image ? \`<img src="\${featured[0].image}" alt="\${featured[0].title}" class="featured-main-image">\` : ''}
+                    <div class="featured-main-content">
+                        <span class="news-badge \${getCategoryClass(featured[0].category)}">\${getCategoryName(featured[0].category)}</span>
+                        <h3 class="news-title">\${featured[0].title}</h3>
+                        <p class="news-description">\${featured[0].description}</p>
+                        <div class="news-meta" style="margin-top: 16px;">
+                            <span class="news-source">\${featured[0].source}</span>
+                            <span class="news-date">\${formatDate(featured[0].date)}</span>
                         </div>
-                        <div class="news-title" style="font-size: 2em;">${featured[0].title}</div>
-                        <div class="news-description" style="-webkit-line-clamp: 4;">${featured[0].description}</div>
                     </div>
                 </div>
                 <div class="featured-side">
-                    ${featured.slice(1, 3).map(item => `
-                        <div class="featured-small" onclick="window.open('${item.url}', '_blank')">
-                            ${item.image ? `<img src="${item.image}" alt="${item.title}" class="news-image" style="height: 100%;">` : '<div class="news-image" style="height: 100%;"></div>'}
-                            <div class="news-content">
-                                <span class="news-category ${getCategoryClass(item.category)}">${getCategoryName(item.category)}</span>
-                                <div class="news-title" style="font-size: 1.1em;">${item.title}</div>
+                    \${featured.slice(1, 3).map(item => \`
+                        <div class="featured-small" onclick="window.open('\${item.url}', '_blank')" data-category="\${item.category}">
+                            \${item.image ? \`<img src="\${item.image}" alt="\${item.title}" class="featured-small-image">\` : ''}
+                            <div class="featured-small-content">
+                                <span class="news-badge \${getCategoryClass(item.category)}">\${getCategoryName(item.category)}</span>
+                                <h3 class="news-title">\${item.title}</h3>
                             </div>
                         </div>
-                    `).join('')}
+                    \`).join('')}
                 </div>
-            `;
+            \`;
 
-            // Regular news grid (rest of articles)
+            const grid = document.getElementById('newsGrid');
             grid.innerHTML = newsData.slice(3).map(item => createNewsCard(item)).join('');
 
-            // Update stats
             document.getElementById('totalArticles').textContent = newsData.length;
-            const now = new Date();
-            document.getElementById('lastUpdateTime').textContent = 
-                now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
 
-            // Setup filter buttons
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.addEventListener('click', () => filterNews(btn.dataset.filter));
             });
         }
 
-        // Scroll to top functionality
         const scrollTopBtn = document.getElementById('scrollTop');
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 500) {
-                scrollTopBtn.classList.add('show');
-            } else {
-                scrollTopBtn.classList.remove('show');
-            }
+            scrollTopBtn.classList.toggle('show', window.scrollY > 500);
         });
 
         scrollTopBtn.addEventListener('click', () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // Initialize - load news from JSON
         loadNews();
     </script>
 </body>
