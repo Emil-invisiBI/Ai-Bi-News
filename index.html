@@ -139,34 +139,41 @@
         }
 
         function buildSidebar() {
-            var years = {}, sources = {};
+            var sources = {};
             newsData.forEach(function(item) {
+                if (!sources[item.source]) sources[item.source] = 0;
+                sources[item.source]++;
+            });
+            var sh = '<li><a class="' + (currentSource === 'all' ? 'active' : '') + '" data-source="all">All<span class="sidebar-count">' + newsData.length + '</span></a></li>';
+            Object.keys(sources).forEach(function(k) { sh += '<li><a class="' + (currentSource === k ? 'active' : '') + '" data-source="' + k + '">' + k + '<span class="sidebar-count">' + sources[k] + '</span></a></li>'; });
+            document.getElementById('sourceList').innerHTML = sh;
+            updateArchive();
+        }
+
+        function updateArchive() {
+            var filtered = newsData.filter(function(item) {
+                return currentSource === 'all' || item.source === currentSource;
+            });
+            var years = {}, total = filtered.length;
+            filtered.forEach(function(item) {
                 var d = new Date(item.date), year = d.getFullYear(), monthKey = year + '-' + String(d.getMonth() + 1).padStart(2, '0');
                 var monthLabel = d.toLocaleDateString('en-US', { month: 'short' });
                 if (!years[year]) years[year] = {};
                 if (!years[year][monthKey]) years[year][monthKey] = { label: monthLabel, count: 0 };
                 years[year][monthKey].count++;
-                if (!sources[item.source]) sources[item.source] = 0;
-                sources[item.source]++;
             });
-
-            var html = '<ul class="sidebar-list"><li><a class="active" data-month="all">All time<span class="sidebar-count">' + newsData.length + '</span></a></li></ul>';
+            var html = '<ul class="sidebar-list"><li><a class="' + (currentMonth === 'all' ? 'active' : '') + '" data-month="all">All time<span class="sidebar-count">' + total + '</span></a></li></ul>';
             Object.keys(years).sort().reverse().forEach(function(year, idx) {
                 var yc = 0; Object.values(years[year]).forEach(function(m) { yc += m.count; });
                 var open = idx === 0 ? ' open' : '';
                 html += '<div class="year-group"><div class="year-header' + open + '">' + year + ' <span class="sidebar-count">' + yc + '</span><span class="arrow">▼</span></div>';
                 html += '<ul class="sidebar-list year-months' + open + '">';
                 Object.keys(years[year]).sort().reverse().forEach(function(mk) {
-                    html += '<li><a data-month="' + mk + '">' + years[year][mk].label + '<span class="sidebar-count">' + years[year][mk].count + '</span></a></li>';
+                    html += '<li><a class="' + (currentMonth === mk ? 'active' : '') + '" data-month="' + mk + '">' + years[year][mk].label + '<span class="sidebar-count">' + years[year][mk].count + '</span></a></li>';
                 });
                 html += '</ul></div>';
             });
             document.getElementById('archiveList').innerHTML = html;
-
-            var sh = '<li><a class="active" data-source="all">All<span class="sidebar-count">' + newsData.length + '</span></a></li>';
-            Object.keys(sources).forEach(function(k) { sh += '<li><a data-source="' + k + '">' + k + '<span class="sidebar-count">' + sources[k] + '</span></a></li>'; });
-            document.getElementById('sourceList').innerHTML = sh;
-
             document.querySelectorAll('.year-header').forEach(function(h) {
                 h.onclick = function() { this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open'); };
             });
@@ -205,7 +212,7 @@
 
         document.getElementById('nav').onclick = function(e) { if (e.target.tagName === 'A') { document.querySelectorAll('nav a').forEach(function(a) { a.classList.remove('active'); }); e.target.classList.add('active'); currentCategory = e.target.dataset.category; renderNews(); } };
         document.getElementById('archiveList').onclick = function(e) { var l = e.target.closest('a'); if (l && l.dataset.month !== undefined) { document.querySelectorAll('#archiveList a').forEach(function(a) { a.classList.remove('active'); }); l.classList.add('active'); currentMonth = l.dataset.month; renderNews(); } };
-        document.getElementById('sourceList').onclick = function(e) { var l = e.target.closest('a'); if (l) { document.querySelectorAll('#sourceList a').forEach(function(a) { a.classList.remove('active'); }); l.classList.add('active'); currentSource = l.dataset.source; renderNews(); } };
+        document.getElementById('sourceList').onclick = function(e) { var l = e.target.closest('a'); if (l) { document.querySelectorAll('#sourceList a').forEach(function(a) { a.classList.remove('active'); }); l.classList.add('active'); currentSource = l.dataset.source; currentMonth = 'all'; updateArchive(); renderNews(); } };
         document.getElementById('search').oninput = function(e) { searchQuery = e.target.value.toLowerCase(); renderNews(); };
         loadNews();
     </script>
