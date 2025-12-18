@@ -8,407 +8,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
-        :root {
-            --bg: #ffffff;
-            --text: #111;
-            --text-secondary: #666;
-            --text-muted: #999;
-            --border: #eaeaea;
-            --hover: #fafafa;
-            --accent: #000;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-        }
-
-        .page-wrapper {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        /* Header */
-        header {
-            padding: 60px 0 40px;
-            max-width: 900px;
-        }
-
-        .header-top {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 48px;
-        }
-
-        .logo {
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            color: var(--text);
-        }
-
-        .header-date {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            letter-spacing: 0.05em;
-        }
-
-        .hero-title {
-            font-size: clamp(2.5rem, 6vw, 4rem);
-            font-weight: 700;
-            letter-spacing: -0.03em;
-            line-height: 1.1;
-            margin-bottom: 16px;
-        }
-
-        .hero-subtitle {
-            font-size: 1.1rem;
-            color: var(--text-secondary);
-            max-width: 500px;
-        }
-
-        /* Layout */
-        .main-layout {
-            display: grid;
-            grid-template-columns: 200px 1fr;
-            gap: 48px;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            position: sticky;
-            top: 24px;
-            height: fit-content;
-        }
-
-        .sidebar-section {
-            margin-bottom: 32px;
-        }
-
-        .sidebar-title {
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            margin-bottom: 12px;
-        }
-
-        .sidebar-list {
-            list-style: none;
-        }
-
-        .sidebar-list li {
-            margin-bottom: 4px;
-        }
-
-        .sidebar-list a {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 8px 12px;
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            text-decoration: none;
-            border-radius: 6px;
-            transition: all 0.15s;
-            cursor: pointer;
-        }
-
-        .sidebar-list a:hover {
-            background: var(--hover);
-            color: var(--text);
-        }
-
-        .sidebar-list a.active {
-            background: var(--text);
-            color: white;
-        }
-
-        .sidebar-count {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
-
-        .sidebar-list a.active .sidebar-count {
-            color: rgba(255,255,255,0.7);
-        }
-
-        /* Main Content */
-        .main-content {
-            min-width: 0;
-        }
-
-        /* Navigation */
-        .nav-wrapper {
-            border-top: 1px solid var(--border);
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 32px;
-        }
-
-        nav {
-            display: flex;
-            gap: 0;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-        }
-
-        nav a {
-            font-size: 0.8rem;
-            font-weight: 500;
-            color: var(--text-muted);
-            text-decoration: none;
-            padding: 16px 24px;
-            white-space: nowrap;
-            position: relative;
-            transition: color 0.2s;
-            cursor: pointer;
-        }
-
+        :root { --bg: #ffffff; --text: #111; --text-secondary: #666; --text-muted: #999; --border: #eaeaea; --hover: #fafafa; --accent: #000; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        .page-wrapper { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        header { padding: 60px 0 40px; max-width: 900px; }
+        .header-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 48px; }
+        .logo { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; }
+        .header-date { font-size: 0.75rem; color: var(--text-muted); }
+        .hero-title { font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 16px; }
+        .hero-subtitle { font-size: 1.1rem; color: var(--text-secondary); max-width: 500px; }
+        .main-layout { display: grid; grid-template-columns: 220px 1fr; gap: 48px; }
+        .sidebar { position: sticky; top: 24px; height: fit-content; }
+        .sidebar-section { margin-bottom: 28px; }
+        .sidebar-title { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 12px; }
+        .sidebar-list { list-style: none; }
+        .sidebar-list li { margin-bottom: 2px; }
+        .sidebar-list a { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; font-size: 0.85rem; color: var(--text-secondary); text-decoration: none; border-radius: 6px; transition: all 0.15s; cursor: pointer; }
+        .sidebar-list a:hover { background: var(--hover); color: var(--text); }
+        .sidebar-list a.active { background: var(--text); color: white; }
+        .sidebar-count { font-size: 0.75rem; color: var(--text-muted); }
+        .sidebar-list a.active .sidebar-count { color: rgba(255,255,255,0.7); }
+        .year-group { margin-bottom: 4px; }
+        .year-header { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; font-size: 0.85rem; font-weight: 600; color: var(--text); cursor: pointer; border-radius: 6px; transition: background 0.15s; user-select: none; }
+        .year-header:hover { background: var(--hover); }
+        .year-header .arrow { font-size: 0.6rem; transition: transform 0.2s; }
+        .year-header.open .arrow { transform: rotate(180deg); }
+        .year-months { display: none; padding-left: 12px; }
+        .year-months.open { display: block; }
+        .year-months a { padding: 6px 12px; font-size: 0.8rem; }
+        .main-content { min-width: 0; }
+        .nav-wrapper { border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin-bottom: 32px; }
+        nav { display: flex; gap: 0; overflow-x: auto; }
+        nav a { font-size: 0.8rem; font-weight: 500; color: var(--text-muted); text-decoration: none; padding: 16px 24px; white-space: nowrap; position: relative; transition: color 0.2s; cursor: pointer; }
         nav a:first-child { padding-left: 0; }
-
         nav a:hover { color: var(--text); }
-
         nav a.active { color: var(--text); }
-
-        nav a.active::after {
-            content: '';
-            position: absolute;
-            bottom: -1px;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--accent);
-        }
-
-        nav a:first-child.active::after { left: 0; }
-
-        /* Search */
-        .search-wrapper {
-            margin-bottom: 32px;
-        }
-
-        .search-input {
-            width: 100%;
-            padding: 14px 18px;
-            background: var(--hover);
-            border: none;
-            border-radius: 10px;
-            font-size: 0.9rem;
-            font-family: inherit;
-            color: var(--text);
-            outline: none;
-            transition: box-shadow 0.2s;
-        }
-
-        .search-input:focus {
-            box-shadow: 0 0 0 2px var(--border);
-        }
-
-        .search-input::placeholder {
-            color: var(--text-muted);
-        }
-
-        /* Featured Article */
-        .featured {
-            margin-bottom: 48px;
-            cursor: pointer;
-        }
-
-        .featured-label {
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            margin-bottom: 16px;
-        }
-
-        .featured-title {
-            font-size: clamp(1.5rem, 4vw, 2rem);
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            line-height: 1.2;
-            margin-bottom: 12px;
-            transition: opacity 0.2s;
-        }
-
-        .featured:hover .featured-title {
-            opacity: 0.7;
-        }
-
-        .featured-desc {
-            font-size: 1rem;
-            color: var(--text-secondary);
-            line-height: 1.6;
-            margin-bottom: 12px;
-            max-width: 600px;
-        }
-
-        .featured-meta {
-            display: flex;
-            gap: 16px;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        .featured-source {
-            font-weight: 500;
-            color: var(--text-secondary);
-        }
-
-        /* Articles */
-        .section-label {
-            font-size: 0.7rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            margin-bottom: 20px;
-            padding-bottom: 12px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .articles {
-            display: grid;
-            gap: 0;
-        }
-
-        .article {
-            display: grid;
-            grid-template-columns: 1fr auto;
-            gap: 24px;
-            align-items: start;
-            padding: 20px 0;
-            border-bottom: 1px solid var(--border);
-            cursor: pointer;
-            transition: opacity 0.2s;
-        }
-
-        .article:hover {
-            opacity: 0.6;
-        }
-
-        .article-content {
-            min-width: 0;
-        }
-
-        .article-meta {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 6px;
-            font-size: 0.75rem;
-        }
-
-        .article-source {
-            color: var(--text-secondary);
-            font-weight: 500;
-        }
-
-        .article-date {
-            color: var(--text-muted);
-        }
-
-        .article-title {
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--text);
-            line-height: 1.4;
-            letter-spacing: -0.01em;
-            margin-bottom: 6px;
-        }
-
-        .article-desc {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-            line-height: 1.5;
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .article-number {
-            font-size: 0.75rem;
-            font-weight: 600;
-            color: var(--text-muted);
-            font-variant-numeric: tabular-nums;
-        }
-
-        /* Loading & Empty */
-        .loading, .empty-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
-
-        /* Footer */
-        footer {
-            margin-top: 80px;
-            padding: 40px 0;
-            border-top: 1px solid var(--border);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
-
-        .footer-links {
-            display: flex;
-            gap: 24px;
-        }
-
-        .footer-links a {
-            color: var(--text-muted);
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .footer-links a:hover {
-            color: var(--text);
-        }
-
-        /* Responsive */
-        @media (max-width: 800px) {
-            .main-layout {
-                grid-template-columns: 1fr;
-                gap: 24px;
-            }
-            .sidebar {
-                position: static;
-                display: flex;
-                gap: 24px;
-                overflow-x: auto;
-                padding-bottom: 16px;
-                border-bottom: 1px solid var(--border);
-                margin-bottom: 24px;
-            }
-            .sidebar-section {
-                margin-bottom: 0;
-                flex-shrink: 0;
-            }
-            .sidebar-list {
-                display: flex;
-                gap: 8px;
-            }
-            .sidebar-list li { margin: 0; }
-            header { padding: 40px 0 32px; }
-            .header-top { flex-direction: column; gap: 8px; }
-            nav a { padding: 14px 16px; }
-            .article { grid-template-columns: 1fr; gap: 8px; }
-            .article-number { display: none; }
-            footer { flex-direction: column; gap: 16px; text-align: center; }
-        }
+        nav a.active::after { content: ''; position: absolute; bottom: -1px; left: 0; right: 0; height: 2px; background: var(--accent); }
+        .search-wrapper { margin-bottom: 32px; }
+        .search-input { width: 100%; padding: 14px 18px; background: var(--hover); border: none; border-radius: 10px; font-size: 0.9rem; font-family: inherit; color: var(--text); outline: none; }
+        .search-input:focus { box-shadow: 0 0 0 2px var(--border); }
+        .search-input::placeholder { color: var(--text-muted); }
+        .featured { margin-bottom: 48px; cursor: pointer; }
+        .featured-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 16px; }
+        .featured-title { font-size: clamp(1.5rem, 4vw, 2rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 12px; transition: opacity 0.2s; }
+        .featured:hover .featured-title { opacity: 0.7; }
+        .featured-desc { font-size: 1rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 12px; max-width: 600px; }
+        .featured-meta { display: flex; gap: 16px; font-size: 0.8rem; color: var(--text-muted); }
+        .featured-source { font-weight: 500; color: var(--text-secondary); }
+        .section-label { font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+        .articles { display: grid; gap: 0; }
+        .article { display: grid; grid-template-columns: 1fr auto; gap: 24px; align-items: start; padding: 20px 0; border-bottom: 1px solid var(--border); cursor: pointer; transition: opacity 0.2s; }
+        .article:hover { opacity: 0.6; }
+        .article-content { min-width: 0; }
+        .article-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; font-size: 0.75rem; }
+        .article-source { color: var(--text-secondary); font-weight: 500; }
+        .article-date { color: var(--text-muted); }
+        .article-title { font-size: 1rem; font-weight: 600; color: var(--text); line-height: 1.4; margin-bottom: 6px; }
+        .article-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+        .article-number { font-size: 0.75rem; font-weight: 600; color: var(--text-muted); }
+        .loading, .empty-state { text-align: center; padding: 60px 20px; color: var(--text-muted); }
+        footer { margin-top: 80px; padding: 40px 0; border-top: 1px solid var(--border); display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-muted); }
+        .footer-links { display: flex; gap: 24px; }
+        .footer-links a { color: var(--text-muted); text-decoration: none; }
+        .footer-links a:hover { color: var(--text); }
+        @media (max-width: 800px) { .main-layout { grid-template-columns: 1fr; } .sidebar { position: static; } .article { grid-template-columns: 1fr; } .article-number { display: none; } footer { flex-direction: column; gap: 16px; text-align: center; } }
     </style>
 </head>
 <body>
@@ -419,25 +82,19 @@
                 <div class="header-date" id="currentDate"></div>
             </div>
             <h1 class="hero-title">The latest in Data<br>& Intelligence</h1>
-            <p class="hero-subtitle">Curated news from Power BI, Microsoft Fabric, and AI research. Updated automatically.</p>
+            <p class="hero-subtitle">Curated news from Power BI, Microsoft Fabric, and AI. Updated via n8n.</p>
         </header>
-
         <div class="main-layout">
             <aside class="sidebar">
                 <div class="sidebar-section">
                     <div class="sidebar-title">Archive</div>
-                    <ul class="sidebar-list" id="monthList">
-                        <!-- Months populated by JS -->
-                    </ul>
+                    <div id="archiveList"></div>
                 </div>
                 <div class="sidebar-section">
                     <div class="sidebar-title">Sources</div>
-                    <ul class="sidebar-list" id="sourceList">
-                        <!-- Sources populated by JS -->
-                    </ul>
+                    <ul class="sidebar-list" id="sourceList"></ul>
                 </div>
             </aside>
-
             <main class="main-content">
                 <div class="nav-wrapper">
                     <nav id="nav">
@@ -447,207 +104,109 @@
                         <a data-category="ai">AI & ML</a>
                     </nav>
                 </div>
-
                 <div class="search-wrapper">
                     <input type="text" class="search-input" id="search" placeholder="Search articles...">
                 </div>
-
                 <div class="loading" id="loading">Loading...</div>
-
                 <div id="featured" style="display:none;"></div>
-
                 <div id="articlesSection" style="display:none;">
                     <div class="section-label">Latest Articles</div>
                     <div class="articles" id="articles"></div>
                 </div>
-                
                 <div class="empty-state" id="emptyState" style="display:none;">No articles found.</div>
             </main>
         </div>
-
         <footer>
             <div>Powered by n8n automation</div>
             <div class="footer-links">
-                <a href="#">Power BI Blog</a>
+                <a href="#">Power BI</a>
+                <a href="#">Fabric</a>
                 <a href="#">OpenAI</a>
-                <a href="#">Microsoft Fabric</a>
             </div>
         </footer>
     </div>
-
     <script>
-        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { 
-            weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' 
-        });
-
-        var newsData = [];
-        var currentCategory = 'all';
-        var currentMonth = 'all';
-        var currentSource = 'all';
-        var searchQuery = '';
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+        var newsData = [], currentCategory = 'all', currentMonth = 'all', currentSource = 'all', searchQuery = '';
 
         function loadNews() {
-            fetch('news.json?' + Date.now())
-                .then(function(r) { return r.json(); })
-                .then(function(data) {
-                    newsData = data;
-                    document.getElementById('loading').style.display = 'none';
-                    buildSidebar();
-                    renderNews();
-                })
-                .catch(function(e) {
-                    document.getElementById('loading').textContent = 'Unable to load articles.';
-                });
+            fetch('news.json?' + Date.now()).then(function(r) { return r.json(); }).then(function(data) {
+                newsData = Array.isArray(data) ? data : (data.articles || []);
+                document.getElementById('loading').style.display = 'none';
+                buildSidebar();
+                renderNews();
+            }).catch(function() { document.getElementById('loading').textContent = 'Unable to load.'; });
         }
 
         function buildSidebar() {
-            // Build month list
-            var months = {};
-            var sources = {};
-            
+            var years = {}, sources = {};
             newsData.forEach(function(item) {
-                var d = new Date(item.date);
-                var monthKey = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0');
-                var monthLabel = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
-                if (!months[monthKey]) months[monthKey] = { label: monthLabel, count: 0 };
-                months[monthKey].count++;
-                
+                var d = new Date(item.date), year = d.getFullYear(), monthKey = year + '-' + String(d.getMonth() + 1).padStart(2, '0');
+                var monthLabel = d.toLocaleDateString('en-US', { month: 'short' });
+                if (!years[year]) years[year] = {};
+                if (!years[year][monthKey]) years[year][monthKey] = { label: monthLabel, count: 0 };
+                years[year][monthKey].count++;
                 if (!sources[item.source]) sources[item.source] = 0;
                 sources[item.source]++;
             });
 
-            // Render months
-            var monthHtml = '<li><a class="active" data-month="all">All time<span class="sidebar-count">' + newsData.length + '</span></a></li>';
-            Object.keys(months).sort().reverse().forEach(function(key) {
-                monthHtml += '<li><a data-month="' + key + '">' + months[key].label + '<span class="sidebar-count">' + months[key].count + '</span></a></li>';
+            var html = '<ul class="sidebar-list"><li><a class="active" data-month="all">All time<span class="sidebar-count">' + newsData.length + '</span></a></li></ul>';
+            Object.keys(years).sort().reverse().forEach(function(year, idx) {
+                var yc = 0; Object.values(years[year]).forEach(function(m) { yc += m.count; });
+                var open = idx === 0 ? ' open' : '';
+                html += '<div class="year-group"><div class="year-header' + open + '">' + year + ' <span class="sidebar-count">' + yc + '</span><span class="arrow">▼</span></div>';
+                html += '<ul class="sidebar-list year-months' + open + '">';
+                Object.keys(years[year]).sort().reverse().forEach(function(mk) {
+                    html += '<li><a data-month="' + mk + '">' + years[year][mk].label + '<span class="sidebar-count">' + years[year][mk].count + '</span></a></li>';
+                });
+                html += '</ul></div>';
             });
-            document.getElementById('monthList').innerHTML = monthHtml;
+            document.getElementById('archiveList').innerHTML = html;
 
-            // Render sources
-            var sourceHtml = '<li><a class="active" data-source="all">All sources<span class="sidebar-count">' + newsData.length + '</span></a></li>';
-            Object.keys(sources).forEach(function(key) {
-                sourceHtml += '<li><a data-source="' + key + '">' + key + '<span class="sidebar-count">' + sources[key] + '</span></a></li>';
+            var sh = '<li><a class="active" data-source="all">All<span class="sidebar-count">' + newsData.length + '</span></a></li>';
+            Object.keys(sources).forEach(function(k) { sh += '<li><a data-source="' + k + '">' + k + '<span class="sidebar-count">' + sources[k] + '</span></a></li>'; });
+            document.getElementById('sourceList').innerHTML = sh;
+
+            document.querySelectorAll('.year-header').forEach(function(h) {
+                h.onclick = function() { this.classList.toggle('open'); this.nextElementSibling.classList.toggle('open'); };
             });
-            document.getElementById('sourceList').innerHTML = sourceHtml;
         }
 
-        function formatDate(dateStr) {
-            var d = new Date(dateStr);
-            var now = new Date();
-            var hours = Math.floor((now - d) / (1000 * 60 * 60));
-            if (hours < 1) return 'Just now';
-            if (hours < 24) return hours + 'h ago';
-            if (hours < 48) return 'Yesterday';
+        function formatDate(ds) {
+            var d = new Date(ds), h = Math.floor((new Date() - d) / 3600000);
+            if (h < 1) return 'Just now'; if (h < 24) return h + 'h ago'; if (h < 48) return 'Yesterday';
             return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         }
 
         function renderNews() {
             var filtered = newsData.filter(function(item) {
-                var matchCat = currentCategory === 'all' || item.category === currentCategory;
-                var matchSearch = !searchQuery || 
-                    item.title.toLowerCase().indexOf(searchQuery) !== -1 ||
-                    item.description.toLowerCase().indexOf(searchQuery) !== -1;
-                
-                var matchMonth = true;
-                if (currentMonth !== 'all') {
-                    var d = new Date(item.date);
-                    var itemMonth = d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0');
-                    matchMonth = itemMonth === currentMonth;
-                }
-                
-                var matchSource = currentSource === 'all' || item.source === currentSource;
-                
-                return matchCat && matchSearch && matchMonth && matchSource;
+                var mc = currentCategory === 'all' || item.category === currentCategory;
+                var ms = !searchQuery || item.title.toLowerCase().includes(searchQuery) || (item.description || '').toLowerCase().includes(searchQuery);
+                var mm = currentMonth === 'all' || (new Date(item.date).getFullYear() + '-' + String(new Date(item.date).getMonth() + 1).padStart(2, '0')) === currentMonth;
+                var mso = currentSource === 'all' || item.source === currentSource;
+                return mc && ms && mm && mso;
             });
-
-            var featuredEl = document.getElementById('featured');
-            var sectionEl = document.getElementById('articlesSection');
-            var articlesEl = document.getElementById('articles');
-            var emptyEl = document.getElementById('emptyState');
-
-            if (filtered.length === 0) {
-                featuredEl.style.display = 'none';
-                sectionEl.style.display = 'none';
-                emptyEl.style.display = 'block';
-                return;
-            }
-
-            emptyEl.style.display = 'none';
-
-            var first = filtered[0];
-            featuredEl.style.display = 'block';
-            featuredEl.innerHTML = '<div class="featured" onclick="window.open(\'' + first.url + '\', \'_blank\')">' +
-                '<div class="featured-label">Featured</div>' +
-                '<h2 class="featured-title">' + first.title + '</h2>' +
-                '<p class="featured-desc">' + first.description + '</p>' +
-                '<div class="featured-meta">' +
-                    '<span class="featured-source">' + first.source + '</span>' +
-                    '<span>' + formatDate(first.date) + '</span>' +
-                '</div>' +
-            '</div>';
-
+            var fe = document.getElementById('featured'), se = document.getElementById('articlesSection'), ae = document.getElementById('articles'), ee = document.getElementById('emptyState');
+            if (!filtered.length) { fe.style.display = se.style.display = 'none'; ee.style.display = 'block'; return; }
+            ee.style.display = 'none';
+            var f = filtered[0];
+            fe.style.display = 'block';
+            fe.innerHTML = '<div class="featured" onclick="window.open(\'' + f.url + '\')"><div class="featured-label">Featured</div><h2 class="featured-title">' + f.title + '</h2><p class="featured-desc">' + (f.description || '') + '</p><div class="featured-meta"><span class="featured-source">' + f.source + '</span><span>' + formatDate(f.date) + '</span></div></div>';
             if (filtered.length > 1) {
-                sectionEl.style.display = 'block';
-                var html = '';
+                se.style.display = 'block';
+                var h = '';
                 for (var i = 1; i < filtered.length; i++) {
-                    var item = filtered[i];
-                    var num = String(i).padStart(2, '0');
-                    html += '<div class="article" onclick="window.open(\'' + item.url + '\', \'_blank\')">' +
-                        '<div class="article-content">' +
-                            '<div class="article-meta">' +
-                                '<span class="article-source">' + item.source + '</span>' +
-                                '<span class="article-date">' + formatDate(item.date) + '</span>' +
-                            '</div>' +
-                            '<h3 class="article-title">' + item.title + '</h3>' +
-                            '<p class="article-desc">' + item.description + '</p>' +
-                        '</div>' +
-                        '<div class="article-number">' + num + '</div>' +
-                    '</div>';
+                    var it = filtered[i];
+                    h += '<div class="article" onclick="window.open(\'' + it.url + '\')"><div class="article-content"><div class="article-meta"><span class="article-source">' + it.source + '</span><span class="article-date">' + formatDate(it.date) + '</span></div><h3 class="article-title">' + it.title + '</h3><p class="article-desc">' + (it.description || '') + '</p></div><div class="article-number">' + String(i).padStart(2, '0') + '</div></div>';
                 }
-                articlesEl.innerHTML = html;
-            } else {
-                sectionEl.style.display = 'none';
-            }
+                ae.innerHTML = h;
+            } else { se.style.display = 'none'; }
         }
 
-        // Nav clicks
-        document.getElementById('nav').addEventListener('click', function(e) {
-            if (e.target.tagName === 'A') {
-                document.querySelectorAll('nav a').forEach(function(a) { a.classList.remove('active'); });
-                e.target.classList.add('active');
-                currentCategory = e.target.dataset.category;
-                renderNews();
-            }
-        });
-
-        // Month clicks
-        document.getElementById('monthList').addEventListener('click', function(e) {
-            var link = e.target.closest('a');
-            if (link) {
-                document.querySelectorAll('#monthList a').forEach(function(a) { a.classList.remove('active'); });
-                link.classList.add('active');
-                currentMonth = link.dataset.month;
-                renderNews();
-            }
-        });
-
-        // Source clicks
-        document.getElementById('sourceList').addEventListener('click', function(e) {
-            var link = e.target.closest('a');
-            if (link) {
-                document.querySelectorAll('#sourceList a').forEach(function(a) { a.classList.remove('active'); });
-                link.classList.add('active');
-                currentSource = link.dataset.source;
-                renderNews();
-            }
-        });
-
-        // Search
-        document.getElementById('search').addEventListener('input', function(e) {
-            searchQuery = e.target.value.toLowerCase();
-            renderNews();
-        });
-
+        document.getElementById('nav').onclick = function(e) { if (e.target.tagName === 'A') { document.querySelectorAll('nav a').forEach(function(a) { a.classList.remove('active'); }); e.target.classList.add('active'); currentCategory = e.target.dataset.category; renderNews(); } };
+        document.getElementById('archiveList').onclick = function(e) { var l = e.target.closest('a'); if (l && l.dataset.month !== undefined) { document.querySelectorAll('#archiveList a').forEach(function(a) { a.classList.remove('active'); }); l.classList.add('active'); currentMonth = l.dataset.month; renderNews(); } };
+        document.getElementById('sourceList').onclick = function(e) { var l = e.target.closest('a'); if (l) { document.querySelectorAll('#sourceList a').forEach(function(a) { a.classList.remove('active'); }); l.classList.add('active'); currentSource = l.dataset.source; renderNews(); } };
+        document.getElementById('search').oninput = function(e) { searchQuery = e.target.value.toLowerCase(); renderNews(); };
         loadNews();
     </script>
 </body>
