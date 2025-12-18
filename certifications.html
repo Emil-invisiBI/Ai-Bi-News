@@ -48,6 +48,21 @@
         .resources-list li { margin-bottom: 12px; }
         .resources-list a { font-size: 0.9rem; color: var(--text-secondary); text-decoration: none; display: flex; align-items: center; gap: 8px; }
         .resources-list a:hover { color: var(--text); }
+        .journey { margin-bottom: 60px; }
+        .journey-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .journey-step { position: relative; padding: 24px; background: var(--bg); border: 1px solid var(--border); border-radius: 12px; }
+        .journey-number { position: absolute; top: -12px; left: 20px; background: var(--text); color: white; font-size: 0.7rem; font-weight: 700; padding: 4px 12px; border-radius: 20px; }
+        .journey-title { font-size: 1rem; font-weight: 600; margin-bottom: 8px; margin-top: 8px; }
+        .journey-desc { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+        .journey-time { font-size: 0.75rem; color: var(--text-muted); margin-top: 12px; display: flex; align-items: center; gap: 6px; }
+        .tips-box { background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; padding: 28px; margin-bottom: 60px; }
+        .tips-title { font-size: 1rem; font-weight: 600; margin-bottom: 16px; }
+        .tips-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+        .tip { display: flex; gap: 12px; }
+        .tip-icon { font-size: 1.2rem; }
+        .tip-content { flex: 1; }
+        .tip-label { font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+        .tip-text { font-size: 0.8rem; color: var(--text-secondary); line-height: 1.5; }
         footer { margin-top: 80px; padding: 40px 0; border-top: 1px solid var(--border); text-align: center; font-size: 0.75rem; color: var(--text-muted); }
         @media (max-width: 600px) { .cert-header { flex-direction: column; gap: 12px; } .cert-details { grid-template-columns: 1fr; } }
     </style>
@@ -278,6 +293,96 @@
                     <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/" target="_blank" class="cert-link">View on Microsoft Learn →</a>
                 </div>
 
+            </div>
+        </div>
+
+        <div class="section journey">
+            <div class="section-title">Your Learning Journey</div>
+            <div class="journey-grid">
+                <div class="journey-step">
+                    <span class="journey-number">Step 1</span>
+                    <div class="journey-title">Choose Your Path</div>
+                    <div class="journey-desc">Pick a certification based on your career goals. Start with fundamentals (AI-900) if you're new, or jump to associate level (DP-600, PL-300) if you have experience.</div>
+                    <div class="journey-time">⏱️ 30 minutes to research</div>
+                </div>
+                <div class="journey-step">
+                    <span class="journey-number">Step 2</span>
+                    <div class="journey-title">Study with Microsoft Learn</div>
+                    <div class="journey-desc">Complete the free learning paths on Microsoft Learn. Each certification has a dedicated collection of modules with hands-on exercises and knowledge checks.</div>
+                    <div class="journey-time">⏱️ 20-40 hours of study</div>
+                </div>
+                <div class="journey-step">
+                    <span class="journey-number">Step 3</span>
+                    <div class="journey-title">Hands-On Practice</div>
+                    <div class="journey-desc">Get practical experience using free trials. Microsoft Fabric offers a 60-day trial, and Azure provides $200 credit for new accounts to practice real scenarios.</div>
+                    <div class="journey-time">⏱️ 10-20 hours of practice</div>
+                </div>
+                <div class="journey-step">
+                    <span class="journey-number">Step 4</span>
+                    <div class="journey-title">Practice Assessment</div>
+                    <div class="journey-desc">Take the free official practice assessment to identify knowledge gaps. Review areas where you scored below 80% and revisit those modules.</div>
+                    <div class="journey-time">⏱️ 2-3 hours</div>
+                </div>
+                <div class="journey-step">
+                    <span class="journey-number">Step 5</span>
+                    <div class="journey-title">Schedule Your Exam</div>
+                    <div class="journey-desc">Book your exam through Pearson VUE. You can take it at a testing center or online from home. Schedule it 1-2 weeks out to create a deadline.</div>
+                    <div class="journey-time">⏱️ 15 minutes to schedule</div>
+                </div>
+                <div class="journey-step">
+                    <span class="journey-number">Step 6</span>
+                    <div class="journey-title">Pass & Celebrate! 🎉</div>
+                    <div class="journey-desc">Take the exam with confidence. You'll get your result immediately. Once passed, download your badge and share on LinkedIn. Certification is valid for 1 year.</div>
+                    <div class="journey-time">⏱️ 45-120 minutes exam</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tips-box">
+            <div class="tips-title">💡 Pro Tips for Success</div>
+            <div class="tips-grid">
+                <div class="tip">
+                    <span class="tip-icon">📅</span>
+                    <div class="tip-content">
+                        <div class="tip-label">Set a Target Date</div>
+                        <div class="tip-text">Book your exam first, then study. Having a deadline increases focus and commitment.</div>
+                    </div>
+                </div>
+                <div class="tip">
+                    <span class="tip-icon">🔄</span>
+                    <div class="tip-content">
+                        <div class="tip-label">Don't Just Read</div>
+                        <div class="tip-text">Complete every hands-on lab. The exams test practical knowledge, not just theory.</div>
+                    </div>
+                </div>
+                <div class="tip">
+                    <span class="tip-icon">📝</span>
+                    <div class="tip-content">
+                        <div class="tip-label">Review the Skills Outline</div>
+                        <div class="tip-text">Download the exam skills outline PDF. Ensure you can explain every bullet point.</div>
+                    </div>
+                </div>
+                <div class="tip">
+                    <span class="tip-icon">🎯</span>
+                    <div class="tip-content">
+                        <div class="tip-label">Focus on Weak Areas</div>
+                        <div class="tip-text">Spend 80% of your time on topics you find difficult, not ones you already know.</div>
+                    </div>
+                </div>
+                <div class="tip">
+                    <span class="tip-icon">⏰</span>
+                    <div class="tip-content">
+                        <div class="tip-label">Time Management</div>
+                        <div class="tip-text">During the exam, don't spend more than 2 minutes per question. Flag and return to hard ones.</div>
+                    </div>
+                </div>
+                <div class="tip">
+                    <span class="tip-icon">🔁</span>
+                    <div class="tip-content">
+                        <div class="tip-label">Retake If Needed</div>
+                        <div class="tip-text">If you don't pass, you can retake after 24 hours. Many people pass on their second attempt.</div>
+                    </div>
+                </div>
             </div>
         </div>
 
