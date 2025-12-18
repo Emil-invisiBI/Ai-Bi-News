@@ -256,6 +256,17 @@
             color: var(--text);
             line-height: 1.4;
             letter-spacing: -0.01em;
+            margin-bottom: 6px;
+        }
+
+        .article-desc {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .article-number {
@@ -446,6 +457,7 @@
                                 '<span class="article-date">' + formatDate(item.date) + '</span>' +
                             '</div>' +
                             '<h3 class="article-title">' + item.title + '</h3>' +
+                            '<p class="article-desc">' + item.description + '</p>' +
                         '</div>' +
                         '<div class="article-number">' + num + '</div>' +
                     '</div>';
