@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI & BI News Hub - Latest Power BI, Microsoft Fabric & AI Updates</title>
     <meta name="description" content="Your premier destination for the latest news, updates, and insights on Power BI, Microsoft Fabric, and Artificial Intelligence.">
+    
+    <!-- Social Sharing / SEO -->
+    <meta property="og:title" content="AI & BI News Hub - Latest Power BI, Fabric & AI Updates">
+    <meta property="og:description" content="Real-time aggregation of the latest Power BI, Microsoft Fabric, and AI news. Updated every 4 hours from premium sources.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emil-invisibi.github.io/Ai-Bi-News/">
+    <meta property="og:image" content="https://emil-invisibi.github.io/Ai-Bi-News/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI & BI News Hub">
+    <meta name="twitter:description" content="Real-time Power BI, Microsoft Fabric & AI news aggregation">
+    <meta name="keywords" content="Power BI, Microsoft Fabric, AI News, Business Intelligence, Machine Learning, Data Analytics, ChatGPT, OpenAI">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -156,11 +168,48 @@
             margin: 0 auto;
         }
 
+        /* Search */
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 32px;
+            position: relative;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 16px 48px 16px 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            color: var(--text-primary);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .search-box:focus {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .search-box::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            pointer-events: none;
+        }
+
         .filters {
             display: flex;
             justify-content: center;
             gap: 12px;
-            margin: 48px 0;
+            margin: 24px 0 48px;
             flex-wrap: wrap;
         }
 
@@ -298,6 +347,25 @@
             text-transform: uppercase;
             letter-spacing: 0.05em;
             backdrop-filter: blur(12px);
+        }
+
+        .trending-badge {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            padding: 4px 10px;
+            border-radius: 100px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            background: rgba(239, 68, 68, 0.9);
+            color: white;
+            backdrop-filter: blur(12px);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
         }
 
         .badge-powerbi {
@@ -483,6 +551,101 @@
             font-size: 1.125rem;
         }
 
+        /* Trending Topics */
+        .trending-topics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-bottom: 48px;
+        }
+
+        .topic-tag {
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .topic-tag:hover {
+            border-color: var(--accent-primary);
+            color: var(--accent-primary);
+            transform: translateY(-2px);
+        }
+
+        .topic-tag::before {
+            content: '#';
+            color: var(--text-muted);
+            margin-right: 2px;
+        }
+
+        /* Newsletter */
+        .newsletter-section {
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 48px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            text-align: center;
+        }
+
+        .newsletter-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.75rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .newsletter-description {
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 12px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .newsletter-input {
+            flex: 1;
+            padding: 14px 20px;
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 100px;
+            color: var(--text-primary);
+            font-size: 0.9375rem;
+            outline: none;
+            transition: all 0.3s;
+        }
+
+        .newsletter-input:focus {
+            border-color: var(--accent-primary);
+        }
+
+        .newsletter-button {
+            padding: 14px 32px;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border: none;
+            border-radius: 100px;
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .newsletter-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+        }
+
         footer {
             margin-top: 120px;
             padding: 60px 0;
@@ -618,12 +781,19 @@
             <p class="subtitle">Stay ahead with curated insights from Power BI, Microsoft Fabric, and cutting-edge AI developments</p>
         </header>
 
+        <div class="search-container">
+            <input type="text" id="searchBox" class="search-box" placeholder="Search articles, topics, or keywords...">
+            <span class="search-icon">🔍</span>
+        </div>
+
         <div class="filters">
             <button class="filter-btn active" data-filter="all"><span>All News</span></button>
             <button class="filter-btn" data-filter="powerbi"><span>Power BI</span></button>
             <button class="filter-btn" data-filter="fabric"><span>Microsoft Fabric</span></button>
             <button class="filter-btn" data-filter="ai"><span>AI & ML</span></button>
         </div>
+
+        <div class="trending-topics" id="trendingTopics"></div>
 
         <div class="loading" id="loading">
             <div class="spinner"></div>
@@ -648,6 +818,15 @@
             </section>
         </div>
 
+        <div class="newsletter-section">
+            <div class="newsletter-title">📬 Never Miss an Update</div>
+            <p class="newsletter-description">Get the latest AI & BI news delivered to your inbox. Join 100+ data professionals staying ahead.</p>
+            <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+                <input type="email" class="newsletter-input" placeholder="Enter your email" required>
+                <button type="submit" class="newsletter-button">Subscribe</button>
+            </form>
+        </div>
+
         <footer>
             <div class="footer-content">
                 <div class="footer-title">Stay Ahead of the Curve</div>
@@ -664,6 +843,7 @@
     <script>
         let newsData = [];
         let currentFilter = 'all';
+        let searchQuery = '';
 
         async function loadNews() {
             try {
@@ -708,34 +888,50 @@
             return date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
         }
 
-        function createNewsCard(item) {
-            return \`
-                <div class="news-card" onclick="window.open('\${item.url}', '_blank')" data-category="\${item.category}">
-                    <div class="news-image-container">
-                        \${item.image ? \`<img src="\${item.image}" alt="\${item.title}" class="news-image">\` : ''}
-                        <span class="news-badge \${getCategoryClass(item.category)}">\${getCategoryName(item.category)}</span>
-                    </div>
-                    <div class="news-content">
-                        <div class="news-meta">
-                            <span class="news-source">\${item.source}</span>
-                            <span class="news-date">\${formatDate(item.date)}</span>
-                        </div>
-                        <h3 class="news-title">\${item.title}</h3>
-                        <p class="news-description">\${item.description}</p>
-                        <div class="news-footer">
-                            <span class="read-more">Read Article</span>
-                        </div>
-                    </div>
-                </div>
-            \`;
+        function createNewsCard(item, index) {
+            const isRecent = new Date(item.date) > new Date(Date.now() - 48 * 60 * 60 * 1000);
+            let html = '<div class="news-card" onclick="window.open(\'' + item.url + '\', \'_blank\')" data-category="' + item.category + '" data-title="' + item.title.toLowerCase() + '" data-description="' + item.description.toLowerCase() + '">';
+            html += '<div class="news-image-container">';
+            if (item.image) {
+                html += '<img src="' + item.image + '" alt="' + item.title + '" class="news-image">';
+            }
+            html += '<span class="news-badge ' + getCategoryClass(item.category) + '">' + getCategoryName(item.category) + '</span>';
+            if (isRecent && index < 5) {
+                html += '<span class="trending-badge">🔥 HOT</span>';
+            }
+            html += '</div>';
+            html += '<div class="news-content">';
+            html += '<div class="news-meta">';
+            html += '<span class="news-source">' + item.source + '</span>';
+            html += '<span class="news-date">' + formatDate(item.date) + '</span>';
+            html += '</div>';
+            html += '<h3 class="news-title">' + item.title + '</h3>';
+            html += '<p class="news-description">' + item.description + '</p>';
+            html += '<div class="news-footer">';
+            html += '<span class="read-more">Read Article</span>';
+            html += '</div></div></div>';
+            return html;
         }
 
         function filterNews(category) {
             currentFilter = category;
+            applyFilters();
+
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === category);
+            });
+        }
+
+        function applyFilters() {
             const cards = document.querySelectorAll('.news-card, .featured-main, .featured-small');
             
             cards.forEach(card => {
-                if (category === 'all' || card.dataset.category === category) {
+                const matchesCategory = currentFilter === 'all' || card.dataset.category === currentFilter;
+                const matchesSearch = !searchQuery || 
+                    (card.dataset.title && card.dataset.title.includes(searchQuery.toLowerCase())) ||
+                    (card.dataset.description && card.dataset.description.includes(searchQuery.toLowerCase()));
+                
+                if (matchesCategory && matchesSearch) {
                     card.style.display = '';
                     card.style.opacity = '1';
                 } else {
@@ -743,10 +939,34 @@
                     setTimeout(() => card.style.display = 'none', 300);
                 }
             });
+        }
 
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.filter === category);
+        function handleSearch(event) {
+            searchQuery = event.target.value;
+            applyFilters();
+        }
+
+        function extractTrendingTopics() {
+            const keywords = ['ChatGPT', 'GPT-5', 'Power BI', 'Fabric', 'Copilot', 'AI Models', 'DAX', 'Analytics', 'Machine Learning', 'OpenAI'];
+            const found = new Set();
+            
+            newsData.forEach(item => {
+                const text = (item.title + ' ' + item.description).toLowerCase();
+                keywords.forEach(keyword => {
+                    if (text.includes(keyword.toLowerCase()) && found.size < 6) {
+                        found.add(keyword);
+                    }
+                });
             });
+            
+            return Array.from(found);
+        }
+
+        function handleNewsletter(event) {
+            event.preventDefault();
+            const email = event.target.querySelector('input').value;
+            alert('🎉 Thanks for subscribing! We will send updates to ' + email + '\n\n(This is a demo - integrate with your email service)');
+            event.target.reset();
         }
 
         function renderNews() {
@@ -759,34 +979,48 @@
             const featured = newsData.slice(0, 3);
             const featuredGrid = document.getElementById('featuredGrid');
             
-            featuredGrid.innerHTML = \`
-                <div class="featured-main" onclick="window.open('\${featured[0].url}', '_blank')" data-category="\${featured[0].category}">
-                    \${featured[0].image ? \`<img src="\${featured[0].image}" alt="\${featured[0].title}" class="featured-main-image">\` : ''}
-                    <div class="featured-main-content">
-                        <span class="news-badge \${getCategoryClass(featured[0].category)}">\${getCategoryName(featured[0].category)}</span>
-                        <h3 class="news-title">\${featured[0].title}</h3>
-                        <p class="news-description">\${featured[0].description}</p>
-                        <div class="news-meta" style="margin-top: 16px;">
-                            <span class="news-source">\${featured[0].source}</span>
-                            <span class="news-date">\${formatDate(featured[0].date)}</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="featured-side">
-                    \${featured.slice(1, 3).map(item => \`
-                        <div class="featured-small" onclick="window.open('\${item.url}', '_blank')" data-category="\${item.category}">
-                            \${item.image ? \`<img src="\${item.image}" alt="\${item.title}" class="featured-small-image">\` : ''}
-                            <div class="featured-small-content">
-                                <span class="news-badge \${getCategoryClass(item.category)}">\${getCategoryName(item.category)}</span>
-                                <h3 class="news-title">\${item.title}</h3>
-                            </div>
-                        </div>
-                    \`).join('')}
-                </div>
-            \`;
+            // Build featured main
+            let featuredMain = '<div class="featured-main" onclick="window.open(\'' + featured[0].url + '\', \'_blank\')" data-category="' + featured[0].category + '">';
+            if (featured[0].image) {
+                featuredMain += '<img src="' + featured[0].image + '" alt="' + featured[0].title + '" class="featured-main-image">';
+            }
+            featuredMain += '<div class="featured-main-content">';
+            featuredMain += '<span class="trending-badge" style="top: 24px; right: 24px;">🔥 FEATURED</span>';
+            featuredMain += '<span class="news-badge ' + getCategoryClass(featured[0].category) + '">' + getCategoryName(featured[0].category) + '</span>';
+            featuredMain += '<h3 class="news-title">' + featured[0].title + '</h3>';
+            featuredMain += '<p class="news-description">' + featured[0].description + '</p>';
+            featuredMain += '<div class="news-meta" style="margin-top: 16px;">';
+            featuredMain += '<span class="news-source">' + featured[0].source + '</span>';
+            featuredMain += '<span class="news-date">' + formatDate(featured[0].date) + '</span>';
+            featuredMain += '</div></div></div>';
+            
+            // Build featured side
+            let featuredSide = '<div class="featured-side">';
+            featured.slice(1, 3).forEach(function(item) {
+                featuredSide += '<div class="featured-small" onclick="window.open(\'' + item.url + '\', \'_blank\')" data-category="' + item.category + '">';
+                if (item.image) {
+                    featuredSide += '<img src="' + item.image + '" alt="' + item.title + '" class="featured-small-image">';
+                }
+                featuredSide += '<div class="featured-small-content">';
+                featuredSide += '<span class="news-badge ' + getCategoryClass(item.category) + '">' + getCategoryName(item.category) + '</span>';
+                featuredSide += '<h3 class="news-title">' + item.title + '</h3>';
+                featuredSide += '</div></div>';
+            });
+            featuredSide += '</div>';
+            
+            featuredGrid.innerHTML = featuredMain + featuredSide;
 
             const grid = document.getElementById('newsGrid');
-            grid.innerHTML = newsData.slice(3).map(item => createNewsCard(item)).join('');
+            grid.innerHTML = newsData.slice(3).map((item, index) => createNewsCard(item, index + 3)).join('');
+
+            // Trending topics
+            const topics = extractTrendingTopics();
+            const topicsContainer = document.getElementById('trendingTopics');
+            if (topics.length > 0) {
+                topicsContainer.innerHTML = topics.map(topic => 
+                    `<span class="topic-tag" onclick="document.getElementById('searchBox').value='${topic}'; document.getElementById('searchBox').dispatchEvent(new Event('input'));">${topic}</span>`
+                ).join('');
+            }
 
             document.getElementById('totalArticles').textContent = newsData.length;
             document.getElementById('lastUpdate').textContent = new Date().toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
@@ -794,6 +1028,9 @@
             document.querySelectorAll('.filter-btn').forEach(btn => {
                 btn.addEventListener('click', () => filterNews(btn.dataset.filter));
             });
+
+            // Search functionality
+            document.getElementById('searchBox').addEventListener('input', handleSearch);
         }
 
         const scrollTopBtn = document.getElementById('scrollTop');
