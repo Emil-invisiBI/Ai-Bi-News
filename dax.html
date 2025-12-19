@@ -81,6 +81,36 @@
         .related-link{font-size:.8rem;padding:4px 10px;background:var(--hover);border-radius:4px;color:var(--accent);text-decoration:none;cursor:pointer}
         .related-link:hover{background:var(--border)}
         .expand-hint{font-size:.75rem;color:var(--text-muted);text-align:center;margin-top:8px}
+        /* Try It Interactive Section */
+        .tryit{background:linear-gradient(135deg,#eff6ff,#f0fdf4);border:2px solid var(--accent);border-radius:10px;padding:16px;margin-top:12px}
+        body.dark .tryit{background:linear-gradient(135deg,#1e293b,#1a2e1a)}
+        .tryit-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+        .tryit-title{font-size:.85rem;font-weight:600;color:var(--accent);display:flex;align-items:center;gap:8px}
+        .tryit-badge{background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff;padding:3px 8px;border-radius:10px;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+        .tryit-inputs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+        .tryit-input-group{flex:1;min-width:100px}
+        .tryit-input-group label{display:block;font-size:.7rem;color:var(--text-muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.03em}
+        .tryit-input{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:8px;font-size:.9rem;font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--text);transition:all .2s}
+        .tryit-input:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,102,255,.15)}
+        .tryit-values{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px;min-height:32px;padding:8px;background:var(--hover);border-radius:8px}
+        .tryit-tag{background:var(--accent);color:#fff;padding:4px 10px;border-radius:15px;font-size:.8rem;display:flex;align-items:center;gap:6px;font-family:'JetBrains Mono',monospace}
+        .tryit-tag button{background:rgba(255,255,255,.25);border:none;color:#fff;width:16px;height:16px;border-radius:50%;cursor:pointer;font-size:.65rem;display:flex;align-items:center;justify-content:center;transition:background .2s}
+        .tryit-tag button:hover{background:rgba(255,255,255,.4)}
+        .tryit-add{display:flex;gap:8px;margin-bottom:12px}
+        .tryit-add input{flex:1;padding:8px 12px;border:1px solid var(--border);border-radius:6px;font-size:.85rem;font-family:'JetBrains Mono',monospace;background:var(--bg);color:var(--text)}
+        .tryit-add input:focus{outline:none;border-color:var(--accent)}
+        .tryit-add button{background:var(--accent);color:#fff;border:none;padding:8px 16px;border-radius:6px;font-size:.8rem;cursor:pointer;font-weight:500;transition:all .2s}
+        .tryit-add button:hover{background:#0052cc}
+        .tryit-formula{background:var(--code-bg);padding:12px;border-radius:8px;margin-bottom:12px;font-family:'JetBrains Mono',monospace;font-size:.85rem;overflow-x:auto}
+        .tryit-formula .hl{background:var(--accent);color:#fff;padding:1px 6px;border-radius:4px;margin:0 2px}
+        .tryit-result{display:flex;align-items:center;gap:12px;background:var(--bg);padding:14px;border-radius:8px;border:2px solid var(--success)}
+        .tryit-result-icon{font-size:1.5rem}
+        .tryit-result-content{flex:1}
+        .tryit-result-label{font-size:.7rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em}
+        .tryit-result-value{font-size:1.4rem;font-weight:700;color:var(--success);font-family:'JetBrains Mono',monospace}
+        .tryit-result.error{border-color:#ef4444}
+        .tryit-result.error .tryit-result-value{color:#ef4444}
+        .tryit-help{font-size:.75rem;color:var(--text-muted);margin-top:10px;font-style:italic}
         .empty{text-align:center;padding:60px;color:var(--text-muted)}
         .toast{position:fixed;bottom:24px;right:24px;background:var(--text);color:var(--bg);padding:12px 20px;border-radius:8px;font-size:.85rem;opacity:0;transform:translateY(10px);transition:all .3s;z-index:1000}
         .toast.show{opacity:1;transform:translateY(0)}
@@ -103,7 +133,7 @@
     <div class="page-wrapper">
         <header>
             <h1 class="hero-title">DAX Reference</h1>
-            <p class="hero-subtitle">60+ functions with examples, pro tips & one-click copy</p>
+            <p class="hero-subtitle">60+ functions with examples, pro tips, one-click copy & <strong style="color:var(--accent)">interactive calculators</strong></p>
         </header>
         <main>
             <div class="toolbar">
@@ -143,6 +173,39 @@
     <div class="toast" id="toast"></div>
     <script>
 const catLabels={aggregation:'Aggregation',filter:'Filter',logical:'Logical',text:'Text',date:'Date & Time',table:'Table',relationship:'Relationship'};
+
+// Interactive Try It configurations for functions
+const tryItConfigs = {
+    SUM: { type:'multi', label:'Enter values to sum', calc:(vals)=>vals.reduce((a,b)=>a+b,0), format:'#,##0.00' },
+    AVERAGE: { type:'multi', label:'Enter values to average', calc:(vals)=>vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:0, format:'#,##0.00' },
+    COUNT: { type:'multi', label:'Enter values (numbers only)', calc:(vals)=>vals.filter(v=>!isNaN(v)).length, format:'#,##0' },
+    COUNTA: { type:'multi', label:'Enter values (any)', calc:(vals)=>vals.length, format:'#,##0' },
+    COUNTROWS: { type:'multi', label:'Enter values (rows)', calc:(vals)=>vals.length, format:'#,##0' },
+    DISTINCTCOUNT: { type:'multi', label:'Enter values (duplicates allowed)', calc:(vals)=>[...new Set(vals)].length, format:'#,##0' },
+    MIN: { type:'multi', label:'Enter values', calc:(vals)=>vals.length?Math.min(...vals):0, format:'#,##0.00' },
+    MAX: { type:'multi', label:'Enter values', calc:(vals)=>vals.length?Math.max(...vals):0, format:'#,##0.00' },
+    DIVIDE: { type:'fields', fields:[{name:'numerator',label:'Numerator',default:100},{name:'denominator',label:'Denominator',default:4},{name:'alt',label:'Alt Result',default:0}], calc:(v)=>v.denominator!==0?v.numerator/v.denominator:v.alt, format:'#,##0.00' },
+    IF: { type:'fields', fields:[{name:'value',label:'Test Value',default:75},{name:'threshold',label:'Threshold',default:50}], calc:(v)=>v.value>v.threshold?'TRUE (value > threshold)':'FALSE (value ≤ threshold)', isText:true },
+    ABS: { type:'fields', fields:[{name:'value',label:'Value',default:-42}], calc:(v)=>Math.abs(v.value), format:'#,##0.00' },
+    ROUND: { type:'fields', fields:[{name:'value',label:'Value',default:3.14159},{name:'decimals',label:'Decimals',default:2}], calc:(v)=>parseFloat(v.value.toFixed(v.decimals)), format:'auto' },
+    LEFT: { type:'text', fields:[{name:'text',label:'Text',default:'Hello World',isText:true},{name:'num',label:'Characters',default:5}], calc:(v)=>v.text.substring(0,v.num), isText:true },
+    RIGHT: { type:'text', fields:[{name:'text',label:'Text',default:'Hello World',isText:true},{name:'num',label:'Characters',default:5}], calc:(v)=>v.text.slice(-v.num), isText:true },
+    MID: { type:'text', fields:[{name:'text',label:'Text',default:'Hello World',isText:true},{name:'start',label:'Start Pos',default:1},{name:'num',label:'Characters',default:5}], calc:(v)=>v.text.substring(v.start-1,v.start-1+v.num), isText:true },
+    LEN: { type:'text', fields:[{name:'text',label:'Text',default:'Hello World',isText:true}], calc:(v)=>v.text.length, format:'#,##0' },
+    UPPER: { type:'text', fields:[{name:'text',label:'Text',default:'hello world',isText:true}], calc:(v)=>v.text.toUpperCase(), isText:true },
+    LOWER: { type:'text', fields:[{name:'text',label:'Text',default:'HELLO WORLD',isText:true}], calc:(v)=>v.text.toLowerCase(), isText:true },
+    TRIM: { type:'text', fields:[{name:'text',label:'Text',default:'  Hello   World  ',isText:true}], calc:(v)=>v.text.trim().replace(/\s+/g,' '), isText:true },
+    CONCATENATE: { type:'text', fields:[{name:'text1',label:'Text 1',default:'Hello',isText:true},{name:'text2',label:'Text 2',default:'World',isText:true}], calc:(v)=>v.text1+' '+v.text2, isText:true },
+    YEAR: { type:'date', fields:[{name:'date',label:'Date',default:'2024-06-15',isDate:true}], calc:(v)=>new Date(v.date).getFullYear(), format:'#,##0' },
+    MONTH: { type:'date', fields:[{name:'date',label:'Date',default:'2024-06-15',isDate:true}], calc:(v)=>new Date(v.date).getMonth()+1, format:'#,##0' },
+    DAY: { type:'date', fields:[{name:'date',label:'Date',default:'2024-06-15',isDate:true}], calc:(v)=>new Date(v.date).getDate(), format:'#,##0' },
+    WEEKDAY: { type:'date', fields:[{name:'date',label:'Date',default:'2024-06-15',isDate:true}], calc:(v)=>{const d=new Date(v.date).getDay();const days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];return (d+1)+' ('+days[d]+')';}, isText:true },
+    DATEDIFF: { type:'date', fields:[{name:'start',label:'Start Date',default:'2024-01-01',isDate:true},{name:'end',label:'End Date',default:'2024-12-31',isDate:true}], calc:(v)=>{const diff=new Date(v.end)-new Date(v.start);return Math.round(diff/(1000*60*60*24));}, format:'#,##0', suffix:' days' },
+};
+
+// Store for try it values
+let tryItValues = {};
+
 const daxFunctions=[
 {name:"SUM",category:"aggregation",level:"beginner",desc:"Adds all numbers in a column.",syntax:"SUM(<column>)",example:"Total Sales = SUM(Sales[Amount])",tip:"Use SUMX when you need to calculate row-by-row before summing.",warning:"Returns blank if no rows, not zero.",related:["SUMX","AVERAGE","COUNT"]},
 {name:"AVERAGE",category:"aggregation",level:"beginner",desc:"Returns the average of all numbers in a column.",syntax:"AVERAGE(<column>)",example:"Avg Price = AVERAGE(Products[Price])",tip:"AVERAGE ignores blanks but includes zeros.",related:["AVERAGEX","SUM","MEDIAN"]},
@@ -223,6 +286,54 @@ const daxFunctions=[
 ];
 let currentCat='all',searchQuery='',viewMode='list',expandedId=null;
 let favorites=JSON.parse(localStorage.getItem('dax_favorites')||'[]');
+
+function formatNum(n,fmt){if(fmt==='auto')return n;if(typeof n==='string')return n;return n.toLocaleString('en-US',{minimumFractionDigits:fmt.includes('00')?2:0,maximumFractionDigits:2});}
+
+function getTryItHTML(fname){
+    const cfg=tryItConfigs[fname];
+    if(!cfg)return '';
+    if(!tryItValues[fname])tryItValues[fname]=cfg.type==='multi'?[]:cfg.fields.reduce((o,f)=>({...o,[f.name]:f.default}),{});
+    const vals=tryItValues[fname];
+    let inputsHTML='',formulaHTML='',result='',resultClass='';
+    
+    if(cfg.type==='multi'){
+        const valsDisplay=vals.length?vals.map((v,i)=>'<span class="tryit-tag">'+v+'<button onclick="removeTryItVal(\''+fname+'\','+i+')">×</button></span>').join(''):'<span style="color:var(--text-muted);font-size:.8rem">No values yet - add some below!</span>';
+        inputsHTML='<div class="tryit-values">'+valsDisplay+'</div><div class="tryit-add"><input type="number" id="tryit-add-'+fname+'" placeholder="Enter a number..." onkeypress="if(event.key===\'Enter\')addTryItVal(\''+fname+'\')"><button onclick="addTryItVal(\''+fname+'\')">+ Add</button></div>';
+        formulaHTML=fname+'( <span class="hl">'+(vals.length?vals.join(', '):'...')+' </span>)';
+        result=vals.length?cfg.calc(vals):'Enter values to see result';
+        resultClass=vals.length?'':'error';
+    } else {
+        inputsHTML='<div class="tryit-inputs">'+cfg.fields.map(f=>'<div class="tryit-input-group"><label>'+f.label+'</label><input type="'+(f.isDate?'date':f.isText?'text':'number')+'" class="tryit-input" value="'+(vals[f.name]??f.default)+'" onchange="updateTryItField(\''+fname+'\',\''+f.name+'\',this.value,'+(f.isText||f.isDate?'true':'false')+')"></div>').join('')+'</div>';
+        const hlVals=cfg.fields.map(f=>'<span class="hl">'+(vals[f.name]??f.default)+'</span>');
+        formulaHTML=fname+'( '+hlVals.join(', ')+' )';
+        try{result=cfg.calc(vals);if(cfg.suffix)result=formatNum(result,cfg.format)+cfg.suffix;else if(!cfg.isText)result=formatNum(result,cfg.format);}catch(e){result='Error';resultClass='error';}
+    }
+    
+    return '<div class="tryit"><div class="tryit-header"><div class="tryit-title">🧪 Try It Live <span class="tryit-badge">Interactive</span></div></div>'+inputsHTML+'<div class="tryit-formula">'+formulaHTML+'</div><div class="tryit-result '+resultClass+'"><span class="tryit-result-icon">→</span><div class="tryit-result-content"><div class="tryit-result-label">Result</div><div class="tryit-result-value">'+result+'</div></div></div><div class="tryit-help">💡 Change the values above to see the formula calculate in real-time!</div></div>';
+}
+
+function addTryItVal(fname){
+    const input=document.getElementById('tryit-add-'+fname);
+    const val=parseFloat(input.value);
+    if(!isNaN(val)){
+        if(!tryItValues[fname])tryItValues[fname]=[];
+        tryItValues[fname].push(val);
+        input.value='';
+        render();
+    }
+}
+
+function removeTryItVal(fname,idx){
+    tryItValues[fname].splice(idx,1);
+    render();
+}
+
+function updateTryItField(fname,field,value,isText){
+    if(!tryItValues[fname])tryItValues[fname]={};
+    tryItValues[fname][field]=isText?value:parseFloat(value)||0;
+    render();
+}
+
 function render(){
     let filtered=daxFunctions;
     if(currentCat==='favorites')filtered=filtered.filter(f=>favorites.includes(f.name));
@@ -235,7 +346,8 @@ function render(){
     empty.style.display='none';
     container.innerHTML=filtered.map(f=>{
         const isFav=favorites.includes(f.name),isExpanded=expandedId===f.name;
-        return '<div class="function '+(isExpanded?'expanded':'')+'" data-name="'+f.name+'"><div class="function-header"><div class="function-left"><span class="function-name" onclick="toggleExpand(\''+f.name+'\')">'+f.name+'</span><button class="fav-btn '+(isFav?'active':'')+'" onclick="toggleFav(\''+f.name+'\')" title="'+(isFav?'Remove from':'Add to')+' favorites">★</button></div><div class="function-badges"><span class="badge cat">'+catLabels[f.category]+'</span><span class="badge level '+f.level+'">'+f.level+'</span></div></div><p class="function-desc">'+f.desc+'</p><div class="code-block"><div class="code-header"><span>Syntax</span><button class="copy-btn" onclick="copyCode(this)">📋 Copy</button></div><div class="code-content">'+f.syntax+'</div></div><div class="code-block"><div class="code-header"><span>Example</span><button class="copy-btn" onclick="copyCode(this)">📋 Copy</button></div><div class="code-content">'+f.example+'</div></div>'+(!isExpanded?'<div class="expand-hint">Click function name for tips & more ↓</div>':'')+'<div class="function-extra">'+(f.tip?'<div class="extra-section"><div class="tip">💡 <strong>Pro Tip:</strong> '+f.tip+'</div></div>':'')+(f.warning?'<div class="extra-section"><div class="warning">⚠️ <strong>Watch out:</strong> '+f.warning+'</div></div>':'')+(f.related?'<div class="extra-section"><div class="extra-title">Related Functions</div><div class="related">'+f.related.map(r=>'<span class="related-link" onclick="searchFor(\''+r+'\')">'+r+'</span>').join('')+'</div></div>':'')+'</div></div>';
+        const hasTryIt=tryItConfigs[f.name];
+        return '<div class="function '+(isExpanded?'expanded':'')+'" data-name="'+f.name+'"><div class="function-header"><div class="function-left"><span class="function-name" onclick="toggleExpand(\''+f.name+'\')">'+f.name+'</span><button class="fav-btn '+(isFav?'active':'')+'" onclick="toggleFav(\''+f.name+'\')" title="'+(isFav?'Remove from':'Add to')+' favorites">★</button>'+(hasTryIt?'<span class="tryit-badge" style="font-size:.6rem;margin-left:4px">TRY IT</span>':'')+'</div><div class="function-badges"><span class="badge cat">'+catLabels[f.category]+'</span><span class="badge level '+f.level+'">'+f.level+'</span></div></div><p class="function-desc">'+f.desc+'</p><div class="code-block"><div class="code-header"><span>Syntax</span><button class="copy-btn" onclick="copyCode(this)">📋 Copy</button></div><div class="code-content">'+f.syntax+'</div></div><div class="code-block"><div class="code-header"><span>Example</span><button class="copy-btn" onclick="copyCode(this)">📋 Copy</button></div><div class="code-content">'+f.example+'</div></div>'+(!isExpanded?'<div class="expand-hint">Click function name for '+(hasTryIt?'interactive calculator, ':'')+'tips & more ↓</div>':'')+'<div class="function-extra">'+(isExpanded&&hasTryIt?getTryItHTML(f.name):'')+(f.tip?'<div class="extra-section"><div class="tip">💡 <strong>Pro Tip:</strong> '+f.tip+'</div></div>':'')+(f.warning?'<div class="extra-section"><div class="warning">⚠️ <strong>Watch out:</strong> '+f.warning+'</div></div>':'')+(f.related?'<div class="extra-section"><div class="extra-title">Related Functions</div><div class="related">'+f.related.map(r=>'<span class="related-link" onclick="searchFor(\''+r+'\')">'+r+'</span>').join('')+'</div></div>':'')+'</div></div>';
     }).join('');
 }
 function toggleExpand(name){expandedId=expandedId===name?null:name;render();}
