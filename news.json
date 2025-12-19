@@ -1,5 +1,14 @@
 [
   {
+    "title": "Run Spark Job Definitions in Pipelines with Service Principal or Workspace Identity",
+    "description": "The Spark job definition activity in Microsoft Fabric Data Factory pipelines now supports connection property, unlocking a more secure and production-ready way to run your SJDs. What’s New? With this...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T14:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/run-spark-job-definitions-in-pipelines-with-service-principal-or-workspace-identity/",
+    "image": null
+  },
+  {
     "title": "Evaluating chain-of-thought monitorability",
     "description": "OpenAI introduces a new framework and evaluation suite for chain-of-thought monitorability, covering 13 evaluations across 24 environments. Our findings show that monitoring a model’s internal reasoni...",
     "category": "ai",
@@ -33,6 +42,51 @@
     "source": "OpenAI Blog",
     "date": "2025-12-18T11:00:00.000Z",
     "url": "https://openai.com/index/us-department-of-energy-collaboration",
+    "image": null
+  },
+  {
+    "title": "How to Connect Microsoft Fabric to Azure DevOps Using Service Principal",
+    "description": "Following Azure DevOps Service Principal & Cross Tenant Support (Generally Available) announcement for service principal and cross-tenant support – Microsoft Fabric Git Integration with Azure DevOps (...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T10:30:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/how-to-connect-microsoft-fabric-to-azure-devops-using-service-principal/",
+    "image": null
+  },
+  {
+    "title": "Fabric Eventstream SQL Operator: Your tool kit to Real-Time data processing in Fabric Real-Time Intelligence",
+    "description": "As data becomes more immediate, the gap between when an event occurs and when you must use its insights is getting smaller. Fabric Eventstreams enables users to ingest, transform, extract insights and...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T09:59:11.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-eventstream-sql-operator-your-tool-kit-to-real-time-data-processing-in-fabric-real-time-intelligence/",
+    "image": null
+  },
+  {
+    "title": "On-premises data gateway December 2025 release",
+    "description": "Here is the December 2025 release of the on-premises data gateway (version 3000.298)....",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-december-2025-release/",
+    "image": null
+  },
+  {
+    "title": "DATE_BUCKET() function in Fabric Data Warehouse (Generally Available)",
+    "description": "Unlock Flexible Time-Based Reporting with DATE_BUCKET() in Microsoft Fabric DW!\nMicrosoft Fabric Data Warehouse continues to evolve with powerful features that make analytics easier and more adaptable...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/date_bucket-function-in-fabric-data-warehouse/",
+    "image": null
+  },
+  {
+    "title": "2025 Year in Review: What&#8217;s new across SQL Server, Azure SQL and SQL database in Fabric",
+    "description": "What a year 2025 has been for SQL! ICYMI and are looking for some hype, might I recommend you start with this blog from Priya Sathy, the product leader for all of SQL at Microsoft: One consistent SQL:...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-18T07:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/2025-year-in-review-whats-new-across-sql-server-azure-sql-and-sql-database-in-fabric/",
     "image": null
   },
   {
@@ -78,6 +132,51 @@
     "source": "OpenAI Blog",
     "date": "2025-12-17T00:00:00.000Z",
     "url": "https://openai.com/index/developers-can-now-submit-apps-to-chatgpt",
+    "image": null
+  },
+  {
+    "title": "SQL Telemetry &amp; Intelligence &#8211; How we built a Petabyte-scale Data Platform with Fabric",
+    "description": "Building a Petabyte-scale Data Platform with Fabric and SQL Telemetry and Intelligence Engineering team....",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-16T10:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-telemetry-intelligence-how-we-built-a-petabyte-scale-data-platform-with-fabric/",
+    "image": null
+  },
+  {
+    "title": "Announcing the Fabric Extensibility Toolkit Contest",
+    "description": "We’re launching a new community contest inviting you to build innovative workload concepts that showcase what’s possible with the Fabric Extensibility Toolkit....",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-16T09:30:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-the-fabric-extensibility-toolkit-contest/",
+    "image": null
+  },
+  {
+    "title": "Power BI 2025 holiday recap: A decade of innovation and impact",
+    "description": "2025 was a monumental year for Microsoft Power BI, marked by its 10-year anniversary and a series of community celebrations, global contests, and product advancements that delivered new capabilities e...",
+    "category": "powerbi",
+    "source": "Power BI Blog",
+    "date": "2025-12-16T09:00:00.000Z",
+    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/",
+    "image": null
+  },
+  {
+    "title": "From Simple Prompts to Complex Insights: AI Expands the Boundaries of Data Transformation (Preview)",
+    "description": "In today’s fast-paced business environment, efficiency, and adaptability are essential. Organizations are under constant pressure to streamline processes, reduce complexity, and deliver results faster...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-16T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-simple-prompts-to-complex-insights-ai-expands-the-boundaries-of-data-transformation/",
+    "image": null
+  },
+  {
+    "title": "Microsoft Fabric 2025 holiday recap: Unified Data and AI Innovation",
+    "description": "As 2025 ends, we’re taking a moment to reflect on Microsoft Fabric’s second year in the market and the collective progress made alongside our community, customers, and partners. What began as a unifie...",
+    "category": "fabric",
+    "source": "Unknown",
+    "date": "2025-12-16T09:00:00.000Z",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-fabric-2025-holiday-recap-unified-data-an-ai-innovation/",
     "image": null
   },
   {
@@ -168,105 +267,6 @@
     "source": "OpenAI Blog",
     "date": "2025-12-11T00:00:00.000Z",
     "url": "https://openai.com/index/ten-years",
-    "image": null
-  },
-  {
-    "title": "Update to GPT-5 System Card: GPT-5.2",
-    "description": "GPT-5.2 is the latest model family in the GPT-5 series. The comprehensive safety mitigation approach for these models is largely the same as that described in the GPT-5 System Card and GPT-5.1 System...",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-11T00:00:00.000Z",
-    "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2",
-    "image": null
-  },
-  {
-    "title": "Increasing revenue 300% by bringing AI to SMBs",
-    "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers....",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-11T00:00:00.000Z",
-    "url": "https://openai.com/index/podium",
-    "image": null
-  },
-  {
-    "title": "Strengthening cyber resilience as AI capabilities advance",
-    "description": "OpenAI is investing in stronger safeguards and defensive capabilities as AI models become more powerful in cybersecurity. We explain how we assess risk, limit misuse, and work with the security commun...",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-10T12:00:00.000Z",
-    "url": "https://openai.com/index/strengthening-cyber-resilience",
-    "image": null
-  },
-  {
-    "title": "How Scout24 is building the next generation of real-estate search with AI",
-    "description": "Scout24 has created a GPT-5 powered conversational assistant that reimagines real-estate search, guiding users with clarifying questions, summaries, and tailored listing recommendations....",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-09T16:00:00.000Z",
-    "url": "https://openai.com/index/scout24",
-    "image": null
-  },
-  {
-    "title": "OpenAI co-founds Agentic AI Foundation, donates AGENTS.md",
-    "description": "OpenAI co-founds the Agentic AI Foundation under the Linux Foundation and donates AGENTS.md to support open, interoperable standards for safe agentic AI....",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-09T09:00:00.000Z",
-    "url": "https://openai.com/index/agentic-ai-foundation",
-    "image": null
-  },
-  {
-    "title": "Launching our first OpenAI Certifications courses",
-    "description": "Learn how OpenAI’s new certifications and AI Foundations courses help people build real-world AI skills, boost career opportunities, and prepare for the future of work....",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-09T06:00:00.000Z",
-    "url": "https://openai.com/index/openai-certificate-courses",
-    "image": null
-  },
-  {
-    "title": "Building AI fluency at scale with ChatGPT Enterprise",
-    "description": "Commonwealth Bank of Australia partners with OpenAI to roll out ChatGPT Enterprise to 50,000 employees, building AI fluency at scale to improve customer service and fraud response....",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-09T00:00:00.000Z",
-    "url": "https://openai.com/index/commonwealth-bank-of-australia",
-    "image": null
-  },
-  {
-    "title": "OpenAI appoints Denise Dresser as Chief Revenue Officer",
-    "description": "Denise Dresser is joining as Chief Revenue Officer, overseeing OpenAI’s global revenue strategy across enterprise and customer success. She will help more businesses put AI to work in their day-to-day...",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-09T00:00:00.000Z",
-    "url": "https://openai.com/index/openai-appoints-denise-dresser",
-    "image": null
-  },
-  {
-    "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-    "description": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche...",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-09T00:00:00.000Z",
-    "url": "https://openai.com/index/deutsche-telekom-collaboration",
-    "image": null
-  },
-  {
-    "title": "Instacart and OpenAI partner on AI shopping experiences",
-    "description": "OpenAI and Instacart are deepening their longstanding partnership by bringing the first fully integrated grocery shopping and Instant Checkout payment app to ChatGPT....",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-08T06:00:00.000Z",
-    "url": "https://openai.com/index/instacart-partnership",
-    "image": null
-  },
-  {
-    "title": "The state of enterprise AI",
-    "description": "Key findings from OpenAI’s enterprise data show accelerating AI adoption, deeper integration, and measurable productivity gains across industries in 2025....",
-    "category": "ai",
-    "source": "OpenAI Blog",
-    "date": "2025-12-08T04:00:00.000Z",
-    "url": "https://openai.com/index/the-state-of-enterprise-ai-2025-report",
     "image": null
   }
 ]
