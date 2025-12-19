@@ -72,7 +72,7 @@
                 <button class="filter active" data-source="all">All</button>
                 <button class="filter" data-source="powerbi">Power BI</button>
                 <button class="filter" data-source="fabric">Microsoft Fabric</button>
-                <button class="filter" data-source="openai">OpenAI</button>
+                <button class="filter" data-source="ai">OpenAI</button>
             </div>
 
             <div class="search-wrapper">
@@ -116,7 +116,7 @@
 
             container.innerHTML = filtered.map(article => {
                 const date = new Date(article.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-                const sourceLabel = article.category === 'powerbi' ? 'Power BI' : article.category === 'fabric' ? 'Fabric' : 'OpenAI';
+                const sourceLabel = article.category === 'powerbi' ? 'Power BI' : article.category === 'fabric' ? 'Fabric' : article.category === 'ai' ? 'OpenAI' : article.category;
                 return `<article class="article" onclick="window.open('${article.url}', '_blank')">
                     <div class="article-meta"><span class="article-source">${sourceLabel}</span><span class="article-date">${date}</span></div>
                     <h2 class="article-title">${article.title}</h2>
