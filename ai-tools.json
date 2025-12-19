@@ -1,39 +1,60 @@
 {
-  "lastUpdated": "2025-12-19T13:09:03.598Z",
+  "lastUpdated": "2025-12-19T13:29:23.430Z",
   "tools": [
     {
       "name": "Rocket",
       "url": "https://www.rocket.new/?utm_source=websitebanner&utm_medium=taaft&utm_campaign=week11dec",
       "description": "Vibe coding",
-      "category": "coding",
+      "category": "code",
       "free": true
     },
     {
-      "name": "AI Image Generator",
+      "name": "Generate images",
       "url": "/@taaft/image-generator/?ref=header",
-      "description": "Generate images",
+      "description": "Generate images using AI.",
       "category": "image",
       "free": true
     },
     {
-      "name": "Create AI Tools",
-      "url": "/create/?ref=header_link",
-      "description": "Create AI Tools",
-      "category": "tool",
-      "free": true
-    },
-    {
-      "name": "Generate Image",
-      "url": "https://theresanaiforthat.com/generate/image/",
-      "description": "Generate images quickly",
-      "category": "image",
-      "free": true
-    },
-    {
-      "name": "Generate Text",
-      "url": "https://theresanaiforthat.com/generate/text/",
-      "description": "Quickly generate text",
+      "name": "Generate text",
+      "url": "#",
+      "description": "Create AI-generated text.",
       "category": "writing",
+      "free": true
+    },
+    {
+      "name": "Tasks",
+      "url": "https://theresanaiforthat.com/tasks/",
+      "description": "Browse various AI tasks.",
+      "category": "data",
+      "free": true
+    },
+    {
+      "name": "Trending tools",
+      "url": "/trending/",
+      "description": "Explore trending AI tools.",
+      "category": "data",
+      "free": true
+    },
+    {
+      "name": "Mini tools",
+      "url": "https://theresanaiforthat.com/mini-tools/",
+      "description": "Browse mini AI tools.",
+      "category": "data",
+      "free": true
+    },
+    {
+      "name": "Characters",
+      "url": "https://theresanaiforthat.com/characters/",
+      "description": "Explore AI-generated characters.",
+      "category": "data",
+      "free": true
+    },
+    {
+      "name": "Agents",
+      "url": "https://theresanaiforthat.com/agents/",
+      "description": "AI agents for various tasks.",
+      "category": "chat",
       "free": true
     }
   ]
