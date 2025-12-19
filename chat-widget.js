@@ -1,15 +1,7 @@
 // AI Chat Widget - Powered by Hugging Face (Free)
 (function() {
-    const SYSTEM_PROMPT = `You are a helpful AI assistant for a Business Intelligence and AI news website. You specialize in:
-- Power BI, Microsoft Fabric, and Azure data services
-- DAX formulas and M/Power Query
-- Data visualization best practices
-- AI tools and concepts (OpenAI, machine learning basics)
-- Microsoft certifications (DP-600, PL-300, AI-102, etc.)
+    const SYSTEM_PROMPT = `You are a helpful AI assistant for a Business Intelligence and AI news website. You specialize in Power BI, Microsoft Fabric, DAX, and AI tools. Be concise and helpful.`;
 
-Be concise, friendly, and practical. If you don't know something, say so. Format responses with markdown when helpful.`;
-
-    // Create widget HTML
     const widget = document.createElement('div');
     widget.id = 'ai-chat-widget';
     widget.innerHTML = `
@@ -25,7 +17,7 @@ Be concise, friendly, and practical. If you don't know something, say so. Format
             </div>
             <div id="chat-messages">
                 <div class="chat-msg bot">
-                    <div class="msg-content">Hi! I'm your AI assistant for BI & AI questions. Ask me about Power BI, Fabric, DAX, certifications, or AI tools!</div>
+                    <div class="msg-content">Hi! Ask me about Power BI, Fabric, DAX, certifications, or AI tools!</div>
                 </div>
             </div>
             <div id="chat-input-area">
@@ -41,12 +33,11 @@ Be concise, friendly, and practical. If you don't know something, say so. Format
         </div>
     `;
 
-    // Create styles
     const styles = document.createElement('style');
     styles.textContent = `
         #ai-chat-widget { position: fixed; bottom: 24px; right: 24px; z-index: 9999; font-family: 'Inter', -apple-system, sans-serif; }
-        #chat-toggle { width: 56px; height: 56px; border-radius: 50%; background: #111; color: white; border: none; cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,0.2); transition: transform 0.2s, box-shadow 0.2s; display: flex; align-items: center; justify-content: center; }
-        #chat-toggle:hover { transform: scale(1.05); box-shadow: 0 6px 24px rgba(0,0,0,0.25); }
+        #chat-toggle { width: 56px; height: 56px; border-radius: 50%; background: #111; color: white; border: none; cursor: pointer; box-shadow: 0 4px 20px rgba(0,0,0,0.2); transition: transform 0.2s; display: flex; align-items: center; justify-content: center; }
+        #chat-toggle:hover { transform: scale(1.05); }
         #chat-panel { display: none; position: absolute; bottom: 70px; right: 0; width: 360px; max-width: calc(100vw - 48px); height: 480px; max-height: calc(100vh - 120px); background: white; border-radius: 16px; box-shadow: 0 8px 40px rgba(0,0,0,0.15); flex-direction: column; overflow: hidden; }
         #chat-panel.open { display: flex; }
         #chat-header { padding: 16px 20px; background: #111; color: white; font-size: 0.9rem; font-weight: 600; display: flex; justify-content: space-between; align-items: center; }
@@ -67,7 +58,7 @@ Be concise, friendly, and practical. If you don't know something, say so. Format
         #chat-input-area { padding: 12px 16px; border-top: 1px solid #eee; display: flex; gap: 8px; }
         #chat-input { flex: 1; padding: 10px 14px; border: 1px solid #e0e0e0; border-radius: 8px; font-size: 0.85rem; font-family: inherit; outline: none; }
         #chat-input:focus { border-color: #111; }
-        #chat-send { width: 40px; height: 40px; background: #111; color: white; border: none; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: opacity 0.2s; }
+        #chat-send { width: 40px; height: 40px; background: #111; color: white; border: none; border-radius: 8px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
         #chat-send:hover { opacity: 0.8; }
         #chat-send:disabled { opacity: 0.4; cursor: not-allowed; }
         #chat-footer { padding: 8px; text-align: center; font-size: 0.65rem; color: #999; background: #fafafa; }
@@ -77,12 +68,9 @@ Be concise, friendly, and practical. If you don't know something, say so. Format
     document.head.appendChild(styles);
     document.body.appendChild(widget);
 
-    // State
-    let isOpen = false;
-    let isLoading = false;
-    let messages = [{ role: 'system', content: SYSTEM_PROMPT }];
+    let isOpen = false, isLoading = false;
+    let chatHistory = [];
 
-    // Elements
     const toggle = document.getElementById('chat-toggle');
     const panel = document.getElementById('chat-panel');
     const closeBtn = document.getElementById('chat-close');
@@ -90,41 +78,29 @@ Be concise, friendly, and practical. If you don't know something, say so. Format
     const input = document.getElementById('chat-input');
     const sendBtn = document.getElementById('chat-send');
 
-    // Toggle chat
-    toggle.addEventListener('click', () => {
-        isOpen = !isOpen;
-        panel.classList.toggle('open', isOpen);
-        if (isOpen) input.focus();
-    });
+    toggle.addEventListener('click', () => { isOpen = !isOpen; panel.classList.toggle('open', isOpen); if (isOpen) input.focus(); });
+    closeBtn.addEventListener('click', () => { isOpen = false; panel.classList.remove('open'); });
 
-    closeBtn.addEventListener('click', () => {
-        isOpen = false;
-        panel.classList.remove('open');
-    });
-
-    // Send message
     async function sendMessage() {
         const text = input.value.trim();
         if (!text || isLoading) return;
 
-        // Add user message
         addMessage('user', text);
-        messages.push({ role: 'user', content: text });
+        chatHistory.push({ role: 'user', content: text });
         input.value = '';
         
-        // Show typing indicator
         isLoading = true;
         sendBtn.disabled = true;
         const typingEl = showTyping();
 
         try {
-            const response = await callHuggingFace(text);
+            const response = await callAI(text);
             typingEl.remove();
             addMessage('bot', response);
-            messages.push({ role: 'assistant', content: response });
+            chatHistory.push({ role: 'assistant', content: response });
         } catch (err) {
             typingEl.remove();
-            addMessage('bot', 'Sorry, I encountered an error. Please try again in a moment.');
+            addMessage('bot', err.message || 'Sorry, something went wrong. Please try again.');
             console.error('Chat error:', err);
         }
 
@@ -141,7 +117,6 @@ Be concise, friendly, and practical. If you don't know something, say so. Format
     }
 
     function formatMessage(text) {
-        // Basic markdown: code blocks and inline code
         return text
             .replace(/</g, '&lt;').replace(/>/g, '&gt;')
             .replace(/`([^`]+)`/g, '<code>$1</code>')
@@ -158,56 +133,68 @@ Be concise, friendly, and practical. If you don't know something, say so. Format
         return div;
     }
 
-    async function callHuggingFace(userMessage) {
-        // Build conversation context (last few messages for context)
-        const recentMessages = messages.slice(-6);
-        const prompt = recentMessages.map(m => {
-            if (m.role === 'system') return `<|system|>\n${m.content}</s>`;
-            if (m.role === 'user') return `<|user|>\n${m.content}</s>`;
-            return `<|assistant|>\n${m.content}</s>`;
-        }).join('\n') + `\n<|user|>\n${userMessage}</s>\n<|assistant|>\n`;
+    async function callAI(userMessage, retries = 3) {
+        // Build context from recent messages
+        const context = chatHistory.slice(-4).map(m => 
+            m.role === 'user' ? `User: ${m.content}` : `Assistant: ${m.content}`
+        ).join('\n');
 
-        const response = await fetch(
-            'https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-beta',
-            {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    inputs: prompt,
-                    parameters: {
-                        max_new_tokens: 500,
-                        temperature: 0.7,
-                        top_p: 0.95,
-                        do_sample: true,
-                        return_full_text: false
+        const prompt = `${SYSTEM_PROMPT}
+
+${context ? context + '\n' : ''}User: ${userMessage}
+Assistant:`;
+
+        for (let i = 0; i < retries; i++) {
+            try {
+                const response = await fetch(
+                    'https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct',
+                    {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            inputs: prompt,
+                            parameters: {
+                                max_new_tokens: 300,
+                                temperature: 0.7,
+                                return_full_text: false,
+                                do_sample: true
+                            }
+                        })
                     }
-                })
-            }
-        );
+                );
 
-        if (!response.ok) {
-            if (response.status === 503) {
-                // Model is loading
-                throw new Error('Model is warming up. Please try again in 20 seconds.');
+                if (response.status === 503) {
+                    // Model is loading, wait and retry
+                    const data = await response.json();
+                    const waitTime = data.estimated_time || 20;
+                    if (i < retries - 1) {
+                        await new Promise(r => setTimeout(r, waitTime * 1000));
+                        continue;
+                    }
+                    throw new Error('AI is warming up. Please try again in 30 seconds.');
+                }
+
+                if (!response.ok) {
+                    throw new Error('Service temporarily unavailable');
+                }
+
+                const data = await response.json();
+                let text = data[0]?.generated_text || '';
+                
+                // Clean up response
+                text = text.split('User:')[0].split('Assistant:')[0].trim();
+                text = text.replace(/^[\s\n]+/, '').replace(/[\s\n]+$/, '');
+                
+                if (!text) throw new Error('Empty response');
+                return text;
+
+            } catch (err) {
+                if (i === retries - 1) throw err;
+                await new Promise(r => setTimeout(r, 2000));
             }
-            throw new Error(`API error: ${response.status}`);
         }
-
-        const data = await response.json();
-        let text = data[0]?.generated_text || 'Sorry, I could not generate a response.';
-        
-        // Clean up response
-        text = text.split('</s>')[0].split('<|')[0].trim();
-        
-        return text;
     }
 
-    // Event listeners
     sendBtn.addEventListener('click', sendMessage);
-    input.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter' && !e.shiftKey) {
-            e.preventDefault();
-            sendMessage();
-        }
-    });
+    input.addEventListener('keypress', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); } });
 })();
