@@ -4,56 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAX Reference | AI & BI News</title>
-    <meta name="description" content="Quick reference guide for DAX functions in Power BI. Search and filter common DAX formulas with syntax examples.">
+    <meta name="description" content="The ultimate DAX reference for Power BI. 60+ functions with copy-to-clipboard, favorites, pro tips, and dark mode.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --bg: #ffffff; --text: #111; --text-secondary: #666; --text-muted: #999; --border: #eaeaea; --hover: #fafafa; --code-bg: #f6f8fa; }
-        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
-        .page-wrapper { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
-        
-        .top-nav { border-bottom: 1px solid var(--border); padding: 20px 0; margin-bottom: 48px; }
-        .top-nav-inner { max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
-        .logo { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; color: var(--text); }
-        .nav-links { display: flex; gap: 32px; }
-        .nav-links a { font-size: 0.85rem; color: var(--text-muted); text-decoration: none; padding: 4px 0; position: relative; transition: color 0.2s; }
-        .nav-links a:hover { color: var(--text); }
-        .nav-links a.active { color: var(--text); font-weight: 500; }
-        .nav-links a.active::after { content: ''; position: absolute; bottom: -4px; left: 0; right: 0; height: 2px; background: var(--text); }
-        
-        header { padding: 0 0 32px; }
-        .hero-title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 12px; }
-        .hero-subtitle { font-size: 1rem; color: var(--text-secondary); }
-        
-        .search-box { margin-bottom: 24px; }
-        .search-input { width: 100%; padding: 14px 18px; background: var(--hover); border: 1px solid var(--border); border-radius: 10px; font-size: 0.95rem; font-family: inherit; color: var(--text); outline: none; }
-        .search-input:focus { border-color: var(--text-muted); }
-        
-        .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
-        .filter { padding: 8px 16px; font-size: 0.8rem; background: var(--hover); border: 1px solid var(--border); border-radius: 20px; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; }
-        .filter:hover { border-color: var(--text-muted); }
-        .filter.active { background: var(--text); color: white; border-color: var(--text); }
-        
-        .stats { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 24px; }
-        
-        .functions { display: grid; gap: 16px; }
-        .function { padding: 20px; border: 1px solid var(--border); border-radius: 12px; transition: border-color 0.2s; }
-        .function:hover { border-color: var(--text-muted); }
-        .function-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; gap: 12px; }
-        .function-name { font-size: 1.1rem; font-weight: 600; font-family: 'JetBrains Mono', monospace; color: var(--text); }
-        .function-category { font-size: 0.7rem; padding: 4px 10px; background: var(--hover); border-radius: 4px; color: var(--text-muted); white-space: nowrap; }
-        .function-desc { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5; }
-        .function-syntax { background: var(--code-bg); padding: 12px 16px; border-radius: 8px; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; overflow-x: auto; margin-bottom: 12px; }
-        .function-example { font-size: 0.8rem; color: var(--text-muted); }
-        .function-example strong { color: var(--text-secondary); }
-        .function-example code { background: var(--code-bg); padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
-        
-        .empty { text-align: center; padding: 60px; color: var(--text-muted); }
-        
-        footer { margin-top: 80px; padding: 40px 0; border-top: 1px solid var(--border); text-align: center; font-size: 0.75rem; color: var(--text-muted); }
-        
-        @media (max-width: 600px) { .nav-links { gap: 20px; } .nav-links a { font-size: 0.8rem; } .function-header { flex-direction: column; } }
+        *{margin:0;padding:0;box-sizing:border-box}
+        :root{--bg:#fff;--text:#111;--text-secondary:#666;--text-muted:#999;--border:#eaeaea;--hover:#fafafa;--code-bg:#f6f8fa;--accent:#0066ff;--success:#22c55e}
+        body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+        body.dark{--bg:#0d1117;--text:#e6edf3;--text-secondary:#8b949e;--text-muted:#6e7681;--border:#30363d;--hover:#161b22;--code-bg:#161b22}
+        .page-wrapper{max-width:1100px;margin:0 auto;padding:0 24px}
+        .top-nav{border-bottom:1px solid var(--border);padding:20px 0;margin-bottom:32px;background:var(--bg);position:sticky;top:0;z-index:100}
+        .top-nav-inner{max-width:1100px;margin:0 auto;padding:0 24px;display:flex;justify-content:space-between;align-items:center}
+        .logo{font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;color:var(--text)}
+        .nav-links{display:flex;gap:32px;align-items:center}
+        .nav-links a{font-size:.85rem;color:var(--text-muted);text-decoration:none;padding:4px 0;position:relative;transition:color .2s}
+        .nav-links a:hover{color:var(--text)}
+        .nav-links a.active{color:var(--text);font-weight:500}
+        .nav-links a.active::after{content:'';position:absolute;bottom:-4px;left:0;right:0;height:2px;background:var(--text)}
+        .dark-toggle{background:none;border:1px solid var(--border);padding:6px 10px;border-radius:6px;cursor:pointer;font-size:1rem}
+        header{padding:0 0 24px}
+        .hero-title{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:700;letter-spacing:-.03em;line-height:1.1;margin-bottom:8px}
+        .hero-subtitle{font-size:.95rem;color:var(--text-secondary)}
+        .toolbar{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px;align-items:center}
+        .search-box{flex:1;min-width:250px;position:relative}
+        .search-input{width:100%;padding:12px 16px 12px 42px;background:var(--hover);border:1px solid var(--border);border-radius:10px;font-size:.9rem;font-family:inherit;color:var(--text);outline:none}
+        .search-input:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,102,255,.1)}
+        .search-icon{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--text-muted)}
+        .search-hint{position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:.7rem;color:var(--text-muted);background:var(--bg);padding:2px 6px;border-radius:4px;border:1px solid var(--border)}
+        .view-toggle{display:flex;border:1px solid var(--border);border-radius:8px;overflow:hidden}
+        .view-btn{padding:8px 14px;background:var(--bg);border:none;cursor:pointer;font-size:.8rem;color:var(--text-muted);transition:all .2s}
+        .view-btn:hover{background:var(--hover)}
+        .view-btn.active{background:var(--text);color:var(--bg)}
+        .filters{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+        .filter{padding:6px 14px;font-size:.75rem;background:var(--bg);border:1px solid var(--border);border-radius:20px;cursor:pointer;color:var(--text-secondary);transition:all .2s}
+        .filter:hover{border-color:var(--text-muted)}
+        .filter.active{background:var(--text);color:var(--bg);border-color:var(--text)}
+        .stats{display:flex;justify-content:space-between;align-items:center;font-size:.8rem;color:var(--text-muted);margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+        .keyboard-hint{display:flex;gap:16px}
+        .keyboard-hint span{display:flex;align-items:center;gap:4px}
+        .kbd{background:var(--hover);border:1px solid var(--border);padding:2px 6px;border-radius:4px;font-size:.7rem}
+        .functions{display:grid;gap:12px}
+        .functions.grid-view{grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+        .function{padding:16px 20px;border:1px solid var(--border);border-radius:10px;transition:all .2s;background:var(--bg)}
+        .function:hover{border-color:var(--accent);box-shadow:0 4px 12px rgba(0,0,0,.05)}
+        .function.expanded{grid-column:1/-1}
+        .function-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;gap:8px}
+        .function-left{display:flex;align-items:center;gap:10px}
+        .function-name{font-size:1rem;font-weight:600;font-family:'JetBrains Mono',monospace;color:var(--accent);cursor:pointer}
+        .function-name:hover{text-decoration:underline}
+        .fav-btn{background:none;border:none;cursor:pointer;font-size:1.1rem;opacity:.3;transition:all .2s;padding:0}
+        .fav-btn:hover,.fav-btn.active{opacity:1}
+        .fav-btn.active{color:#f59e0b}
+        .function-badges{display:flex;gap:6px;flex-wrap:wrap}
+        .badge{font-size:.65rem;padding:3px 8px;border-radius:4px;font-weight:500}
+        .badge.cat{background:var(--hover);color:var(--text-muted)}
+        .badge.level{border:1px solid}
+        .badge.beginner{border-color:#22c55e;color:#22c55e}
+        .badge.intermediate{border-color:#f59e0b;color:#f59e0b}
+        .badge.advanced{border-color:#ef4444;color:#ef4444}
+        .function-desc{font-size:.85rem;color:var(--text-secondary);margin-bottom:10px;line-height:1.5}
+        .code-block{background:var(--code-bg);border-radius:8px;margin-bottom:10px}
+        .code-header{display:flex;justify-content:space-between;align-items:center;padding:6px 12px;border-bottom:1px solid var(--border);font-size:.7rem;color:var(--text-muted)}
+        .copy-btn{background:none;border:none;cursor:pointer;color:var(--text-muted);font-size:.75rem;display:flex;align-items:center;gap:4px;padding:4px 8px;border-radius:4px;transition:all .2s}
+        .copy-btn:hover{background:var(--border);color:var(--text)}
+        .copy-btn.copied{color:var(--success)}
+        .code-content{padding:10px 14px;font-family:'JetBrains Mono',monospace;font-size:.8rem;overflow-x:auto;white-space:pre-wrap;word-break:break-word}
+        .function-extra{display:none;margin-top:12px;padding-top:12px;border-top:1px solid var(--border)}
+        .function.expanded .function-extra{display:block}
+        .extra-section{margin-bottom:12px}
+        .extra-title{font-size:.75rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+        .tip{background:#eff6ff;border-left:3px solid var(--accent);padding:10px 14px;border-radius:0 6px 6px 0;font-size:.85rem}
+        body.dark .tip{background:#1e3a5f}
+        .warning{background:#fef3c7;border-left:3px solid #f59e0b;padding:10px 14px;border-radius:0 6px 6px 0;font-size:.85rem}
+        body.dark .warning{background:#451a03}
+        .related{display:flex;flex-wrap:wrap;gap:6px}
+        .related-link{font-size:.8rem;padding:4px 10px;background:var(--hover);border-radius:4px;color:var(--accent);text-decoration:none;cursor:pointer}
+        .related-link:hover{background:var(--border)}
+        .expand-hint{font-size:.75rem;color:var(--text-muted);text-align:center;margin-top:8px}
+        .empty{text-align:center;padding:60px;color:var(--text-muted)}
+        .toast{position:fixed;bottom:24px;right:24px;background:var(--text);color:var(--bg);padding:12px 20px;border-radius:8px;font-size:.85rem;opacity:0;transform:translateY(10px);transition:all .3s;z-index:1000}
+        .toast.show{opacity:1;transform:translateY(0)}
+        footer{margin-top:60px;padding:40px 0;border-top:1px solid var(--border);text-align:center;font-size:.75rem;color:var(--text-muted)}
+        @media(max-width:700px){.nav-links{gap:16px}.keyboard-hint{display:none}.functions.grid-view{grid-template-columns:1fr}.search-hint{display:none}}
     </style>
 </head>
 <body>
@@ -64,22 +96,29 @@
                 <a href="index.html">News</a>
                 <a href="dax.html" class="active">DAX Reference</a>
                 <a href="certifications.html">Certifications</a>
+                <button class="dark-toggle" onclick="toggleDark()" title="Toggle dark mode">🌓</button>
             </div>
         </div>
     </nav>
-
     <div class="page-wrapper">
         <header>
             <h1 class="hero-title">DAX Reference</h1>
-            <p class="hero-subtitle">Quick reference for common DAX functions in Power BI</p>
+            <p class="hero-subtitle">60+ functions with examples, pro tips & one-click copy</p>
         </header>
-
         <main>
-            <div class="search-box">
-                <input type="text" class="search-input" id="search" placeholder="Search functions... (e.g. CALCULATE, SUM, FILTER)">
+            <div class="toolbar">
+                <div class="search-box">
+                    <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                    <input type="text" class="search-input" id="search" placeholder="Search functions...">
+                    <span class="search-hint">Press /</span>
+                </div>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="list">List</button>
+                    <button class="view-btn" data-view="grid">Grid</button>
+                </div>
             </div>
-            
             <div class="filters" id="filters">
+                <button class="filter" data-cat="favorites">⭐ Favorites</button>
                 <button class="filter active" data-cat="all">All</button>
                 <button class="filter" data-cat="aggregation">Aggregation</button>
                 <button class="filter" data-cat="filter">Filter</button>
@@ -89,154 +128,144 @@
                 <button class="filter" data-cat="table">Table</button>
                 <button class="filter" data-cat="relationship">Relationship</button>
             </div>
-
-            <div class="stats" id="stats"></div>
-            <div class="functions" id="functions"></div>
-            <div class="empty" id="empty" style="display:none;">No functions found.</div>
-        </main>
-
-        <footer>
-            <p>AI & BI News — DAX Reference Guide</p>
-        </footer>
-    </div>
-
-    <script>
-        const daxFunctions = [
-            // Aggregation
-            { name: "SUM", category: "aggregation", desc: "Adds all numbers in a column.", syntax: "SUM(<column>)", example: "SUM(Sales[Amount])" },
-            { name: "AVERAGE", category: "aggregation", desc: "Returns the average of all numbers in a column.", syntax: "AVERAGE(<column>)", example: "AVERAGE(Sales[Price])" },
-            { name: "COUNT", category: "aggregation", desc: "Counts the number of cells containing numbers.", syntax: "COUNT(<column>)", example: "COUNT(Sales[OrderID])" },
-            { name: "COUNTA", category: "aggregation", desc: "Counts non-blank cells in a column.", syntax: "COUNTA(<column>)", example: "COUNTA(Customers[Name])" },
-            { name: "COUNTROWS", category: "aggregation", desc: "Counts the number of rows in a table.", syntax: "COUNTROWS(<table>)", example: "COUNTROWS(Sales)" },
-            { name: "DISTINCTCOUNT", category: "aggregation", desc: "Counts unique values in a column.", syntax: "DISTINCTCOUNT(<column>)", example: "DISTINCTCOUNT(Sales[CustomerID])" },
-            { name: "MIN", category: "aggregation", desc: "Returns the smallest value in a column.", syntax: "MIN(<column>)", example: "MIN(Sales[Date])" },
-            { name: "MAX", category: "aggregation", desc: "Returns the largest value in a column.", syntax: "MAX(<column>)", example: "MAX(Sales[Amount])" },
-            { name: "SUMX", category: "aggregation", desc: "Iterates over a table and sums an expression.", syntax: "SUMX(<table>, <expression>)", example: "SUMX(Sales, Sales[Qty] * Sales[Price])" },
-            { name: "AVERAGEX", category: "aggregation", desc: "Iterates over a table and averages an expression.", syntax: "AVERAGEX(<table>, <expression>)", example: "AVERAGEX(Products, Products[Price] * 1.1)" },
-            
-            // Filter
-            { name: "CALCULATE", category: "filter", desc: "Evaluates an expression in a modified filter context. The most important DAX function.", syntax: "CALCULATE(<expression>, <filter1>, <filter2>...)", example: "CALCULATE(SUM(Sales[Amount]), Products[Category] = \"Electronics\")" },
-            { name: "FILTER", category: "filter", desc: "Returns a table that contains only filtered rows.", syntax: "FILTER(<table>, <condition>)", example: "FILTER(Sales, Sales[Amount] > 1000)" },
-            { name: "ALL", category: "filter", desc: "Removes all filters from a table or column.", syntax: "ALL(<table or column>)", example: "CALCULATE(SUM(Sales[Amount]), ALL(Products))" },
-            { name: "ALLEXCEPT", category: "filter", desc: "Removes all filters except those on specified columns.", syntax: "ALLEXCEPT(<table>, <column1>, <column2>...)", example: "CALCULATE(SUM(Sales[Amount]), ALLEXCEPT(Products, Products[Category]))" },
-            { name: "ALLSELECTED", category: "filter", desc: "Removes filters except those applied by user selections.", syntax: "ALLSELECTED(<table or column>)", example: "CALCULATE(SUM(Sales[Amount]), ALLSELECTED(Products))" },
-            { name: "REMOVEFILTERS", category: "filter", desc: "Clears filters from specified tables or columns.", syntax: "REMOVEFILTERS(<table or column>)", example: "CALCULATE(SUM(Sales[Amount]), REMOVEFILTERS(Date))" },
-            { name: "KEEPFILTERS", category: "filter", desc: "Adds a filter without overwriting existing filters.", syntax: "KEEPFILTERS(<expression>)", example: "CALCULATE(SUM(Sales[Amount]), KEEPFILTERS(Products[Color] = \"Red\"))" },
-            { name: "SELECTEDVALUE", category: "filter", desc: "Returns value when only one value is selected, else alternate.", syntax: "SELECTEDVALUE(<column>, <alternateResult>)", example: "SELECTEDVALUE(Products[Name], \"Multiple\")" },
-            { name: "HASONEVALUE", category: "filter", desc: "Returns TRUE if context filtered to one value.", syntax: "HASONEVALUE(<column>)", example: "IF(HASONEVALUE(Products[Category]), ...)" },
-            { name: "VALUES", category: "filter", desc: "Returns unique values from a column including blank.", syntax: "VALUES(<column>)", example: "COUNTROWS(VALUES(Sales[CustomerID]))" },
-            
-            // Logical
-            { name: "IF", category: "logical", desc: "Checks a condition and returns one value if true, another if false.", syntax: "IF(<condition>, <true_value>, <false_value>)", example: "IF(Sales[Amount] > 1000, \"High\", \"Low\")" },
-            { name: "SWITCH", category: "logical", desc: "Evaluates an expression against a list of values.", syntax: "SWITCH(<expression>, <value1>, <result1>, ..., <else>)", example: "SWITCH(Products[Size], \"S\", 1, \"M\", 2, \"L\", 3, 0)" },
-            { name: "AND", category: "logical", desc: "Returns TRUE if both arguments are true.", syntax: "AND(<condition1>, <condition2>)", example: "IF(AND(Sales[Amount] > 100, Sales[Qty] > 5), ...)" },
-            { name: "OR", category: "logical", desc: "Returns TRUE if any argument is true.", syntax: "OR(<condition1>, <condition2>)", example: "IF(OR(Sales[Region] = \"East\", Sales[Region] = \"West\"), ...)" },
-            { name: "NOT", category: "logical", desc: "Reverses the value of a logical expression.", syntax: "NOT(<condition>)", example: "NOT(ISBLANK(Sales[Discount]))" },
-            { name: "IFERROR", category: "logical", desc: "Returns alternate value if expression is an error.", syntax: "IFERROR(<expression>, <alternate>)", example: "IFERROR(Sales[Amount] / Sales[Qty], 0)" },
-            { name: "ISBLANK", category: "logical", desc: "Checks if a value is blank.", syntax: "ISBLANK(<value>)", example: "IF(ISBLANK(Sales[Discount]), 0, Sales[Discount])" },
-            { name: "COALESCE", category: "logical", desc: "Returns the first non-blank value.", syntax: "COALESCE(<value1>, <value2>, ...)", example: "COALESCE(Sales[Discount], 0)" },
-            
-            // Text
-            { name: "CONCATENATE", category: "text", desc: "Joins two text strings into one.", syntax: "CONCATENATE(<text1>, <text2>)", example: "CONCATENATE(Customers[FirstName], \" \", Customers[LastName])" },
-            { name: "FORMAT", category: "text", desc: "Converts a value to text with a specified format.", syntax: "FORMAT(<value>, <format_string>)", example: "FORMAT(Sales[Date], \"MMMM YYYY\")" },
-            { name: "LEFT", category: "text", desc: "Returns characters from the start of a string.", syntax: "LEFT(<text>, <num_chars>)", example: "LEFT(Products[Code], 3)" },
-            { name: "RIGHT", category: "text", desc: "Returns characters from the end of a string.", syntax: "RIGHT(<text>, <num_chars>)", example: "RIGHT(Products[Code], 4)" },
-            { name: "MID", category: "text", desc: "Returns characters from the middle of a string.", syntax: "MID(<text>, <start>, <num_chars>)", example: "MID(Products[Code], 2, 3)" },
-            { name: "LEN", category: "text", desc: "Returns the number of characters in a string.", syntax: "LEN(<text>)", example: "LEN(Products[Description])" },
-            { name: "UPPER", category: "text", desc: "Converts text to uppercase.", syntax: "UPPER(<text>)", example: "UPPER(Customers[Name])" },
-            { name: "LOWER", category: "text", desc: "Converts text to lowercase.", syntax: "LOWER(<text>)", example: "LOWER(Customers[Email])" },
-            { name: "TRIM", category: "text", desc: "Removes leading and trailing spaces.", syntax: "TRIM(<text>)", example: "TRIM(Customers[Name])" },
-            { name: "SUBSTITUTE", category: "text", desc: "Replaces occurrences of text.", syntax: "SUBSTITUTE(<text>, <old>, <new>)", example: "SUBSTITUTE(Products[Name], \"-\", \" \")" },
-            { name: "SEARCH", category: "text", desc: "Returns the position of a substring (case-insensitive).", syntax: "SEARCH(<find_text>, <within_text>, <start>)", example: "SEARCH(\"Pro\", Products[Name], 1)" },
-            { name: "CONTAINSSTRING", category: "text", desc: "Returns TRUE if text contains a substring.", syntax: "CONTAINSSTRING(<within_text>, <find_text>)", example: "CONTAINSSTRING(Products[Name], \"Pro\")" },
-            
-            // Date & Time
-            { name: "TODAY", category: "date", desc: "Returns the current date.", syntax: "TODAY()", example: "DATEDIFF(Sales[Date], TODAY(), DAY)" },
-            { name: "NOW", category: "date", desc: "Returns the current date and time.", syntax: "NOW()", example: "FORMAT(NOW(), \"hh:mm AM/PM\")" },
-            { name: "DATE", category: "date", desc: "Creates a date from year, month, day.", syntax: "DATE(<year>, <month>, <day>)", example: "DATE(2025, 1, 1)" },
-            { name: "YEAR", category: "date", desc: "Returns the year from a date.", syntax: "YEAR(<date>)", example: "YEAR(Sales[Date])" },
-            { name: "MONTH", category: "date", desc: "Returns the month from a date (1-12).", syntax: "MONTH(<date>)", example: "MONTH(Sales[Date])" },
-            { name: "DAY", category: "date", desc: "Returns the day from a date (1-31).", syntax: "DAY(<date>)", example: "DAY(Sales[Date])" },
-            { name: "WEEKDAY", category: "date", desc: "Returns the day of week (1-7).", syntax: "WEEKDAY(<date>, <type>)", example: "WEEKDAY(Sales[Date], 2)" },
-            { name: "WEEKNUM", category: "date", desc: "Returns the week number of the year.", syntax: "WEEKNUM(<date>)", example: "WEEKNUM(Sales[Date])" },
-            { name: "EOMONTH", category: "date", desc: "Returns the last day of a month, offset by months.", syntax: "EOMONTH(<date>, <months>)", example: "EOMONTH(TODAY(), -1)" },
-            { name: "DATEDIFF", category: "date", desc: "Returns the difference between two dates.", syntax: "DATEDIFF(<start>, <end>, <interval>)", example: "DATEDIFF(Orders[OrderDate], Orders[ShipDate], DAY)" },
-            { name: "DATEADD", category: "date", desc: "Shifts dates by an interval.", syntax: "DATEADD(<dates>, <number>, <interval>)", example: "CALCULATE(SUM(Sales[Amount]), DATEADD(Calendar[Date], -1, YEAR))" },
-            { name: "SAMEPERIODLASTYEAR", category: "date", desc: "Returns dates shifted back one year.", syntax: "SAMEPERIODLASTYEAR(<dates>)", example: "CALCULATE(SUM(Sales[Amount]), SAMEPERIODLASTYEAR(Calendar[Date]))" },
-            { name: "TOTALYTD", category: "date", desc: "Calculates year-to-date total.", syntax: "TOTALYTD(<expression>, <dates>)", example: "TOTALYTD(SUM(Sales[Amount]), Calendar[Date])" },
-            { name: "TOTALMTD", category: "date", desc: "Calculates month-to-date total.", syntax: "TOTALMTD(<expression>, <dates>)", example: "TOTALMTD(SUM(Sales[Amount]), Calendar[Date])" },
-            { name: "PARALLELPERIOD", category: "date", desc: "Returns a parallel period shifted by intervals.", syntax: "PARALLELPERIOD(<dates>, <number>, <interval>)", example: "CALCULATE(SUM(Sales[Amount]), PARALLELPERIOD(Calendar[Date], -1, QUARTER))" },
-            
-            // Table
-            { name: "SUMMARIZE", category: "table", desc: "Groups a table by columns and adds calculated columns.", syntax: "SUMMARIZE(<table>, <groupBy_column>, <name>, <expression>)", example: "SUMMARIZE(Sales, Products[Category], \"Total\", SUM(Sales[Amount]))" },
-            { name: "ADDCOLUMNS", category: "table", desc: "Adds calculated columns to a table.", syntax: "ADDCOLUMNS(<table>, <name>, <expression>)", example: "ADDCOLUMNS(Products, \"Markup\", Products[Price] * 1.2)" },
-            { name: "SELECTCOLUMNS", category: "table", desc: "Creates a table with selected/calculated columns.", syntax: "SELECTCOLUMNS(<table>, <name>, <expression>)", example: "SELECTCOLUMNS(Products, \"Item\", Products[Name], \"Cost\", Products[Price])" },
-            { name: "DISTINCT", category: "table", desc: "Returns a table with unique rows.", syntax: "DISTINCT(<table or column>)", example: "COUNTROWS(DISTINCT(Sales[CustomerID]))" },
-            { name: "UNION", category: "table", desc: "Combines tables vertically.", syntax: "UNION(<table1>, <table2>)", example: "UNION(Sales2023, Sales2024)" },
-            { name: "EXCEPT", category: "table", desc: "Returns rows in first table not in second.", syntax: "EXCEPT(<table1>, <table2>)", example: "EXCEPT(AllProducts, SoldProducts)" },
-            { name: "INTERSECT", category: "table", desc: "Returns rows common to both tables.", syntax: "INTERSECT(<table1>, <table2>)", example: "INTERSECT(CustomersA, CustomersB)" },
-            { name: "TOPN", category: "table", desc: "Returns top N rows by an expression.", syntax: "TOPN(<n>, <table>, <orderBy_expression>)", example: "TOPN(10, Products, Products[Sales], DESC)" },
-            { name: "GENERATE", category: "table", desc: "Creates a table by iterating and combining.", syntax: "GENERATE(<table1>, <table2>)", example: "GENERATE(Categories, RELATEDTABLE(Products))" },
-            { name: "ROW", category: "table", desc: "Creates a single-row table.", syntax: "ROW(<name>, <expression>)", example: "ROW(\"Total\", SUM(Sales[Amount]))" },
-            
-            // Relationship
-            { name: "RELATED", category: "relationship", desc: "Returns a value from the related table (many-to-one).", syntax: "RELATED(<column>)", example: "RELATED(Products[Category])" },
-            { name: "RELATEDTABLE", category: "relationship", desc: "Returns a table of related rows (one-to-many).", syntax: "RELATEDTABLE(<table>)", example: "COUNTROWS(RELATEDTABLE(Sales))" },
-            { name: "USERELATIONSHIP", category: "relationship", desc: "Activates an inactive relationship.", syntax: "USERELATIONSHIP(<column1>, <column2>)", example: "CALCULATE(SUM(Sales[Amount]), USERELATIONSHIP(Sales[ShipDate], Calendar[Date]))" },
-            { name: "CROSSFILTER", category: "relationship", desc: "Modifies cross-filter direction.", syntax: "CROSSFILTER(<column1>, <column2>, <direction>)", example: "CALCULATE(COUNTROWS(Products), CROSSFILTER(Sales[ProductID], Products[ID], BOTH))" },
-            { name: "TREATAS", category: "relationship", desc: "Applies column values as filters without relationship.", syntax: "TREATAS(<table>, <column>)", example: "CALCULATE(SUM(Sales[Amount]), TREATAS(VALUES(Budget[Product]), Products[Name]))" },
-            { name: "LOOKUPVALUE", category: "relationship", desc: "Finds a value in a table like VLOOKUP.", syntax: "LOOKUPVALUE(<result_column>, <search_column>, <search_value>)", example: "LOOKUPVALUE(Products[Price], Products[ID], Sales[ProductID])" },
-        ];
-
-        let currentCat = 'all', searchQuery = '';
-
-        function render() {
-            let filtered = daxFunctions;
-            if (currentCat !== 'all') filtered = filtered.filter(f => f.category === currentCat);
-            if (searchQuery) filtered = filtered.filter(f => 
-                f.name.toLowerCase().includes(searchQuery) || 
-                f.desc.toLowerCase().includes(searchQuery) ||
-                f.syntax.toLowerCase().includes(searchQuery)
-            );
-
-            document.getElementById('stats').textContent = `Showing ${filtered.length} of ${daxFunctions.length} functions`;
-
-            const container = document.getElementById('functions');
-            const empty = document.getElementById('empty');
-
-            if (!filtered.length) { container.innerHTML = ''; empty.style.display = 'block'; return; }
-            empty.style.display = 'none';
-
-            const catLabels = { aggregation: 'Aggregation', filter: 'Filter', logical: 'Logical', text: 'Text', date: 'Date & Time', table: 'Table', relationship: 'Relationship' };
-
-            container.innerHTML = filtered.map(f => `
-                <div class="function">
-                    <div class="function-header">
-                        <span class="function-name">${f.name}</span>
-                        <span class="function-category">${catLabels[f.category]}</span>
-                    </div>
-                    <p class="function-desc">${f.desc}</p>
-                    <div class="function-syntax">${f.syntax}</div>
-                    <div class="function-example"><strong>Example:</strong> <code>${f.example}</code></div>
+            <div class="stats">
+                <span id="stats"></span>
+                <div class="keyboard-hint">
+                    <span><span class="kbd">/</span> Search</span>
+                    <span><span class="kbd">Esc</span> Clear</span>
                 </div>
-            `).join('');
-        }
-
-        document.getElementById('filters').addEventListener('click', e => {
-            if (e.target.classList.contains('filter')) {
-                document.querySelectorAll('.filter').forEach(f => f.classList.remove('active'));
-                e.target.classList.add('active');
-                currentCat = e.target.dataset.cat;
-                render();
-            }
-        });
-
-        document.getElementById('search').addEventListener('input', e => {
-            searchQuery = e.target.value.toLowerCase();
-            render();
-        });
-
-        render();
+            </div>
+            <div class="functions" id="functions"></div>
+            <div class="empty" id="empty" style="display:none">No functions found. Try a different search.</div>
+        </main>
+        <footer><p>AI & BI News — Built for Power BI professionals</p></footer>
+    </div>
+    <div class="toast" id="toast"></div>
+    <script>
+const catLabels={aggregation:'Aggregation',filter:'Filter',logical:'Logical',text:'Text',date:'Date & Time',table:'Table',relationship:'Relationship'};
+const daxFunctions=[
+{name:"SUM",category:"aggregation",level:"beginner",desc:"Adds all numbers in a column.",syntax:"SUM(<column>)",example:"Total Sales = SUM(Sales[Amount])",tip:"Use SUMX when you need to calculate row-by-row before summing.",warning:"Returns blank if no rows, not zero.",related:["SUMX","AVERAGE","COUNT"]},
+{name:"AVERAGE",category:"aggregation",level:"beginner",desc:"Returns the average of all numbers in a column.",syntax:"AVERAGE(<column>)",example:"Avg Price = AVERAGE(Products[Price])",tip:"AVERAGE ignores blanks but includes zeros.",related:["AVERAGEX","SUM","MEDIAN"]},
+{name:"COUNT",category:"aggregation",level:"beginner",desc:"Counts cells containing numbers only.",syntax:"COUNT(<column>)",example:"Num Orders = COUNT(Sales[OrderID])",tip:"Use COUNTA to count non-blank cells including text.",warning:"Does NOT count text values!",related:["COUNTA","COUNTROWS","COUNTBLANK"]},
+{name:"COUNTA",category:"aggregation",level:"beginner",desc:"Counts non-blank cells (numbers and text).",syntax:"COUNTA(<column>)",example:"Filled Cells = COUNTA(Customers[Name])",related:["COUNT","COUNTROWS","COUNTBLANK"]},
+{name:"COUNTROWS",category:"aggregation",level:"beginner",desc:"Counts rows in a table or table expression.",syntax:"COUNTROWS(<table>)",example:"Num Transactions = COUNTROWS(Sales)",tip:"Most common way to count records. Works with FILTER.",related:["COUNT","DISTINCTCOUNT","COUNTBLANK"]},
+{name:"DISTINCTCOUNT",category:"aggregation",level:"beginner",desc:"Counts unique values in a column.",syntax:"DISTINCTCOUNT(<column>)",example:"Unique Customers = DISTINCTCOUNT(Sales[CustomerID])",tip:"Equivalent to COUNTROWS(DISTINCT(column)) but more efficient.",related:["COUNTROWS","DISTINCT","VALUES"]},
+{name:"MIN",category:"aggregation",level:"beginner",desc:"Returns the smallest value.",syntax:"MIN(<column>)",example:"First Order = MIN(Sales[Date])",related:["MAX","MINX","FIRSTDATE"]},
+{name:"MAX",category:"aggregation",level:"beginner",desc:"Returns the largest value.",syntax:"MAX(<column>)",example:"Last Order = MAX(Sales[Date])",related:["MIN","MAXX","LASTDATE"]},
+{name:"SUMX",category:"aggregation",level:"intermediate",desc:"Iterates over a table, evaluates expression for each row, then sums.",syntax:"SUMX(<table>, <expression>)",example:"Revenue = SUMX(Sales, Sales[Qty] * Sales[UnitPrice])",tip:"Essential for row-by-row calculations. The 'X' means iterator.",warning:"Can be slow on large tables.",related:["SUM","AVERAGEX","MAXX"]},
+{name:"AVERAGEX",category:"aggregation",level:"intermediate",desc:"Iterates and averages an expression.",syntax:"AVERAGEX(<table>, <expression>)",example:"Avg Order Value = AVERAGEX(Sales, Sales[Qty] * Sales[Price])",related:["AVERAGE","SUMX","MEDIANX"]},
+{name:"RANKX",category:"aggregation",level:"advanced",desc:"Returns the ranking of a number in a list.",syntax:"RANKX(<table>, <expression>, <value>, <order>, <ties>)",example:"Product Rank = RANKX(ALL(Products), [Total Sales],, DESC, DENSE)",tip:"Use ALL() to rank across all items regardless of filter context.",warning:"Be careful with filter context.",related:["TOPN","PERCENTILEX.INC"]},
+{name:"CALCULATE",category:"filter",level:"intermediate",desc:"THE most important DAX function. Evaluates expression in modified filter context.",syntax:"CALCULATE(<expression>, <filter1>, <filter2>, ...)",example:"Electronics Sales = CALCULATE(SUM(Sales[Amount]), Products[Category] = \"Electronics\")",tip:"Master CALCULATE and you master DAX. It changes the filter context.",warning:"Filter arguments override existing filters unless you use KEEPFILTERS.",related:["CALCULATETABLE","FILTER","ALL","KEEPFILTERS"]},
+{name:"CALCULATETABLE",category:"filter",level:"intermediate",desc:"Returns a table in a modified filter context.",syntax:"CALCULATETABLE(<table_expression>, <filter1>, ...)",example:"CALCULATETABLE(Products, Products[Price] > 100)",tip:"Like CALCULATE but returns a table instead of a scalar value.",related:["CALCULATE","FILTER"]},
+{name:"FILTER",category:"filter",level:"intermediate",desc:"Returns a filtered table. Use inside CALCULATE or iterators.",syntax:"FILTER(<table>, <condition>)",example:"Big Sales = CALCULATE(SUM(Sales[Amount]), FILTER(Sales, Sales[Amount] > 1000))",tip:"FILTER iterates row by row - can use complex conditions but slower.",warning:"Avoid FILTER when a simple column filter works.",related:["CALCULATE","ALL","KEEPFILTERS"]},
+{name:"ALL",category:"filter",level:"intermediate",desc:"Removes ALL filters from a table or column. Essential for ratios.",syntax:"ALL(<table or column>)",example:"% of Total = DIVIDE(SUM(Sales[Amount]), CALCULATE(SUM(Sales[Amount]), ALL(Sales)))",tip:"Use ALL() for denominators in percentage calculations.",related:["ALLEXCEPT","ALLSELECTED","REMOVEFILTERS"]},
+{name:"ALLEXCEPT",category:"filter",level:"intermediate",desc:"Removes all filters EXCEPT on specified columns.",syntax:"ALLEXCEPT(<table>, <column1>, <column2>, ...)",example:"Category Total = CALCULATE(SUM(Sales[Amount]), ALLEXCEPT(Products, Products[Category]))",tip:"Keeps filters on listed columns, removes everything else.",related:["ALL","ALLSELECTED","REMOVEFILTERS"]},
+{name:"ALLSELECTED",category:"filter",level:"advanced",desc:"Removes filters except those from slicers/visual filters.",syntax:"ALLSELECTED(<table or column>)",example:"% of Visible = DIVIDE(SUM(Sales[Amount]), CALCULATE(SUM(Sales[Amount]), ALLSELECTED()))",tip:"Perfect for percentages that respect user selections.",warning:"Behavior can be tricky with complex visuals.",related:["ALL","ALLEXCEPT","REMOVEFILTERS"]},
+{name:"REMOVEFILTERS",category:"filter",level:"intermediate",desc:"Clears filters. Clearer alternative to ALL() inside CALCULATE.",syntax:"REMOVEFILTERS(<table or column>)",example:"Total = CALCULATE(SUM(Sales[Amount]), REMOVEFILTERS(Date))",tip:"More readable than ALL() - same result.",related:["ALL","ALLEXCEPT"]},
+{name:"KEEPFILTERS",category:"filter",level:"advanced",desc:"Adds filter without overwriting existing filters.",syntax:"KEEPFILTERS(<filter_expression>)",example:"CALCULATE(SUM(Sales[Amount]), KEEPFILTERS(Products[Color] = \"Red\"))",tip:"Use when you want to INTERSECT filters, not replace.",warning:"Without KEEPFILTERS, new filters replace existing ones.",related:["CALCULATE","FILTER"]},
+{name:"SELECTEDVALUE",category:"filter",level:"beginner",desc:"Returns value if exactly one value is selected, else alternate.",syntax:"SELECTEDVALUE(<column>, <alternateResult>)",example:"Selected Product = SELECTEDVALUE(Products[Name], \"Multiple Selected\")",tip:"Great for dynamic titles and conditional logic.",related:["HASONEVALUE","VALUES","ISFILTERED"]},
+{name:"HASONEVALUE",category:"filter",level:"intermediate",desc:"Returns TRUE if filtered to exactly one value.",syntax:"HASONEVALUE(<column>)",example:"Show Detail = IF(HASONEVALUE(Products[Category]), [Details], \"Select one\")",related:["SELECTEDVALUE","HASONEFILTER","ISFILTERED"]},
+{name:"VALUES",category:"filter",level:"intermediate",desc:"Returns unique values from a column (includes blank if present).",syntax:"VALUES(<column>)",example:"Num Products = COUNTROWS(VALUES(Products[Name]))",tip:"VALUES respects filter context. Use DISTINCT for no blank.",related:["DISTINCT","ALLNOBLANKROW","SELECTEDVALUE"]},
+{name:"IF",category:"logical",level:"beginner",desc:"Evaluates condition and returns different values for true/false.",syntax:"IF(<condition>, <true_value>, <false_value>)",example:"Status = IF(Sales[Amount] > 1000, \"High\", \"Normal\")",tip:"Can nest IF statements but SWITCH is cleaner for multiple conditions.",related:["SWITCH","AND","OR"]},
+{name:"SWITCH",category:"logical",level:"beginner",desc:"Evaluates expression against a list of values. Cleaner than nested IFs.",syntax:"SWITCH(<expression>, <value1>, <result1>, ..., <else>)",example:"Grade = SWITCH(TRUE(), Score >= 90, \"A\", Score >= 80, \"B\", \"C\")",tip:"Use SWITCH(TRUE(), ...) for complex conditions.",related:["IF","COALESCE"]},
+{name:"AND",category:"logical",level:"beginner",desc:"Returns TRUE only if ALL conditions are true.",syntax:"AND(<cond1>, <cond2>) or <cond1> && <cond2>",example:"IF(AND(Sales[Qty] > 10, Sales[Discount] > 0), \"Bulk\", \"Regular\")",tip:"Can also use && operator: (Qty > 10) && (Discount > 0)",related:["OR","NOT","IF"]},
+{name:"OR",category:"logical",level:"beginner",desc:"Returns TRUE if ANY condition is true.",syntax:"OR(<cond1>, <cond2>) or <cond1> || <cond2>",example:"IF(OR(Region = \"East\", Region = \"West\"), \"US\", \"Intl\")",tip:"Can also use || operator.",related:["AND","NOT","IF","IN"]},
+{name:"NOT",category:"logical",level:"beginner",desc:"Reverses TRUE to FALSE and vice versa.",syntax:"NOT(<condition>)",example:"Has Discount = NOT(ISBLANK(Sales[Discount]))",related:["AND","OR","ISBLANK"]},
+{name:"IFERROR",category:"logical",level:"beginner",desc:"Returns alternate value if expression errors.",syntax:"IFERROR(<expression>, <alternate>)",example:"Safe Divide = IFERROR(Sales[Amount] / Sales[Qty], 0)",tip:"Use DIVIDE() instead for division - handles errors automatically.",related:["ISERROR","DIVIDE","COALESCE"]},
+{name:"ISBLANK",category:"logical",level:"beginner",desc:"Returns TRUE if value is blank.",syntax:"ISBLANK(<value>)",example:"Has Discount = NOT(ISBLANK(Sales[DiscountPct]))",tip:"Blank and 0 are different! ISBLANK only checks for blank.",related:["COALESCE","IF","NOT"]},
+{name:"COALESCE",category:"logical",level:"beginner",desc:"Returns first non-blank value from a list.",syntax:"COALESCE(<value1>, <value2>, ...)",example:"Display Name = COALESCE(Customer[Nickname], Customer[FirstName], \"Unknown\")",tip:"Much cleaner than nested IF(ISBLANK(...)) statements.",related:["ISBLANK","IF","SWITCH"]},
+{name:"DIVIDE",category:"logical",level:"beginner",desc:"Safe division that handles divide-by-zero.",syntax:"DIVIDE(<numerator>, <denominator>, <alternate>)",example:"Avg Price = DIVIDE(SUM(Sales[Amount]), SUM(Sales[Qty]), 0)",tip:"Always use DIVIDE instead of / operator for safety.",related:["IFERROR","IF"]},
+{name:"IN",category:"logical",level:"intermediate",desc:"Returns TRUE if value exists in a list or table.",syntax:"<value> IN {<val1>, <val2>, ...}",example:"Is Weekend = WEEKDAY(Sales[Date]) IN {1, 7}",tip:"Much cleaner than multiple OR conditions.",related:["OR","CONTAINSROW"]},
+{name:"CONCATENATE",category:"text",level:"beginner",desc:"Joins two text strings. Use & for multiple.",syntax:"CONCATENATE(<text1>, <text2>) or text1 & text2",example:"Full Name = Customer[First] & \" \" & Customer[Last]",tip:"The & operator is easier for multiple values.",related:["COMBINEVALUES","FORMAT"]},
+{name:"FORMAT",category:"text",level:"intermediate",desc:"Converts value to text with specified format.",syntax:"FORMAT(<value>, <format_string>)",example:"Month Name = FORMAT(Sales[Date], \"MMMM YYYY\")",tip:"Common formats: \"#,##0\", \"0.00%\", \"YYYY-MM-DD\"",warning:"Returns TEXT - cannot do math on formatted values.",related:["CONCATENATE","VALUE"]},
+{name:"LEFT",category:"text",level:"beginner",desc:"Extracts characters from the start.",syntax:"LEFT(<text>, <num_chars>)",example:"Country Code = LEFT(Phone[Number], 2)",related:["RIGHT","MID","LEN"]},
+{name:"RIGHT",category:"text",level:"beginner",desc:"Extracts characters from the end.",syntax:"RIGHT(<text>, <num_chars>)",example:"Last 4 Digits = RIGHT(Customer[SSN], 4)",related:["LEFT","MID","LEN"]},
+{name:"MID",category:"text",level:"beginner",desc:"Extracts characters from the middle.",syntax:"MID(<text>, <start_position>, <num_chars>)",example:"Area Code = MID(Phone[Number], 2, 3)",tip:"Position is 1-based, not 0-based.",related:["LEFT","RIGHT","SEARCH"]},
+{name:"LEN",category:"text",level:"beginner",desc:"Returns the number of characters.",syntax:"LEN(<text>)",example:"Name Length = LEN(Products[Name])",related:["LEFT","RIGHT","TRIM"]},
+{name:"UPPER",category:"text",level:"beginner",desc:"Converts to uppercase.",syntax:"UPPER(<text>)",example:"CODE = UPPER(Products[SKU])",related:["LOWER","PROPER"]},
+{name:"LOWER",category:"text",level:"beginner",desc:"Converts to lowercase.",syntax:"LOWER(<text>)",example:"email = LOWER(Customers[Email])",related:["UPPER","PROPER"]},
+{name:"TRIM",category:"text",level:"beginner",desc:"Removes leading/trailing spaces.",syntax:"TRIM(<text>)",example:"Clean Name = TRIM(Customers[Name])",tip:"Also removes duplicate spaces between words.",related:["CLEAN","SUBSTITUTE"]},
+{name:"SUBSTITUTE",category:"text",level:"intermediate",desc:"Replaces occurrences of text.",syntax:"SUBSTITUTE(<text>, <old>, <new>, <instance>)",example:"Fixed = SUBSTITUTE(Products[Name], \"-\", \" \")",tip:"Leave instance blank to replace ALL occurrences.",related:["REPLACE","TRIM"]},
+{name:"SEARCH",category:"text",level:"intermediate",desc:"Finds text position (case-insensitive).",syntax:"SEARCH(<find>, <within>, <start>)",example:"Has Pro = IF(SEARCH(\"Pro\", Products[Name], 1, 0) > 0, \"Yes\", \"No\")",tip:"Returns error if not found - wrap in IFERROR.",related:["FIND","CONTAINSSTRING"]},
+{name:"CONTAINSSTRING",category:"text",level:"beginner",desc:"Returns TRUE if text contains substring.",syntax:"CONTAINSSTRING(<within>, <find>)",example:"Is Premium = CONTAINSSTRING(Products[Name], \"Premium\")",tip:"Case-insensitive. Use CONTAINSSTRINGEXACT for case-sensitive.",related:["SEARCH","FIND"]},
+{name:"TODAY",category:"date",level:"beginner",desc:"Returns current date (no time).",syntax:"TODAY()",example:"Days Since = DATEDIFF(Sales[Date], TODAY(), DAY)",tip:"Recalculates when report refreshes.",related:["NOW","UTCTODAY"]},
+{name:"NOW",category:"date",level:"beginner",desc:"Returns current date AND time.",syntax:"NOW()",example:"Last Refresh = NOW()",related:["TODAY","UTCNOW"]},
+{name:"DATE",category:"date",level:"beginner",desc:"Creates date from year, month, day.",syntax:"DATE(<year>, <month>, <day>)",example:"Start of Year = DATE(YEAR(TODAY()), 1, 1)",related:["YEAR","MONTH","DAY"]},
+{name:"YEAR",category:"date",level:"beginner",desc:"Extracts year from a date.",syntax:"YEAR(<date>)",example:"Sale Year = YEAR(Sales[Date])",related:["MONTH","DAY","DATE"]},
+{name:"MONTH",category:"date",level:"beginner",desc:"Extracts month number (1-12).",syntax:"MONTH(<date>)",example:"Sale Month = MONTH(Sales[Date])",tip:"Use FORMAT for month name.",related:["YEAR","DAY","FORMAT"]},
+{name:"DAY",category:"date",level:"beginner",desc:"Extracts day number (1-31).",syntax:"DAY(<date>)",example:"Sale Day = DAY(Sales[Date])",related:["YEAR","MONTH","WEEKDAY"]},
+{name:"WEEKDAY",category:"date",level:"beginner",desc:"Returns day of week (1-7).",syntax:"WEEKDAY(<date>, <type>)",example:"Day Name = FORMAT(Sales[Date], \"dddd\")",tip:"Type 2 = Monday=1. Type 1 = Sunday=1.",related:["WEEKNUM","FORMAT"]},
+{name:"EOMONTH",category:"date",level:"intermediate",desc:"Returns last day of month, with offset.",syntax:"EOMONTH(<date>, <months>)",example:"Last Month End = EOMONTH(TODAY(), -1)",tip:"EOMONTH(date, 0) = end of current month.",related:["DATE","DATEDIFF"]},
+{name:"DATEDIFF",category:"date",level:"beginner",desc:"Calculates difference between dates.",syntax:"DATEDIFF(<start>, <end>, <interval>)",example:"Days to Ship = DATEDIFF(Orders[OrderDate], Orders[ShipDate], DAY)",tip:"Intervals: DAY, WEEK, MONTH, QUARTER, YEAR",related:["DATEADD","TODAY"]},
+{name:"DATEADD",category:"date",level:"intermediate",desc:"Shifts a date table by an interval. For time intelligence.",syntax:"DATEADD(<dates>, <number>, <interval>)",example:"Last Year = CALCULATE([Sales], DATEADD('Date'[Date], -1, YEAR))",tip:"Requires a proper Date table marked as Date Table.",warning:"Must use with CALCULATE, not standalone.",related:["SAMEPERIODLASTYEAR","PARALLELPERIOD"]},
+{name:"SAMEPERIODLASTYEAR",category:"date",level:"intermediate",desc:"Returns same dates, one year ago.",syntax:"SAMEPERIODLASTYEAR(<dates>)",example:"LY Sales = CALCULATE([Sales], SAMEPERIODLASTYEAR('Date'[Date]))",tip:"Shortcut for DATEADD(dates, -1, YEAR).",related:["DATEADD","PARALLELPERIOD","PREVIOUSYEAR"]},
+{name:"TOTALYTD",category:"date",level:"intermediate",desc:"Calculates year-to-date value.",syntax:"TOTALYTD(<expression>, <dates>, <filter>, <year_end>)",example:"YTD Sales = TOTALYTD(SUM(Sales[Amount]), 'Date'[Date])",tip:"Optional year_end for fiscal years: \"6/30\"",related:["TOTALMTD","TOTALQTD","DATESYTD"]},
+{name:"TOTALMTD",category:"date",level:"intermediate",desc:"Calculates month-to-date value.",syntax:"TOTALMTD(<expression>, <dates>)",example:"MTD Sales = TOTALMTD(SUM(Sales[Amount]), 'Date'[Date])",related:["TOTALYTD","TOTALQTD","DATESMTD"]},
+{name:"PARALLELPERIOD",category:"date",level:"advanced",desc:"Returns parallel period shifted by intervals.",syntax:"PARALLELPERIOD(<dates>, <number>, <interval>)",example:"Prev Quarter = CALCULATE([Sales], PARALLELPERIOD('Date'[Date], -1, QUARTER))",tip:"Returns full period, unlike DATEADD which shifts exact dates.",related:["DATEADD","SAMEPERIODLASTYEAR"]},
+{name:"CALENDAR",category:"date",level:"intermediate",desc:"Creates a date table between two dates.",syntax:"CALENDAR(<start_date>, <end_date>)",example:"DateTable = CALENDAR(DATE(2020,1,1), DATE(2025,12,31))",tip:"Use CALENDARAUTO() to auto-detect date range.",related:["CALENDARAUTO","ADDCOLUMNS"]},
+{name:"SUMMARIZE",category:"table",level:"intermediate",desc:"Groups table and optionally adds calculated columns.",syntax:"SUMMARIZE(<table>, <groupBy1>, ...)",example:"SUMMARIZE(Sales, Products[Category], \"Total\", SUM(Sales[Amount]))",tip:"Use SUMMARIZECOLUMNS in measures for better performance.",warning:"Adding columns in SUMMARIZE can give unexpected results.",related:["SUMMARIZECOLUMNS","GROUPBY","ADDCOLUMNS"]},
+{name:"ADDCOLUMNS",category:"table",level:"intermediate",desc:"Adds calculated columns to a table.",syntax:"ADDCOLUMNS(<table>, <name>, <expression>, ...)",example:"ADDCOLUMNS(Products, \"Markup\", Products[Price] * 1.2)",tip:"Great with SUMMARIZE for adding aggregations.",related:["SELECTCOLUMNS","SUMMARIZE"]},
+{name:"SELECTCOLUMNS",category:"table",level:"intermediate",desc:"Creates table with only specified columns.",syntax:"SELECTCOLUMNS(<table>, <name>, <expression>, ...)",example:"SELECTCOLUMNS(Products, \"Item\", Products[Name])",tip:"Use to reshape tables or create lookup tables.",related:["ADDCOLUMNS","SUMMARIZE"]},
+{name:"DISTINCT",category:"table",level:"beginner",desc:"Returns table with unique rows only.",syntax:"DISTINCT(<table or column>)",example:"Unique Products = COUNTROWS(DISTINCT(Sales[ProductID]))",related:["VALUES","DISTINCTCOUNT","ALL"]},
+{name:"UNION",category:"table",level:"intermediate",desc:"Combines tables vertically (stacks rows).",syntax:"UNION(<table1>, <table2>, ...)",example:"All Sales = UNION(Sales2023, Sales2024)",tip:"Tables must have same number and type of columns.",related:["EXCEPT","INTERSECT"]},
+{name:"EXCEPT",category:"table",level:"intermediate",desc:"Returns rows in first table NOT in second.",syntax:"EXCEPT(<table1>, <table2>)",example:"New Customers = EXCEPT(AllCustomers, ReturningCustomers)",related:["UNION","INTERSECT"]},
+{name:"INTERSECT",category:"table",level:"intermediate",desc:"Returns rows that exist in BOTH tables.",syntax:"INTERSECT(<table1>, <table2>)",example:"Common Products = INTERSECT(OnlineProducts, StoreProducts)",related:["UNION","EXCEPT"]},
+{name:"TOPN",category:"table",level:"intermediate",desc:"Returns top N rows sorted by an expression.",syntax:"TOPN(<n>, <table>, <orderBy>, <order>)",example:"Top 10 = TOPN(10, Products, [Total Sales], DESC)",tip:"Use in CALCULATE to filter to top items.",related:["RANKX","FILTER"]},
+{name:"GENERATE",category:"table",level:"advanced",desc:"Cross joins tables with row context.",syntax:"GENERATE(<table1>, <table2>)",example:"GENERATE(Categories, TOPN(3, RELATEDTABLE(Products), [Sales]))",tip:"Like CROSS JOIN but second table can reference first.",related:["GENERATEALL","CROSSJOIN"]},
+{name:"ROW",category:"table",level:"intermediate",desc:"Creates a single-row table.",syntax:"ROW(<name1>, <value1>, ...)",example:"ROW(\"Total\", SUM(Sales[Amount]), \"Count\", COUNTROWS(Sales))",related:["DATATABLE","ADDCOLUMNS"]},
+{name:"RELATED",category:"relationship",level:"beginner",desc:"Gets value from related table (many-to-one side).",syntax:"RELATED(<column>)",example:"Category = RELATED(Products[Category])",tip:"Use in calculated columns on the 'many' side.",warning:"Only works many-to-one direction!",related:["RELATEDTABLE","LOOKUPVALUE"]},
+{name:"RELATEDTABLE",category:"relationship",level:"intermediate",desc:"Returns all related rows (one-to-many side).",syntax:"RELATEDTABLE(<table>)",example:"Num Orders = COUNTROWS(RELATEDTABLE(Sales))",tip:"Use in calculated columns on the 'one' side.",related:["RELATED","CALCULATETABLE"]},
+{name:"USERELATIONSHIP",category:"relationship",level:"advanced",desc:"Activates an inactive relationship.",syntax:"USERELATIONSHIP(<column1>, <column2>)",example:"Ship Sales = CALCULATE([Sales], USERELATIONSHIP(Sales[ShipDate], 'Date'[Date]))",tip:"Use for role-playing dimensions (OrderDate vs ShipDate).",related:["CROSSFILTER","TREATAS"]},
+{name:"CROSSFILTER",category:"relationship",level:"advanced",desc:"Changes relationship cross-filter direction.",syntax:"CROSSFILTER(<col1>, <col2>, <direction>)",example:"CALCULATE(COUNTROWS(Products), CROSSFILTER(Sales[ProductID], Products[ID], BOTH))",tip:"Directions: NONE, ONEWAY, BOTH",related:["USERELATIONSHIP","TREATAS"]},
+{name:"TREATAS",category:"relationship",level:"advanced",desc:"Applies column values as filters without relationship.",syntax:"TREATAS(<table>, <column>)",example:"CALCULATE([Sales], TREATAS(VALUES(Budget[Product]), Products[Name]))",tip:"Create virtual relationships between unrelated tables.",related:["USERELATIONSHIP","CROSSFILTER"]},
+{name:"LOOKUPVALUE",category:"relationship",level:"intermediate",desc:"Like VLOOKUP - finds value without relationship.",syntax:"LOOKUPVALUE(<result_col>, <search_col>, <search_value>)",example:"Price = LOOKUPVALUE(Products[Price], Products[ID], Sales[ProductID])",tip:"Slower than RELATED but works without relationships.",warning:"Returns error if multiple matches.",related:["RELATED","TREATAS"]},
+{name:"PATH",category:"relationship",level:"advanced",desc:"Creates delimited path string for parent-child hierarchies.",syntax:"PATH(<id_column>, <parent_column>)",example:"OrgPath = PATH(Employees[ID], Employees[ManagerID])",tip:"Use with PATHITEM, PATHCONTAINS for hierarchy analysis.",related:["PATHITEM","PATHCONTAINS","PATHLENGTH"]}
+];
+let currentCat='all',searchQuery='',viewMode='list',expandedId=null;
+let favorites=JSON.parse(localStorage.getItem('dax_favorites')||'[]');
+function render(){
+    let filtered=daxFunctions;
+    if(currentCat==='favorites')filtered=filtered.filter(f=>favorites.includes(f.name));
+    else if(currentCat!=='all')filtered=filtered.filter(f=>f.category===currentCat);
+    if(searchQuery){const q=searchQuery.toLowerCase();filtered=filtered.filter(f=>f.name.toLowerCase().includes(q)||f.desc.toLowerCase().includes(q)||f.syntax.toLowerCase().includes(q)||(f.tip&&f.tip.toLowerCase().includes(q)));}
+    document.getElementById('stats').textContent='Showing '+filtered.length+' of '+daxFunctions.length+' functions'+(favorites.length?' • '+favorites.length+' favorites':'');
+    const container=document.getElementById('functions'),empty=document.getElementById('empty');
+    container.className='functions'+(viewMode==='grid'?' grid-view':'');
+    if(!filtered.length){container.innerHTML='';empty.style.display='block';return;}
+    empty.style.display='none';
+    container.innerHTML=filtered.map(f=>{
+        const isFav=favorites.includes(f.name),isExpanded=expandedId===f.name;
+        return '<div class="function '+(isExpanded?'expanded':'')+'" data-name="'+f.name+'"><div class="function-header"><div class="function-left"><span class="function-name" onclick="toggleExpand(\''+f.name+'\')">'+f.name+'</span><button class="fav-btn '+(isFav?'active':'')+'" onclick="toggleFav(\''+f.name+'\')" title="'+(isFav?'Remove from':'Add to')+' favorites">★</button></div><div class="function-badges"><span class="badge cat">'+catLabels[f.category]+'</span><span class="badge level '+f.level+'">'+f.level+'</span></div></div><p class="function-desc">'+f.desc+'</p><div class="code-block"><div class="code-header"><span>Syntax</span><button class="copy-btn" onclick="copyCode(this)">📋 Copy</button></div><div class="code-content">'+f.syntax+'</div></div><div class="code-block"><div class="code-header"><span>Example</span><button class="copy-btn" onclick="copyCode(this)">📋 Copy</button></div><div class="code-content">'+f.example+'</div></div>'+(!isExpanded?'<div class="expand-hint">Click function name for tips & more ↓</div>':'')+'<div class="function-extra">'+(f.tip?'<div class="extra-section"><div class="tip">💡 <strong>Pro Tip:</strong> '+f.tip+'</div></div>':'')+(f.warning?'<div class="extra-section"><div class="warning">⚠️ <strong>Watch out:</strong> '+f.warning+'</div></div>':'')+(f.related?'<div class="extra-section"><div class="extra-title">Related Functions</div><div class="related">'+f.related.map(r=>'<span class="related-link" onclick="searchFor(\''+r+'\')">'+r+'</span>').join('')+'</div></div>':'')+'</div></div>';
+    }).join('');
+}
+function toggleExpand(name){expandedId=expandedId===name?null:name;render();}
+function toggleFav(name){
+    if(favorites.includes(name))favorites=favorites.filter(f=>f!==name);
+    else favorites.push(name);
+    localStorage.setItem('dax_favorites',JSON.stringify(favorites));
+    render();showToast(favorites.includes(name)?name+' added to favorites ⭐':name+' removed from favorites');
+}
+function copyCode(btn){
+    const code=btn.closest('.code-block').querySelector('.code-content').textContent;
+    navigator.clipboard.writeText(code);
+    btn.innerHTML='✓ Copied!';btn.classList.add('copied');
+    setTimeout(()=>{btn.innerHTML='📋 Copy';btn.classList.remove('copied');},2000);
+}
+function searchFor(term){
+    document.getElementById('search').value=term;
+    searchQuery=term.toLowerCase();currentCat='all';
+    document.querySelectorAll('.filter').forEach(f=>f.classList.remove('active'));
+    document.querySelector('[data-cat="all"]').classList.add('active');
+    expandedId=term;render();
+}
+function showToast(msg){const toast=document.getElementById('toast');toast.textContent=msg;toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),2000);}
+function toggleDark(){document.body.classList.toggle('dark');localStorage.setItem('dax_dark',document.body.classList.contains('dark'));}
+if(localStorage.getItem('dax_dark')==='true')document.body.classList.add('dark');
+document.getElementById('filters').addEventListener('click',e=>{if(e.target.classList.contains('filter')){document.querySelectorAll('.filter').forEach(f=>f.classList.remove('active'));e.target.classList.add('active');currentCat=e.target.dataset.cat;expandedId=null;render();}});
+document.getElementById('search').addEventListener('input',e=>{searchQuery=e.target.value.toLowerCase();render();});
+document.querySelector('.view-toggle').addEventListener('click',e=>{if(e.target.classList.contains('view-btn')){document.querySelectorAll('.view-btn').forEach(b=>b.classList.remove('active'));e.target.classList.add('active');viewMode=e.target.dataset.view;render();}});
+document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement.tagName!=='INPUT'){e.preventDefault();document.getElementById('search').focus();}if(e.key==='Escape'){document.getElementById('search').value='';document.getElementById('search').blur();searchQuery='';render();}});
+render();
     </script>
 </body>
 </html>
