@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free AI Tools | AI & BI News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --bg: #ffffff; --text: #111; --text-secondary: #666; --text-muted: #999; --border: #eaeaea; --hover: #fafafa; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+        .page-wrapper { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+        header { padding: 60px 0 40px; }
+        .header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 48px; }
+        .logo { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; color: var(--text); }
+        .back-link { font-size: 0.8rem; color: var(--text-muted); text-decoration: none; }
+        .back-link:hover { color: var(--text); }
+        h1 { font-size: clamp(2rem, 5vw, 2.5rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.2; margin-bottom: 16px; }
+        .intro { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 12px; }
+        .updated { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 48px; }
+        .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+        .filter { padding: 8px 16px; font-size: 0.8rem; background: var(--hover); border: none; border-radius: 20px; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; }
+        .filter:hover { background: var(--border); }
+        .filter.active { background: var(--text); color: white; }
+        .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+        .tool { padding: 20px; border: 1px solid var(--border); border-radius: 10px; transition: all 0.2s; cursor: pointer; }
+        .tool:hover { border-color: var(--text-muted); }
+        .tool-name { font-size: 1rem; font-weight: 600; margin-bottom: 6px; }
+        .tool-name a { color: inherit; text-decoration: none; }
+        .tool-name a:hover { text-decoration: underline; }
+        .tool-desc { font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5; }
+        .tool-meta { display: flex; gap: 8px; flex-wrap: wrap; }
+        .tool-tag { font-size: 0.7rem; padding: 3px 8px; background: var(--hover); border-radius: 4px; color: var(--text-muted); }
+        .tool-tag.free { background: #e8f5e9; color: #2e7d32; }
+        .loading { text-align: center; padding: 60px; color: var(--text-muted); }
+        .empty { text-align: center; padding: 60px; color: var(--text-muted); }
+        footer { margin-top: 80px; padding: 40px 0; border-top: 1px solid var(--border); text-align: center; font-size: 0.75rem; color: var(--text-muted); }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <header>
+            <div class="header-top">
+                <a href="index.html" class="logo">AI & BI News</a>
+                <a href="index.html" class="back-link">← Back</a>
+            </div>
+            <h1>Free AI Tools</h1>
+            <p class="intro">AI-curated directory of useful AI tools. Updated automatically.</p>
+            <p class="updated" id="updated"></p>
+        </header>
+
+        <main>
+            <div class="filters" id="filters">
+                <button class="filter active" data-cat="all">All</button>
+            </div>
+            <div class="loading" id="loading">Loading tools...</div>
+            <div class="tools-grid" id="tools"></div>
+            <div class="empty" id="empty" style="display:none;">No tools found.</div>
+        </main>
+
+        <footer>
+            <p>AI & BI News — Powered by n8n + OpenAI</p>
+        </footer>
+    </div>
+    <script>
+        let toolsData = [], currentCat = 'all';
+
+        fetch('ai-tools.json?' + Date.now())
+            .then(r => r.json())
+            .then(data => {
+                toolsData = data.tools || [];
+                document.getElementById('loading').style.display = 'none';
+                if (data.lastUpdated) {
+                    document.getElementById('updated').textContent = 'Last updated: ' + new Date(data.lastUpdated).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                }
+                buildFilters();
+                render();
+            })
+            .catch(() => {
+                document.getElementById('loading').textContent = 'Unable to load tools.';
+            });
+
+        function buildFilters() {
+            const cats = [...new Set(toolsData.map(t => t.category))].sort();
+            const container = document.getElementById('filters');
+            cats.forEach(cat => {
+                const btn = document.createElement('button');
+                btn.className = 'filter';
+                btn.dataset.cat = cat;
+                btn.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
+                container.appendChild(btn);
+            });
+        }
+
+        function render() {
+            const filtered = currentCat === 'all' ? toolsData : toolsData.filter(t => t.category === currentCat);
+            const container = document.getElementById('tools');
+            const empty = document.getElementById('empty');
+            
+            if (!filtered.length) {
+                container.innerHTML = '';
+                empty.style.display = 'block';
+                return;
+            }
+            empty.style.display = 'none';
+            
+            container.innerHTML = filtered.map(tool => `
+                <div class="tool" onclick="window.open('${tool.url}', '_blank')">
+                    <div class="tool-name"><a href="${tool.url}" target="_blank" onclick="event.stopPropagation()">${tool.name}</a></div>
+                    <div class="tool-desc">${tool.description || ''}</div>
+                    <div class="tool-meta">
+                        <span class="tool-tag">${tool.category}</span>
+                        ${tool.free ? '<span class="tool-tag free">Free</span>' : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        document.getElementById('filters').addEventListener('click', e => {
+            if (e.target.classList.contains('filter')) {
+                document.querySelectorAll('.filter').forEach(f => f.classList.remove('active'));
+                e.target.classList.add('active');
+                currentCat = e.target.dataset.cat;
+                render();
+            }
+        });
+    </script>
+</body>
+</html>
