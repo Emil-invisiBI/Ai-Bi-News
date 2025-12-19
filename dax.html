@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAX Reference | AI & BI News</title>
+    <meta name="description" content="Quick reference guide for DAX functions in Power BI. Search and filter common DAX formulas with syntax examples.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --bg: #ffffff; --text: #111; --text-secondary: #666; --text-muted: #999; --border: #eaeaea; --hover: #fafafa; --code-bg: #f6f8fa; }
+        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        .page-wrapper { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+        
+        .top-nav { border-bottom: 1px solid var(--border); padding: 20px 0; margin-bottom: 48px; }
+        .top-nav-inner { max-width: 1000px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; text-decoration: none; color: var(--text); }
+        .nav-links { display: flex; gap: 32px; }
+        .nav-links a { font-size: 0.85rem; color: var(--text-muted); text-decoration: none; padding: 4px 0; position: relative; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--text); }
+        .nav-links a.active { color: var(--text); font-weight: 500; }
+        .nav-links a.active::after { content: ''; position: absolute; bottom: -4px; left: 0; right: 0; height: 2px; background: var(--text); }
+        
+        header { padding: 0 0 32px; }
+        .hero-title { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; margin-bottom: 12px; }
+        .hero-subtitle { font-size: 1rem; color: var(--text-secondary); }
+        
+        .search-box { margin-bottom: 24px; }
+        .search-input { width: 100%; padding: 14px 18px; background: var(--hover); border: 1px solid var(--border); border-radius: 10px; font-size: 0.95rem; font-family: inherit; color: var(--text); outline: none; }
+        .search-input:focus { border-color: var(--text-muted); }
+        
+        .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+        .filter { padding: 8px 16px; font-size: 0.8rem; background: var(--hover); border: 1px solid var(--border); border-radius: 20px; cursor: pointer; color: var(--text-secondary); transition: all 0.2s; }
+        .filter:hover { border-color: var(--text-muted); }
+        .filter.active { background: var(--text); color: white; border-color: var(--text); }
+        
+        .stats { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 24px; }
+        
+        .functions { display: grid; gap: 16px; }
+        .function { padding: 20px; border: 1px solid var(--border); border-radius: 12px; transition: border-color 0.2s; }
+        .function:hover { border-color: var(--text-muted); }
+        .function-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; gap: 12px; }
+        .function-name { font-size: 1.1rem; font-weight: 600; font-family: 'JetBrains Mono', monospace; color: var(--text); }
+        .function-category { font-size: 0.7rem; padding: 4px 10px; background: var(--hover); border-radius: 4px; color: var(--text-muted); white-space: nowrap; }
+        .function-desc { font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.5; }
+        .function-syntax { background: var(--code-bg); padding: 12px 16px; border-radius: 8px; font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; overflow-x: auto; margin-bottom: 12px; }
+        .function-example { font-size: 0.8rem; color: var(--text-muted); }
+        .function-example strong { color: var(--text-secondary); }
+        .function-example code { background: var(--code-bg); padding: 2px 6px; border-radius: 4px; font-family: 'JetBrains Mono', monospace; }
+        
+        .empty { text-align: center; padding: 60px; color: var(--text-muted); }
+        
+        footer { margin-top: 80px; padding: 40px 0; border-top: 1px solid var(--border); text-align: center; font-size: 0.75rem; color: var(--text-muted); }
+        
+        @media (max-width: 600px) { .nav-links { gap: 20px; } .nav-links a { font-size: 0.8rem; } .function-header { flex-direction: column; } }
+    </style>
+</head>
+<body>
+    <nav class="top-nav">
+        <div class="top-nav-inner">
+            <a href="index.html" class="logo">AI & BI News</a>
+            <div class="nav-links">
+                <a href="index.html">News</a>
+                <a href="dax.html" class="active">DAX Reference</a>
+                <a href="certifications.html">Certifications</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-wrapper">
+        <header>
+            <h1 class="hero-title">DAX Reference</h1>
+            <p class="hero-subtitle">Quick reference for common DAX functions in Power BI</p>
+        </header>
+
+        <main>
+            <div class="search-box">
+                <input type="text" class="search-input" id="search" placeholder="Search functions... (e.g. CALCULATE, SUM, FILTER)">
+            </div>
+            
+            <div class="filters" id="filters">
+                <button class="filter active" data-cat="all">All</button>
+                <button class="filter" data-cat="aggregation">Aggregation</button>
+                <button class="filter" data-cat="filter">Filter</button>
+                <button class="filter" data-cat="logical">Logical</button>
+                <button class="filter" data-cat="text">Text</button>
+                <button class="filter" data-cat="date">Date & Time</button>
+                <button class="filter" data-cat="table">Table</button>
+                <button class="filter" data-cat="relationship">Relationship</button>
+            </div>
+
+            <div class="stats" id="stats"></div>
+            <div class="functions" id="functions"></div>
+            <div class="empty" id="empty" style="display:none;">No functions found.</div>
+        </main>
+
+        <footer>
+            <p>AI & BI News — DAX Reference Guide</p>
+        </footer>
+    </div>
+
+    <script>
+        const daxFunctions = [
+            // Aggregation
+            { name: "SUM", category: "aggregation", desc: "Adds all numbers in a column.", syntax: "SUM(<column>)", example: "SUM(Sales[Amount])" },
+            { name: "AVERAGE", category: "aggregation", desc: "Returns the average of all numbers in a column.", syntax: "AVERAGE(<column>)", example: "AVERAGE(Sales[Price])" },
+            { name: "COUNT", category: "aggregation", desc: "Counts the number of cells containing numbers.", syntax: "COUNT(<column>)", example: "COUNT(Sales[OrderID])" },
+            { name: "COUNTA", category: "aggregation", desc: "Counts non-blank cells in a column.", syntax: "COUNTA(<column>)", example: "COUNTA(Customers[Name])" },
+            { name: "COUNTROWS", category: "aggregation", desc: "Counts the number of rows in a table.", syntax: "COUNTROWS(<table>)", example: "COUNTROWS(Sales)" },
+            { name: "DISTINCTCOUNT", category: "aggregation", desc: "Counts unique values in a column.", syntax: "DISTINCTCOUNT(<column>)", example: "DISTINCTCOUNT(Sales[CustomerID])" },
+            { name: "MIN", category: "aggregation", desc: "Returns the smallest value in a column.", syntax: "MIN(<column>)", example: "MIN(Sales[Date])" },
+            { name: "MAX", category: "aggregation", desc: "Returns the largest value in a column.", syntax: "MAX(<column>)", example: "MAX(Sales[Amount])" },
+            { name: "SUMX", category: "aggregation", desc: "Iterates over a table and sums an expression.", syntax: "SUMX(<table>, <expression>)", example: "SUMX(Sales, Sales[Qty] * Sales[Price])" },
+            { name: "AVERAGEX", category: "aggregation", desc: "Iterates over a table and averages an expression.", syntax: "AVERAGEX(<table>, <expression>)", example: "AVERAGEX(Products, Products[Price] * 1.1)" },
+            
+            // Filter
+            { name: "CALCULATE", category: "filter", desc: "Evaluates an expression in a modified filter context. The most important DAX function.", syntax: "CALCULATE(<expression>, <filter1>, <filter2>...)", example: "CALCULATE(SUM(Sales[Amount]), Products[Category] = \"Electronics\")" },
+            { name: "FILTER", category: "filter", desc: "Returns a table that contains only filtered rows.", syntax: "FILTER(<table>, <condition>)", example: "FILTER(Sales, Sales[Amount] > 1000)" },
+            { name: "ALL", category: "filter", desc: "Removes all filters from a table or column.", syntax: "ALL(<table or column>)", example: "CALCULATE(SUM(Sales[Amount]), ALL(Products))" },
+            { name: "ALLEXCEPT", category: "filter", desc: "Removes all filters except those on specified columns.", syntax: "ALLEXCEPT(<table>, <column1>, <column2>...)", example: "CALCULATE(SUM(Sales[Amount]), ALLEXCEPT(Products, Products[Category]))" },
+            { name: "ALLSELECTED", category: "filter", desc: "Removes filters except those applied by user selections.", syntax: "ALLSELECTED(<table or column>)", example: "CALCULATE(SUM(Sales[Amount]), ALLSELECTED(Products))" },
+            { name: "REMOVEFILTERS", category: "filter", desc: "Clears filters from specified tables or columns.", syntax: "REMOVEFILTERS(<table or column>)", example: "CALCULATE(SUM(Sales[Amount]), REMOVEFILTERS(Date))" },
+            { name: "KEEPFILTERS", category: "filter", desc: "Adds a filter without overwriting existing filters.", syntax: "KEEPFILTERS(<expression>)", example: "CALCULATE(SUM(Sales[Amount]), KEEPFILTERS(Products[Color] = \"Red\"))" },
+            { name: "SELECTEDVALUE", category: "filter", desc: "Returns value when only one value is selected, else alternate.", syntax: "SELECTEDVALUE(<column>, <alternateResult>)", example: "SELECTEDVALUE(Products[Name], \"Multiple\")" },
+            { name: "HASONEVALUE", category: "filter", desc: "Returns TRUE if context filtered to one value.", syntax: "HASONEVALUE(<column>)", example: "IF(HASONEVALUE(Products[Category]), ...)" },
+            { name: "VALUES", category: "filter", desc: "Returns unique values from a column including blank.", syntax: "VALUES(<column>)", example: "COUNTROWS(VALUES(Sales[CustomerID]))" },
+            
+            // Logical
+            { name: "IF", category: "logical", desc: "Checks a condition and returns one value if true, another if false.", syntax: "IF(<condition>, <true_value>, <false_value>)", example: "IF(Sales[Amount] > 1000, \"High\", \"Low\")" },
+            { name: "SWITCH", category: "logical", desc: "Evaluates an expression against a list of values.", syntax: "SWITCH(<expression>, <value1>, <result1>, ..., <else>)", example: "SWITCH(Products[Size], \"S\", 1, \"M\", 2, \"L\", 3, 0)" },
+            { name: "AND", category: "logical", desc: "Returns TRUE if both arguments are true.", syntax: "AND(<condition1>, <condition2>)", example: "IF(AND(Sales[Amount] > 100, Sales[Qty] > 5), ...)" },
+            { name: "OR", category: "logical", desc: "Returns TRUE if any argument is true.", syntax: "OR(<condition1>, <condition2>)", example: "IF(OR(Sales[Region] = \"East\", Sales[Region] = \"West\"), ...)" },
+            { name: "NOT", category: "logical", desc: "Reverses the value of a logical expression.", syntax: "NOT(<condition>)", example: "NOT(ISBLANK(Sales[Discount]))" },
+            { name: "IFERROR", category: "logical", desc: "Returns alternate value if expression is an error.", syntax: "IFERROR(<expression>, <alternate>)", example: "IFERROR(Sales[Amount] / Sales[Qty], 0)" },
+            { name: "ISBLANK", category: "logical", desc: "Checks if a value is blank.", syntax: "ISBLANK(<value>)", example: "IF(ISBLANK(Sales[Discount]), 0, Sales[Discount])" },
+            { name: "COALESCE", category: "logical", desc: "Returns the first non-blank value.", syntax: "COALESCE(<value1>, <value2>, ...)", example: "COALESCE(Sales[Discount], 0)" },
+            
+            // Text
+            { name: "CONCATENATE", category: "text", desc: "Joins two text strings into one.", syntax: "CONCATENATE(<text1>, <text2>)", example: "CONCATENATE(Customers[FirstName], \" \", Customers[LastName])" },
+            { name: "FORMAT", category: "text", desc: "Converts a value to text with a specified format.", syntax: "FORMAT(<value>, <format_string>)", example: "FORMAT(Sales[Date], \"MMMM YYYY\")" },
+            { name: "LEFT", category: "text", desc: "Returns characters from the start of a string.", syntax: "LEFT(<text>, <num_chars>)", example: "LEFT(Products[Code], 3)" },
+            { name: "RIGHT", category: "text", desc: "Returns characters from the end of a string.", syntax: "RIGHT(<text>, <num_chars>)", example: "RIGHT(Products[Code], 4)" },
+            { name: "MID", category: "text", desc: "Returns characters from the middle of a string.", syntax: "MID(<text>, <start>, <num_chars>)", example: "MID(Products[Code], 2, 3)" },
+            { name: "LEN", category: "text", desc: "Returns the number of characters in a string.", syntax: "LEN(<text>)", example: "LEN(Products[Description])" },
+            { name: "UPPER", category: "text", desc: "Converts text to uppercase.", syntax: "UPPER(<text>)", example: "UPPER(Customers[Name])" },
+            { name: "LOWER", category: "text", desc: "Converts text to lowercase.", syntax: "LOWER(<text>)", example: "LOWER(Customers[Email])" },
+            { name: "TRIM", category: "text", desc: "Removes leading and trailing spaces.", syntax: "TRIM(<text>)", example: "TRIM(Customers[Name])" },
+            { name: "SUBSTITUTE", category: "text", desc: "Replaces occurrences of text.", syntax: "SUBSTITUTE(<text>, <old>, <new>)", example: "SUBSTITUTE(Products[Name], \"-\", \" \")" },
+            { name: "SEARCH", category: "text", desc: "Returns the position of a substring (case-insensitive).", syntax: "SEARCH(<find_text>, <within_text>, <start>)", example: "SEARCH(\"Pro\", Products[Name], 1)" },
+            { name: "CONTAINSSTRING", category: "text", desc: "Returns TRUE if text contains a substring.", syntax: "CONTAINSSTRING(<within_text>, <find_text>)", example: "CONTAINSSTRING(Products[Name], \"Pro\")" },
+            
+            // Date & Time
+            { name: "TODAY", category: "date", desc: "Returns the current date.", syntax: "TODAY()", example: "DATEDIFF(Sales[Date], TODAY(), DAY)" },
+            { name: "NOW", category: "date", desc: "Returns the current date and time.", syntax: "NOW()", example: "FORMAT(NOW(), \"hh:mm AM/PM\")" },
+            { name: "DATE", category: "date", desc: "Creates a date from year, month, day.", syntax: "DATE(<year>, <month>, <day>)", example: "DATE(2025, 1, 1)" },
+            { name: "YEAR", category: "date", desc: "Returns the year from a date.", syntax: "YEAR(<date>)", example: "YEAR(Sales[Date])" },
+            { name: "MONTH", category: "date", desc: "Returns the month from a date (1-12).", syntax: "MONTH(<date>)", example: "MONTH(Sales[Date])" },
+            { name: "DAY", category: "date", desc: "Returns the day from a date (1-31).", syntax: "DAY(<date>)", example: "DAY(Sales[Date])" },
+            { name: "WEEKDAY", category: "date", desc: "Returns the day of week (1-7).", syntax: "WEEKDAY(<date>, <type>)", example: "WEEKDAY(Sales[Date], 2)" },
+            { name: "WEEKNUM", category: "date", desc: "Returns the week number of the year.", syntax: "WEEKNUM(<date>)", example: "WEEKNUM(Sales[Date])" },
+            { name: "EOMONTH", category: "date", desc: "Returns the last day of a month, offset by months.", syntax: "EOMONTH(<date>, <months>)", example: "EOMONTH(TODAY(), -1)" },
+            { name: "DATEDIFF", category: "date", desc: "Returns the difference between two dates.", syntax: "DATEDIFF(<start>, <end>, <interval>)", example: "DATEDIFF(Orders[OrderDate], Orders[ShipDate], DAY)" },
+            { name: "DATEADD", category: "date", desc: "Shifts dates by an interval.", syntax: "DATEADD(<dates>, <number>, <interval>)", example: "CALCULATE(SUM(Sales[Amount]), DATEADD(Calendar[Date], -1, YEAR))" },
+            { name: "SAMEPERIODLASTYEAR", category: "date", desc: "Returns dates shifted back one year.", syntax: "SAMEPERIODLASTYEAR(<dates>)", example: "CALCULATE(SUM(Sales[Amount]), SAMEPERIODLASTYEAR(Calendar[Date]))" },
+            { name: "TOTALYTD", category: "date", desc: "Calculates year-to-date total.", syntax: "TOTALYTD(<expression>, <dates>)", example: "TOTALYTD(SUM(Sales[Amount]), Calendar[Date])" },
+            { name: "TOTALMTD", category: "date", desc: "Calculates month-to-date total.", syntax: "TOTALMTD(<expression>, <dates>)", example: "TOTALMTD(SUM(Sales[Amount]), Calendar[Date])" },
+            { name: "PARALLELPERIOD", category: "date", desc: "Returns a parallel period shifted by intervals.", syntax: "PARALLELPERIOD(<dates>, <number>, <interval>)", example: "CALCULATE(SUM(Sales[Amount]), PARALLELPERIOD(Calendar[Date], -1, QUARTER))" },
+            
+            // Table
+            { name: "SUMMARIZE", category: "table", desc: "Groups a table by columns and adds calculated columns.", syntax: "SUMMARIZE(<table>, <groupBy_column>, <name>, <expression>)", example: "SUMMARIZE(Sales, Products[Category], \"Total\", SUM(Sales[Amount]))" },
+            { name: "ADDCOLUMNS", category: "table", desc: "Adds calculated columns to a table.", syntax: "ADDCOLUMNS(<table>, <name>, <expression>)", example: "ADDCOLUMNS(Products, \"Markup\", Products[Price] * 1.2)" },
+            { name: "SELECTCOLUMNS", category: "table", desc: "Creates a table with selected/calculated columns.", syntax: "SELECTCOLUMNS(<table>, <name>, <expression>)", example: "SELECTCOLUMNS(Products, \"Item\", Products[Name], \"Cost\", Products[Price])" },
+            { name: "DISTINCT", category: "table", desc: "Returns a table with unique rows.", syntax: "DISTINCT(<table or column>)", example: "COUNTROWS(DISTINCT(Sales[CustomerID]))" },
+            { name: "UNION", category: "table", desc: "Combines tables vertically.", syntax: "UNION(<table1>, <table2>)", example: "UNION(Sales2023, Sales2024)" },
+            { name: "EXCEPT", category: "table", desc: "Returns rows in first table not in second.", syntax: "EXCEPT(<table1>, <table2>)", example: "EXCEPT(AllProducts, SoldProducts)" },
+            { name: "INTERSECT", category: "table", desc: "Returns rows common to both tables.", syntax: "INTERSECT(<table1>, <table2>)", example: "INTERSECT(CustomersA, CustomersB)" },
+            { name: "TOPN", category: "table", desc: "Returns top N rows by an expression.", syntax: "TOPN(<n>, <table>, <orderBy_expression>)", example: "TOPN(10, Products, Products[Sales], DESC)" },
+            { name: "GENERATE", category: "table", desc: "Creates a table by iterating and combining.", syntax: "GENERATE(<table1>, <table2>)", example: "GENERATE(Categories, RELATEDTABLE(Products))" },
+            { name: "ROW", category: "table", desc: "Creates a single-row table.", syntax: "ROW(<name>, <expression>)", example: "ROW(\"Total\", SUM(Sales[Amount]))" },
+            
+            // Relationship
+            { name: "RELATED", category: "relationship", desc: "Returns a value from the related table (many-to-one).", syntax: "RELATED(<column>)", example: "RELATED(Products[Category])" },
+            { name: "RELATEDTABLE", category: "relationship", desc: "Returns a table of related rows (one-to-many).", syntax: "RELATEDTABLE(<table>)", example: "COUNTROWS(RELATEDTABLE(Sales))" },
+            { name: "USERELATIONSHIP", category: "relationship", desc: "Activates an inactive relationship.", syntax: "USERELATIONSHIP(<column1>, <column2>)", example: "CALCULATE(SUM(Sales[Amount]), USERELATIONSHIP(Sales[ShipDate], Calendar[Date]))" },
+            { name: "CROSSFILTER", category: "relationship", desc: "Modifies cross-filter direction.", syntax: "CROSSFILTER(<column1>, <column2>, <direction>)", example: "CALCULATE(COUNTROWS(Products), CROSSFILTER(Sales[ProductID], Products[ID], BOTH))" },
+            { name: "TREATAS", category: "relationship", desc: "Applies column values as filters without relationship.", syntax: "TREATAS(<table>, <column>)", example: "CALCULATE(SUM(Sales[Amount]), TREATAS(VALUES(Budget[Product]), Products[Name]))" },
+            { name: "LOOKUPVALUE", category: "relationship", desc: "Finds a value in a table like VLOOKUP.", syntax: "LOOKUPVALUE(<result_column>, <search_column>, <search_value>)", example: "LOOKUPVALUE(Products[Price], Products[ID], Sales[ProductID])" },
+        ];
+
+        let currentCat = 'all', searchQuery = '';
+
+        function render() {
+            let filtered = daxFunctions;
+            if (currentCat !== 'all') filtered = filtered.filter(f => f.category === currentCat);
+            if (searchQuery) filtered = filtered.filter(f => 
+                f.name.toLowerCase().includes(searchQuery) || 
+                f.desc.toLowerCase().includes(searchQuery) ||
+                f.syntax.toLowerCase().includes(searchQuery)
+            );
+
+            document.getElementById('stats').textContent = `Showing ${filtered.length} of ${daxFunctions.length} functions`;
+
+            const container = document.getElementById('functions');
+            const empty = document.getElementById('empty');
+
+            if (!filtered.length) { container.innerHTML = ''; empty.style.display = 'block'; return; }
+            empty.style.display = 'none';
+
+            const catLabels = { aggregation: 'Aggregation', filter: 'Filter', logical: 'Logical', text: 'Text', date: 'Date & Time', table: 'Table', relationship: 'Relationship' };
+
+            container.innerHTML = filtered.map(f => `
+                <div class="function">
+                    <div class="function-header">
+                        <span class="function-name">${f.name}</span>
+                        <span class="function-category">${catLabels[f.category]}</span>
+                    </div>
+                    <p class="function-desc">${f.desc}</p>
+                    <div class="function-syntax">${f.syntax}</div>
+                    <div class="function-example"><strong>Example:</strong> <code>${f.example}</code></div>
+                </div>
+            `).join('');
+        }
+
+        document.getElementById('filters').addEventListener('click', e => {
+            if (e.target.classList.contains('filter')) {
+                document.querySelectorAll('.filter').forEach(f => f.classList.remove('active'));
+                e.target.classList.add('active');
+                currentCat = e.target.dataset.cat;
+                render();
+            }
+        });
+
+        document.getElementById('search').addEventListener('input', e => {
+            searchQuery = e.target.value.toLowerCase();
+            render();
+        });
+
+        render();
+    </script>
+</body>
+</html>
