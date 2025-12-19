@@ -1,4 +1,138 @@
 {
-  "lastUpdated": "",
-  "tools": []
+  "lastUpdated": "2025-12-19T12:52:17.196Z",
+  "tools": [
+    {
+      "name": "Rocket",
+      "url": "https://www.rocket.new/?utm_source=websitebanner&utm_medium=taaft&utm_campaign=week11dec",
+      "description": "Vibe coding tool.",
+      "category": "code",
+      "free": false
+    },
+    {
+      "name": "DALL-E",
+      "url": "https://openai.com/dall-e/",
+      "description": "Generate images from text prompts.",
+      "category": "image",
+      "free": false
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com/",
+      "description": "AI chatbot that understands and generates human-like responses.",
+      "category": "chat",
+      "free": true
+    },
+    {
+      "name": "Jasper",
+      "url": "https://www.jasper.ai/",
+      "description": "AI writing assistant that creates content.",
+      "category": "writing",
+      "free": false
+    },
+    {
+      "name": "Synthesia",
+      "url": "https://www.synthesia.io/",
+      "description": "Create AI-generated videos from text.",
+      "category": "video",
+      "free": false
+    },
+    {
+      "name": "Runway",
+      "url": "https://runwayml.com/",
+      "description": "AI tools for creative projects and video editing.",
+      "category": "video",
+      "free": true
+    },
+    {
+      "name": "Lumen5",
+      "url": "https://www.lumen5.com/",
+      "description": "Turn text into engaging videos using AI.",
+      "category": "video",
+      "free": true
+    },
+    {
+      "name": "Copy.ai",
+      "url": "https://www.copy.ai/",
+      "description": "AI tool for generating marketing copy.",
+      "category": "writing",
+      "free": true
+    },
+    {
+      "name": "Wave.ai",
+      "url": "https://www.wave.ai/",
+      "description": "Create music using AI algorithms.",
+      "category": "audio",
+      "free": false
+    },
+    {
+      "name": "DeepArt",
+      "url": "https://deepart.io/",
+      "description": "Transform your photos into artwork using AI.",
+      "category": "image",
+      "free": false
+    },
+    {
+      "name": "Flair",
+      "url": "https://flair.ai/",
+      "description": "AI-driven sentiment analysis tool.",
+      "category": "data",
+      "free": true
+    },
+    {
+      "name": "Scribe",
+      "url": "https://scribehow.com/",
+      "description": "Record and share step-by-step tutorials using AI.",
+      "category": "writing",
+      "free": true
+    },
+    {
+      "name": "Replika",
+      "url": "https://replika.ai/",
+      "description": "AI chatbot that acts as a personal friend.",
+      "category": "chat",
+      "free": true
+    },
+    {
+      "name": "Pictory",
+      "url": "https://pictory.ai/",
+      "description": "AI-powered video creation from scripts.",
+      "category": "video",
+      "free": false
+    },
+    {
+      "name": "Inferkit",
+      "url": "https://inferkit.com/",
+      "description": "Text generation tool using AI.",
+      "category": "writing",
+      "free": false
+    },
+    {
+      "name": "Fotor",
+      "url": "https://www.fotor.com/",
+      "description": "Photo editing tool powered by AI.",
+      "category": "image",
+      "free": true
+    },
+    {
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "description": "Audio and video editing tool with AI features.",
+      "category": "audio/video",
+      "free": true
+    },
+    {
+      "name": "Chatsonic",
+      "url": "https://www.chatsonic.com/",
+      "description": "AI chatbot with voice and image capabilities.",
+      "category": "chat",
+      "free": true
+    },
+    {
+      "name": "Notion AI",
+      "url": "https://www.notion.so/product/ai",
+      "description": "AI features integrated into Notion for assistance.",
+      "category": "writing",
+      "free": false
+    }
+  ]
 }
