@@ -95,7 +95,7 @@
         fetch('news.json?' + Date.now())
             .then(r => r.json())
             .then(data => {
-                articles = data.sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+                articles = data.sort((a, b) => new Date(b.date) - new Date(a.date));
                 document.getElementById('loading').style.display = 'none';
                 render();
             })
@@ -105,7 +105,7 @@
 
         function render() {
             let filtered = articles;
-            if (currentSource !== 'all') filtered = filtered.filter(a => a.source === currentSource);
+            if (currentSource !== 'all') filtered = filtered.filter(a => a.category === currentSource);
             if (searchQuery) filtered = filtered.filter(a => a.title.toLowerCase().includes(searchQuery) || (a.description && a.description.toLowerCase().includes(searchQuery)));
 
             const container = document.getElementById('articles');
@@ -115,9 +115,9 @@
             empty.style.display = 'none';
 
             container.innerHTML = filtered.map(article => {
-                const date = new Date(article.pubDate).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-                const sourceLabel = article.source === 'powerbi' ? 'Power BI' : article.source === 'fabric' ? 'Fabric' : 'OpenAI';
-                return `<article class="article" onclick="window.open('${article.link}', '_blank')">
+                const date = new Date(article.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                const sourceLabel = article.category === 'powerbi' ? 'Power BI' : article.category === 'fabric' ? 'Fabric' : 'OpenAI';
+                return `<article class="article" onclick="window.open('${article.url}', '_blank')">
                     <div class="article-meta"><span class="article-source">${sourceLabel}</span><span class="article-date">${date}</span></div>
                     <h2 class="article-title">${article.title}</h2>
                     <p class="article-desc">${article.description || ''}</p>
@@ -135,6 +135,5 @@
         });
         document.getElementById('search').addEventListener('input', e => { searchQuery = e.target.value.toLowerCase(); render(); });
     </script>
-    <script src="chat-widget.js"></script>
 </body>
 </html>
