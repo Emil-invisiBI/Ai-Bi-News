@@ -112,17 +112,17 @@
     "category": "fabric"
   },
   {
-    "title": "DATE_BUCKET() function in Fabric Data Warehouse (Generally Available)",
-    "description": "Unlock Flexible Time-Based Reporting with DATE_BUCKET() in Microsoft Fabric DW!\nMicrosoft Fabric Data Warehouse continues to evolve with powerful features that make analytics easier and more adaptable. One of the latest additions is the DATE_BUCKET() function—a game-changer for time-based reporting.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/date_bucket-function-in-fabric-data-warehouse/",
+    "title": "On-premises data gateway December 2025 release",
+    "description": "Here is the December 2025 release of the on-premises data gateway (version 3000.298).",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-december-2025-release/",
     "date": "Thu, 18 Dec 2025 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
   {
-    "title": "On-premises data gateway December 2025 release",
-    "description": "Here is the December 2025 release of the on-premises data gateway (version 3000.298).",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-december-2025-release/",
+    "title": "DATE_BUCKET() function in Fabric Data Warehouse (Generally Available)",
+    "description": "Unlock Flexible Time-Based Reporting with DATE_BUCKET() in Microsoft Fabric DW!\nMicrosoft Fabric Data Warehouse continues to evolve with powerful features that make analytics easier and more adaptable. One of the latest additions is the DATE_BUCKET() function—a game-changer for time-based reporting.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/date_bucket-function-in-fabric-data-warehouse/",
     "date": "Thu, 18 Dec 2025 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
