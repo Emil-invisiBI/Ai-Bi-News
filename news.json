@@ -2840,14 +2840,6 @@
     "category": "ai"
   },
   {
-    "title": "Put AI to work for your product team",
-    "description": "Put AI to work for your product team",
-    "url": "https://openai.com/index/put-ai-to-work-for-your-product-team",
-    "date": "Mon, 09 Dec 2024 00:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
     "title": "Sora System Card",
     "description": "Sora is OpenAI’s video generation model, designed to take text, image, and video inputs and generate a new video as an output. Sora builds on learnings from DALL-E and GPT models, and is designed to give people expanded tools for storytelling and creative expression.",
     "url": "https://openai.com/index/sora-system-card",
@@ -2867,6 +2859,14 @@
     "title": "Vallée Duhamel & Sora",
     "description": "Filmmaking duo Vallée Duhamel explains how Sora helps build new worlds.",
     "url": "https://openai.com/index/sora-vallee-duhamel",
+    "date": "Mon, 09 Dec 2024 00:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
+    "title": "Put AI to work for your product team",
+    "description": "Put AI to work for your product team",
+    "url": "https://openai.com/index/put-ai-to-work-for-your-product-team",
     "date": "Mon, 09 Dec 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3256,6 +3256,14 @@
     "category": "ai"
   },
   {
+    "title": "OpenAI o1 System Card External Testers Acknowledgements",
+    "description": "OpenAI o1 system card external testers acknowledgements",
+    "url": "https://openai.com/index/openai-o1-system-card/external-testers-acknowledgements",
+    "date": "Thu, 12 Sep 2024 10:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
     "title": "OpenAI o1 Contributions",
     "description": "OpenAI o1 Contributions",
     "url": "https://openai.com/openai-o1-contributions",
@@ -3264,10 +3272,18 @@
     "category": "ai"
   },
   {
-    "title": "OpenAI o1 System Card External Testers Acknowledgements",
-    "description": "OpenAI o1 system card external testers acknowledgements",
-    "url": "https://openai.com/index/openai-o1-system-card/external-testers-acknowledgements",
-    "date": "Thu, 12 Sep 2024 10:00:00 GMT",
+    "title": "Decoding genetics with OpenAI o1",
+    "description": "Geneticist Catherine Brownstein demonstrates how OpenAI o1 can speed up the process of diagnosing rare medical challenges.",
+    "url": "https://openai.com/index/o1-genetics",
+    "date": "Thu, 12 Sep 2024 00:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
+    "title": "Answering quantum physics questions with OpenAI o1",
+    "description": "Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's biggest questions.",
+    "url": "https://openai.com/index/o1-quantum-physics",
+    "date": "Thu, 12 Sep 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
@@ -3283,22 +3299,6 @@
     "title": "Coding with OpenAI o1",
     "description": "Scott Wu, CEO and Co-Founder of Cognition, explains how OpenAI o1 makes coding decisions in a more human-like way.",
     "url": "https://openai.com/index/o1-coding",
-    "date": "Thu, 12 Sep 2024 00:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
-    "title": "Answering quantum physics questions with OpenAI o1",
-    "description": "Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's biggest questions.",
-    "url": "https://openai.com/index/o1-quantum-physics",
-    "date": "Thu, 12 Sep 2024 00:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
-    "title": "Decoding genetics with OpenAI o1",
-    "description": "Geneticist Catherine Brownstein demonstrates how OpenAI o1 can speed up the process of diagnosing rare medical challenges.",
-    "url": "https://openai.com/index/o1-genetics",
     "date": "Thu, 12 Sep 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3408,17 +3408,17 @@
     "category": "ai"
   },
   {
-    "title": "GPT-4o System Card",
-    "description": "This report outlines the safety work carried out prior to releasing GPT-4o including external red teaming, frontier risk evaluations according to our Preparedness Framework, and an overview of the mitigations we built in to address key risk areas.",
-    "url": "https://openai.com/index/gpt-4o-system-card",
+    "title": "Enabling a data-driven workforce",
+    "description": "In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights.",
+    "url": "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
     "date": "Thu, 08 Aug 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Enabling a data-driven workforce",
-    "description": "In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights.",
-    "url": "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
+    "title": "GPT-4o System Card",
+    "description": "This report outlines the safety work carried out prior to releasing GPT-4o including external red teaming, frontier risk evaluations according to our Preparedness Framework, and an overview of the mitigations we built in to address key risk areas.",
+    "url": "https://openai.com/index/gpt-4o-system-card",
     "date": "Thu, 08 Aug 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3528,17 +3528,17 @@
     "category": "ai"
   },
   {
-    "title": "Improved Techniques for Training Consistency Models",
-    "description": "Consistency models are a nascent family of generative models that can sample high quality data in one step without the need for adversarial training.",
-    "url": "https://openai.com/index/improved-techniques-for-training-consistency-models",
+    "title": "Consistency Models",
+    "description": "Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation.",
+    "url": "https://openai.com/index/consistency-models",
     "date": "Thu, 20 Jun 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Consistency Models",
-    "description": "Diffusion models have significantly advanced the fields of image, audio, and video generation, but they depend on an iterative sampling process that causes slow generation.",
-    "url": "https://openai.com/index/consistency-models",
+    "title": "Improved Techniques for Training Consistency Models",
+    "description": "Consistency models are a nascent family of generative models that can sample high quality data in one step without the need for adversarial training.",
+    "url": "https://openai.com/index/improved-techniques-for-training-consistency-models",
     "date": "Thu, 20 Jun 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3640,17 +3640,17 @@
     "category": "ai"
   },
   {
-    "title": "OpenAI for Education",
-    "description": "An affordable offering for universities to responsibly bring AI to campus.",
-    "url": "https://openai.com/index/introducing-chatgpt-edu",
+    "title": "Introducing OpenAI for Nonprofits",
+    "description": "We’re launching a new initiative to enhance the accessibility of our tools for nonprofit organizations, including discounted rates for ChatGPT Team and Enterprise.",
+    "url": "https://openai.com/index/introducing-openai-for-nonprofits",
     "date": "Thu, 30 May 2024 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Introducing OpenAI for Nonprofits",
-    "description": "We’re launching a new initiative to enhance the accessibility of our tools for nonprofit organizations, including discounted rates for ChatGPT Team and Enterprise.",
-    "url": "https://openai.com/index/introducing-openai-for-nonprofits",
+    "title": "OpenAI for Education",
+    "description": "An affordable offering for universities to responsibly bring AI to campus.",
+    "url": "https://openai.com/index/introducing-chatgpt-edu",
     "date": "Thu, 30 May 2024 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3792,17 +3792,17 @@
     "category": "ai"
   },
   {
-    "title": "Understanding the source of what we see and hear online",
-    "description": "Today we’re introducing new technology to help researchers identify content created by our tools and joining the Coalition for Content Provenance and Authenticity Steering Committee to promote industry standards.",
-    "url": "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online",
+    "title": "Our approach to data and AI",
+    "description": "Just over a year after launching ChatGPT, AI is changing how we live, work and learn. It’s also raised important conversations about data in the age of AI. More on our approach, a new Media Manager for creators and content owners, and where we’re headed.",
+    "url": "https://openai.com/index/approach-to-data-and-ai",
     "date": "Tue, 07 May 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Our approach to data and AI",
-    "description": "Just over a year after launching ChatGPT, AI is changing how we live, work and learn. It’s also raised important conversations about data in the age of AI. More on our approach, a new Media Manager for creators and content owners, and where we’re headed.",
-    "url": "https://openai.com/index/approach-to-data-and-ai",
+    "title": "Understanding the source of what we see and hear online",
+    "description": "Today we’re introducing new technology to help researchers identify content created by our tools and joining the Coalition for Content Provenance and Authenticity Steering Committee to promote industry standards.",
+    "url": "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online",
     "date": "Tue, 07 May 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3840,17 +3840,17 @@
     "category": "ai"
   },
   {
-    "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
-    "description": "GPT-3.5 Turbo, DALL·E and Whisper APIs are also generally available, and we are releasing a deprecation plan for older models of the Completions API, which will retire at the beginning of 2024.",
-    "url": "https://openai.com/index/gpt-4-api-general-availability",
+    "title": "Introducing ChatGPT and Whisper APIs",
+    "description": "Developers can now integrate ChatGPT and Whisper models into their apps and products through our API.",
+    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis",
     "date": "Wed, 24 Apr 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Introducing ChatGPT and Whisper APIs",
-    "description": "Developers can now integrate ChatGPT and Whisper models into their apps and products through our API.",
-    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis",
+    "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
+    "description": "GPT-3.5 Turbo, DALL·E and Whisper APIs are also generally available, and we are releasing a deprecation plan for older models of the Completions API, which will retire at the beginning of 2024.",
+    "url": "https://openai.com/index/gpt-4-api-general-availability",
     "date": "Wed, 24 Apr 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3992,17 +3992,17 @@
     "category": "ai"
   },
   {
-    "title": "Saving lives with AI health coaching",
-    "description": "Healthify collaborates with OpenAI to improve millions of lives with sustainable weight loss.",
-    "url": "https://openai.com/index/healthify",
+    "title": "Global news partnerships: Le Monde and Prisa Media",
+    "description": "We have partnered with international news organizations Le Monde and Prisa Media to bring French and Spanish news content to ChatGPT.",
+    "url": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
     "date": "Wed, 13 Mar 2024 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Global news partnerships: Le Monde and Prisa Media",
-    "description": "We have partnered with international news organizations Le Monde and Prisa Media to bring French and Spanish news content to ChatGPT.",
-    "url": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
+    "title": "Saving lives with AI health coaching",
+    "description": "Healthify collaborates with OpenAI to improve millions of lives with sustainable weight loss.",
+    "url": "https://openai.com/index/healthify",
     "date": "Wed, 13 Mar 2024 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4024,17 +4024,17 @@
     "category": "ai"
   },
   {
-    "title": "Sparking a more productive company with ChatGPT Enterprise",
-    "description": "Match Group uses ChatGPT Enterprise to spark creativity and impact.",
-    "url": "https://openai.com/index/match-group",
+    "title": "Improving health literacy and patient well-being",
+    "description": "Lifespan uses GPT-4 to radically improve health literacy and patient outcomes.",
+    "url": "https://openai.com/index/lifespan",
     "date": "Wed, 06 Mar 2024 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Improving health literacy and patient well-being",
-    "description": "Lifespan uses GPT-4 to radically improve health literacy and patient outcomes.",
-    "url": "https://openai.com/index/lifespan",
+    "title": "Sparking a more productive company with ChatGPT Enterprise",
+    "description": "Match Group uses ChatGPT Enterprise to spark creativity and impact.",
+    "url": "https://openai.com/index/match-group",
     "date": "Wed, 06 Mar 2024 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4272,9 +4272,9 @@
     "category": "ai"
   },
   {
-    "title": "Building AI-powered apps for business",
-    "description": "Retool uses GPT-4 to give businesses a fast, secure way to build AI-powered apps.",
-    "url": "https://openai.com/index/retool",
+    "title": "OpenAI’s technology explained",
+    "description": "",
+    "url": "https://openai.com/global-affairs/openai-technology-explained",
     "date": "Wed, 11 Oct 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4296,9 +4296,9 @@
     "category": "ai"
   },
   {
-    "title": "OpenAI’s technology explained",
-    "description": "",
-    "url": "https://openai.com/global-affairs/openai-technology-explained",
+    "title": "Building AI-powered apps for business",
+    "description": "Retool uses GPT-4 to give businesses a fast, secure way to build AI-powered apps.",
+    "url": "https://openai.com/index/retool",
     "date": "Wed, 11 Oct 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4600,9 +4600,9 @@
     "category": "ai"
   },
   {
-    "title": "Streamlining financial solutions for safety and growth",
-    "description": "Stripe leverages GPT-4 to streamline user experience and combat fraud.",
-    "url": "https://openai.com/index/stripe",
+    "title": "GPT-4",
+    "description": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.",
+    "url": "https://openai.com/index/gpt-4-research",
     "date": "Tue, 14 Mar 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4616,9 +4616,17 @@
     "category": "ai"
   },
   {
-    "title": "GPT-4",
-    "description": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.",
-    "url": "https://openai.com/index/gpt-4-research",
+    "title": "Streamlining financial solutions for safety and growth",
+    "description": "Stripe leverages GPT-4 to streamline user experience and combat fraud.",
+    "url": "https://openai.com/index/stripe",
+    "date": "Tue, 14 Mar 2023 07:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
+    "title": "Preserving languages for the future",
+    "description": "How Iceland is using GPT-4 to preserve its language.",
+    "url": "https://openai.com/index/government-of-iceland",
     "date": "Tue, 14 Mar 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4635,14 +4643,6 @@
     "title": "Filling crucial language learning gaps",
     "description": "GPT-4 deepens the conversation on Duolingo.",
     "url": "https://openai.com/index/duolingo",
-    "date": "Tue, 14 Mar 2023 07:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
-    "title": "Preserving languages for the future",
-    "description": "How Iceland is using GPT-4 to preserve its language.",
-    "url": "https://openai.com/index/government-of-iceland",
     "date": "Tue, 14 Mar 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -5064,17 +5064,17 @@
     "category": "ai"
   },
   {
-    "title": "Helen Toner joins OpenAI’s board of directors",
-    "description": "Today, we’re excited to announce the appointment of Helen Toner to our board of directors.",
-    "url": "https://openai.com/index/helen-toner-joins",
+    "title": "TruthfulQA: Measuring how models mimic human falsehoods",
+    "description": "",
+    "url": "https://openai.com/index/truthfulqa",
     "date": "Wed, 08 Sep 2021 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "TruthfulQA: Measuring how models mimic human falsehoods",
-    "description": "",
-    "url": "https://openai.com/index/truthfulqa",
+    "title": "Helen Toner joins OpenAI’s board of directors",
+    "description": "Today, we’re excited to announce the appointment of Helen Toner to our board of directors.",
+    "url": "https://openai.com/index/helen-toner-joins",
     "date": "Wed, 08 Sep 2021 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -6008,17 +6008,17 @@
     "category": "ai"
   },
   {
-    "title": "Meta-learning for wrestling",
-    "description": "We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.",
-    "url": "https://openai.com/index/meta-learning-for-wrestling",
+    "title": "Competitive self-play",
+    "description": "We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that self-play will be a core part of powerful AI systems in the future.",
+    "url": "https://openai.com/index/competitive-self-play",
     "date": "Wed, 11 Oct 2017 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Competitive self-play",
-    "description": "We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that self-play will be a core part of powerful AI systems in the future.",
-    "url": "https://openai.com/index/competitive-self-play",
+    "title": "Meta-learning for wrestling",
+    "description": "We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.",
+    "url": "https://openai.com/index/meta-learning-for-wrestling",
     "date": "Wed, 11 Oct 2017 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -6448,17 +6448,17 @@
     "category": "ai"
   },
   {
-    "title": "Team update",
-    "description": "We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)",
-    "url": "https://openai.com/index/team-update",
+    "title": "Adversarial training methods for semi-supervised text classification",
+    "description": "",
+    "url": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification",
     "date": "Wed, 25 May 2016 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Adversarial training methods for semi-supervised text classification",
-    "description": "",
-    "url": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification",
+    "title": "Team update",
+    "description": "We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)",
+    "url": "https://openai.com/index/team-update",
     "date": "Wed, 25 May 2016 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
