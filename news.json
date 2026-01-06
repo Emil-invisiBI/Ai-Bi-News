@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Explore Fabric Security insights in the OneLake catalog &#8211; Govern tab",
+    "description": "We want to update on a strategic evolution in how you can access and utilize security insights within Microsoft Fabric! The powerful reports you’ve relied on in the Microsoft Purview Hub are officially transitioning and being significantly enhanced within the new Admin Report in the Govern tab of the OneLake Catalog, as was announced at … \nContinue reading “Explore Fabric Security insights in the OneLake catalog – Govern tab”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/explore-your-fabric-security-insights-in-the-onelake-catalog-govern-tab/",
+    "date": "Mon, 05 Jan 2026 11:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Fabric Influencers Spotlight December 2025",
     "description": "Welcome to the December 2025 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric. The Microsoft Fabric Community team has created the Fabric Influencers Spotlight to … \nContinue reading “Fabric Influencers Spotlight December 2025”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-influencers-spotlight-december-2025/",
@@ -148,14 +156,6 @@
     "description": "We’re launching a new community contest inviting you to build innovative workload concepts that showcase what’s possible with the Fabric Extensibility Toolkit.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-the-fabric-extensibility-toolkit-contest/",
     "date": "Tue, 16 Dec 2025 09:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "From Simple Prompts to Complex Insights: AI Expands the Boundaries of Data Transformation (Preview)",
-    "description": "In today’s fast-paced business environment, efficiency, and adaptability are essential. Organizations are under constant pressure to streamline processes, reduce complexity, and deliver results faster. Dataflow Gen2 rises to meet these challenges by combining the power of Artificial Intelligence (AI) with the simplicity of natural language prompts. This approach enables teams to transform workflows and unlock … \nContinue reading “From Simple Prompts to Complex Insights: AI Expands the Boundaries of Data Transformation (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-simple-prompts-to-complex-insights-ai-expands-the-boundaries-of-data-transformation/",
-    "date": "Tue, 16 Dec 2025 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
