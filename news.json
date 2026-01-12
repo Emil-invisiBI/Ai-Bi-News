@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Gain even more trust and compliance with OneLake diagnostics immutability (Generally Available)",
+    "description": "In October 2025, we introduced OneLake diagnostics—a powerful capability that helps teams “answer who accessed what, when, and how” across your Fabric Lakehouse environment. OneLake diagnostics streams JSON-based activity logs into a Lakehouse you choose, enabling rich analysis, governance, and compliance workflows. A powerful capability that helps teams “answer who accessed what, when, and how” … \nContinue reading “Gain even more trust and compliance with OneLake diagnostics immutability (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/gain-even-more-trust-and-compliance-with-onelake-diagnostics-immutability-generally-available/",
+    "date": "Mon, 12 Jan 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Create Embeddings in Fabric Eventhouse with built-in Small Language Models (SLMs)",
     "description": "What if generating embeddings in Eventhouse didn’t require an external endpoint, callout policies, throttling management, or per‑request costs? That’s exactly what slm_embeddings_fl() delivers: a new user-defined function (UDF) that generates text embeddings using local Small Language Models (SLMs) from within the Kusto Python sandbox, returning vectors that you can immediately use for semantic search, similarity … \nContinue reading “Create Embeddings in Fabric Eventhouse with built-in Small Language Models (SLMs)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/create-embeddings-in-fabric-eventhouse-with-built-in-small-language-models-slms/",
@@ -148,14 +156,6 @@
     "description": "What a year 2025 has been for SQL! ICYMI and are looking for some hype, might I recommend you start with this blog from Priya Sathy, the product leader for all of SQL at Microsoft: One consistent SQL: The launchpad from legacy to innovation. In this blog post, Priya explains how we have developed and … \nContinue reading “2025 Year in Review: What’s new across SQL Server, Azure SQL and SQL database in Fabric”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/2025-year-in-review-whats-new-across-sql-server-azure-sql-and-sql-database-in-fabric/",
     "date": "Thu, 18 Dec 2025 07:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "SQL Telemetry &amp; Intelligence &#8211; How we built a Petabyte-scale Data Platform with Fabric",
-    "description": "Building a Petabyte-scale Data Platform with Fabric and SQL Telemetry and Intelligence Engineering team.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-telemetry-intelligence-how-we-built-a-petabyte-scale-data-platform-with-fabric/",
-    "date": "Tue, 16 Dec 2025 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
