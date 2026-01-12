@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Understanding Fabric Eventstream Pricing",
+    "description": "In this blog post, we’ll walk through Eventstream’s pricing model to give you a clear understanding of how it works and help you navigate it with confidence. By the end of this post, you will be able to: Eventstream Components & Cost Drivers First, let’s summarize the components of a Fabric Eventstream: Each component maps … \nContinue reading “Understanding Fabric Eventstream Pricing”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/understanding-fabric-eventstream-pricing/",
+    "date": "Mon, 12 Jan 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Gain even more trust and compliance with OneLake diagnostics immutability (Generally Available)",
     "description": "In October 2025, we introduced OneLake diagnostics—a powerful capability that helps teams “answer who accessed what, when, and how” across your Fabric Lakehouse environment. OneLake diagnostics streams JSON-based activity logs into a Lakehouse you choose, enabling rich analysis, governance, and compliance workflows. A powerful capability that helps teams “answer who accessed what, when, and how” … \nContinue reading “Gain even more trust and compliance with OneLake diagnostics immutability (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/gain-even-more-trust-and-compliance-with-onelake-diagnostics-immutability-generally-available/",
@@ -148,14 +156,6 @@
     "description": "Unlock Flexible Time-Based Reporting with DATE_BUCKET() in Microsoft Fabric DW!\nMicrosoft Fabric Data Warehouse continues to evolve with powerful features that make analytics easier and more adaptable. One of the latest additions is the DATE_BUCKET() function—a game-changer for time-based reporting.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/date_bucket-function-in-fabric-data-warehouse/",
     "date": "Thu, 18 Dec 2025 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "2025 Year in Review: What&#8217;s new across SQL Server, Azure SQL and SQL database in Fabric",
-    "description": "What a year 2025 has been for SQL! ICYMI and are looking for some hype, might I recommend you start with this blog from Priya Sathy, the product leader for all of SQL at Microsoft: One consistent SQL: The launchpad from legacy to innovation. In this blog post, Priya explains how we have developed and … \nContinue reading “2025 Year in Review: What’s new across SQL Server, Azure SQL and SQL database in Fabric”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/2025-year-in-review-whats-new-across-sql-server-azure-sql-and-sql-database-in-fabric/",
-    "date": "Thu, 18 Dec 2025 07:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
