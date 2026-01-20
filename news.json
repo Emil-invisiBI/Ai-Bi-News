@@ -1,16 +1,16 @@
 [
   {
-    "title": "Power BI January 2026 Feature Summary",
-    "description": "IMPORTANT NOTE: The January Power BI Desktop release began rolling out today (1/20). Updates may take time to reflect in the desktop release. Please allow some time as all updates may not be available immediately.    The January 2026 Power BI Feature Summary is packed with exciting news—there are fresh updates, important announcements, and some … \nContinue reading “Power BI January 2026 Feature Summary”",
-    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/",
+    "title": "Introducing Markers in Azure Maps for Power BI",
+    "description": "We’re announcing a powerful new capability in the Azure Maps Visual for Power BI: Markers. This feature makes it easier than ever for organizations to create compelling, data-driven location stories—without the need for complex GIS tools.",
+    "url": "https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/",
     "date": "Tue, 20 Jan 2026 09:00:00 Z",
     "source": "Power BI Blog",
     "category": "powerbi"
   },
   {
-    "title": "Introducing Markers in Azure Maps for Power BI",
-    "description": "We’re announcing a powerful new capability in the Azure Maps Visual for Power BI: Markers. This feature makes it easier than ever for organizations to create compelling, data-driven location stories—without the need for complex GIS tools.",
-    "url": "https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/",
+    "title": "Power BI January 2026 Feature Summary",
+    "description": "IMPORTANT NOTE: The January Power BI Desktop release began rolling out today (1/20). Updates may take time to reflect in the desktop release. Please allow some time as all updates may not be available immediately.    The January 2026 Power BI Feature Summary is packed with exciting news—there are fresh updates, important announcements, and some … \nContinue reading “Power BI January 2026 Feature Summary”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/",
     "date": "Tue, 20 Jan 2026 09:00:00 Z",
     "source": "Power BI Blog",
     "category": "powerbi"
@@ -78,6 +78,14 @@
     "date": "Wed, 19 Nov 2025 15:19:34 Z",
     "source": "Power BI Blog",
     "category": "powerbi"
+  },
+  {
+    "title": "Simplifying data movement across multiple clouds with Copy job – Enhancements on incremental copy and change data capture",
+    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement, whether you’re moving data across clouds, from on-premises systems, or between services. With native support for multiple delivery styles, including bulk copy, incremental copy, and change data capture (CDC) replication, Copy job offers the flexibility to handle a wide range … \nContinue reading “Simplifying data movement across multiple clouds with Copy job – Enhancements on incremental copy and change data capture”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/simplifying-data-movement-across-multiple-clouds-with-copy-job-enhancements-on-incremental-copy-and-change-data-capture/",
+    "date": "Tue, 20 Jan 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
   },
   {
     "title": "How the Microsoft SQL team is investing in SQL tools and experiences",
@@ -148,14 +156,6 @@
     "description": "As data becomes more immediate, the gap between when an event occurs and when you must use its insights is getting smaller. Fabric Eventstreams enables users to ingest, transform, extract insights and route streaming data where it’s needed. In response to the growing demand for SQL-based transformations, we have introduced a new SQL operator feature … \nContinue reading “Fabric Eventstream SQL Operator: Your tool kit to Real-Time data processing in Fabric Real-Time Intelligence”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-eventstream-sql-operator-your-tool-kit-to-real-time-data-processing-in-fabric-real-time-intelligence/",
     "date": "Thu, 18 Dec 2025 09:59:11 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "On-premises data gateway December 2025 release",
-    "description": "Here is the December 2025 release of the on-premises data gateway (version 3000.298).",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-december-2025-release/",
-    "date": "Thu, 18 Dec 2025 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
