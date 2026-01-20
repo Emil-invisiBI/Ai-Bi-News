@@ -1,5 +1,21 @@
 [
   {
+    "title": "Power BI January 2026 Feature Summary",
+    "description": "IMPORTANT NOTE: The January Power BI Desktop release began rolling out today (1/20). Updates may take time to reflect in the desktop release. Please allow some time as all updates may not be available immediately.    The January 2026 Power BI Feature Summary is packed with exciting news—there are fresh updates, important announcements, and some … \nContinue reading “Power BI January 2026 Feature Summary”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/",
+    "date": "Tue, 20 Jan 2026 09:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Introducing Markers in Azure Maps for Power BI",
+    "description": "We’re announcing a powerful new capability in the Azure Maps Visual for Power BI: Markers. This feature makes it easier than ever for organizations to create compelling, data-driven location stories—without the need for complex GIS tools.",
+    "url": "https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/",
+    "date": "Tue, 20 Jan 2026 09:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
     "title": "The Power BI Dataviz World Champs is back!",
     "description": "Join the Power BI Dataviz World Championships – three rounds of visualization challenges, community voting, and a live finale at FabCon 2026.",
     "url": "https://powerbi.microsoft.com/en-us/blog/the-power-bi-dataviz-world-champs-is-back/",
@@ -60,22 +76,6 @@
     "description": "We’re excited to announce the release of the Standalone Copilot experience in Power BI Mobile apps! Copilot in Power BI on mobile is a new way to get insights from your Power BI data. You no longer have to search for content, open it, and scan your report. All you need to do is tell … \nContinue reading “Standalone Copilot in Power BI mobile apps: Chat with your data anytime anywhere (Preview)”",
     "url": "https://powerbi.microsoft.com/en-us/blog/standalone-copilot-in-power-bi-mobile-apps-chat-with-your-data-anytime-anywhere-preview/",
     "date": "Wed, 19 Nov 2025 15:19:34 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
-  },
-  {
-    "title": "Bringing Context Aware Intelligence to Power BI",
-    "description": "Ten years ago, Power BI entered the market and transformed how businesses interact with data. Before self-service BI, business users waited days, sometimes weeks, for IT teams to build reports and answer data questions. With the introduction of Power BI – any user could download the app for free, connect to their data, and get … \nContinue reading “Bringing Context Aware Intelligence to Power BI”",
-    "url": "https://powerbi.microsoft.com/en-us/blog/bringing-context-aware-intelligence-to-power-bi/",
-    "date": "Tue, 18 Nov 2025 10:30:00 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
-  },
-  {
-    "title": "Power BI November 2025 Feature Summary",
-    "description": "The November 2025 Power BI feature update brings several important announcements and enhancements across the platform. Key highlights include the deprecation of R and Python visuals in the Embed for your customers solution, significant updates to Copilot and AI capabilities—such as the standalone Copilot in Power BI mobile apps (Preview) and improvements to Verified Answers—and … \nContinue reading “Power BI November 2025 Feature Summary”",
-    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-november-2025-feature-summary/",
-    "date": "Tue, 18 Nov 2025 09:00:00 Z",
     "source": "Power BI Blog",
     "category": "powerbi"
   },
