@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Faster, Smoother, More Delightful: Real-Time Dashboards Performance Improvements",
+    "description": "Performance matters—especially when you’re exploring live data and making decisions in real time. We have released a set of improvements, all aiming to make Real-Time Dashboards faster, smoother, and more responsive, based directly on what our customers and community told us. We listen to your feedback and take action! What’s Improved Thanks to a series … \nContinue reading “Faster, Smoother, More Delightful: Real-Time Dashboards Performance Improvements”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/faster-smoother-more-delightful-real-time-dashboards-performance-improvements/",
+    "date": "Wed, 21 Jan 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Expanding Real-Time Intelligence data sources with Cribl source (Preview)",
     "description": "The exchange of real-time data across different data platforms is becoming increasingly popular. The Cribl source (preview) is now available in Real-Time Intelligence, allowing real-time data to flow into Fabric RTI Eventstream through our collaboration with Cribl, enabling you to take full advantage of Fabric Real-Time Intelligence’s robust analytics tools for their real-time needs. Collaborating to broaden … \nContinue reading “Expanding Real-Time Intelligence data sources with Cribl source (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/expanding-real-time-intelligence-data-sources-with-cribl-source-preview/",
@@ -148,14 +156,6 @@
     "description": "Welcome to the December 2025 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric. The Microsoft Fabric Community team has created the Fabric Influencers Spotlight to … \nContinue reading “Fabric Influencers Spotlight December 2025”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-influencers-spotlight-december-2025/",
     "date": "Fri, 19 Dec 2025 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Run Spark Job Definitions in Pipelines with Service Principal or Workspace Identity",
-    "description": "The Spark job definition activity in Microsoft Fabric Data Factory pipelines now supports connection property, unlocking a more secure and production-ready way to run your SJDs. What’s New? With this update, you can configure Notebook activities to run as Service Principal (SPN) or Workspace Identity (WI). These authentication methods are our recommended approach for production … \nContinue reading “Run Spark Job Definitions in Pipelines with Service Principal or Workspace Identity”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/run-spark-job-definitions-in-pipelines-with-service-principal-or-workspace-identity/",
-    "date": "Thu, 18 Dec 2025 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
