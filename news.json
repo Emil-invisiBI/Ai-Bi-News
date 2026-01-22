@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Granular APIs for OneLake security (Preview)",
+    "description": "Microsoft Fabric continues to expand the OneLake security surface with new granular REST API support for role management, giving developers and platform teams far more control over how security policies are created, retrieved, and managed programmatically. In addition to the existing batch role API, Fabric now offers discrete Create, Get, and Delete role APIs, making … \nContinue reading “Granular APIs for OneLake security (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/granular-apis-for-onelake-security-preview/",
+    "date": "Thu, 22 Jan 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Microsoft Fabric Data Warehouse named a leader and outperformer in GigaOm Radar for Data Warehouses",
     "description": "The modern enterprise runs on data-driven decisions. And the modern data warehouse, isn’t just a system of record, it is the foundation for trusted decision-making and AI-powered innovation. With OneLake at its core, Microsoft Fabric unifies data across the enterprise, eliminating fragmentation and enabling true openness. This architecture means that Fabric Data Warehouse isn’t just … \nContinue reading “Microsoft Fabric Data Warehouse named a leader and outperformer in GigaOm Radar for Data Warehouses”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-fabric-data-warehouse-named-a-leader-and-outperformer-in-gigaom-radar-for-data-warehouses/",
@@ -148,14 +156,6 @@
     "description": "In October 2025, we introduced OneLake diagnostics—a powerful capability that helps teams “answer who accessed what, when, and how” across your Fabric Lakehouse environment. OneLake diagnostics streams JSON-based activity logs into a Lakehouse you choose, enabling rich analysis, governance, and compliance workflows. A powerful capability that helps teams “answer who accessed what, when, and how” … \nContinue reading “Gain even more trust and compliance with OneLake diagnostics immutability (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/gain-even-more-trust-and-compliance-with-onelake-diagnostics-immutability-generally-available/",
     "date": "Mon, 12 Jan 2026 12:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Create Embeddings in Fabric Eventhouse with built-in Small Language Models (SLMs)",
-    "description": "What if generating embeddings in Eventhouse didn’t require an external endpoint, callout policies, throttling management, or per‑request costs? That’s exactly what slm_embeddings_fl() delivers: a new user-defined function (UDF) that generates text embeddings using local Small Language Models (SLMs) from within the Kusto Python sandbox, returning vectors that you can immediately use for semantic search, similarity … \nContinue reading “Create Embeddings in Fabric Eventhouse with built-in Small Language Models (SLMs)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/create-embeddings-in-fabric-eventhouse-with-built-in-small-language-models-slms/",
-    "date": "Thu, 08 Jan 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
