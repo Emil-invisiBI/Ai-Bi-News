@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Surge protection gets smarter: introducing workspace-level controls (Preview)",
+    "description": "Surge protection in Microsoft Fabric has been a key feature for managing capacity usage and preventing overload. Today, it helps you: Until now, surge protection applied only at the capacity level—meaning all workspaces shared the same rules. What’s new: workspace-level surge protection We’re taking surge protection to the next level with workspace-level controls. This update … \nContinue reading “Surge protection gets smarter: introducing workspace-level controls (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/surge-protection-gets-smarter-introducing-workspace-level-controls-preview/",
+    "date": "Mon, 26 Jan 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Five Reasons to attend SQLCon",
     "description": "The SQL community is gathering in Atlanta this March for the first‑ever SQLCon, co‑located with FabCon, the Microsoft Fabric Community Conference, March 16-20. One registration unlocks both events, giving you access to deep SQL expertise and the latest in Fabric, Power BI, data engineering, real‑time intelligence, and AI. Whether you’re a DBA, developer, data engineer, architect, or a … \nContinue reading “Five Reasons to attend SQLCon”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/32624/",
@@ -148,14 +156,6 @@
     "description": "The SQL tools and experiences team at Microsoft is full of product leaders and engineers who care about YOU and your productivity at every stage. We focus on building the tools, SDKs, and experiences that matter most—so you can get the greatest value from Microsoft SQL Server, Azure SQL, SQL database in Fabric and Fabric … \nContinue reading “How the Microsoft SQL team is investing in SQL tools and experiences”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/how-the-microsoft-sql-team-is-investing-in-sql-tools-and-experiences/",
     "date": "Thu, 15 Jan 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Understanding Fabric Eventstream Pricing",
-    "description": "In this blog post, we’ll walk through Eventstream’s pricing model to give you a clear understanding of how it works and help you navigate it with confidence. By the end of this post, you will be able to: Eventstream Components & Cost Drivers First, let’s summarize the components of a Fabric Eventstream: Each component maps … \nContinue reading “Understanding Fabric Eventstream Pricing”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/understanding-fabric-eventstream-pricing/",
-    "date": "Mon, 12 Jan 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
