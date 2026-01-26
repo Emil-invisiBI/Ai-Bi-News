@@ -1,5 +1,13 @@
 [
   {
+    "title": "Modern Visual Tooltips in Power BI (Generally Available)",
+    "description": "Power BI’s latest update introduces an enhancement to how users interact with reports with the general availability of modern visual tooltips.",
+    "url": "https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/",
+    "date": "Mon, 26 Jan 2026 11:59:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
     "title": "Power BI Report Server January 2026 Feature Summary",
     "description": "Welcome to January 2026 Power BI Report Server feature summary! These updates bring new capabilities and enhancements across Reporting and Visualizations, maintaining our commitment to delivering powerful, flexible, and enterprise-ready reporting solutions. For more information on how to find your report server product key, refer to the documentation. Visualizations features This release includes a variety … \nContinue reading “Power BI Report Server January 2026 Feature Summary”",
     "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/",
@@ -68,14 +76,6 @@
     "description": "This update brings DAX semantic highlighting support within TMDL documents alongside other enhanced authoring features like Power Query semantic highlighting, breadcrumb navigation, code actions, code formatting, localization, and numerous bug fixes. You can find more details about this latest release in the changelog. The Tabular Model Definition Language (TMDL) extension is essential for anyone working with TMDL documents in … \nContinue reading “TMDL Visual Studio Code Extension (Generally Available)”",
     "url": "https://powerbi.microsoft.com/en-us/blog/tmdl-visual-studio-code-extension-generally-available/",
     "date": "Thu, 20 Nov 2025 13:36:00 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
-  },
-  {
-    "title": "New Card visual in reports (Generally Available)",
-    "description": "The new card visual now generally available brings a modern and visually engaging way to highlight key metrics in your reports, now with support for hero images, new defaults, and consistent formatting experience.",
-    "url": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-the-new-card-visual-in-reports-generally-available/",
-    "date": "Thu, 20 Nov 2025 13:00:00 Z",
     "source": "Power BI Blog",
     "category": "powerbi"
   },
