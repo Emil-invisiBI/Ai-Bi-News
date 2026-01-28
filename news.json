@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric Connection inside Notebook (Preview)",
+    "description": "The Get Data with Cloud Connection is a cross-Fabric capability that supports a broad range of data sources—including Azure Blob Storage, PostgreSQL, Azure Key Vault, S3, and many more. Now available directly within notebooks, this feature empowers users to efficiently and securely access and manage data from diverse sources. Importantly, it provides a secure way … \nContinue reading “Fabric Connection inside Notebook (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/32822/",
+    "date": "Wed, 28 Jan 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Take control of Fabric Identities limit for your tenant (Generally Available)",
     "description": "Fabric Identity governance at scale just got easier. We are introducing a new tenant admin setting that gives you control over the maximum number of Fabric identities (hence Workspace identities) in your organization. With this update, Fabric tenant admins can: How it works The new setting “Define maximum number of Fabric identities in a tenant” … \nContinue reading “Take control of Fabric Identities limit for your tenant (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/take-control-of-fabric-identities-limit-for-your-tenant-generally-available/",
@@ -148,14 +156,6 @@
     "description": "The exchange of real-time data across different data platforms is becoming increasingly popular. The Cribl source (preview) is now available in Real-Time Intelligence, allowing real-time data to flow into Fabric RTI Eventstream through our collaboration with Cribl, enabling you to take full advantage of Fabric Real-Time Intelligence’s robust analytics tools for their real-time needs. Collaborating to broaden … \nContinue reading “Expanding Real-Time Intelligence data sources with Cribl source (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/expanding-real-time-intelligence-data-sources-with-cribl-source-preview/",
     "date": "Tue, 20 Jan 2026 13:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Manage OneLake security for Mirrored Databases (Preview)",
-    "description": "OneLake security now supports Mirrored Databases in Microsoft Fabric with the ability to define OneLake data access roles on all Mirrored item types. This update brings granular, role-based access control to data replicated into OneLake from transactional systems, extending the OneLake security model beyond lakehouses and enabling secure reuse of mirrored data across the organization. … \nContinue reading “Manage OneLake security for Mirrored Databases (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/manage-onelake-security-for-mirrored-databases-preview/",
-    "date": "Tue, 20 Jan 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
