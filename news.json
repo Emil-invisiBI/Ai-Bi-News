@@ -80,8 +80,16 @@
     "category": "powerbi"
   },
   {
+    "title": "Take control of Fabric Identities limit for your tenant (Generally Available)",
+    "description": "Fabric Identity governance at scale just got easier. We are introducing a new tenant admin setting that gives you control over the maximum number of Fabric identities (hence Workspace identities) in your organization. With this update, Fabric tenant admins can: How it works The new setting “Define maximum number of Fabric identities in a tenant” … \nContinue reading “Take control of Fabric Identities limit for your tenant (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/take-control-of-fabric-identities-limit-for-your-tenant-generally-available/",
+    "date": "Wed, 28 Jan 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Fabric January 2026 Feature Summary",
-    "description": "Contents Events & Announcements Upgrade your skills and certifications before FabCon Have you registered for FabCon Atlanta yet? General Microsoft acquires Osmos to extend Fabric with agentic data engineering Fabric Platform AI Auto-Summary for semantic models (Preview) Parent-Child hierarchy in OneLake catalog Item Reference Variable Type (Preview) Git integration – enhanced support for GitHub Enterprise … \nContinue reading “Fabric January 2026 Feature Summary”",
+    "description": "If you’ve been trying to keep up with everything shipping in Microsoft Fabric, this January 2026 round-up is for you—covering the biggest updates across the platform, from new AI-powered catalog experiences and OneLake governance improvements to enhancements in Data Engineering, Data Warehouse, Real-Time Intelligence, and Data Factory. If you haven’t already, make sure FabCon Atlanta … \nContinue reading “Fabric January 2026 Feature Summary”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-january-2026-feature-summary/",
     "date": "Wed, 28 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -148,14 +156,6 @@
     "description": "OneLake security now supports Mirrored Databases in Microsoft Fabric with the ability to define OneLake data access roles on all Mirrored item types. This update brings granular, role-based access control to data replicated into OneLake from transactional systems, extending the OneLake security model beyond lakehouses and enabling secure reuse of mirrored data across the organization. … \nContinue reading “Manage OneLake security for Mirrored Databases (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/manage-onelake-security-for-mirrored-databases-preview/",
     "date": "Tue, 20 Jan 2026 11:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Simplifying data movement across multiple clouds with Copy job – Enhancements on incremental copy and change data capture",
-    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement, whether you’re moving data across clouds, from on-premises systems, or between services. With native support for multiple delivery styles, including bulk copy, incremental copy, and change data capture (CDC) replication, Copy job offers the flexibility to handle a wide range … \nContinue reading “Simplifying data movement across multiple clouds with Copy job – Enhancements on incremental copy and change data capture”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/simplifying-data-movement-across-multiple-clouds-with-copy-job-enhancements-on-incremental-copy-and-change-data-capture/",
-    "date": "Tue, 20 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
