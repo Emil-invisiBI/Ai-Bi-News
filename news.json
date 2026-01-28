@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric January 2026 Feature Summary",
+    "description": "Contents Events & Announcements Upgrade your skills and certifications before FabCon Have you registered for FabCon Atlanta yet? General Microsoft acquires Osmos to extend Fabric with agentic data engineering Fabric Platform AI Auto-Summary for semantic models (Preview) Parent-Child hierarchy in OneLake catalog Item Reference Variable Type (Preview) Git integration – enhanced support for GitHub Enterprise … \nContinue reading “Fabric January 2026 Feature Summary”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-january-2026-feature-summary/",
+    "date": "Wed, 28 Jan 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Surge protection gets smarter: introducing workspace-level controls (Preview)",
     "description": "Surge protection in Microsoft Fabric has been a key feature for managing capacity usage and preventing overload. Today, it helps you: Until now, surge protection applied only at the capacity level—meaning all workspaces shared the same rules. What’s new: workspace-level surge protection We’re taking surge protection to the next level with workspace-level controls. This update … \nContinue reading “Surge protection gets smarter: introducing workspace-level controls (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/surge-protection-gets-smarter-introducing-workspace-level-controls-preview/",
@@ -148,14 +156,6 @@
     "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement, whether you’re moving data across clouds, from on-premises systems, or between services. With native support for multiple delivery styles, including bulk copy, incremental copy, and change data capture (CDC) replication, Copy job offers the flexibility to handle a wide range … \nContinue reading “Simplifying data movement across multiple clouds with Copy job – Enhancements on incremental copy and change data capture”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/simplifying-data-movement-across-multiple-clouds-with-copy-job-enhancements-on-incremental-copy-and-change-data-capture/",
     "date": "Tue, 20 Jan 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "How the Microsoft SQL team is investing in SQL tools and experiences",
-    "description": "The SQL tools and experiences team at Microsoft is full of product leaders and engineers who care about YOU and your productivity at every stage. We focus on building the tools, SDKs, and experiences that matter most—so you can get the greatest value from Microsoft SQL Server, Azure SQL, SQL database in Fabric and Fabric … \nContinue reading “How the Microsoft SQL team is investing in SQL tools and experiences”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/how-the-microsoft-sql-team-is-investing-in-sql-tools-and-experiences/",
-    "date": "Thu, 15 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
