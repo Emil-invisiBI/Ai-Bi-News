@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "On-premises data gateway January 2026 release",
+    "description": "Here is the January 2026 release of the on-premises data gateway (version 3000.302).",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-january-2026-release/",
+    "date": "Thu, 29 Jan 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Introducing workspace-level IP Firewall rules in Microsoft Fabric (Preview)",
     "description": "In today’s hyper-connected digital landscape, safeguarding sensitive data is more critical than ever. Microsoft Fabric already offers a robust suite of network security capabilities for both inbound and outbound connectivity, including Private Links, Entra Conditional Access and Outbound Access Protection, all generally available. As adoption of Microsoft Fabric continues to grow, customers increasingly operate in diverse scenarios … \nContinue reading “Introducing workspace-level IP Firewall rules in Microsoft Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-workspace-level-ip-firewall-rules-in-microsoft-fabric-preview/",
@@ -148,14 +156,6 @@
     "description": "Turning questions into KQL queries just became part of Real-Time Dashboard tile editing experience, using Copilot. This new feature brings the power of AI directly into the tile editing workflow. When editing a tile, you’ll now see the Copilot assistant pane ready to help you turn natural language into actionable queries. Whether you’re new to … \nContinue reading “Introducing Copilot for Real-Time Dashboards: Write KQL with natural language”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-copilot-for-real-time-dashboards-write-kql-with-natural-language/",
     "date": "Wed, 21 Jan 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Faster, Smoother, More Delightful: Real-Time Dashboards Performance Improvements",
-    "description": "Performance matters—especially when you’re exploring live data and making decisions in real time. We have released a set of improvements, all aiming to make Real-Time Dashboards faster, smoother, and more responsive, based directly on what our customers and community told us. We listen to your feedback and take action! What’s Improved Thanks to a series … \nContinue reading “Faster, Smoother, More Delightful: Real-Time Dashboards Performance Improvements”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/faster-smoother-more-delightful-real-time-dashboards-performance-improvements/",
-    "date": "Wed, 21 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
