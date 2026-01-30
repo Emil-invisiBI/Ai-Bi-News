@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric Influencers Spotlight January 2026",
+    "description": "Welcome to the January 2026 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric. The Microsoft Fabric Community team has created the Fabric Influencers Spotlight to … \nContinue reading “Fabric Influencers Spotlight January 2026”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-influencers-spotlight-january-2026/",
+    "date": "Fri, 30 Jan 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Workspace Outbound Access Protection for Data Factory and OneLake Shortcuts (Preview)",
     "description": "We announced Outbound Access Protection for Spark (Generally Available) and recently extended it to support SQL Endpoint and Warehouse. Now, Pipelines, Copy job, Dataflows, OneLake Shortcuts as well as Mirrored Databases (such as Mirrored SQL Database, Mirrored Snowflake) support Workspace level Outbound Access Protection (Preview). Key Benefits What to expect with Outbound access protection (OAP) … \nContinue reading “Workspace Outbound Access Protection for Data Factory and OneLake Shortcuts (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/workspace-outbound-access-protection-for-data-factory/",
@@ -148,14 +156,6 @@
     "description": "Microsoft Fabric continues to expand the OneLake security surface with new granular REST API support for role management, giving developers and platform teams far more control over how security policies are created, retrieved, and managed programmatically. In addition to the existing batch role API, Fabric now offers discrete Create, Get, and Delete role APIs, making … \nContinue reading “Granular APIs for OneLake security (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/granular-apis-for-onelake-security-preview/",
     "date": "Thu, 22 Jan 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Microsoft Fabric Data Warehouse named a leader and outperformer in GigaOm Radar for Data Warehouses",
-    "description": "The modern enterprise runs on data-driven decisions. And the modern data warehouse, isn’t just a system of record, it is the foundation for trusted decision-making and AI-powered innovation. With OneLake at its core, Microsoft Fabric unifies data across the enterprise, eliminating fragmentation and enabling true openness. This architecture means that Fabric Data Warehouse isn’t just … \nContinue reading “Microsoft Fabric Data Warehouse named a leader and outperformer in GigaOm Radar for Data Warehouses”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-fabric-data-warehouse-named-a-leader-and-outperformer-in-gigaom-radar-for-data-warehouses/",
-    "date": "Wed, 21 Jan 2026 10:55:05 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
