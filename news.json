@@ -88,6 +88,14 @@
     "category": "fabric"
   },
   {
+    "title": "Introducing Data Series Colors: tell clearer stories with Real-Time Dashboards (Generally Available)",
+    "description": "A frequent request we receive from dashboard authors is the ability to have greater control over color settings. Until now, color assignments in real-time dashboards were largely automatic. While this worked for basic scenarios, it often fell short in operational and reporting use cases where color isn’t decoration—it’s meaning. Data Series Colors is a new … \nContinue reading “Introducing Data Series Colors: tell clearer stories with Real-Time Dashboards (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/32713/",
+    "date": "Mon, 02 Feb 2026 11:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Unlock Real-Time Insights from SAP with Fabric Real-Time Intelligence",
     "description": "Coauthors: Kevin Lam, Xu Jiang Challenge Organizations generate massive amounts of operational data, but most analytics solutions process this data hours or even days later. That delay can mean missed opportunities, slower decision-making, and less effective AI-driven solutions. Building a real-time analytics solution on SAP data isn’t easy. Traditional approaches rely on custom or third-party … \nContinue reading “Unlock Real-Time Insights from SAP with Fabric Real-Time Intelligence”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/unlock-real-time-insights-from-sap-with-fabric-real-time-intelligence/",
@@ -148,14 +156,6 @@
     "description": "Fabric Identity governance at scale just got easier. We are introducing a new tenant admin setting that gives you control over the maximum number of Fabric identities (hence Workspace identities) in your organization. With this update, Fabric tenant admins can: How it works The new setting “Define maximum number of Fabric identities in a tenant” … \nContinue reading “Take control of Fabric Identities limit for your tenant (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/take-control-of-fabric-identities-limit-for-your-tenant-generally-available/",
     "date": "Wed, 28 Jan 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric January 2026 Feature Summary",
-    "description": "If you’ve been trying to keep up with everything shipping in Microsoft Fabric, this January 2026 round-up is for you—covering the biggest updates across the platform, from new AI-powered catalog experiences and OneLake governance improvements to enhancements in Data Engineering, Data Warehouse, Real-Time Intelligence, and Data Factory. If you haven’t already, make sure FabCon Atlanta … \nContinue reading “Fabric January 2026 Feature Summary”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-january-2026-feature-summary/",
-    "date": "Wed, 28 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
