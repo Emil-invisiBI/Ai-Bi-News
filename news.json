@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Unlock Real-Time Insights from SAP with Fabric Real-Time Intelligence",
+    "description": "Coauthors: Kevin Lam, Xu Jiang Challenge Organizations generate massive amounts of operational data, but most analytics solutions process this data hours or even days later. That delay can mean missed opportunities, slower decision-making, and less effective AI-driven solutions. Building a real-time analytics solution on SAP data isn’t easy. Traditional approaches rely on custom or third-party … \nContinue reading “Unlock Real-Time Insights from SAP with Fabric Real-Time Intelligence”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/unlock-real-time-insights-from-sap-with-fabric-real-time-intelligence/",
+    "date": "Mon, 02 Feb 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Mirroring Azure Databricks catalogs from Azure Databricks workspaces behind private endpoints (Generally Available) ",
     "description": "Enterprises increasingly deploy Azure Databricks workspaces in locked-down network environments where public network access is disabled, and all access is routed through private endpoints. While this security posture is essential for meeting enterprise and regulatory requirements, it has historically limited integration scenarios for the Mirrored Azure Databricks catalog item in Microsoft Fabric. Earlier, the Mirrored … \nContinue reading “Mirroring Azure Databricks catalogs from Azure Databricks workspaces behind private endpoints (Generally Available) “",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/mirroring-azure-databricks-catalogs-from-azure-databricks-workspaces-behind-private-endpoints-generally-available/",
@@ -148,14 +156,6 @@
     "description": "Surge protection in Microsoft Fabric has been a key feature for managing capacity usage and preventing overload. Today, it helps you: Until now, surge protection applied only at the capacity level—meaning all workspaces shared the same rules. What’s new: workspace-level surge protection We’re taking surge protection to the next level with workspace-level controls. This update … \nContinue reading “Surge protection gets smarter: introducing workspace-level controls (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/surge-protection-gets-smarter-introducing-workspace-level-controls-preview/",
     "date": "Mon, 26 Jan 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Five Reasons to attend SQLCon",
-    "description": "The SQL community is gathering in Atlanta this March for the first‑ever SQLCon, co‑located with FabCon, the Microsoft Fabric Community Conference, March 16-20. One registration unlocks both events, giving you access to deep SQL expertise and the latest in Fabric, Power BI, data engineering, real‑time intelligence, and AI. Whether you’re a DBA, developer, data engineer, architect, or a … \nContinue reading “Five Reasons to attend SQLCon”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/32624/",
-    "date": "Thu, 22 Jan 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
