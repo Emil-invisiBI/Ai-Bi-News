@@ -1,5 +1,13 @@
 [
   {
+    "title": "Deep dive into composite semantic models with Direct Lake and import tables",
+    "description": "Getting your data job done just got easier with composite semantic models, mixing Direct Lake tables with import tables, now available in public preview.",
+    "url": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/",
+    "date": "Mon, 02 Feb 2026 09:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
     "title": "Modern Visual Tooltips in Power BI (Generally Available)",
     "description": "Power BI’s latest update introduces an enhancement to how users interact with reports with the general availability of modern visual tooltips.",
     "url": "https://powerbi.microsoft.com/en-us/blog/modern-visual-tooltips-in-power-bi-generally-available/",
@@ -72,12 +80,12 @@
     "category": "powerbi"
   },
   {
-    "title": "TMDL Visual Studio Code Extension (Generally Available)",
-    "description": "This update brings DAX semantic highlighting support within TMDL documents alongside other enhanced authoring features like Power Query semantic highlighting, breadcrumb navigation, code actions, code formatting, localization, and numerous bug fixes. You can find more details about this latest release in the changelog. The Tabular Model Definition Language (TMDL) extension is essential for anyone working with TMDL documents in … \nContinue reading “TMDL Visual Studio Code Extension (Generally Available)”",
-    "url": "https://powerbi.microsoft.com/en-us/blog/tmdl-visual-studio-code-extension-generally-available/",
-    "date": "Thu, 20 Nov 2025 13:36:00 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
+    "title": "Mirroring Azure Databricks catalogs from Azure Databricks workspaces behind private endpoints (Generally Available) ",
+    "description": "Enterprises increasingly deploy Azure Databricks workspaces in locked-down network environments where public network access is disabled, and all access is routed through private endpoints. While this security posture is essential for meeting enterprise and regulatory requirements, it has historically limited integration scenarios for the Mirrored Azure Databricks catalog item in Microsoft Fabric. Earlier, the Mirrored … \nContinue reading “Mirroring Azure Databricks catalogs from Azure Databricks workspaces behind private endpoints (Generally Available) “",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/mirroring-azure-databricks-catalogs-from-azure-databricks-workspaces-behind-private-endpoints-generally-available/",
+    "date": "Mon, 02 Feb 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
   },
   {
     "title": "Fabric Influencers Spotlight January 2026",
@@ -148,14 +156,6 @@
     "description": "The SQL community is gathering in Atlanta this March for the first‑ever SQLCon, co‑located with FabCon, the Microsoft Fabric Community Conference, March 16-20. One registration unlocks both events, giving you access to deep SQL expertise and the latest in Fabric, Power BI, data engineering, real‑time intelligence, and AI. Whether you’re a DBA, developer, data engineer, architect, or a … \nContinue reading “Five Reasons to attend SQLCon”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/32624/",
     "date": "Thu, 22 Jan 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Granular APIs for OneLake security (Preview)",
-    "description": "Microsoft Fabric continues to expand the OneLake security surface with new granular REST API support for role management, giving developers and platform teams far more control over how security policies are created, retrieved, and managed programmatically. In addition to the existing batch role API, Fabric now offers discrete Create, Get, and Delete role APIs, making … \nContinue reading “Granular APIs for OneLake security (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/granular-apis-for-onelake-security-preview/",
-    "date": "Thu, 22 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
