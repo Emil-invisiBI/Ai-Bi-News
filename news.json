@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)",
+    "description": "Coauthored by QiXiao Wang Building event-driven, real-time applications using Fabric Eventstreams and Spark Notebooks just got a whole lot easier. With the Preview of Spark Notebooks and Real-Time Intelligence integration — a new capability that brings together the open-source community supported richness of Spark Structured Streaming with the real-time stream processing power of Fabric Eventstreams … \nContinue reading “Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/bringing-together-fabric-real-time-intelligence-notebook-and-spark-structured-streaming-preview/",
+    "date": "Mon, 02 Feb 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Unlock Real-Time Insights from SAP with Fabric Real-Time Intelligence",
     "description": "Coauthors: Kevin Lam, Xu Jiang Challenge Organizations generate massive amounts of operational data, but most analytics solutions process this data hours or even days later. That delay can mean missed opportunities, slower decision-making, and less effective AI-driven solutions. Building a real-time analytics solution on SAP data isn’t easy. Traditional approaches rely on custom or third-party … \nContinue reading “Unlock Real-Time Insights from SAP with Fabric Real-Time Intelligence”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/unlock-real-time-insights-from-sap-with-fabric-real-time-intelligence/",
@@ -148,14 +156,6 @@
     "description": "If you’ve been trying to keep up with everything shipping in Microsoft Fabric, this January 2026 round-up is for you—covering the biggest updates across the platform, from new AI-powered catalog experiences and OneLake governance improvements to enhancements in Data Engineering, Data Warehouse, Real-Time Intelligence, and Data Factory. If you haven’t already, make sure FabCon Atlanta … \nContinue reading “Fabric January 2026 Feature Summary”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-january-2026-feature-summary/",
     "date": "Wed, 28 Jan 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Surge protection gets smarter: introducing workspace-level controls (Preview)",
-    "description": "Surge protection in Microsoft Fabric has been a key feature for managing capacity usage and preventing overload. Today, it helps you: Until now, surge protection applied only at the capacity level—meaning all workspaces shared the same rules. What’s new: workspace-level surge protection We’re taking surge protection to the next level with workspace-level controls. This update … \nContinue reading “Surge protection gets smarter: introducing workspace-level controls (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/surge-protection-gets-smarter-introducing-workspace-level-controls-preview/",
-    "date": "Mon, 26 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
