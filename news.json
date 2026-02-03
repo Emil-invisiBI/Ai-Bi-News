@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Microsoft OneLake and Snowflake interoperability (Generally Available)",
+    "description": "Data teams today are under extraordinary pressure. Expectations around analytics and AI have never been higher, yet enterprise data continues to live across a patchwork of systems, tools, and platforms. The result is friction, duplication, and complexity, making it harder for data teams to provide a unified, real-time view of their business. Microsoft and Snowflake … \nContinue reading “Microsoft OneLake and Snowflake interoperability (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-onelake-and-snowflake-interoperability-is-now-generally-available/",
+    "date": "Tue, 03 Feb 2026 00:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)",
     "description": "Coauthored by QiXiao Wang Building event-driven, real-time applications using Fabric Eventstreams and Spark Notebooks just got a whole lot easier. With the Preview of Spark Notebooks and Real-Time Intelligence integration — a new capability that brings together the open-source community supported richness of Spark Structured Streaming with the real-time stream processing power of Fabric Eventstreams … \nContinue reading “Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/bringing-together-fabric-real-time-intelligence-notebook-and-spark-structured-streaming-preview/",
@@ -148,14 +156,6 @@
     "description": "The Get Data with Cloud Connection is a cross-Fabric capability that supports a broad range of data sources—including Azure Blob Storage, PostgreSQL, Azure Key Vault, S3, and many more. Now available directly within notebooks, this feature empowers users to efficiently and securely access and manage data from diverse sources. Importantly, it provides a secure way … \nContinue reading “Fabric Connection inside Notebook (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/32822/",
     "date": "Wed, 28 Jan 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Take control of Fabric Identities limit for your tenant (Generally Available)",
-    "description": "Fabric Identity governance at scale just got easier. We are introducing a new tenant admin setting that gives you control over the maximum number of Fabric identities (hence Workspace identities) in your organization. With this update, Fabric tenant admins can: How it works The new setting “Define maximum number of Fabric identities in a tenant” … \nContinue reading “Take control of Fabric Identities limit for your tenant (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/take-control-of-fabric-identities-limit-for-your-tenant-generally-available/",
-    "date": "Wed, 28 Jan 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
