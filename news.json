@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "A turning point for enterprise data warehousing ",
+    "description": "As executives plan the next phase of their data and AI transformation, the bar for analytics infrastructure continues to rise. Enterprises are expected to support traditional business intelligence, increasingly complex analytics, and a new generation of AI-driven workloads—often on the same data, at the same time, and with far greater expectations for speed and cost … \nContinue reading “A turning point for enterprise data warehousing “",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/a-turning-point-for-enterprise-data-warehousing/",
+    "date": "Tue, 03 Feb 2026 10:05:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Microsoft OneLake and Snowflake interoperability (Generally Available)",
     "description": "Data teams today are under extraordinary pressure. Expectations around analytics and AI have never been higher, yet enterprise data continues to live across a patchwork of systems, tools, and platforms. The result is friction, duplication, and complexity, making it harder for data teams to provide a unified, real-time view of their business. Microsoft and Snowflake … \nContinue reading “Microsoft OneLake and Snowflake interoperability (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-onelake-and-snowflake-interoperability-is-now-generally-available/",
@@ -148,14 +156,6 @@
     "description": "In today’s hyper-connected digital landscape, safeguarding sensitive data is more critical than ever. Microsoft Fabric already offers a robust suite of network security capabilities for both inbound and outbound connectivity, including Private Links, Entra Conditional Access and Outbound Access Protection, all generally available. As adoption of Microsoft Fabric continues to grow, customers increasingly operate in diverse scenarios … \nContinue reading “Introducing workspace-level IP Firewall rules in Microsoft Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-workspace-level-ip-firewall-rules-in-microsoft-fabric-preview/",
     "date": "Thu, 29 Jan 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric Connection inside Notebook (Preview)",
-    "description": "The Get Data with Cloud Connection is a cross-Fabric capability that supports a broad range of data sources—including Azure Blob Storage, PostgreSQL, Azure Key Vault, S3, and many more. Now available directly within notebooks, this feature empowers users to efficiently and securely access and manage data from diverse sources. Importantly, it provides a secure way … \nContinue reading “Fabric Connection inside Notebook (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/32822/",
-    "date": "Wed, 28 Jan 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
