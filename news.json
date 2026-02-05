@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "This is your sign to attend FabCon Atlanta—Data Warehouse Edition",
+    "description": "If there’s one place where the entire Microsoft Fabric ecosystem shows up in full force, this is it. FabCon Atlanta is the largest gatherings of Fabric product managers, engineers, customers, decision‑makers, and hands‑on practitioners you’ll find all year! It’s the only place where you’ll get raw, unfiltered insight into how Fabric’s Data Warehouse is evolving, … \nContinue reading “This is your sign to attend FabCon Atlanta—Data Warehouse Edition”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/33276/",
+    "date": "Thu, 05 Feb 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "The future of data security is interoperability: a technical look at OneLake security",
     "description": "Enterprises have never had more ways to store and analyze data. As data spreads across clouds, formats, and analytics engines, security policies tend to fragment along the same lines: each system brings its own model, its own controls, and its own blind spots. The result is a patchwork of inconsistent enforcement, duplicated effort, and higher risk. Yet … \nContinue reading “The future of data security is interoperability: a technical look at OneLake security”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/the-future-of-data-security-is-interoperability-a-technical-look-at-onelake-security/",
@@ -152,14 +160,6 @@
     "category": "fabric"
   },
   {
-    "title": "Workspace Outbound Access Protection for Data Factory and OneLake Shortcuts (Preview)",
-    "description": "We announced Outbound Access Protection for Spark (Generally Available) and recently extended it to support SQL Endpoint and Warehouse. Now, Pipelines, Copy job, Dataflows, OneLake Shortcuts as well as Mirrored Databases (such as Mirrored SQL Database, Mirrored Snowflake) support Workspace level Outbound Access Protection (Preview). Key Benefits What to expect with Outbound access protection (OAP) … \nContinue reading “Workspace Outbound Access Protection for Data Factory and OneLake Shortcuts (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/workspace-outbound-access-protection-for-data-factory/",
-    "date": "Thu, 29 Jan 2026 15:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
     "title": "GPT-5 lowers the cost of cell-free protein synthesis",
     "description": "An autonomous lab combining OpenAI’s GPT-5 with Ginkgo Bioworks’ cloud automation cut cell-free protein synthesis costs by 40% through closed-loop experimentation.",
     "url": "https://openai.com/index/gpt-5-lowers-protein-synthesis-cost",
@@ -176,10 +176,10 @@
     "category": "ai"
   },
   {
-    "title": "GPT-5.3-Codex System Card",
-    "description": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.",
-    "url": "https://openai.com/index/gpt-5-3-codex-system-card",
-    "date": "Thu, 05 Feb 2026 00:00:00 GMT",
+    "title": "Introducing OpenAI Frontier",
+    "description": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
+    "url": "https://openai.com/index/introducing-openai-frontier",
+    "date": "Thu, 05 Feb 2026 06:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
@@ -200,9 +200,9 @@
     "category": "ai"
   },
   {
-    "title": "Introducing OpenAI Frontier",
-    "description": "OpenAI Frontier is an enterprise platform for building, deploying, and managing AI agents with shared context, onboarding, permissions, and governance.",
-    "url": "https://openai.com/index/introducing-openai-frontier",
+    "title": "GPT-5.3-Codex System Card",
+    "description": "GPT‑5.3-Codex is the most capable agentic coding model to date, combining the frontier coding performance of GPT‑5.2-Codex with the reasoning and professional knowledge capabilities of GPT‑5.2.",
+    "url": "https://openai.com/index/gpt-5-3-codex-system-card",
     "date": "Thu, 05 Feb 2026 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
