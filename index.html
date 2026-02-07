@@ -65,7 +65,7 @@
     <div class="page-wrapper">
         <header>
             <h1 class="hero-title">Latest News</h1>
-            <p class="hero-subtitle">Updates from Power BI, Microsoft Fabric, and OpenAI</p>
+            <p class="hero-subtitle">Updates from Power BI, Microsoft Fabric, OpenAI, and VS Code</p>
         </header>
 
         <main>
@@ -74,6 +74,7 @@
                 <button class="filter" data-source="powerbi">Power BI</button>
                 <button class="filter" data-source="fabric">Microsoft Fabric</button>
                 <button class="filter" data-source="ai">OpenAI</button>
+                <button class="filter" data-source="vscode">VS Code</button>
             </div>
 
             <div class="search-wrapper">
@@ -117,7 +118,7 @@
 
             container.innerHTML = filtered.map(article => {
                 const date = new Date(article.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-                const sourceLabel = article.category === 'powerbi' ? 'Power BI' : article.category === 'fabric' ? 'Fabric' : article.category === 'ai' ? 'OpenAI' : article.category;
+                const sourceLabel = article.category === 'powerbi' ? 'Power BI' : article.category === 'fabric' ? 'Fabric' : article.category === 'ai' ? 'OpenAI' : article.category === 'vscode' ? 'VS Code' : article.category;
                 return `<article class="article" onclick="window.open('${article.url}', '_blank')">
                     <div class="article-meta"><span class="article-source">${sourceLabel}</span><span class="article-date">${date}</span></div>
                     <h2 class="article-title">${article.title}</h2>
