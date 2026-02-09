@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Manual update for on-premises data gateway (Preview)",
+    "description": "The On-premises Data Gateway manual update feature is now available in preview! This new capability simplifies gateway maintenance and helps you keep your environment secure and up to date with greater flexibility and control. With this new feature, administrators can now manually trigger updates—either directly through the gateway UI or programmatically via API or script. … \nContinue reading “Manual update for on-premises data gateway (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/manual-update-for-on-premises-data-gateway-public-preview/",
+    "date": "Mon, 09 Feb 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Governance on autopilot: The power of default domain labels in Fabric (Generally Available)",
     "description": "Let’s be real: expecting every data creator in your organization to manually apply the correct sensitivity label to every new Lakehouse or Warehouse is a bit like expecting everyone to use their turn signal in a parking lot—it’s the right thing to do, but people get busy, and things get missed. Realistically, relying on every … \nContinue reading “Governance on autopilot: The power of default domain labels in Fabric (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/governance-on-autopilot-the-power-of-default-domain-labels-in-fabric-generally-available/",
@@ -148,14 +156,6 @@
     "description": "Coauthors: Kevin Lam, Xu Jiang Challenge Organizations generate massive amounts of operational data, but most analytics solutions process this data hours or even days later. That delay can mean missed opportunities, slower decision-making, and less effective AI-driven solutions. Building a real-time analytics solution on SAP data isn’t easy. Traditional approaches rely on custom or third-party … \nContinue reading “Unlock Real-Time Insights from SAP with Fabric Real-Time Intelligence”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/unlock-real-time-insights-from-sap-with-fabric-real-time-intelligence/",
     "date": "Mon, 02 Feb 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Mirroring Azure Databricks catalogs from Azure Databricks workspaces behind private endpoints (Generally Available) ",
-    "description": "Enterprises increasingly deploy Azure Databricks workspaces in locked-down network environments where public network access is disabled, and all access is routed through private endpoints. While this security posture is essential for meeting enterprise and regulatory requirements, it has historically limited integration scenarios for the Mirrored Azure Databricks catalog item in Microsoft Fabric. Earlier, the Mirrored … \nContinue reading “Mirroring Azure Databricks catalogs from Azure Databricks workspaces behind private endpoints (Generally Available) “",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/mirroring-azure-databricks-catalogs-from-azure-databricks-workspaces-behind-private-endpoints-generally-available/",
-    "date": "Mon, 02 Feb 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
