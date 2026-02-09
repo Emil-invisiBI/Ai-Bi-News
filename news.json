@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Governance on autopilot: The power of default domain labels in Fabric (Generally Available)",
+    "description": "Let’s be real: expecting every data creator in your organization to manually apply the correct sensitivity label to every new Lakehouse or Warehouse is a bit like expecting everyone to use their turn signal in a parking lot—it’s the right thing to do, but people get busy, and things get missed. Realistically, relying on every … \nContinue reading “Governance on autopilot: The power of default domain labels in Fabric (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/governance-on-autopilot-the-power-of-default-domain-labels-in-fabric-generally-available/",
+    "date": "Mon, 09 Feb 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "This is your sign to attend FabCon Atlanta—Data Warehouse Edition",
     "description": "If there’s one place where the entire Microsoft Fabric ecosystem shows up in full force, this is it. FabCon Atlanta is the largest gatherings of Fabric product managers, engineers, customers, decision‑makers, and hands‑on practitioners you’ll find all year! It’s the only place where you’ll get raw, unfiltered insight into how Fabric’s Data Warehouse is evolving, … \nContinue reading “This is your sign to attend FabCon Atlanta—Data Warehouse Edition”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/33276/",
@@ -148,14 +156,6 @@
     "description": "Enterprises increasingly deploy Azure Databricks workspaces in locked-down network environments where public network access is disabled, and all access is routed through private endpoints. While this security posture is essential for meeting enterprise and regulatory requirements, it has historically limited integration scenarios for the Mirrored Azure Databricks catalog item in Microsoft Fabric. Earlier, the Mirrored … \nContinue reading “Mirroring Azure Databricks catalogs from Azure Databricks workspaces behind private endpoints (Generally Available) “",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/mirroring-azure-databricks-catalogs-from-azure-databricks-workspaces-behind-private-endpoints-generally-available/",
     "date": "Mon, 02 Feb 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric Influencers Spotlight January 2026",
-    "description": "Welcome to the January 2026 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric. The Microsoft Fabric Community team has created the Fabric Influencers Spotlight to … \nContinue reading “Fabric Influencers Spotlight January 2026”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-influencers-spotlight-january-2026/",
-    "date": "Fri, 30 Jan 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
