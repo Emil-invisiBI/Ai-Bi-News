@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Adaptive time series visualization at scale with Microsoft Fabric",
+    "description": "Coauthor: Slava Trofimov How much value would you generate for your enterprise if you could enable every user to unlock actionable insights in high-volume time-series data from your operations with real time, interactive exploration? Industrial operations generate staggering amounts of time series data. A single plant can easily produce tens of billions of sensor readings … \nContinue reading “Adaptive time series visualization at scale with Microsoft Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/adaptive-time-series-visualization-at-scale-with-microsoft-fabric/",
+    "date": "Tue, 10 Feb 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "OneLake catalog: The trusted catalog for organizations worldwide",
     "description": "For years, organizations have aspired to build cultures where data is embedded into everyday decision-making. Generative AI is bringing that goal closer than ever with agents that can quickly answer questions with data. But at the core, this culture can only be achieved if agents and your people can easily discover and trust high-quality data. … \nContinue reading “OneLake catalog: The trusted catalog for organizations worldwide”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-catalog-the-trusted-catalog-for-organizations-worldwide/",
@@ -148,14 +156,6 @@
     "description": "Coauthored by QiXiao Wang Building event-driven, real-time applications using Fabric Eventstreams and Spark Notebooks just got a whole lot easier. With the Preview of Spark Notebooks and Real-Time Intelligence integration — a new capability that brings together the open-source community supported richness of Spark Structured Streaming with the real-time stream processing power of Fabric Eventstreams … \nContinue reading “Bringing together Fabric Real-time Intelligence, Notebook and Spark Structured Streaming (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/bringing-together-fabric-real-time-intelligence-notebook-and-spark-structured-streaming-preview/",
     "date": "Mon, 02 Feb 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Introducing Data Series Colors: tell clearer stories with Real-Time Dashboards (Generally Available)",
-    "description": "A frequent request we receive from dashboard authors is the ability to have greater control over color settings. Until now, color assignments in real-time dashboards were largely automatic. While this worked for basic scenarios, it often fell short in operational and reporting use cases where color isn’t decoration—it’s meaning. Data Series Colors is a new … \nContinue reading “Introducing Data Series Colors: tell clearer stories with Real-Time Dashboards (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/32713/",
-    "date": "Mon, 02 Feb 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
