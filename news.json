@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Enrich Power BI reports with machine learning in Microsoft Fabric",
+    "description": "Many organizations want to go beyond descriptive Power BI reports and start answering forward‑looking questions with machine learning—identifying emerging trends, at-risk accounts, and where to focus effort to maximize impact. In practice, this is hard. Adding machine learning to Power BI often means moving data out of semantic models, rebuilding logic, managing separate storage and … \nContinue reading “Enrich Power BI reports with machine learning in Microsoft Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/enrich-power-bi-reports-with-machine-learning-in-microsoft-fabric/",
+    "date": "Thu, 12 Feb 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "SQL database in Fabric: Built for SaaS, Ready for AI",
     "description": "Since SQL database in Microsoft Fabric became generally available in November, customer adoption has grown rapidly. Organizations are using it to simplify their data estates, eliminate ETL pipelines, and get their operational data ready for analytics and AI—without managing infrastructure. It’s a fully managed, SaaS-native transactional database built for what comes next. If you’ve been … \nContinue reading “SQL database in Fabric: Built for SaaS, Ready for AI”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-database-in-fabric-built-for-saas-ready-for-ai/",
@@ -148,14 +156,6 @@
     "description": "From powering AI experiences to enabling instant insights on operational events, Fabric Real‑time Intelligence is becoming indispensable to how modern organizations operate. Over the past six months, the Fabric Eventstream team has delivered one of our most ambitious waves of innovation yet, all centered around a simple mission: make streaming data easier to ingest, process, … \nContinue reading “What’s new in Fabric Eventstream: July–December 2025 updates”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-in-fabric-eventstream-july-december-2025-updates/",
     "date": "Wed, 04 Feb 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "A turning point for enterprise data warehousing ",
-    "description": "As executives plan the next phase of their data and AI transformation, the bar for analytics infrastructure continues to rise. Enterprises are expected to support traditional business intelligence, increasingly complex analytics, and a new generation of AI-driven workloads—often on the same data, at the same time, and with far greater expectations for speed and cost … \nContinue reading “A turning point for enterprise data warehousing “",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/a-turning-point-for-enterprise-data-warehousing/",
-    "date": "Tue, 03 Feb 2026 10:05:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
