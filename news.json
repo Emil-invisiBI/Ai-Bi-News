@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric",
+    "description": "You like writing T-SQL. You’re good at it. Or maybe you’re not. But let’s be honest—there are days when you’d rather not write that same GROUP BY clause for the hundredth time or spend twenty minutes deciphering a stored procedure someone wrote in 2014. Good news: AI-powered assistants are now available wherever you write SQL … \nContinue reading “No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/no-more-excuses-ai-powered-assistants-are-in-ssms-vs-code-and-fabric/",
+    "date": "Tue, 17 Feb 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Billing updates: new operations for Fabric AI functions and AI services",
+    "description": "We’re introducing billing reporting updates that make it easier to track AI-related usage in Microsoft Fabric. New AI Functions operation Until now, Fabric AI functions usage was reported under other operations, such as Spark-related operations, or Dataflows Gen2-related operations, depending on where the functions were used. To provide more transparency, Fabric AI functions will have … \nContinue reading “Billing updates: new operations for Fabric AI functions and AI services”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/billing-updates-new-operations-for-fabric-ai-functions-and-ai-services/",
+    "date": "Tue, 17 Feb 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Snowflake Key-Pair Authentication (Generally Available)",
     "description": "Coauthor: Abhishek Narain Ensuring secure connectivity to your data sources is critical for modern data estates. We have released the Key-Pair authentication for Snowflake connections Preview in October and are happy to announce it is now Generally Available (GA). This release offers an enhanced security alternative to basic authentication methods, such as username and password, … \nContinue reading “Snowflake Key-Pair Authentication (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/snowflake-key-pair-authentication-generally-available/",
@@ -140,22 +156,6 @@
     "description": "Let’s be real: expecting every data creator in your organization to manually apply the correct sensitivity label to every new Lakehouse or Warehouse is a bit like expecting everyone to use their turn signal in a parking lot—it’s the right thing to do, but people get busy, and things get missed. Realistically, relying on every … \nContinue reading “Governance on autopilot: The power of default domain labels in Fabric (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/governance-on-autopilot-the-power-of-default-domain-labels-in-fabric-generally-available/",
     "date": "Mon, 09 Feb 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "This is your sign to attend FabCon Atlanta—Data Warehouse Edition",
-    "description": "If there’s one place where the entire Microsoft Fabric ecosystem shows up in full force, this is it. FabCon Atlanta is the largest gatherings of Fabric product managers, engineers, customers, decision‑makers, and hands‑on practitioners you’ll find all year! It’s the only place where you’ll get raw, unfiltered insight into how Fabric’s Data Warehouse is evolving, … \nContinue reading “This is your sign to attend FabCon Atlanta—Data Warehouse Edition”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/33276/",
-    "date": "Thu, 05 Feb 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "The future of data security is interoperability: a technical look at OneLake security",
-    "description": "Enterprises have never had more ways to store and analyze data. As data spreads across clouds, formats, and analytics engines, security policies tend to fragment along the same lines: each system brings its own model, its own controls, and its own blind spots. The result is a patchwork of inconsistent enforcement, duplicated effort, and higher risk. Yet … \nContinue reading “The future of data security is interoperability: a technical look at OneLake security”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/the-future-of-data-security-is-interoperability-a-technical-look-at-onelake-security/",
-    "date": "Thu, 05 Feb 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
