@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Snowflake Key-Pair Authentication (Generally Available)",
+    "description": "Coauthor: Abhishek Narain Ensuring secure connectivity to your data sources is critical for modern data estates. We have released the Key-Pair authentication for Snowflake connections Preview in October and are happy to announce it is now Generally Available (GA). This release offers an enhanced security alternative to basic authentication methods, such as username and password, … \nContinue reading “Snowflake Key-Pair Authentication (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/snowflake-key-pair-authentication-generally-available/",
+    "date": "Tue, 17 Feb 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Enrich Power BI reports with machine learning in Microsoft Fabric",
     "description": "Many organizations want to go beyond descriptive Power BI reports and start answering forward‑looking questions with machine learning—identifying emerging trends, at-risk accounts, and where to focus effort to maximize impact. In practice, this is hard. Adding machine learning to Power BI often means moving data out of semantic models, rebuilding logic, managing separate storage and … \nContinue reading “Enrich Power BI reports with machine learning in Microsoft Fabric”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/enrich-power-bi-reports-with-machine-learning-in-microsoft-fabric/",
@@ -148,14 +156,6 @@
     "description": "Enterprises have never had more ways to store and analyze data. As data spreads across clouds, formats, and analytics engines, security policies tend to fragment along the same lines: each system brings its own model, its own controls, and its own blind spots. The result is a patchwork of inconsistent enforcement, duplicated effort, and higher risk. Yet … \nContinue reading “The future of data security is interoperability: a technical look at OneLake security”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/the-future-of-data-security-is-interoperability-a-technical-look-at-onelake-security/",
     "date": "Thu, 05 Feb 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "What’s new in Fabric Eventstream: July–December 2025 updates",
-    "description": "From powering AI experiences to enabling instant insights on operational events, Fabric Real‑time Intelligence is becoming indispensable to how modern organizations operate. Over the past six months, the Fabric Eventstream team has delivered one of our most ambitious waves of innovation yet, all centered around a simple mission: make streaming data easier to ingest, process, … \nContinue reading “What’s new in Fabric Eventstream: July–December 2025 updates”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-in-fabric-eventstream-july-december-2025-updates/",
-    "date": "Wed, 04 Feb 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
