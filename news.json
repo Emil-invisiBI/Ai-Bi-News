@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Generally Available)",
+    "description": "OneDrive and SharePoint (ODSP) shortcuts let you use your existing Microsoft 365 files directly in OneLake without copying or moving them. This gives analytics, BI, and AI workloads a unified, governed view of both structured data and documents. This eliminates duplication and silos while enabling powerful scenarios like combining spreadsheets with Lakehouse data, indexing documents for AI, and optionally transforming files … \nContinue reading “OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-sharepoint-and-onedrive-shortcuts-now-support-workspace-and-service-principal-identities-generally-available/",
+    "date": "Thu, 19 Feb 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Announcing official support for Microsoft fabric-cicd tool",
+    "description": "Today, we’re announcing that fabric‑cicd—the open‑source Python deployment library for Microsoft Fabric—is now an officially supported, Microsoft‑backed tool for CI/CD automation across Fabric workspaces. Over the past year, fabric‑cicd has rapidly evolved through collaboration with engineering, CAT, MVPs, enterprise customers, and the community. Growing usage, strong sentiment across internal and external channels, and adoption by … \nContinue reading “Announcing official support for Microsoft fabric-cicd tool”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-official-support-for-microsoft-fabric-cicd-tool/",
+    "date": "Thu, 19 Feb 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric",
     "description": "You like writing T-SQL. You’re good at it. Or maybe you’re not. But let’s be honest—there are days when you’d rather not write that same GROUP BY clause for the hundredth time or spend twenty minutes deciphering a stored procedure someone wrote in 2014. Good news: AI-powered assistants are now available wherever you write SQL … \nContinue reading “No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/no-more-excuses-ai-powered-assistants-are-in-ssms-vs-code-and-fabric/",
@@ -140,22 +156,6 @@
     "description": "For years, organizations have aspired to build cultures where data is embedded into everyday decision-making. Generative AI is bringing that goal closer than ever with agents that can quickly answer questions with data. But at the core, this culture can only be achieved if agents and your people can easily discover and trust high-quality data. … \nContinue reading “OneLake catalog: The trusted catalog for organizations worldwide”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-catalog-the-trusted-catalog-for-organizations-worldwide/",
     "date": "Mon, 09 Feb 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Manual update for on-premises data gateway (Preview)",
-    "description": "The On-premises Data Gateway manual update feature is now available in preview! This new capability simplifies gateway maintenance and helps you keep your environment secure and up to date with greater flexibility and control. With this new feature, administrators can now manually trigger updates—either directly through the gateway UI or programmatically via API or script. … \nContinue reading “Manual update for on-premises data gateway (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/manual-update-for-on-premises-data-gateway-public-preview/",
-    "date": "Mon, 09 Feb 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Governance on autopilot: The power of default domain labels in Fabric (Generally Available)",
-    "description": "Let’s be real: expecting every data creator in your organization to manually apply the correct sensitivity label to every new Lakehouse or Warehouse is a bit like expecting everyone to use their turn signal in a parking lot—it’s the right thing to do, but people get busy, and things get missed. Realistically, relying on every … \nContinue reading “Governance on autopilot: The power of default domain labels in Fabric (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/governance-on-autopilot-the-power-of-default-domain-labels-in-fabric-generally-available/",
-    "date": "Mon, 09 Feb 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
