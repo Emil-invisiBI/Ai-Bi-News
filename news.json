@@ -80,8 +80,8 @@
     "category": "powerbi"
   },
   {
-    "title": "OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Generally Available)",
-    "description": "OneDrive and SharePoint (ODSP) shortcuts let you use your existing Microsoft 365 files directly in OneLake without copying or moving them. This gives analytics, BI, and AI workloads a unified, governed view of both structured data and documents. This eliminates duplication and silos while enabling powerful scenarios like combining spreadsheets with Lakehouse data, indexing documents for AI, and optionally transforming files … \nContinue reading “OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Generally Available)”",
+    "title": "OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)",
+    "description": "OneDrive and SharePoint (ODSP) shortcuts let you use your existing Microsoft 365 files directly in OneLake without copying or moving them. This gives analytics, BI, and AI workloads a unified, governed view of both structured data and documents. This eliminates duplication and silos while enabling powerful scenarios like combining spreadsheets with Lakehouse data, indexing documents for AI, and optionally transforming files … \nContinue reading “OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-sharepoint-and-onedrive-shortcuts-now-support-workspace-and-service-principal-identities-generally-available/",
     "date": "Thu, 19 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
