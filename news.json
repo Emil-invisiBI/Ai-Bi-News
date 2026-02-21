@@ -88,14 +88,6 @@
     "category": "fabric"
   },
   {
-    "title": "Announcing official support for Microsoft fabric-cicd tool",
-    "description": "Today, we’re announcing that fabric‑cicd—the open‑source Python deployment library for Microsoft Fabric—is now an officially supported, Microsoft‑backed tool for CI/CD automation across Fabric workspaces. Over the past year, fabric‑cicd has rapidly evolved through collaboration with engineering, CAT, MVPs, enterprise customers, and the community. Growing usage, strong sentiment across internal and external channels, and adoption by … \nContinue reading “Announcing official support for Microsoft fabric-cicd tool”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-official-support-for-microsoft-fabric-cicd-tool/",
-    "date": "Thu, 19 Feb 2026 12:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
     "title": "OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)",
     "description": "Author: Shiv Narayanan OneDrive and SharePoint (ODSP) shortcuts let you use your existing Microsoft 365 files directly in OneLake without copying or moving them. This gives analytics, BI, and AI workloads a unified, governed view of both structured data and documents. This eliminates duplication and silos while enabling powerful scenarios like combining spreadsheets with Lakehouse data, indexing documents for AI, and … \nContinue reading “OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-sharepoint-and-onedrive-shortcuts-now-support-workspace-and-service-principal-identities-generally-available/",
@@ -104,10 +96,10 @@
     "category": "fabric"
   },
   {
-    "title": "No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric",
-    "description": "You like writing T-SQL. You’re good at it. Or maybe you’re not. But let’s be honest—there are days when you’d rather not write that same GROUP BY clause for the hundredth time or spend twenty minutes deciphering a stored procedure someone wrote in 2014. Good news: AI-powered assistants are now available wherever you write SQL … \nContinue reading “No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/no-more-excuses-ai-powered-assistants-are-in-ssms-vs-code-and-fabric/",
-    "date": "Tue, 17 Feb 2026 12:00:00 Z",
+    "title": "Announcing official support for Microsoft fabric-cicd tool",
+    "description": "Today, we’re announcing that fabric‑cicd—the open‑source Python deployment library for Microsoft Fabric—is now an officially supported, Microsoft‑backed tool for CI/CD automation across Fabric workspaces. Over the past year, fabric‑cicd has rapidly evolved through collaboration with engineering, CAT, MVPs, enterprise customers, and the community. Growing usage, strong sentiment across internal and external channels, and adoption by … \nContinue reading “Announcing official support for Microsoft fabric-cicd tool”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-official-support-for-microsoft-fabric-cicd-tool/",
+    "date": "Thu, 19 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
@@ -115,6 +107,14 @@
     "title": "Billing updates: new operations for Fabric AI functions and AI services",
     "description": "We’re introducing billing reporting updates that make it easier to track AI-related usage in Microsoft Fabric. New AI Functions operation Until now, Fabric AI functions usage was reported under other operations, such as Spark-related operations, or Dataflows Gen2-related operations, depending on where the functions were used. To provide more transparency, Fabric AI functions will have … \nContinue reading “Billing updates: new operations for Fabric AI functions and AI services”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/billing-updates-new-operations-for-fabric-ai-functions-and-ai-services/",
+    "date": "Tue, 17 Feb 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric",
+    "description": "You like writing T-SQL. You’re good at it. Or maybe you’re not. But let’s be honest—there are days when you’d rather not write that same GROUP BY clause for the hundredth time or spend twenty minutes deciphering a stored procedure someone wrote in 2014. Good news: AI-powered assistants are now available wherever you write SQL … \nContinue reading “No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/no-more-excuses-ai-powered-assistants-are-in-ssms-vs-code-and-fabric/",
     "date": "Tue, 17 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
