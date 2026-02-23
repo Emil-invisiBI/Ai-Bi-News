@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Under the hood: an introduction to the Native Execution Engine for Microsoft Fabric",
+    "description": "Introduction In today’s data landscape, as organizations scale their analytical workloads, the demand for faster, more cost-efficient computation continues to rise. Apache Spark has long been the backbone of largescale data processing with its in‑memory processing and powerful APIs, but today’s workloads demand even better performance. Microsoft Fabric addresses this challenge with the Native Execution … \nContinue reading “Under the hood: an introduction to the Native Execution Engine for Microsoft Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/under-the-hood-an-introduction-to-the-native-execution-engine-for-microsoft-fabric/",
+    "date": "Mon, 23 Feb 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Something big IS happening—is your data platform ready?",
     "description": "If you’ve been on X (formerly Twitter) the past two weeks, you’ve probably seen or at least felt the shockwaves. Matt Shumer, CEO of HyperWrite and co-founder of OthersideAI, published a 5,000-word essay titled “Something Big Is Happening” that has now been viewed over 73 million times. In it, he compares this moment in AI … \nContinue reading “Something big IS happening—is your data platform ready?”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/something-big-is-happening-is-your-data-platform-ready/",
@@ -148,14 +156,6 @@
     "description": "Coauthor: Abhishek Narain Ensuring secure connectivity to your data sources is critical for modern data estates. We have released the Key-Pair authentication for Snowflake connections Preview in October and are happy to announce it is now Generally Available (GA). This release offers an enhanced security alternative to basic authentication methods, such as username and password, … \nContinue reading “Snowflake Key-Pair Authentication (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/snowflake-key-pair-authentication-generally-available/",
     "date": "Tue, 17 Feb 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Enrich Power BI reports with machine learning in Microsoft Fabric",
-    "description": "Many organizations want to go beyond descriptive Power BI reports and start answering forward‑looking questions with machine learning—identifying emerging trends, at-risk accounts, and where to focus effort to maximize impact. In practice, this is hard. Adding machine learning to Power BI often means moving data out of semantic models, rebuilding logic, managing separate storage and … \nContinue reading “Enrich Power BI reports with machine learning in Microsoft Fabric”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/enrich-power-bi-reports-with-machine-learning-in-microsoft-fabric/",
-    "date": "Thu, 12 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
