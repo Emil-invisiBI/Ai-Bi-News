@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Zero-copy access to OneLake data in Azure Databricks (Preview)",
+    "description": "Most data estates are not single platform, and that is not a problem. The challenge is what usually comes next: extra copies, extra pipelines, extra refresh schedules, and endless debates about which version is the truth. Today, we are introducing OneLake catalog federation (Beta) in Azure Databricks Lakehouse Federation, which simplifies multi-engine analytics by enabling … \nContinue reading “Zero-copy access to OneLake data in Azure Databricks (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/zero-copy-access-to-onelake-data-in-azure-databricks-preview/",
+    "date": "Mon, 23 Feb 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Recent data: Get back to your data faster in Fabric (Preview)",
     "description": "How much time do you spend navigating to the same data sources when building dataflows? Data preparation is an iterative process—you often return to the same sources as you refine your dataflows, add new transformations, or create similar workflows. If you find yourself repeatedly connecting to the same tables, files, or databases, the Recent data … \nContinue reading “Recent data: Get back to your data faster in Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/recent-data-get-back-to-your-data-faster-in-fabric-preview/",
@@ -112,17 +120,17 @@
     "category": "fabric"
   },
   {
-    "title": "No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric",
-    "description": "You like writing T-SQL. You’re good at it. Or maybe you’re not. But let’s be honest—there are days when you’d rather not write that same GROUP BY clause for the hundredth time or spend twenty minutes deciphering a stored procedure someone wrote in 2014. Good news: AI-powered assistants are now available wherever you write SQL … \nContinue reading “No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/no-more-excuses-ai-powered-assistants-are-in-ssms-vs-code-and-fabric/",
+    "title": "Billing updates: new operations for Fabric AI functions and AI services",
+    "description": "We’re introducing billing reporting updates that make it easier to track AI-related usage in Microsoft Fabric. New AI Functions operation Until now, Fabric AI functions usage was reported under other operations, such as Spark-related operations, or Dataflows Gen2-related operations, depending on where the functions were used. To provide more transparency, Fabric AI functions will have … \nContinue reading “Billing updates: new operations for Fabric AI functions and AI services”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/billing-updates-new-operations-for-fabric-ai-functions-and-ai-services/",
     "date": "Tue, 17 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
   {
-    "title": "Billing updates: new operations for Fabric AI functions and AI services",
-    "description": "We’re introducing billing reporting updates that make it easier to track AI-related usage in Microsoft Fabric. New AI Functions operation Until now, Fabric AI functions usage was reported under other operations, such as Spark-related operations, or Dataflows Gen2-related operations, depending on where the functions were used. To provide more transparency, Fabric AI functions will have … \nContinue reading “Billing updates: new operations for Fabric AI functions and AI services”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/billing-updates-new-operations-for-fabric-ai-functions-and-ai-services/",
+    "title": "No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric",
+    "description": "You like writing T-SQL. You’re good at it. Or maybe you’re not. But let’s be honest—there are days when you’d rather not write that same GROUP BY clause for the hundredth time or spend twenty minutes deciphering a stored procedure someone wrote in 2014. Good news: AI-powered assistants are now available wherever you write SQL … \nContinue reading “No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/no-more-excuses-ai-powered-assistants-are-in-ssms-vs-code-and-fabric/",
     "date": "Tue, 17 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
@@ -148,14 +156,6 @@
     "description": "Since SQL database in Microsoft Fabric became generally available in November, customer adoption has grown rapidly. Organizations are using it to simplify their data estates, eliminate ETL pipelines, and get their operational data ready for analytics and AI—without managing infrastructure. It’s a fully managed, SaaS-native transactional database built for what comes next. If you’ve been … \nContinue reading “SQL database in Fabric: Built for SaaS, Ready for AI”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-database-in-fabric-built-for-saas-ready-for-ai/",
     "date": "Thu, 12 Feb 2026 11:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Supercharge AI, BI, and data engineering with Semantic Link (Generally Available)",
-    "description": "Great technology does not succeed on design alone—it succeeds when it helps people solve real problems. Semantic Link is one of those transformative capabilities in Microsoft Fabric: it brings AI, BI, and data engineering together through a shared semantic layer, enabling teams to work faster and more intelligently on the data they already trust. From … \nContinue reading “Supercharge AI, BI, and data engineering with Semantic Link (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/supercharge-ai-bi-and-data-engineering-with-semantic-link-generally-available/",
-    "date": "Tue, 10 Feb 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
