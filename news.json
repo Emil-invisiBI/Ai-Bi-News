@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Something big IS happening—is your data platform ready?",
+    "description": "If you’ve been on X (formerly Twitter) the past two weeks, you’ve probably seen or at least felt the shockwaves. Matt Shumer, CEO of HyperWrite and co-founder of OthersideAI, published a 5,000-word essay titled “Something Big Is Happening” that has now been viewed over 73 million times. In it, he compares this moment in AI … \nContinue reading “Something big IS happening—is your data platform ready?”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/something-big-is-happening-is-your-data-platform-ready/",
+    "date": "Mon, 23 Feb 2026 13:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Zero-copy access to OneLake data in Azure Databricks (Preview)",
     "description": "Most data estates are not single platform, and that is not a problem. The challenge is what usually comes next: extra copies, extra pipelines, extra refresh schedules, and endless debates about which version is the truth. Today, we are introducing OneLake catalog federation (Beta) in Azure Databricks Lakehouse Federation, which simplifies multi-engine analytics by enabling … \nContinue reading “Zero-copy access to OneLake data in Azure Databricks (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/zero-copy-access-to-onelake-data-in-azure-databricks-preview/",
@@ -148,14 +156,6 @@
     "description": "Many organizations want to go beyond descriptive Power BI reports and start answering forward‑looking questions with machine learning—identifying emerging trends, at-risk accounts, and where to focus effort to maximize impact. In practice, this is hard. Adding machine learning to Power BI often means moving data out of semantic models, rebuilding logic, managing separate storage and … \nContinue reading “Enrich Power BI reports with machine learning in Microsoft Fabric”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/enrich-power-bi-reports-with-machine-learning-in-microsoft-fabric/",
     "date": "Thu, 12 Feb 2026 12:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "SQL database in Fabric: Built for SaaS, Ready for AI",
-    "description": "Since SQL database in Microsoft Fabric became generally available in November, customer adoption has grown rapidly. Organizations are using it to simplify their data estates, eliminate ETL pipelines, and get their operational data ready for analytics and AI—without managing infrastructure. It’s a fully managed, SaaS-native transactional database built for what comes next. If you’ve been … \nContinue reading “SQL database in Fabric: Built for SaaS, Ready for AI”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-database-in-fabric-built-for-saas-ready-for-ai/",
-    "date": "Thu, 12 Feb 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
