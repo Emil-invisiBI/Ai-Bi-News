@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Recent data: Get back to your data faster in Fabric (Preview)",
+    "description": "How much time do you spend navigating to the same data sources when building dataflows? Data preparation is an iterative process—you often return to the same sources as you refine your dataflows, add new transformations, or create similar workflows. If you find yourself repeatedly connecting to the same tables, files, or databases, the Recent data … \nContinue reading “Recent data: Get back to your data faster in Fabric (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/recent-data-get-back-to-your-data-faster-in-fabric-preview/",
+    "date": "Mon, 23 Feb 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Microsoft ODBC Driver for Microsoft Fabric Data Engineering (Preview)",
     "description": "ODBC (Open Database Connectivity) is a widely adopted standard that enables client applications to connect to and work with data from databases and big data platforms. The Microsoft ODBC Driver for Microsoft Fabric Data Engineering (Preview) – an enterprise-grade connector that brings powerful, secure, reliable and flexible Spark SQL connectivity to your .NET, Python, and … \nContinue reading “Microsoft ODBC Driver for Microsoft Fabric Data Engineering (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-odbc-driver-for-microsoft-fabric-data-engineering-preview/",
@@ -148,14 +156,6 @@
     "description": "Great technology does not succeed on design alone—it succeeds when it helps people solve real problems. Semantic Link is one of those transformative capabilities in Microsoft Fabric: it brings AI, BI, and data engineering together through a shared semantic layer, enabling teams to work faster and more intelligently on the data they already trust. From … \nContinue reading “Supercharge AI, BI, and data engineering with Semantic Link (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/supercharge-ai-bi-and-data-engineering-with-semantic-link-generally-available/",
     "date": "Tue, 10 Feb 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Adaptive time series visualization at scale with Microsoft Fabric",
-    "description": "Coauthor: Slava Trofimov How much value would you generate for your enterprise if you could enable every user to unlock actionable insights in high-volume time-series data from your operations with real time, interactive exploration? Industrial operations generate staggering amounts of time series data. A single plant can easily produce tens of billions of sensor readings … \nContinue reading “Adaptive time series visualization at scale with Microsoft Fabric”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/adaptive-time-series-visualization-at-scale-with-microsoft-fabric/",
-    "date": "Tue, 10 Feb 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
