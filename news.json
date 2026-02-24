@@ -1,5 +1,13 @@
 [
   {
+    "title": "Input slicer: Filter reports and collect user input (Generally Available)",
+    "description": "Previously known as the “text slicer” while in preview, this visual lets you type or paste values directly into a slicer to filter your report—no scrolling or searching through long lists required. What you can do with the input slicer Report consumers can quickly filter the report to what they are looking for using the … \nContinue reading “Input slicer: Filter reports and collect user input (Generally Available)”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/",
+    "date": "Tue, 24 Feb 2026 12:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
     "title": "Power BI February 2026 Feature Summary",
     "description": "Welcome to the February Power BI update! Power BI’s February 2026 update is here, and it’s a good one. This release brings smarter Copilot and AI experiences, more flexible ways to interact with reports, polished visuals, and useful modeling enhancements—plus a few important updates to keep in mind. With FabCon right around the corner, it’s … \nContinue reading “Power BI February 2026 Feature Summary”",
     "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/",
@@ -72,12 +80,12 @@
     "category": "powerbi"
   },
   {
-    "title": "Drillthrough in Excel now supported for Direct Lake and DirectQuery Models",
-    "description": "The previous limitation preventing drillthrough (via Excel’s Show Details feature when using Analyze in Excel) on Direct Lake and DirectQuery semantic model has been removed.",
-    "url": "https://powerbi.microsoft.com/en-us/blog/drillthrough-in-excel-now-supported-for-direct-lake-and-directquery-models/",
-    "date": "Tue, 09 Dec 2025 13:27:42 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
+    "title": "Processing CDC streams using Fabric Eventstreams SQL",
+    "description": "Why process database changes in real-time Modern applications don’t just store data—they react to it. Orders are placed, inventory levels change, prices are updated. Each of these changes can be a signal that something needs to happen now: update a dashboard, trigger a workflow, or feed an operational application. That is why many organizations are … \nContinue reading “Processing CDC streams using Fabric Eventstreams SQL”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/processing-cdc-streams-using-fabric-eventstreams-sql/",
+    "date": "Tue, 24 Feb 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
   },
   {
     "title": "Introducing SQL Pool Insights in Microsoft Fabric Data Warehouse   ",
@@ -147,14 +155,6 @@
     "title": "Billing updates: new operations for Fabric AI functions and AI services",
     "description": "We’re introducing billing reporting updates that make it easier to track AI-related usage in Microsoft Fabric. New AI Functions operation Until now, Fabric AI functions usage was reported under other operations, such as Spark-related operations, or Dataflows Gen2-related operations, depending on where the functions were used. To provide more transparency, Fabric AI functions will have … \nContinue reading “Billing updates: new operations for Fabric AI functions and AI services”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/billing-updates-new-operations-for-fabric-ai-functions-and-ai-services/",
-    "date": "Tue, 17 Feb 2026 12:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric",
-    "description": "You like writing T-SQL. You’re good at it. Or maybe you’re not. But let’s be honest—there are days when you’d rather not write that same GROUP BY clause for the hundredth time or spend twenty minutes deciphering a stored procedure someone wrote in 2014. Good news: AI-powered assistants are now available wherever you write SQL … \nContinue reading “No more excuses: AI-powered assistants are in SSMS, VS Code, and Fabric”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/no-more-excuses-ai-powered-assistants-are-in-ssms-vs-code-and-fabric/",
     "date": "Tue, 17 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
