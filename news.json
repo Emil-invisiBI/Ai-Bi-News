@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric February 2026 Feature Summary",
+    "description": "Welcome to the February 2026 Microsoft Fabric update! This month brings a wide range of enhancements across the Fabric platform—from improvements to the OneLake Catalog and developer experiences, to meaningful updates in Data Engineering, Data Factory, Real‑Time Intelligence, and more. Whether you’re building, operating, or scaling solutions in Fabric, there’s plenty here to explore. And … \nContinue reading “Fabric February 2026 Feature Summary”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-february-2026-feature-summary/",
+    "date": "Wed, 25 Feb 2026 10:00:45 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Processing CDC streams using Fabric Eventstreams SQL",
     "description": "Why process database changes in real-time Modern applications don’t just store data—they react to it. Orders are placed, inventory levels change, prices are updated. Each of these changes can be a signal that something needs to happen now: update a dashboard, trigger a workflow, or feed an operational application. That is why many organizations are … \nContinue reading “Processing CDC streams using Fabric Eventstreams SQL”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/processing-cdc-streams-using-fabric-eventstreams-sql/",
@@ -136,14 +144,6 @@
     "category": "fabric"
   },
   {
-    "title": "OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)",
-    "description": "OneDrive and SharePoint (ODSP) shortcuts let you use your existing Microsoft 365 files directly in OneLake without copying or moving them. This gives analytics, BI, and AI workloads a unified, governed view of both structured data and documents. This eliminates duplication and silos while enabling powerful scenarios like combining spreadsheets with Lakehouse data, indexing documents for AI, and optionally transforming files … \nContinue reading “OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-sharepoint-and-onedrive-shortcuts-now-support-workspace-and-service-principal-identities-generally-available/",
-    "date": "Thu, 19 Feb 2026 12:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
     "title": "Announcing official support for Microsoft fabric-cicd tool",
     "description": "Today, we’re announcing that fabric‑cicd—the open‑source Python deployment library for Microsoft Fabric—is now an officially supported, Microsoft‑backed tool for CI/CD automation across Fabric workspaces. Over the past year, fabric‑cicd has rapidly evolved through collaboration with engineering, CAT, MVPs, enterprise customers, and the community. Growing usage, strong sentiment across internal and external channels, and adoption by … \nContinue reading “Announcing official support for Microsoft fabric-cicd tool”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-official-support-for-microsoft-fabric-cicd-tool/",
@@ -152,10 +152,10 @@
     "category": "fabric"
   },
   {
-    "title": "Billing updates: new operations for Fabric AI functions and AI services",
-    "description": "We’re introducing billing reporting updates that make it easier to track AI-related usage in Microsoft Fabric. New AI Functions operation Until now, Fabric AI functions usage was reported under other operations, such as Spark-related operations, or Dataflows Gen2-related operations, depending on where the functions were used. To provide more transparency, Fabric AI functions will have … \nContinue reading “Billing updates: new operations for Fabric AI functions and AI services”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/billing-updates-new-operations-for-fabric-ai-functions-and-ai-services/",
-    "date": "Tue, 17 Feb 2026 12:00:00 Z",
+    "title": "OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)",
+    "description": "OneDrive and SharePoint (ODSP) shortcuts let you use your existing Microsoft 365 files directly in OneLake without copying or moving them. This gives analytics, BI, and AI workloads a unified, governed view of both structured data and documents. This eliminates duplication and silos while enabling powerful scenarios like combining spreadsheets with Lakehouse data, indexing documents for AI, and optionally transforming files … \nContinue reading “OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-sharepoint-and-onedrive-shortcuts-now-support-workspace-and-service-principal-identities-generally-available/",
+    "date": "Thu, 19 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
