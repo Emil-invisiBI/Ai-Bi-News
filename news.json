@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Evaluate Power Query Programmatically in Microsoft Fabric (Preview)",
+    "description": "Power Query has long been at the center of data preparation across Microsoft products—from Excel and Power BI to Dataflows and Fabric. We’re introducing a major evolution: the ability to execute Power Query programmatically through a public API. This capability turns Power Query into a programmable data transformation engine that can be invoked on demand … \nContinue reading “Evaluate Power Query Programmatically in Microsoft Fabric (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/execute-power-query-programmatically-in-microsoft-fabric/",
+    "date": "Mon, 02 Mar 2026 11:22:48 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Fabric Influencers Spotlight February 2026",
     "description": "Welcome to the February 2026 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric. The Microsoft Fabric Community team has created the Fabric Influencers Spotlight to … \nContinue reading “Fabric Influencers Spotlight February 2026”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-influencers-spotlight-february-2026/",
@@ -148,14 +156,6 @@
     "description": "ODBC (Open Database Connectivity) is a widely adopted standard that enables client applications to connect to and work with data from databases and big data platforms. The Microsoft ODBC Driver for Microsoft Fabric Data Engineering (Preview) – an enterprise-grade connector that brings powerful, secure, reliable and flexible Spark SQL connectivity to your .NET, Python, and … \nContinue reading “Microsoft ODBC Driver for Microsoft Fabric Data Engineering (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-odbc-driver-for-microsoft-fabric-data-engineering-preview/",
     "date": "Thu, 19 Feb 2026 17:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)",
-    "description": "OneDrive and SharePoint (ODSP) shortcuts let you use your existing Microsoft 365 files directly in OneLake without copying or moving them. This gives analytics, BI, and AI workloads a unified, governed view of both structured data and documents. This eliminates duplication and silos while enabling powerful scenarios like combining spreadsheets with Lakehouse data, indexing documents for AI, and optionally transforming files … \nContinue reading “OneLake SharePoint and OneDrive shortcuts now support workspace and service principal identities (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/onelake-sharepoint-and-onedrive-shortcuts-now-support-workspace-and-service-principal-identities-generally-available/",
-    "date": "Thu, 19 Feb 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
