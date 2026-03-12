@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Operationalizing Agentic Applications with Microsoft Fabric",
+    "description": "Agentic apps are moving quickly from prototypes to real workloads. But once you go beyond a proof of concept (POC), the hard part isn’t getting an agent to respond; it’s knowing what the agent did, whether it was safe and correct, and how it’s impacting the business. Let’s explore what it takes to operationalize agentic … \nContinue reading “Operationalizing Agentic Applications with Microsoft Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/operationalizing-agentic-applications-with-microsoft-fabric/",
+    "date": "Thu, 12 Mar 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "ExtractLabel: Schema-driven unstructured data extraction with Fabric AI Functions",
     "description": "Most enterprise data lives in free text – tickets, contracts, feedback, clinical notes, and more. It holds critical information but doesn’t fit into the structured tables that pipelines expect. Traditionally, extracting structure meant rule-based parsers that break with every format to change, or custom NLP models that take weeks to build. LLMs opened new possibilities, … \nContinue reading “ExtractLabel: Schema-driven unstructured data extraction with Fabric AI Functions”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/extractlabel-schema-driven-unstructured-data-extraction-with-fabric-ai-functions/",
@@ -148,14 +156,6 @@
     "description": "Introduction In today’s data landscape, as organizations scale their analytical workloads, the demand for faster, more cost-efficient computation continues to rise. Apache Spark has long been the backbone of largescale data processing with its in‑memory processing and powerful APIs, but today’s workloads demand even better performance. Microsoft Fabric addresses this challenge with the Native Execution … \nContinue reading “Under the hood: an introduction to the Native Execution Engine for Microsoft Fabric”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/under-the-hood-an-introduction-to-the-native-execution-engine-for-microsoft-fabric/",
     "date": "Mon, 23 Feb 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Something big IS happening—is your data platform ready?",
-    "description": "If you’ve been on X (formerly Twitter) the past two weeks, you’ve probably seen or at least felt the shockwaves. Matt Shumer, CEO of HyperWrite and co-founder of OthersideAI, published a 5,000-word essay titled “Something Big Is Happening” that has now been viewed over 73 million times. In it, he compares this moment in AI … \nContinue reading “Something big IS happening—is your data platform ready?”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/something-big-is-happening-is-your-data-platform-ready/",
-    "date": "Mon, 23 Feb 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
