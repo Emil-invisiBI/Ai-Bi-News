@@ -80,82 +80,82 @@
     "category": "powerbi"
   },
   {
+    "title": "From Azure Synapse and Azure Data Factory to Microsoft Fabric: The Next-Gen Analytics Leap",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Coauthor: Bogdan Crivat Across industries, organizations are rethinking their analytics foundation. The era … \nContinue reading “From Azure Synapse and Azure Data Factory to Microsoft Fabric: The Next-Gen Analytics Leap”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-azure-synapse-and-azure-data-factory-to-microsoft-fabric-the-next-gen-analytics-leap/",
+    "date": "Wed, 18 Mar 2026 05:49:01 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Introducing Planning in Microsoft Fabric IQ: From historical data to forecasting the future",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  For years, organizations have invested heavily in analytics to understand what happened in … \nContinue reading “Introducing Planning in Microsoft Fabric IQ: From historical data to forecasting the future”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-planning-in-microsoft-fabric-iq-from-historical-data-to-forecasting-the-future/",
+    "date": "Wed, 18 Mar 2026 05:48:20 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "FabCon and SQLCon 2026: What’s new in Microsoft OneLake",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  As AI reshapes every industry, one reality is clear: data is no longer … \nContinue reading “FabCon and SQLCon 2026: What’s new in Microsoft OneLake”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabcon-and-sqlcon-2026-whats-new-in-microsoft-onelake/",
+    "date": "Wed, 18 Mar 2026 05:47:58 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "From unified data to decisive action: advancing supply chain autonomy with Microsoft Fabric and Auger",
+    "description": "Co-authored by: Dave Clark, Founder and CEO of Auger The platform shift is underway In a short period of time, Microsoft Fabric has emerged as one of the fastest growing analytics platforms in the industry, unifying data engineering, analytics, governance, and AI into a single, integrated experience. For many organizations, Fabric represents a long-awaited shift … \nContinue reading “From unified data to decisive action: advancing supply chain autonomy with Microsoft Fabric and Auger”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-unified-data-to-decisive-action-advancing-supply-chain-autonomy-with-microsoft-fabric-and-auger/",
+    "date": "Wed, 18 Mar 2026 05:47:40 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Advancing Databases for the Next Generation of Applications",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  New announcements from FabCon | SQLCon As organizations accelerate their AI adoption, the … \nContinue reading “Advancing Databases for the Next Generation of Applications”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/advancing-databases-for-the-next-generation-of-applications/",
+    "date": "Wed, 18 Mar 2026 05:47:11 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Trusted AI starts with Microsoft Fabric: Unified real-time intelligence and IQ context",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Modern businesses operate in environments where conditions change continuously, and many decisions cannot … \nContinue reading “Trusted AI starts with Microsoft Fabric: Unified real-time intelligence and IQ context”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/trusted-ai-starts-with-microsoft-fabric-unified-real-time-intelligence-and-iq-context/",
+    "date": "Wed, 18 Mar 2026 05:46:22 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "From Lakehouse to boardroom: Analytics and AI for real insights",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  An end-to-end look at what we’re shipping in Fabric Analytics, what we are … \nContinue reading “From Lakehouse to boardroom: Analytics and AI for real insights”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-lakehouse-to-boardroom-analytics-and-ai-for-real-insights/",
+    "date": "Wed, 18 Mar 2026 05:45:25 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Fabric March 2026 Feature Summary",
+    "description": "Welcome to the Fabric March 2026 Feature Summary—and welcome to FabCon! As we kick off FabCon, this update captures the momentum we’re seeing across the Fabric platform and the conversations happening with customers and partners right now. March brings a wide range of enhancements across governance, data engineering, real-time intelligence, data science, extensibility, and AI—all … \nContinue reading “Fabric March 2026 Feature Summary”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-march-2026-feature-summary/",
+    "date": "Wed, 18 Mar 2026 05:45:03 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Empowering admins and developers with a Fabric platform ready for any project",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  AI is rapidly changing how we create, use, and trust data. This shift … \nContinue reading “Empowering admins and developers with a Fabric platform ready for any project”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/empowering-admins-and-developers-with-a-fabric-platform-ready-for-any-project-2/",
+    "date": "Wed, 18 Mar 2026 05:44:18 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "From insight to action: Bringing Fabric Activator into Ontology with Rules",
     "description": "With the introduction of Rules in Ontology, Fabric IQ takes a step forward in connecting business operations to real-time action by integrating Fabric Activator directly into Ontology. Fabric IQ brings context to your data. Activator in Fabric IQ operationalizes your ontology. What are Ontology Rules with Fabric Activator? Ontology Rules let you define conditions and … \nContinue reading “From insight to action: Bringing Fabric Activator into Ontology with Rules”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-insight-to-action-bringing-fabric-activator-into-ontology-with-rules/",
     "date": "Thu, 12 Mar 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Deploy SQL databases in Fabric from VS Code: No more context switching",
-    "description": "Making schema changes in your SQL databases often means working across a few different steps. You write code in VS Code, then move over to the Fabric portal to find your workspace, locate your database, and deploy your changes. Sometimes that means exporting a script and running it manually. Sometimes it’s copy‑paste into the query … \nContinue reading “Deploy SQL databases in Fabric from VS Code: No more context switching”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/deploy-sql-databases-in-fabric-from-vs-code-no-more-context-switching/",
-    "date": "Thu, 12 Mar 2026 11:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Operationalizing Agentic Applications with Microsoft Fabric",
-    "description": "Agentic apps are moving quickly from prototypes to real workloads. But once you go beyond a proof of concept (POC), the hard part isn’t getting an agent to respond; it’s knowing what the agent did, whether it was safe and correct, and how it’s impacting the business. Let’s explore what it takes to operationalize agentic … \nContinue reading “Operationalizing Agentic Applications with Microsoft Fabric”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/operationalizing-agentic-applications-with-microsoft-fabric/",
-    "date": "Thu, 12 Mar 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "ExtractLabel: Schema-driven unstructured data extraction with Fabric AI Functions",
-    "description": "Most enterprise data lives in free text – tickets, contracts, feedback, clinical notes, and more. It holds critical information but doesn’t fit into the structured tables that pipelines expect. Traditionally, extracting structure meant rule-based parsers that break with every format to change, or custom NLP models that take weeks to build. LLMs opened new possibilities, … \nContinue reading “ExtractLabel: Schema-driven unstructured data extraction with Fabric AI Functions”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/extractlabel-schema-driven-unstructured-data-extraction-with-fabric-ai-functions/",
-    "date": "Tue, 10 Mar 2026 10:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Powering secure private network streaming to Fabric with Eventstream connectors (Preview)",
-    "description": "Data is a critical asset for organizations, providing the insights needed to inform and accelerate business decisions. In today’s fast-paced environment, access to real-time data is increasingly essential. The data is generated across many areas of the business, including IoT device telemetry, application monitoring, and financial transactions. As the volume of real-time data continues to … \nContinue reading “Powering secure private network streaming to Fabric with Eventstream connectors (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/powering-secure-private-network-streaming-to-fabric-with-eventstream-connectors-preview/",
-    "date": "Thu, 05 Mar 2026 16:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Update to required permissions for Semantic Models in Fabric Data Agents",
-    "description": "We’re announcing an update to the permissions required to interact with semantic models in Fabric data agents. Today: As a creator, you must have access to the workspace where the semantic model lives and Build permission on the semantic model to add semantic model to a data agent. As a consumer, you need Read access … \nContinue reading “Update to required permissions for Semantic Models in Fabric Data Agents”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/update-to-required-permissions-for-semantic-models-in-fabric-data-agents/",
-    "date": "Wed, 04 Mar 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Evaluate Power Query Programmatically in Microsoft Fabric (Preview)",
-    "description": "Power Query has long been at the center of data preparation across Microsoft products—from Excel and Power BI to Dataflows and Fabric. We’re introducing a major evolution: the ability to execute Power Query programmatically through a public API. This capability turns Power Query into a programmable data transformation engine that can be invoked on demand … \nContinue reading “Evaluate Power Query Programmatically in Microsoft Fabric (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/execute-power-query-programmatically-in-microsoft-fabric/",
-    "date": "Mon, 02 Mar 2026 11:22:48 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric Influencers Spotlight February 2026",
-    "description": "Welcome to the February 2026 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric. The Microsoft Fabric Community team has created the Fabric Influencers Spotlight to … \nContinue reading “Fabric Influencers Spotlight February 2026”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-influencers-spotlight-february-2026/",
-    "date": "Fri, 27 Feb 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric February 2026 Feature Summary",
-    "description": "Welcome to the February 2026 Microsoft Fabric update! This month brings a wide range of enhancements across the Fabric platform—from improvements to the OneLake Catalog and developer experiences, to meaningful updates in Data Engineering, Data Factory, Real‑Time Intelligence, and more. Whether you’re building, operating, or scaling solutions in Fabric, there’s plenty here to explore. And … \nContinue reading “Fabric February 2026 Feature Summary”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-february-2026-feature-summary/",
-    "date": "Wed, 25 Feb 2026 10:00:45 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Processing CDC streams using Fabric Eventstreams SQL",
-    "description": "Why process database changes in real-time Modern applications don’t just store data—they react to it. Orders are placed, inventory levels change, prices are updated. Each of these changes can be a signal that something needs to happen now: update a dashboard, trigger a workflow, or feed an operational application. That is why many organizations are … \nContinue reading “Processing CDC streams using Fabric Eventstreams SQL”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/processing-cdc-streams-using-fabric-eventstreams-sql/",
-    "date": "Tue, 24 Feb 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
