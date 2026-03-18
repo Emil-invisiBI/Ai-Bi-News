@@ -1,5 +1,29 @@
 [
   {
+    "title": "Semantic Layers: The foundation of enterprise AI",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Power BI is the decision layer for millions of users because it doesn’t … \nContinue reading “Semantic Layers: The foundation of enterprise AI”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/",
+    "date": "Wed, 18 Mar 2026 06:08:36 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Deep Dive into Modern Visual Defaults and Customizing Theme Improvements (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Power BI Desktop visuals now start with a modern look. This preview introduces … \nContinue reading “Deep Dive into Modern Visual Defaults and Customizing Theme Improvements (Preview)”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-modern-visual-defaults-and-customizing-theme-improvements-preview/",
+    "date": "Wed, 18 Mar 2026 06:08:15 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Power BI March 2026 Feature Summary",
+    "description": "Welcome to the Power BI March 2026 Feature Summary—and welcome to FabCon! As FabCon gets underway, this month’s update reflects the momentum we’re seeing across Power BI and the conversations happening with customers right now. March brings a thoughtful set of improvements across Copilot, reporting, modeling, and data connectivity—focused on making everyday authoring smoother, visuals … \nContinue reading “Power BI March 2026 Feature Summary”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/",
+    "date": "Wed, 18 Mar 2026 06:07:49 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
     "title": "Input slicer: Filter reports and collect user input (Generally Available)",
     "description": "Previously known as the “text slicer” while in preview, this visual lets you type or paste values directly into a slicer to filter your report—no scrolling or searching through long lists required. What you can do with the input slicer Report consumers can quickly filter the report to what they are looking for using the … \nContinue reading “Input slicer: Filter reports and collect user input (Generally Available)”",
     "url": "https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/",
@@ -56,34 +80,26 @@
     "category": "powerbi"
   },
   {
-    "title": "Power BI January 2026 Feature Summary",
-    "description": "The January 2026 Power BI Feature Summary is packed with exciting news—there are fresh updates, important announcements, and some big changes, especially around upcoming events, feature retirements, and the latest in AI and Copilot advancements. Some of the standout features include new reporting tools, smarter data modeling options, enhanced resources for developers, broader global standards … \nContinue reading “Power BI January 2026 Feature Summary”",
-    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-january-2026-feature-summary/",
-    "date": "Tue, 20 Jan 2026 09:00:00 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
-  },
-  {
-    "title": "The Power BI Dataviz World Champs is back!",
-    "description": "Join the Power BI Dataviz World Championships – three rounds of visualization challenges, community voting, and a live finale at FabCon 2026.",
-    "url": "https://powerbi.microsoft.com/en-us/blog/the-power-bi-dataviz-world-champs-is-back/",
-    "date": "Thu, 08 Jan 2026 11:00:00 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
-  },
-  {
-    "title": "Power BI 2025 holiday recap: A decade of innovation and impact",
-    "description": "2025 was a monumental year for Microsoft Power BI, marked by its 10-year anniversary and a series of community celebrations, global contests, and product advancements that delivered new capabilities empowering users to turn data into action faster than ever. Below we recap some of the year’s biggest highlights—from milestone events to feature breakthroughs—that made 2025 … \nContinue reading “Power BI 2025 holiday recap: A decade of innovation and impact”",
-    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-2025-holiday-recap-a-decade-of-innovation-and-impact/",
-    "date": "Tue, 16 Dec 2025 09:00:00 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
+    "title": "Fabric Data Factory at FabCon Atlanta: Built for modern data integration",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  At FabCon Atlanta, we’re doubling down on a simple truth: every successful analytics, … \nContinue reading “Fabric Data Factory at FabCon Atlanta: Built for modern data integration”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-data-factory-at-fabcon-atlanta-built-for-modern-data-integration/",
+    "date": "Wed, 18 Mar 2026 05:49:18 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
   },
   {
     "title": "From Azure Synapse and Azure Data Factory to Microsoft Fabric: The Next-Gen Analytics Leap",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Coauthor: Bogdan Crivat Across industries, organizations are rethinking their analytics foundation. The era … \nContinue reading “From Azure Synapse and Azure Data Factory to Microsoft Fabric: The Next-Gen Analytics Leap”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-azure-synapse-and-azure-data-factory-to-microsoft-fabric-the-next-gen-analytics-leap/",
     "date": "Wed, 18 Mar 2026 05:49:01 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "The power of the Microsoft Fabric ecosystem: ISVs building natively on Fabric",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  At Microsoft, we’ve always believed that platforms win when ecosystems thrive. Each year, … \nContinue reading “The power of the Microsoft Fabric ecosystem: ISVs building natively on Fabric”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/the-power-of-the-microsoft-fabric-ecosystem-isvs-building-natively-on-fabric/",
+    "date": "Wed, 18 Mar 2026 05:48:42 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
@@ -120,6 +136,14 @@
     "category": "fabric"
   },
   {
+    "title": "On-premises data gateway auto-update (admin triggered) (Generally Available)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  The on-premises data gateway auto-update (admin triggered), this capability gives administrators greater control … \nContinue reading “On-premises data gateway auto-update (admin triggered) (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-auto-update-admin-triggered-generally-available/",
+    "date": "Wed, 18 Mar 2026 05:46:50 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Trusted AI starts with Microsoft Fabric: Unified real-time intelligence and IQ context",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Modern businesses operate in environments where conditions change continuously, and many decisions cannot … \nContinue reading “Trusted AI starts with Microsoft Fabric: Unified real-time intelligence and IQ context”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/trusted-ai-starts-with-microsoft-fabric-unified-real-time-intelligence-and-iq-context/",
@@ -132,30 +156,6 @@
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  An end-to-end look at what we’re shipping in Fabric Analytics, what we are … \nContinue reading “From Lakehouse to boardroom: Analytics and AI for real insights”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-lakehouse-to-boardroom-analytics-and-ai-for-real-insights/",
     "date": "Wed, 18 Mar 2026 05:45:25 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric March 2026 Feature Summary",
-    "description": "Welcome to the Fabric March 2026 Feature Summary—and welcome to FabCon! As we kick off FabCon, this update captures the momentum we’re seeing across the Fabric platform and the conversations happening with customers and partners right now. March brings a wide range of enhancements across governance, data engineering, real-time intelligence, data science, extensibility, and AI—all … \nContinue reading “Fabric March 2026 Feature Summary”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-march-2026-feature-summary/",
-    "date": "Wed, 18 Mar 2026 05:45:03 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Empowering admins and developers with a Fabric platform ready for any project",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  AI is rapidly changing how we create, use, and trust data. This shift … \nContinue reading “Empowering admins and developers with a Fabric platform ready for any project”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/empowering-admins-and-developers-with-a-fabric-platform-ready-for-any-project-2/",
-    "date": "Wed, 18 Mar 2026 05:44:18 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "From insight to action: Bringing Fabric Activator into Ontology with Rules",
-    "description": "With the introduction of Rules in Ontology, Fabric IQ takes a step forward in connecting business operations to real-time action by integrating Fabric Activator directly into Ontology. Fabric IQ brings context to your data. Activator in Fabric IQ operationalizes your ontology. What are Ontology Rules with Fabric Activator? Ontology Rules let you define conditions and … \nContinue reading “From insight to action: Bringing Fabric Activator into Ontology with Rules”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-insight-to-action-bringing-fabric-activator-into-ontology-with-rules/",
-    "date": "Thu, 12 Mar 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
