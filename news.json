@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric Runtime 2.0 (Preview)",
+    "description": "Fabric Runtime provides seamless integration within the Microsoft Fabric ecosystem, delivering a powerful environment for data engineering and data science projects built on Apache Spark. The next-generation runtime is purpose-built for large-scale data computations in Microsoft Fabric and introduces key features and components that mark a significant leap forward in enabling scalable analytics and advanced … \nContinue reading “Fabric Runtime 2.0 (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-runtime-2-0-preview/",
+    "date": "Thu, 19 Mar 2026 08:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Materialized Lake Views in Microsoft Fabric (Generally Available)",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Since introducing MLVs (Preview) at Build 2025, data engineers have used them to replace … \nContinue reading “Materialized Lake Views in Microsoft Fabric (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/materialized-lake-views-in-microsoft-fabric-generally-available/",
@@ -148,14 +156,6 @@
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  The on-premises data gateway auto-update (admin triggered), this capability gives administrators greater control … \nContinue reading “On-premises data gateway auto-update (admin triggered) (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-auto-update-admin-triggered-generally-available/",
     "date": "Wed, 18 Mar 2026 05:46:50 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Trusted AI starts with Microsoft Fabric: Unified real-time intelligence and IQ context",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Modern businesses operate in environments where conditions change continuously, and many decisions cannot … \nContinue reading “Trusted AI starts with Microsoft Fabric: Unified real-time intelligence and IQ context”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/trusted-ai-starts-with-microsoft-fabric-unified-real-time-intelligence-and-iq-context/",
-    "date": "Wed, 18 Mar 2026 05:46:22 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
