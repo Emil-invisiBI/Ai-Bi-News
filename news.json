@@ -80,10 +80,34 @@
     "category": "powerbi"
   },
   {
-    "title": "New data protection capabilities in Microsoft Fabric: Built‑in security for the modern data estate",
-    "description": "As organizations continue to scale analytics and AI initiatives, protecting sensitive data has never been more critical. With Microsoft Fabric, we are building data security directly into the analytics platform—so protection is consistent, automated, and enforced wherever data lives and travels.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/new-data-protection-capabilities-in-microsoft-fabric-built%E2%80%91in-security-for-the-modern-data-estate/",
-    "date": "Thu, 19 Mar 2026 11:40:00 Z",
+    "title": "Best Practices for Library Management with Fabric Environments",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Microsoft Fabric provides multiple ways to add and manage libraries when developing with … \nContinue reading “Best Practices for Library Management with Fabric Environments”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/33772/",
+    "date": "Thu, 19 Mar 2026 14:15:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "From legacy to Fabric: A new guided migration experience through Spectral Core Fabric Workload (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  The release of the Spectral Core migration workload (Preview) for Microsoft Fabric introduces … \nContinue reading “From legacy to Fabric: A new guided migration experience through Spectral Core Fabric Workload (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-legacy-to-fabric-a-new-guided-migration-experience-through-spectral-core-fabric-workload-preview/",
+    "date": "Thu, 19 Mar 2026 14:10:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Fabric Extensibility Toolkit: CI/CD, Remote Lifecycle Notifications, and Fabric Scheduler (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Alongside the Microsoft Fabric Extensibility Toolkit (Generally Available), we are announcing three capabilities … \nContinue reading “Fabric Extensibility Toolkit: CI/CD, Remote Lifecycle Notifications, and Fabric Scheduler (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-extensibility-toolkit-ci-cd-remote-lifecycle-notifications-and-fabric-scheduler-preview/",
+    "date": "Thu, 19 Mar 2026 14:10:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Third-party support for OneLake security",
+    "description": "As modern data lakes are built on open-source technology like Delta and Iceberg, customers expect to use the analytics engines and services that best fit their needs—without copying data or redefining security. This creates a clear requirement: security must be defined once and enforced consistently everywhere data is consumed.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/third-party-support-for-onelake-security/",
+    "date": "Thu, 19 Mar 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
@@ -132,30 +156,6 @@
     "description": "This update closes the most important gaps since reaching preview and makes MLVs production-ready at scale. With multi-schedule support, broader incremental refresh, PySpark authoring, in-place updates, and stronger data quality controls, teams can now build, run, and evolve medallion pipelines with far less operational overhead.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/materialized-lake-views-in-microsoft-fabric-generally-available/",
     "date": "Wed, 18 Mar 2026 16:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric Data Factory at FabCon Atlanta: Built for modern data integration",
-    "description": "At FabCon Atlanta, we’re doubling down on a simple truth: every successful analytics, AI, and BI initiative starts with data you can trust. Fabric Data Factory is the integration foundation of Microsoft Fabric—designed to help organizations unify their data estate, operate with confidence at scale, and turn data into AI‑ready insight faster than ever.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-data-factory-at-fabcon-atlanta-built-for-modern-data-integration/",
-    "date": "Wed, 18 Mar 2026 05:49:18 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "From Azure Synapse and Azure Data Factory to Microsoft Fabric: The Next-Gen Analytics Leap",
-    "description": "Across industries, organizations are rethinking their analytics foundation. The era of stitching together separate engines for ETL, data warehousing, and BI is giving way to unified platforms purpose-built for real-time insights and AI at scale. This transformation is reflected in the market momentum behind Microsoft Fabric, which has surpassed a $2 billion annual revenue run rate, serves more than 31,000 customers, and is growing revenue at 60% year over year—making it the fastest-growing analytics platform in the market.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-azure-synapse-and-azure-data-factory-to-microsoft-fabric-the-next-gen-analytics-leap/",
-    "date": "Wed, 18 Mar 2026 05:49:01 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "The power of the Microsoft Fabric ecosystem: ISVs building natively on Fabric",
-    "description": "At Microsoft, we’ve always believed that platforms win when ecosystems thrive. Each year, customers, partners, and data professionals come together at FabCon Atlanta to see how Microsoft Fabric is evolving—not as a standalone product, but as a connected platform amplified by its ISV and SI ecosystem.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/the-power-of-the-microsoft-fabric-ecosystem-isvs-building-natively-on-fabric/",
-    "date": "Wed, 18 Mar 2026 05:48:42 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
