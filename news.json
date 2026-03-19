@@ -80,8 +80,16 @@
     "category": "powerbi"
   },
   {
+    "title": "Custom SQL Pools for Fabric Data Warehouse (Preview)",
+    "description": "Custom SQL Pools for Microsoft Fabric Data Warehouse (Preview) is a new capability that gives workspace administrators fine-grained control over how SQL compute resources are allocated for SQL workloads in a Fabric Data Warehouse and SQL analytics endpoint.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/custom-sql-pools-for-fabric-data-warehouse-preview/",
+    "date": "Thu, 19 Mar 2026 08:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Fabric Runtime 2.0 (Preview)",
-    "description": "Fabric Runtime provides seamless integration within the Microsoft Fabric ecosystem, delivering a powerful environment for data engineering and data science projects built on Apache Spark. The next-generation runtime is purpose-built for large-scale data computations in Microsoft Fabric and introduces key features and components that mark a significant leap forward in enabling scalable analytics and advanced … \nContinue reading “Fabric Runtime 2.0 (Preview)”",
+    "description": "Fabric Runtime provides seamless integration within the Microsoft Fabric ecosystem, delivering a powerful environment for data engineering and data science projects built on Apache Spark.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-runtime-2-0-preview/",
     "date": "Thu, 19 Mar 2026 08:00:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -89,7 +97,7 @@
   },
   {
     "title": "Materialized Lake Views in Microsoft Fabric (Generally Available)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Since introducing MLVs (Preview) at Build 2025, data engineers have used them to replace … \nContinue reading “Materialized Lake Views in Microsoft Fabric (Generally Available)”",
+    "description": "This update closes the most important gaps since reaching preview and makes MLVs production-ready at scale. With multi-schedule support, broader incremental refresh, PySpark authoring, in-place updates, and stronger data quality controls, teams can now build, run, and evolve medallion pipelines with far less operational overhead.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/materialized-lake-views-in-microsoft-fabric-generally-available/",
     "date": "Wed, 18 Mar 2026 16:30:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -97,7 +105,7 @@
   },
   {
     "title": "Fabric Data Factory at FabCon Atlanta: Built for modern data integration",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  At FabCon Atlanta, we’re doubling down on a simple truth: every successful analytics, … \nContinue reading “Fabric Data Factory at FabCon Atlanta: Built for modern data integration”",
+    "description": "At FabCon Atlanta, we’re doubling down on a simple truth: every successful analytics, AI, and BI initiative starts with data you can trust. Fabric Data Factory is the integration foundation of Microsoft Fabric—designed to help organizations unify their data estate, operate with confidence at scale, and turn data into AI‑ready insight faster than ever.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-data-factory-at-fabcon-atlanta-built-for-modern-data-integration/",
     "date": "Wed, 18 Mar 2026 05:49:18 Z",
     "source": "Microsoft Fabric Blog",
@@ -105,7 +113,7 @@
   },
   {
     "title": "From Azure Synapse and Azure Data Factory to Microsoft Fabric: The Next-Gen Analytics Leap",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Coauthor: Bogdan Crivat Across industries, organizations are rethinking their analytics foundation. The era … \nContinue reading “From Azure Synapse and Azure Data Factory to Microsoft Fabric: The Next-Gen Analytics Leap”",
+    "description": "Across industries, organizations are rethinking their analytics foundation. The era of stitching together separate engines for ETL, data warehousing, and BI is giving way to unified platforms purpose-built for real-time insights and AI at scale. This transformation is reflected in the market momentum behind Microsoft Fabric, which has surpassed a $2 billion annual revenue run rate, serves more than 31,000 customers, and is growing revenue at 60% year over year—making it the fastest-growing analytics platform in the market.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-azure-synapse-and-azure-data-factory-to-microsoft-fabric-the-next-gen-analytics-leap/",
     "date": "Wed, 18 Mar 2026 05:49:01 Z",
     "source": "Microsoft Fabric Blog",
@@ -113,7 +121,7 @@
   },
   {
     "title": "The power of the Microsoft Fabric ecosystem: ISVs building natively on Fabric",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  At Microsoft, we’ve always believed that platforms win when ecosystems thrive. Each year, … \nContinue reading “The power of the Microsoft Fabric ecosystem: ISVs building natively on Fabric”",
+    "description": "At Microsoft, we’ve always believed that platforms win when ecosystems thrive. Each year, customers, partners, and data professionals come together at FabCon Atlanta to see how Microsoft Fabric is evolving—not as a standalone product, but as a connected platform amplified by its ISV and SI ecosystem.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/the-power-of-the-microsoft-fabric-ecosystem-isvs-building-natively-on-fabric/",
     "date": "Wed, 18 Mar 2026 05:48:42 Z",
     "source": "Microsoft Fabric Blog",
@@ -121,7 +129,7 @@
   },
   {
     "title": "Introducing Planning in Microsoft Fabric IQ: From historical data to forecasting the future",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  For years, organizations have invested heavily in analytics to understand what happened in … \nContinue reading “Introducing Planning in Microsoft Fabric IQ: From historical data to forecasting the future”",
+    "description": "For years, organizations have invested heavily in analytics to understand what happened in their business. Dashboards, reports, and KPIs are now table stakes. But when it comes to planning—budgets, forecasts, scenarios, and targets—most teams still rely on disconnected tools, manual processes, and stale data. The result is a familiar challenge: leaders are asked to make high stakes decisions with fragmented context, competing assumptions, and plans that quickly drift away from reality.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-planning-in-microsoft-fabric-iq-from-historical-data-to-forecasting-the-future/",
     "date": "Wed, 18 Mar 2026 05:48:20 Z",
     "source": "Microsoft Fabric Blog",
@@ -129,7 +137,7 @@
   },
   {
     "title": "FabCon and SQLCon 2026: What’s new in Microsoft OneLake",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  As AI reshapes every industry, one reality is clear: data is no longer … \nContinue reading “FabCon and SQLCon 2026: What’s new in Microsoft OneLake”",
+    "description": "As AI reshapes every industry, one reality is clear: data is no longer just an asset; it is your competitive advantage. The speed of AI innovation demands seamless data access, rapid insight generation, and the freedom to iterate without friction. Organizations that can unify and activate their data will move faster, build smarter applications, and unlock greater business value.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabcon-and-sqlcon-2026-whats-new-in-microsoft-onelake/",
     "date": "Wed, 18 Mar 2026 05:47:58 Z",
     "source": "Microsoft Fabric Blog",
@@ -137,7 +145,7 @@
   },
   {
     "title": "From unified data to decisive action: advancing supply chain autonomy with Microsoft Fabric and Auger",
-    "description": "Co-authored by: Dave Clark, Founder and CEO of Auger The platform shift is underway In a short period of time, Microsoft Fabric has emerged as one of the fastest growing analytics platforms in the industry, unifying data engineering, analytics, governance, and AI into a single, integrated experience. For many organizations, Fabric represents a long-awaited shift … \nContinue reading “From unified data to decisive action: advancing supply chain autonomy with Microsoft Fabric and Auger”",
+    "description": "In a short period of time, Microsoft Fabric has emerged as one of the fastest growing analytics platforms in the industry, unifying data engineering, analytics, governance, and AI into a single, integrated experience. For many organizations, Fabric represents a long-awaited shift away from fragmented data estates toward a shared, trusted foundation.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-unified-data-to-decisive-action-advancing-supply-chain-autonomy-with-microsoft-fabric-and-auger/",
     "date": "Wed, 18 Mar 2026 05:47:40 Z",
     "source": "Microsoft Fabric Blog",
@@ -145,17 +153,9 @@
   },
   {
     "title": "Advancing Databases for the Next Generation of Applications",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  New announcements from FabCon | SQLCon As organizations accelerate their AI adoption, the … \nContinue reading “Advancing Databases for the Next Generation of Applications”",
+    "description": "As organizations accelerate their AI adoption, the role of databases is fundamentally changing. It’s no longer enough to manage operational and analytical data separately. AI-driven applications demand a unified foundation where transactional and analytical data come together securely, in near real time, and at scale.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/advancing-databases-for-the-next-generation-of-applications/",
     "date": "Wed, 18 Mar 2026 05:47:11 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "On-premises data gateway auto-update (admin triggered) (Generally Available)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  The on-premises data gateway auto-update (admin triggered), this capability gives administrators greater control … \nContinue reading “On-premises data gateway auto-update (admin triggered) (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-auto-update-admin-triggered-generally-available/",
-    "date": "Wed, 18 Mar 2026 05:46:50 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
