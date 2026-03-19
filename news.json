@@ -81,7 +81,7 @@
   },
   {
     "title": "New data protection capabilities in Microsoft Fabric: Built‑in security for the modern data estate",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  As organizations continue to scale analytics and AI initiatives, protecting sensitive data has … \nContinue reading “New data protection capabilities in Microsoft Fabric: Built‑in security for the modern data estate”",
+    "description": "As organizations continue to scale analytics and AI initiatives, protecting sensitive data has never been more critical. With Microsoft Fabric, we are building data security directly into the analytics platform—so protection is consistent, automated, and enforced wherever data lives and travels.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/new-data-protection-capabilities-in-microsoft-fabric-built%E2%80%91in-security-for-the-modern-data-estate/",
     "date": "Thu, 19 Mar 2026 11:40:00 Z",
     "source": "Microsoft Fabric Blog",
