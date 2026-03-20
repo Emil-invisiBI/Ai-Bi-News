@@ -80,8 +80,24 @@
     "category": "powerbi"
   },
   {
+    "title": "Building real-time, event-driven applications with Database CDC feeds and Fabric Eventstreams DeltaFlow (Preview)",
+    "description": "Modern business applications win by reacting immediately, serving recommendations as users interact, alerting teams when anomalies occur, or updating dashboards the second business events happen. At the heart of these experiences are operational databases, where every insert, update, or delete represents a meaningful event.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/building-real-time-event-driven-applications-with-database-cdc-feeds-and-fabric-eventstreams-deltaflow-preview/",
+    "date": "Fri, 20 Mar 2026 10:40:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Workspace Monitoring dashboard templates in Microsoft Fabric Eventhouse",
+    "description": "Fabric workspace monitoring provides rich telemetry across your workspace assets, including Eventhouses, Power BI Semantic Models, Data Engineering (GraphQL), and Mirrored Databases. The workspace monitoring data is stored in an Eventhouse, part of Fabric Real-Time Intelligence.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/workspace-monitoring-dashboard-templates-in-microsoft-fabric-eventhouse/",
+    "date": "Fri, 20 Mar 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Fabric Extensibility—Self Service Workload Publishing (Generally Available)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Fabric Extensibility—Self-Service Workload Publishing now offers ISV partners a streamlined path to deliver … \nContinue reading “Fabric Extensibility—Self Service Workload Publishing (Generally Available)”",
+    "description": "Fabric Extensibility—Self-Service Workload Publishing now offers ISV partners a streamlined path to deliver innovation and value to customers. This feature simplifies the publishing, validation, and management of custom workloads within Microsoft Fabric, making it easier than ever for partners to share solutions and scale their impact.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-extensibility-self-service-workload-publishing-generally-available/",
     "date": "Fri, 20 Mar 2026 09:15:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -89,7 +105,7 @@
   },
   {
     "title": "Fabric Extensibility—What&#8217;s new in Workload Management",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  As the Fabric Extensibility ecosystem grows with partners publishing workloads and organizations building … \nContinue reading “Fabric Extensibility—What’s new in Workload Management”",
+    "description": "As the Fabric Extensibility ecosystem grows with partners publishing workloads and organizations building custom solutions, managing workloads at scale demands more than a single settings page. IT admins need centralized governance and a clear overview of what’s being used across the organization, and workspace teams need self-service agility.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-extensibility-whats-new-in-workload-management/",
     "date": "Fri, 20 Mar 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -97,7 +113,7 @@
   },
   {
     "title": "Maps in Microsoft Fabric (Generally Available)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Everything happens somewhere When we envisioned Maps in Microsoft Fabric, our goal was … \nContinue reading “Maps in Microsoft Fabric (Generally Available)”",
+    "description": "When we envisioned Maps in Microsoft Fabric, our goal was to empower any data citizen to analyze data in time and space without any specialized knowledge. Introduced in preview at FabCon Europe 2025, it has since been used by customers across industries creating and sharing map-centric applications. Additional features were added at Ignite 2025, and this week at FabCon Atlanta, Maps in Microsoft Fabric is generally available – along with new capabilities that expand how geospatial data can be modeled, visualized, and operationalized at any scale.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/maps-in-microsoft-fabric-generally-available/",
     "date": "Thu, 19 Mar 2026 16:30:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -105,7 +121,7 @@
   },
   {
     "title": "Introducing the updated Copilot for data engineering and data science (Preview)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Co-authors: Jene Zhang, Jenny Jiang, Qixiao Wang Context awareness built in and immediately … \nContinue reading “Introducing the updated Copilot for data engineering and data science (Preview)”",
+    "description": "Microsoft Fabric notebooks offer a Copilot feature that adapts to complex tasks, providing helpful context-aware support as soon as you start using them.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-the-updated-copilot-for-data-engineering-and-data-science-preview/",
     "date": "Thu, 19 Mar 2026 16:15:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -113,7 +129,7 @@
   },
   {
     "title": "Proactive and incremental statistics refresh for Fabric Data Warehouse and SQL Analytics Endpoint",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  In December, we released two new optimizations for statistics maintenance in the Fabric … \nContinue reading “Proactive and incremental statistics refresh for Fabric Data Warehouse and SQL Analytics Endpoint”",
+    "description": "In December, we released two new optimizations for statistics maintenance in the Fabric Data Warehouse and the SQL Analytics Endpoint: Proactive Statistics Refresh and Incremental Statistics Refresh. These features help keep query optimizer statistics aligned with how your data changes over time, leading to quicker query plan generation, less regressions after ingestion, and further minimizing the need for manual statistic maintenance.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/proactive-and-incremental-statistics-refresh-for-fabric-data-warehouse-and-sql-analytics-endpoint/",
     "date": "Thu, 19 Mar 2026 15:30:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -140,22 +156,6 @@
     "description": "Microsoft Fabric provides multiple ways to add and manage libraries when developing with Spark. With the recent release of Quick mode in Environments, Fabric now offers a more flexible, performance-oriented approach to library management. Choosing the right strategy can reduce publish time, speed up notebook startup, and improve production stability.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/33772/",
     "date": "Thu, 19 Mar 2026 14:15:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric Extensibility Toolkit: CI/CD, Remote Lifecycle Notifications, and Fabric Scheduler (Preview)",
-    "description": "Alongside the Microsoft Fabric Extensibility Toolkit (Generally Available), we are announcing three capabilities entering preview that complete the professional development story for Fabric workloads.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-extensibility-toolkit-ci-cd-remote-lifecycle-notifications-and-fabric-scheduler-preview/",
-    "date": "Thu, 19 Mar 2026 14:10:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "From legacy to Fabric: A new guided migration experience through Spectral Core Fabric Workload (Preview)",
-    "description": "The release of the Spectral Core migration workload (Preview) for Microsoft Fabric introduces a more direct way to start and manage database migration scenarios from inside the Fabric experience.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-legacy-to-fabric-a-new-guided-migration-experience-through-spectral-core-fabric-workload-preview/",
-    "date": "Thu, 19 Mar 2026 14:10:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
