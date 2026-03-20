@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Maps in Microsoft Fabric (Generally Available)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Everything happens somewhere When we envisioned Maps in Microsoft Fabric, our goal was … \nContinue reading “Maps in Microsoft Fabric (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/maps-in-microsoft-fabric-generally-available/",
+    "date": "Thu, 19 Mar 2026 16:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Introducing the updated Copilot for data engineering and data science (Preview)",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Co-authors: Jene Zhang, Jenny Jiang, Qixiao Wang Context awareness built in and immediately … \nContinue reading “Introducing the updated Copilot for data engineering and data science (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-the-updated-copilot-for-data-engineering-and-data-science-preview/",
@@ -148,14 +156,6 @@
     "description": "Mirroring in Microsoft Fabric was built to remove the friction of traditional data integration. With a simple, zero‑ETL experience, customers can continuously replicate data from operational systems directly into OneLake—making that data instantly available for analytics, AI, and reporting across Fabric.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/extended-capabilities-in-mirroring-in-microsoft-fabric-optional-enhancements-to-core-mirroring/",
     "date": "Thu, 19 Mar 2026 11:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "What’s new and improved for SQL database in Fabric (Generally Available)",
-    "description": "Following the SQL database in Microsoft Fabric (Generally Available) at Microsoft Ignite in November 2025, customer adoption has accelerated. Organizations are modernizing SQL workloads, reducing operational overhead, and bringing operational data closer to analytics and AI. This next wave of capabilities builds on the preexisting pillars—Simplified, Autonomous & Secure, and Optimized for AI—driven directly by customer feedback.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-and-improved-for-sql-database-in-fabric-generally-available/",
-    "date": "Thu, 19 Mar 2026 10:15:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
