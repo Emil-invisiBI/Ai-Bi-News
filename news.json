@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Instantly Run and Preview Functions in Microsoft Fabric Eventhouse: No Code Required",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Before, using an Eventhouse function required you to write KQL queries by hand. … \nContinue reading “Instantly Run and Preview Functions in Microsoft Fabric Eventhouse: No Code Required”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/instantly-run-and-preview-functions-in-microsoft-fabric-eventhouse-no-code-required/",
+    "date": "Fri, 20 Mar 2026 13:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Modernizing pipelines: New activities and innovations in Fabric Data Factory pipelines",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Introducing the Lakehouse utility suite in Fabric pipelines (Preview) A healthier, more reliable … \nContinue reading “Modernizing pipelines: New activities and innovations in Fabric Data Factory pipelines”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/modernizing-pipelines-new-activities-and-innovations-in-fabric-data-factory-pipelines/",
@@ -148,14 +156,6 @@
     "description": "In December, we released two new optimizations for statistics maintenance in the Fabric Data Warehouse and the SQL Analytics Endpoint: Proactive Statistics Refresh and Incremental Statistics Refresh. These features help keep query optimizer statistics aligned with how your data changes over time, leading to quicker query plan generation, less regressions after ingestion, and further minimizing the need for manual statistic maintenance.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/proactive-and-incremental-statistics-refresh-for-fabric-data-warehouse-and-sql-analytics-endpoint/",
     "date": "Thu, 19 Mar 2026 15:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Unlock insights from images and PDFs with multimodal support in Fabric AI functions (Preview)",
-    "description": "Fabric AI functions let you transform data into insights with a single line of code. Since going generally available, AI functions have helped customers dramatically accelerate their data workflows. We’re introducing multimodal support for AI functions (Preview), along with several exciting updates to help you get started faster and manage costs with confidence.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/unlock-insights-from-images-and-pdfs-with-multimodal-support-in-fabric-ai-functions-preview/",
-    "date": "Thu, 19 Mar 2026 15:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
