@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric Extensibility—Self Service Workload Publishing (Generally Available)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Fabric Extensibility—Self-Service Workload Publishing now offers ISV partners a streamlined path to deliver … \nContinue reading “Fabric Extensibility—Self Service Workload Publishing (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-extensibility-self-service-workload-publishing-generally-available/",
+    "date": "Fri, 20 Mar 2026 09:15:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Fabric Extensibility—What&#8217;s new in Workload Management",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  As the Fabric Extensibility ecosystem grows with partners publishing workloads and organizations building … \nContinue reading “Fabric Extensibility—What’s new in Workload Management”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-extensibility-whats-new-in-workload-management/",
+    "date": "Fri, 20 Mar 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Maps in Microsoft Fabric (Generally Available)",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Everything happens somewhere When we envisioned Maps in Microsoft Fabric, our goal was … \nContinue reading “Maps in Microsoft Fabric (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/maps-in-microsoft-fabric-generally-available/",
@@ -140,22 +156,6 @@
     "description": "The release of the Spectral Core migration workload (Preview) for Microsoft Fabric introduces a more direct way to start and manage database migration scenarios from inside the Fabric experience.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-legacy-to-fabric-a-new-guided-migration-experience-through-spectral-core-fabric-workload-preview/",
     "date": "Thu, 19 Mar 2026 14:10:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Third-party support for OneLake security",
-    "description": "As modern data lakes are built on open-source technology like Delta and Iceberg, customers expect to use the analytics engines and services that best fit their needs—without copying data or redefining security. This creates a clear requirement: security must be defined once and enforced consistently everywhere data is consumed.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/third-party-support-for-onelake-security/",
-    "date": "Thu, 19 Mar 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Extended Capabilities in Mirroring in Microsoft Fabric: Optional Enhancements to Core Mirroring",
-    "description": "Mirroring in Microsoft Fabric was built to remove the friction of traditional data integration. With a simple, zero‑ETL experience, customers can continuously replicate data from operational systems directly into OneLake—making that data instantly available for analytics, AI, and reporting across Fabric.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/extended-capabilities-in-mirroring-in-microsoft-fabric-optional-enhancements-to-core-mirroring/",
-    "date": "Thu, 19 Mar 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
