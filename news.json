@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Modernizing pipelines: New activities and innovations in Fabric Data Factory pipelines",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Introducing the Lakehouse utility suite in Fabric pipelines (Preview) A healthier, more reliable … \nContinue reading “Modernizing pipelines: New activities and innovations in Fabric Data Factory pipelines”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/modernizing-pipelines-new-activities-and-innovations-in-fabric-data-factory-pipelines/",
+    "date": "Fri, 20 Mar 2026 11:45:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Fabric Notebook Public APIs (Generally Available)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Fabric Notebook Public APIs (Generally Available), enabling data engineers and data scientists to … \nContinue reading “Fabric Notebook Public APIs (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-notebook-public-apis-generally-available/",
+    "date": "Fri, 20 Mar 2026 11:40:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Building real-time, event-driven applications with Database CDC feeds and Fabric Eventstreams DeltaFlow (Preview)",
     "description": "Modern business applications win by reacting immediately, serving recommendations as users interact, alerting teams when anomalies occur, or updating dashboards the second business events happen. At the heart of these experiences are operational databases, where every insert, update, or delete represents a meaningful event.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/building-real-time-event-driven-applications-with-database-cdc-feeds-and-fabric-eventstreams-deltaflow-preview/",
@@ -140,22 +156,6 @@
     "description": "Fabric AI functions let you transform data into insights with a single line of code. Since going generally available, AI functions have helped customers dramatically accelerate their data workflows. We’re introducing multimodal support for AI functions (Preview), along with several exciting updates to help you get started faster and manage costs with confidence.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/unlock-insights-from-images-and-pdfs-with-multimodal-support-in-fabric-ai-functions-preview/",
     "date": "Thu, 19 Mar 2026 15:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Microsoft Fabric Extensibility Toolkit (Generally Available)",
-    "description": "This milestone marks a significant step in Microsoft’s commitment to building an open, extensible data platform—one where every organization can bring their own tools, applications, and data experiences natively into Fabric.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-fabric-extensibility-toolkit-generally-available/",
-    "date": "Thu, 19 Mar 2026 14:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Best Practices for Library Management with Fabric Environments",
-    "description": "Microsoft Fabric provides multiple ways to add and manage libraries when developing with Spark. With the recent release of Quick mode in Environments, Fabric now offers a more flexible, performance-oriented approach to library management. Choosing the right strategy can reduce publish time, speed up notebook startup, and improve production stability.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/33772/",
-    "date": "Thu, 19 Mar 2026 14:15:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
