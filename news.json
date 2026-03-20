@@ -1,5 +1,13 @@
 [
   {
+    "title": "TMDL View on the Web (Preview)",
+    "description": "TMDL View on the Web will be available in the coming weeks, providing a powerful code-first semantic modelling experience directly to your browser.",
+    "url": "https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/",
+    "date": "Fri, 20 Mar 2026 14:15:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
     "title": "Semantic Layers: The foundation of enterprise AI",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Power BI is the decision layer for millions of users because it doesn’t … \nContinue reading “Semantic Layers: The foundation of enterprise AI”",
     "url": "https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/",
@@ -68,14 +76,6 @@
     "description": "Welcome to January 2026 Power BI Report Server feature summary! These updates bring new capabilities and enhancements across Reporting and Visualizations, maintaining our commitment to delivering powerful, flexible, and enterprise-ready reporting solutions. For more information on how to find your report server product key, refer to the documentation. Visualizations features This release includes a variety … \nContinue reading “Power BI Report Server January 2026 Feature Summary”",
     "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-report-server-january-2026-feature-summary/",
     "date": "Wed, 21 Jan 2026 10:00:00 Z",
-    "source": "Power BI Blog",
-    "category": "powerbi"
-  },
-  {
-    "title": "Introducing Markers in Azure Maps for Power BI",
-    "description": "We’re announcing a powerful new capability in the Azure Maps Visual for Power BI: Markers. This feature makes it easier than ever for organizations to create compelling, data-driven location stories—without the need for complex GIS tools.",
-    "url": "https://powerbi.microsoft.com/en-us/blog/introducing-markers-in-azure-maps-for-power-bi/",
-    "date": "Tue, 20 Jan 2026 09:00:00 Z",
     "source": "Power BI Blog",
     "category": "powerbi"
   },
