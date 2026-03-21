@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Introducing Bulk Export and Import APIs for CI/CD in Microsoft Fabric (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Enterprise DevOps teams expect automation, repeatability, and full control over their release pipelines. … \nContinue reading “Introducing Bulk Export and Import APIs for CI/CD in Microsoft Fabric (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-bulk-export-and-import-apis-for-ci-cd-in-microsoft-fabric-preview/",
+    "date": "Fri, 20 Mar 2026 16:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Introducing new Git developer experiences in Microsoft Fabric (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Development teams use Git to work together and deliver reliably. In Microsoft Fabric, … \nContinue reading “Introducing new Git developer experiences in Microsoft Fabric (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-new-git-developer-experiences-in-microsoft-fabric-preview/",
+    "date": "Fri, 20 Mar 2026 16:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Instantly Run and Preview Functions in Microsoft Fabric Eventhouse: No Code Required",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Before, using an Eventhouse function required you to write KQL queries by hand. … \nContinue reading “Instantly Run and Preview Functions in Microsoft Fabric Eventhouse: No Code Required”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/instantly-run-and-preview-functions-in-microsoft-fabric-eventhouse-no-code-required/",
@@ -140,22 +156,6 @@
     "description": "When we envisioned Maps in Microsoft Fabric, our goal was to empower any data citizen to analyze data in time and space without any specialized knowledge. Introduced in preview at FabCon Europe 2025, it has since been used by customers across industries creating and sharing map-centric applications. Additional features were added at Ignite 2025, and this week at FabCon Atlanta, Maps in Microsoft Fabric is generally available – along with new capabilities that expand how geospatial data can be modeled, visualized, and operationalized at any scale.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/maps-in-microsoft-fabric-generally-available/",
     "date": "Thu, 19 Mar 2026 16:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Introducing the updated Copilot for data engineering and data science (Preview)",
-    "description": "Microsoft Fabric notebooks offer a Copilot feature that adapts to complex tasks, providing helpful context-aware support as soon as you start using them.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-the-updated-copilot-for-data-engineering-and-data-science-preview/",
-    "date": "Thu, 19 Mar 2026 16:15:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Proactive and incremental statistics refresh for Fabric Data Warehouse and SQL Analytics Endpoint",
-    "description": "In December, we released two new optimizations for statistics maintenance in the Fabric Data Warehouse and the SQL Analytics Endpoint: Proactive Statistics Refresh and Incremental Statistics Refresh. These features help keep query optimizer statistics aligned with how your data changes over time, leading to quicker query plan generation, less regressions after ingestion, and further minimizing the need for manual statistic maintenance.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/proactive-and-incremental-statistics-refresh-for-fabric-data-warehouse-and-sql-analytics-endpoint/",
-    "date": "Thu, 19 Mar 2026 15:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
