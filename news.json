@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "New data protection capabilities in Microsoft Fabric: Built‑in security for the modern data estate",
+    "description": "As organizations continue to scale analytics and AI initiatives, protecting sensitive data has never been more critical. With Microsoft Fabric, we are building data security directly into the analytics platform—so protection is consistent, automated, and enforced wherever data lives and travels. Today, we’re sharing several new data protection capabilities in Microsoft Fabric, powered by deep … \nContinue reading “New data protection capabilities in Microsoft Fabric: Built‑in security for the modern data estate”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/new-data-protection-capabilities-in-microsoft-fabric-built%E2%80%91in-security-for-the-modern-data-estate/",
+    "date": "Sun, 22 Mar 2026 11:11:03 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Introducing Bulk Export and Import APIs for CI/CD in Microsoft Fabric (Preview)",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Enterprise DevOps teams expect automation, repeatability, and full control over their release pipelines. … \nContinue reading “Introducing Bulk Export and Import APIs for CI/CD in Microsoft Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-bulk-export-and-import-apis-for-ci-cd-in-microsoft-fabric-preview/",
@@ -148,14 +156,6 @@
     "description": "As the Fabric Extensibility ecosystem grows with partners publishing workloads and organizations building custom solutions, managing workloads at scale demands more than a single settings page. IT admins need centralized governance and a clear overview of what’s being used across the organization, and workspace teams need self-service agility.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-extensibility-whats-new-in-workload-management/",
     "date": "Fri, 20 Mar 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Maps in Microsoft Fabric (Generally Available)",
-    "description": "When we envisioned Maps in Microsoft Fabric, our goal was to empower any data citizen to analyze data in time and space without any specialized knowledge. Introduced in preview at FabCon Europe 2025, it has since been used by customers across industries creating and sharing map-centric applications. Additional features were added at Ignite 2025, and this week at FabCon Atlanta, Maps in Microsoft Fabric is generally available – along with new capabilities that expand how geospatial data can be modeled, visualized, and operationalized at any scale.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/maps-in-microsoft-fabric-generally-available/",
-    "date": "Thu, 19 Mar 2026 16:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
