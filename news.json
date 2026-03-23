@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric CLI in Azure DevOps: automation without friction (Preview)",
+    "description": "Modern analytics platforms demand modern DevOps practices. As organizations standardize Azure DevOps for CI/CD, they expect seamless integration with the services that power their data and analytics workloads. With Microsoft Fabric, that expectation is fully met.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-cli-in-azure-devops-automation-without-friction-preview/",
+    "date": "Mon, 23 Mar 2026 13:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Public APIs &#8211; bulk import and export items definition (Preview)",
     "description": "Every Fabric item—whether a Notebook, Report, Semantic Model, Pipeline, or KQL Dashboard—has an underlying item definition: a portable, structured payload containing the item’s full configuration and content encoded in Base64. Bulk Import & Export APIs enables.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/public-apis-bulk-import-and-export-items-definition-preview/",
@@ -148,14 +156,6 @@
     "description": "At FabCon Atlanta 2026, we’re sharing a wave of Dataflow Gen2 announcements designed to help every data team move faster—from self-service analysts to centralized data engineering teams. Dataflow Gen2 brings low-code data transformation to Microsoft Fabric with the power of Power Query, enabling you to ingest, shape, and land data into Fabric destinations with built-in scheduling, reuse, and governance through the Fabric workspace experience.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/a-wave-of-new-dataflow-gen2-capabilities-at-fabcon-atlanta-2026/",
     "date": "Mon, 23 Mar 2026 08:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "New data protection capabilities in Microsoft Fabric: Native security for the modern data estate",
-    "description": "As organizations continue to scale analytics and AI initiatives, protecting sensitive data has never been more critical. With Microsoft Fabric, we are building data security directly into the analytics platform—so protection is consistent, automated, and enforced wherever data lives and travels. Today, we’re sharing several new data protection capabilities in Microsoft Fabric, powered by deep … \nContinue reading “New data protection capabilities in Microsoft Fabric: Native security for the modern data estate”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/new-data-protection-capabilities-in-microsoft-fabric-native-security-for-the-modern-data-estate/",
-    "date": "Mon, 23 Mar 2026 04:09:27 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
