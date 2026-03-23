@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Public APIs &#8211; bulk import and export items definition (Preview)",
+    "description": "Every Fabric item—whether a Notebook, Report, Semantic Model, Pipeline, or KQL Dashboard—has an underlying item definition: a portable, structured payload containing the item’s full configuration and content encoded in Base64. Bulk Import & Export APIs enables.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/public-apis-bulk-import-and-export-items-definition-preview/",
+    "date": "Mon, 23 Mar 2026 11:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Certificate and Proxy Support for VNET Data Gateway (Generally Available)",
     "description": "Certificate and Proxy Support for VNET Data Gateway now delivers stronger security controls and greater network flexibility for enterprise and regulated environments.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/certificate-and-proxy-support-for-vnet-data-gateway-generally-available/",
@@ -148,14 +156,6 @@
     "description": "As organizations continue to scale analytics and AI initiatives, protecting sensitive data has never been more critical. With Microsoft Fabric, we are building data security directly into the analytics platform—so protection is consistent, automated, and enforced wherever data lives and travels. Today, we’re sharing several new data protection capabilities in Microsoft Fabric, powered by deep … \nContinue reading “New data protection capabilities in Microsoft Fabric: Native security for the modern data estate”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/new-data-protection-capabilities-in-microsoft-fabric-native-security-for-the-modern-data-estate/",
     "date": "Mon, 23 Mar 2026 04:09:27 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Introducing Bulk Export and Import APIs for CI/CD in Microsoft Fabric (Preview)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Enterprise DevOps teams expect automation, repeatability, and full control over their release pipelines. … \nContinue reading “Introducing Bulk Export and Import APIs for CI/CD in Microsoft Fabric (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-bulk-export-and-import-apis-for-ci-cd-in-microsoft-fabric-preview/",
-    "date": "Fri, 20 Mar 2026 16:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
