@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Certificate and Proxy Support for VNET Data Gateway (Generally Available)",
+    "description": "Certificate and Proxy Support for VNET Data Gateway now delivers stronger security controls and greater network flexibility for enterprise and regulated environments.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/certificate-and-proxy-support-for-vnet-data-gateway-generally-available/",
+    "date": "Mon, 23 Mar 2026 11:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Dataflow Gen2: Variable Library integration in Microsoft Fabric (Generally Available)",
+    "description": "Production data integration requires more than functional transformations—it requires consistency across environments, repeatable deployments, and governance at scale. With Variable Library integration now generally available, Dataflow Gen2 supports enterprise‑grade CI/CD and ALM patterns by allowing centrally managed configuration values to be resolved at runtime.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/dataflow-gen2-variable-library-integration-in-microsoft-fabric-generally-available/",
+    "date": "Mon, 23 Mar 2026 10:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Connection Recency for improved audit and management (Preview)",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Introducing a new connection recency capability for connections (Preview), designed to improve audit … \nContinue reading “Connection Recency for improved audit and management (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/connection-recency-for-improved-audit-and-management-preview/",
@@ -140,22 +156,6 @@
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Enterprise DevOps teams expect automation, repeatability, and full control over their release pipelines. … \nContinue reading “Introducing Bulk Export and Import APIs for CI/CD in Microsoft Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-bulk-export-and-import-apis-for-ci-cd-in-microsoft-fabric-preview/",
     "date": "Fri, 20 Mar 2026 16:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Introducing new Git developer experiences in Microsoft Fabric (Preview)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Development teams use Git to work together and deliver reliably. In Microsoft Fabric, … \nContinue reading “Introducing new Git developer experiences in Microsoft Fabric (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-new-git-developer-experiences-in-microsoft-fabric-preview/",
-    "date": "Fri, 20 Mar 2026 16:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Instantly Run and Preview Functions in Microsoft Fabric Eventhouse: No Code Required",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Before, using an Eventhouse function required you to write KQL queries by hand. … \nContinue reading “Instantly Run and Preview Functions in Microsoft Fabric Eventhouse: No Code Required”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/instantly-run-and-preview-functions-in-microsoft-fabric-eventhouse-no-code-required/",
-    "date": "Fri, 20 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
