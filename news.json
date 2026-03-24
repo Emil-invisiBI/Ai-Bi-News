@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "SharePoint Site Picker for easily connecting SharePoint data in Microsoft Fabric (Preview)",
+    "description": "The SharePoint Site Picker simplifies the process by replacing the manual URL entry with a browsable and searchable dropdown menu. By enabling site discovery directly within Fabric, it helps prevent URL format errors, reduces connection issues, and allows you to concentrate on building your data integration instead of searching through SharePoint.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/sharepoint-site-picker-for-easily-connecting-sharepoint-data-in-microsoft-fabric-preview/",
+    "date": "Tue, 24 Mar 2026 14:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Fabric CLI v1.5 is here (Generally Available)",
+    "description": "Since the open-source launch in October, the Fabric CLI has gained one-command deployments, first-class Power BI support, an AI agent execution layer, interactive REPL mode, Python 3.13 support, and contributions from community members whose code ships in the CLI you install today.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-cli-v1-5-is-here-generally-available/",
+    "date": "Tue, 24 Mar 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Live connectivity in Migration Assistant for Fabric Data Warehouse (Preview)",
     "description": "The live connectivity in Migration Assistant for Fabric Data Warehouse lets you connect directly to your source system and migrate object metadata into a new Fabric warehouse. This preview is designed to help you accelerate the migration and reduce upfront prep by eliminating the need to generate and upload a DACPAC for the metadata step.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/live-connectivity-in-migration-assistant-for-fabric-data-warehouse-preview/",
@@ -140,22 +156,6 @@
     "description": "Integrating Dynamics 365 Business Central with Microsoft Fabric is a common requirement as organizations modernize their analytics platforms. The primary challenge is not connectivity, but establishing an architecture that scales predictably, protects the ERP system, and enables analytics teams to focus on insights rather than maintaining ingestion pipelines.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/integrating-dynamics-365-business-central-with-microsoft-fabric-using-open-mirroring-with-bc2fab-workload-generally-available/",
     "date": "Tue, 24 Mar 2026 09:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Business Events in Microsoft Fabric (Preview)",
-    "description": "Modern organizations generate countless signals as customers interact with applications; operations evolve, and market conditions change—but most of these signals remain locked in data and are often discovered too late for action. With Business Events in Microsoft Fabric (Preview), organizations can move from observing what happened to acting on what matters, in real time.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/business-events-in-microsoft-fabric-preview/",
-    "date": "Mon, 23 Mar 2026 13:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric CLI in Azure DevOps: automation without friction (Preview)",
-    "description": "Modern analytics platforms demand modern DevOps practices. As organizations standardize Azure DevOps for CI/CD, they expect seamless integration with the services that power their data and analytics workloads. With Microsoft Fabric, that expectation is fully met.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-cli-in-azure-devops-automation-without-friction-preview/",
-    "date": "Mon, 23 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
