@@ -80,6 +80,30 @@
     "category": "powerbi"
   },
   {
+    "title": "Live connectivity in Migration Assistant for Fabric Data Warehouse (Preview)",
+    "description": "The live connectivity in Migration Assistant for Fabric Data Warehouse lets you connect directly to your source system and migrate object metadata into a new Fabric warehouse. This preview is designed to help you accelerate the migration and reduce upfront prep by eliminating the need to generate and upload a DACPAC for the metadata step.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/live-connectivity-in-migration-assistant-for-fabric-data-warehouse-preview/",
+    "date": "Tue, 24 Mar 2026 13:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Outstanding connectivity for data movement in Fabric Data Factory",
+    "description": "In today’s data landscape, success depends not just on powerful analytics, but on how seamlessly and reliably you can move data across systems.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/outstanding-connectivity-for-data-movement-in-fabric-data-factory/",
+    "date": "Tue, 24 Mar 2026 13:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "dbt+ Microsoft Fabric: A strategic investment in the modern analytics stack",
+    "description": "Modern analytics teams are adopting open, SQL-first data transformation, robust CI/CD and governance, and seamless integration across lakehouse and warehouse platforms. dbt is now the standard for analytics engineering, while Microsoft Fabric unifies data engineering, science, warehousing, and BI in OneLake.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/dbt-microsoft-fabric-a-strategic-investment-in-the-modern-analytics-stack/",
+    "date": "Tue, 24 Mar 2026 13:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "What’s new with Fabric Activator: more connected and capabilities",
     "description": "In our data-centric society, immediate responses have become a necessity rather than a choice. Fabric Activator for Microsoft Fabric enables organizations to move from passive monitoring to proactive action. By continuously monitoring streaming and event data, Activator helps you to automatically execute actions or send alerts whenever specific data conditions are met, ensuring timely and efficient operations.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-with-fabric-activator-more-connected-and-capabilities/",
@@ -132,30 +156,6 @@
     "description": "Modern analytics platforms demand modern DevOps practices. As organizations standardize Azure DevOps for CI/CD, they expect seamless integration with the services that power their data and analytics workloads. With Microsoft Fabric, that expectation is fully met.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-cli-in-azure-devops-automation-without-friction-preview/",
     "date": "Mon, 23 Mar 2026 13:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Public APIs &#8211; bulk import and export items definition (Preview)",
-    "description": "Every Fabric item—whether a Notebook, Report, Semantic Model, Pipeline, or KQL Dashboard—has an underlying item definition: a portable, structured payload containing the item’s full configuration and content encoded in Base64. Bulk Import & Export APIs enables.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/public-apis-bulk-import-and-export-items-definition-preview/",
-    "date": "Mon, 23 Mar 2026 11:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Certificate and Proxy Support for VNET Data Gateway (Generally Available)",
-    "description": "Certificate and Proxy Support for VNET Data Gateway now delivers stronger security controls and greater network flexibility for enterprise and regulated environments.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/certificate-and-proxy-support-for-vnet-data-gateway-generally-available/",
-    "date": "Mon, 23 Mar 2026 11:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Dataflow Gen2: Variable Library integration in Microsoft Fabric (Generally Available)",
-    "description": "Production data integration requires more than functional transformations—it requires consistency across environments, repeatable deployments, and governance at scale. With Variable Library integration now generally available, Dataflow Gen2 supports enterprise‑grade CI/CD and ALM patterns by allowing centrally managed configuration values to be resolved at runtime.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/dataflow-gen2-variable-library-integration-in-microsoft-fabric-generally-available/",
-    "date": "Mon, 23 Mar 2026 10:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
