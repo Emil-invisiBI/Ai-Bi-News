@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Tenant level private link support for Microsoft Fabric API for GraphQL (Generally Available)",
+    "description": "Microsoft Fabric API for GraphQL now supports Tenant Level Private Link, delivering enterprise-grade network security to your data APIs. This highly requested feature enables organizations to access their GraphQL APIs through private connectivity, ensuring that data traffic never traverses the public internet.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/34710/",
+    "date": "Tue, 24 Mar 2026 15:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Configure and manage Activator rules directly in Eventstream (Preview)",
+    "description": "Customers use Eventstream in Microsoft Fabric to ingest and process streaming data at scale. They use Fabric Activator to monitor conditions and initiate actions when thresholds are met or specific patterns are detected. Now, we’re bringing these experiences closer together.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/configure-and-manage-activator-rules-directly-in-eventstream-preview/",
+    "date": "Tue, 24 Mar 2026 15:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "SharePoint Site Picker for easily connecting SharePoint data in Microsoft Fabric (Preview)",
     "description": "The SharePoint Site Picker simplifies the process by replacing the manual URL entry with a browsable and searchable dropdown menu. By enabling site discovery directly within Fabric, it helps prevent URL format errors, reduces connection issues, and allows you to concentrate on building your data integration instead of searching through SharePoint.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/sharepoint-site-picker-for-easily-connecting-sharepoint-data-in-microsoft-fabric-preview/",
@@ -104,17 +120,17 @@
     "category": "fabric"
   },
   {
-    "title": "Outstanding connectivity for data movement in Fabric Data Factory",
-    "description": "In today’s data landscape, success depends not just on powerful analytics, but on how seamlessly and reliably you can move data across systems.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/outstanding-connectivity-for-data-movement-in-fabric-data-factory/",
+    "title": "dbt+ Microsoft Fabric: A strategic investment in the modern analytics stack",
+    "description": "Modern analytics teams are adopting open, SQL-first data transformation, robust CI/CD and governance, and seamless integration across lakehouse and warehouse platforms. dbt is now the standard for analytics engineering, while Microsoft Fabric unifies data engineering, science, warehousing, and BI in OneLake.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/dbt-microsoft-fabric-a-strategic-investment-in-the-modern-analytics-stack/",
     "date": "Tue, 24 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
   {
-    "title": "dbt+ Microsoft Fabric: A strategic investment in the modern analytics stack",
-    "description": "Modern analytics teams are adopting open, SQL-first data transformation, robust CI/CD and governance, and seamless integration across lakehouse and warehouse platforms. dbt is now the standard for analytics engineering, while Microsoft Fabric unifies data engineering, science, warehousing, and BI in OneLake.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/dbt-microsoft-fabric-a-strategic-investment-in-the-modern-analytics-stack/",
+    "title": "Outstanding connectivity for data movement in Fabric Data Factory",
+    "description": "In today’s data landscape, success depends not just on powerful analytics, but on how seamlessly and reliably you can move data across systems.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/outstanding-connectivity-for-data-movement-in-fabric-data-factory/",
     "date": "Tue, 24 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
@@ -128,7 +144,7 @@
     "category": "fabric"
   },
   {
-    "title": "Incremental copy gets more flexible—New watermark column types in Copy job in Fabric Data Factory (Generally Available)",
+    "title": "Incremental copy gets more flexible: New watermark column types in Copy job in Fabric Data Factory (Generally Available)",
     "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/incremental-copy-gets-more-flexible-new-watermark-column-types-in-copy-job-in-fabric-data-factory-generally-available/",
     "date": "Tue, 24 Mar 2026 11:00:00 Z",
@@ -136,26 +152,10 @@
     "category": "fabric"
   },
   {
-    "title": "Dataflow Gen2 – Dataflow Diagnostics Download (Preview)",
+    "title": "Dataflow Gen2: Dataflow Diagnostics Download (Preview)",
     "description": "This new capability provides administrators and support teams with a simpler and more consistent way to collect diagnostic information for Dataflow Gen2 runs on execution environments.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/dataflow-gen2-dataflow-diagnostics-download-preview/",
     "date": "Tue, 24 Mar 2026 10:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Support for default arguments in Fabric User data functions",
-    "description": "The Fabric user data functions (UDF) programmability model now includes the ability to define functions with default argument values. This feature allows you streamline your workflow by minimizing the need to specify every argument each time you call a function—any parameters you leave out will automatically use their default values. As a result, you can write cleaner, more concise code and focus on the logic that matters most.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/support-for-default-arguments-in-fabric-user-data-functions/",
-    "date": "Tue, 24 Mar 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Integrating Dynamics 365 Business Central with Microsoft Fabric using Open Mirroring with BC2Fab workload (Generally Available)",
-    "description": "Integrating Dynamics 365 Business Central with Microsoft Fabric is a common requirement as organizations modernize their analytics platforms. The primary challenge is not connectivity, but establishing an architecture that scales predictably, protects the ERP system, and enables analytics teams to focus on insights rather than maintaining ingestion pipelines.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/integrating-dynamics-365-business-central-with-microsoft-fabric-using-open-mirroring-with-bc2fab-workload-generally-available/",
-    "date": "Tue, 24 Mar 2026 09:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
