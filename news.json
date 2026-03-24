@@ -80,6 +80,30 @@
     "category": "powerbi"
   },
   {
+    "title": "Dataflow Gen2 – Dataflow Diagnostics Download (Preview)",
+    "description": "This new capability provides administrators and support teams with a simpler and more consistent way to collect diagnostic information for Dataflow Gen2 runs on execution environments.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/dataflow-gen2-dataflow-diagnostics-download-preview/",
+    "date": "Tue, 24 Mar 2026 10:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Support for default arguments in Fabric User data functions",
+    "description": "The Fabric user data functions (UDF) programmability model now includes the ability to define functions with default argument values. This feature allows you streamline your workflow by minimizing the need to specify every argument each time you call a function—any parameters you leave out will automatically use their default values. As a result, you can write cleaner, more concise code and focus on the logic that matters most.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/support-for-default-arguments-in-fabric-user-data-functions/",
+    "date": "Tue, 24 Mar 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Integrating Dynamics 365 Business Central with Microsoft Fabric using Open Mirroring with BC2Fab workload (Generally Available)",
+    "description": "Integrating Dynamics 365 Business Central with Microsoft Fabric is a common requirement as organizations modernize their analytics platforms. The primary challenge is not connectivity, but establishing an architecture that scales predictably, protects the ERP system, and enables analytics teams to focus on insights rather than maintaining ingestion pipelines.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/integrating-dynamics-365-business-central-with-microsoft-fabric-using-open-mirroring-with-bc2fab-workload-generally-available/",
+    "date": "Tue, 24 Mar 2026 09:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Business Events in Microsoft Fabric (Preview)",
     "description": "Modern organizations generate countless signals as customers interact with applications; operations evolve, and market conditions change—but most of these signals remain locked in data and are often discovered too late for action. With Business Events in Microsoft Fabric (Preview), organizations can move from observing what happened to acting on what matters, in real time.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/business-events-in-microsoft-fabric-preview/",
@@ -132,30 +156,6 @@
     "description": "The PowerShell module for gateways delivers a fully supported, enterprise-ready command surface for managing on-premises data gateways and VNET data gateways through automation and scripting.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/powershell-module-for-gateways-with-expanded-automation-capabilities-generally-available/",
     "date": "Mon, 23 Mar 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Batteries included: Database DevOps with SQL projects",
-    "description": "Database changes shouldn’t be the last manual step in your release process. As teams adopt DevOps practices to ship application code faster and more reliably, the database has remained a sticking point—manual scripts, inconsistent deployments, and limited visibility into what changed and when. SQL projects change that by making database schema a first-class citizen in source control, CI/CD pipelines, and collaborative development workflows.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/batteries-included-database-devops-with-sql-projects/",
-    "date": "Mon, 23 Mar 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "API for GraphQL source control and CI/CD support (Generally Available)",
-    "description": "Source control and deployment capabilities for the API for GraphQL in Microsoft Fabric Data Engineering are now available. This release improves reliability and performance for Fabric CI/CD and deployment pipelines, so you can version GraphQL artifacts in Git, collaborate through pull requests, and promote changes across environments with consistent governance.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/api-for-graphql-source-control-and-ci-cd-support-generally-available/",
-    "date": "Mon, 23 Mar 2026 08:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Graph-powered AI reasoning (Preview)",
-    "description": "As enterprises’ use of large language models (LLMs) evolve from generating text to driving decisions, the path to the answer has come to matter as much as the answer itself. Enterprises are moving beyond AI that merely generates responses toward systems for that reason, justify, and allow for inspection. This shift drives the need for AI that can ground explanations in each enterprise’s complex information environment, which requires the system to perform explicit reasoning over organizational, transactional, and behavioral relationships.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/graph-powered-ai-reasoning-preview/",
-    "date": "Mon, 23 Mar 2026 08:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
