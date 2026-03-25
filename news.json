@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "SQL Server Management Studio (SSMS) 22.4.1 and GitHub Copilot in SSMS (Generally Available)",
+    "description": "GitHub Copilot in SQL Server Management Studio (SSMS) now offers a few highly requested features and several bug fixes based on feedback items. Check out the full release notes to learn about the complete list of updates in the 22.4.1 release. We appreciate you taking time to file issues, share your requests, and upvote items; you’ll notice your feedback helped us shape this release, and will help us continue to evolve the GitHub Copilot in SSMS integration.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-server-management-studio-ssms-22-4-1-and-github-copilot-in-ssms-generally-available/",
+    "date": "Wed, 25 Mar 2026 11:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Explore, edit, and organize Item definitions and Fabric MCP server in VS Code",
     "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  We have been iterating quickly on the Fabric extension for Visual Studio Code … \nContinue reading “Explore, edit, and organize Item definitions and Fabric MCP server in VS Code”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/explore-edit-and-organize-item-definitions-and-fabric-mcp-server-in-vs-code/",
@@ -148,14 +156,6 @@
     "description": "Since the open-source launch in October, the Fabric CLI has gained one-command deployments, first-class Power BI support, an AI agent execution layer, interactive REPL mode, Python 3.13 support, and contributions from community members whose code ships in the CLI you install today.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-cli-v1-5-is-here-generally-available/",
     "date": "Tue, 24 Mar 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Live connectivity in Migration Assistant for Fabric Data Warehouse (Preview)",
-    "description": "The live connectivity in Migration Assistant for Fabric Data Warehouse lets you connect directly to your source system and migrate object metadata into a new Fabric warehouse. This preview is designed to help you accelerate the migration and reduce upfront prep by eliminating the need to generate and upload a DACPAC for the metadata step.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/live-connectivity-in-migration-assistant-for-fabric-data-warehouse-preview/",
-    "date": "Tue, 24 Mar 2026 13:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
@@ -776,17 +776,17 @@
     "category": "ai"
   },
   {
-    "title": "Introducing Prism",
-    "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
-    "url": "https://openai.com/index/introducing-prism",
+    "title": "Powering tax donations with AI powered personalized recommendations",
+    "description": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system helps donors navigate thousands of options and find gifts that match their preferences.",
+    "url": "https://openai.com/index/trustbank",
     "date": "Tue, 27 Jan 2026 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Powering tax donations with AI powered personalized recommendations",
-    "description": "TRUSTBANK partnered with Recursive to build Choice AI using OpenAI models, delivering personalized, conversational recommendations that simplify Furusato Nozei gift discovery. A multi-agent system helps donors navigate thousands of options and find gifts that match their preferences.",
-    "url": "https://openai.com/index/trustbank",
+    "title": "Introducing Prism",
+    "description": "Prism is a free LaTeX-native workspace with GPT-5.2 built in, helping researchers write, collaborate, and reason in one place.",
+    "url": "https://openai.com/index/introducing-prism",
     "date": "Tue, 27 Jan 2026 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -1200,6 +1200,14 @@
     "category": "ai"
   },
   {
+    "title": "Introducing GPT-5.2",
+    "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to power faster, more reliable agentic workflows.",
+    "url": "https://openai.com/index/introducing-gpt-5-2",
+    "date": "Thu, 11 Dec 2025 00:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
     "title": "Ten years",
     "description": "OpenAI reflects on ten years of progress, from early research breakthroughs to widely used AI systems that reshaped what’s possible. We share lessons from the past decade and why we remain optimistic about building AGI that benefits all of humanity.",
     "url": "https://openai.com/index/ten-years",
@@ -1211,14 +1219,6 @@
     "title": "Increasing revenue 300% by bringing AI to SMBs",
     "description": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
     "url": "https://openai.com/index/podium",
-    "date": "Thu, 11 Dec 2025 00:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
-    "title": "Introducing GPT-5.2",
-    "description": "GPT-5.2 is our most advanced frontier model for everyday professional work, with state-of-the-art reasoning, long-context understanding, coding, and vision. Use it in ChatGPT and the OpenAI API to power faster, more reliable agentic workflows.",
-    "url": "https://openai.com/index/introducing-gpt-5-2",
     "date": "Thu, 11 Dec 2025 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3480,9 +3480,9 @@
     "category": "ai"
   },
   {
-    "title": "Catching halibut with ChatGPT",
-    "description": "Using ChatGPT to catch halibut",
-    "url": "https://openai.com/index/fishing-for-first-timers",
+    "title": "Building a custom math tutor powered by ChatGPT",
+    "description": "ChatGPT and personal tutoring",
+    "url": "https://openai.com/index/my-dog-the-math-tutor",
     "date": "Tue, 04 Feb 2025 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3496,9 +3496,9 @@
     "category": "ai"
   },
   {
-    "title": "Building a custom math tutor powered by ChatGPT",
-    "description": "ChatGPT and personal tutoring",
-    "url": "https://openai.com/index/my-dog-the-math-tutor",
+    "title": "Catching halibut with ChatGPT",
+    "description": "Using ChatGPT to catch halibut",
+    "url": "https://openai.com/index/fishing-for-first-timers",
     "date": "Tue, 04 Feb 2025 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3560,17 +3560,17 @@
     "category": "ai"
   },
   {
-    "title": "Operator System Card",
-    "description": "Drawing from OpenAI’s established safety frameworks, this document highlights our multi-layered approach, including model and product mitigations we’ve implemented to protect against prompt engineering and jailbreaks, protect privacy and security, as well as details our external red teaming efforts, safety evaluations, and ongoing work to further refine these safeguards.",
-    "url": "https://openai.com/index/operator-system-card",
+    "title": "Introducing Operator",
+    "description": "A research preview of an agent that can use its own browser to perform tasks for you. Available to Pro users in the U.S.",
+    "url": "https://openai.com/index/introducing-operator",
     "date": "Thu, 23 Jan 2025 10:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Introducing Operator",
-    "description": "A research preview of an agent that can use its own browser to perform tasks for you. Available to Pro users in the U.S.",
-    "url": "https://openai.com/index/introducing-operator",
+    "title": "Operator System Card",
+    "description": "Drawing from OpenAI’s established safety frameworks, this document highlights our multi-layered approach, including model and product mitigations we’ve implemented to protect against prompt engineering and jailbreaks, protect privacy and security, as well as details our external red teaming efforts, safety evaluations, and ongoing work to further refine these safeguards.",
+    "url": "https://openai.com/index/operator-system-card",
     "date": "Thu, 23 Jan 2025 10:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3696,9 +3696,9 @@
     "category": "ai"
   },
   {
-    "title": "Animator Lyndon Barrois creates new worlds with Sora",
-    "description": "Filmmaker Lyndon Barrois describes how to use Sora as a storytelling tool.",
-    "url": "https://openai.com/index/sora-lyndon-barrois",
+    "title": "Vallée Duhamel & Sora",
+    "description": "Filmmaking duo Vallée Duhamel explains how Sora helps build new worlds.",
+    "url": "https://openai.com/index/sora-vallee-duhamel",
     "date": "Mon, 09 Dec 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -3720,9 +3720,9 @@
     "category": "ai"
   },
   {
-    "title": "Vallée Duhamel & Sora",
-    "description": "Filmmaking duo Vallée Duhamel explains how Sora helps build new worlds.",
-    "url": "https://openai.com/index/sora-vallee-duhamel",
+    "title": "Animator Lyndon Barrois creates new worlds with Sora",
+    "description": "Filmmaker Lyndon Barrois describes how to use Sora as a storytelling tool.",
+    "url": "https://openai.com/index/sora-lyndon-barrois",
     "date": "Mon, 09 Dec 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4672,17 +4672,17 @@
     "category": "ai"
   },
   {
-    "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
-    "description": "GPT-3.5 Turbo, DALL·E and Whisper APIs are also generally available, and we are releasing a deprecation plan for older models of the Completions API, which will retire at the beginning of 2024.",
-    "url": "https://openai.com/index/gpt-4-api-general-availability",
+    "title": "Introducing ChatGPT and Whisper APIs",
+    "description": "Developers can now integrate ChatGPT and Whisper models into their apps and products through our API.",
+    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis",
     "date": "Wed, 24 Apr 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Introducing ChatGPT and Whisper APIs",
-    "description": "Developers can now integrate ChatGPT and Whisper models into their apps and products through our API.",
-    "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis",
+    "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
+    "description": "GPT-3.5 Turbo, DALL·E and Whisper APIs are also generally available, and we are releasing a deprecation plan for older models of the Completions API, which will retire at the beginning of 2024.",
+    "url": "https://openai.com/index/gpt-4-api-general-availability",
     "date": "Wed, 24 Apr 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4744,17 +4744,17 @@
     "category": "ai"
   },
   {
-    "title": "Reducing health insurance costs and improving care",
-    "description": "Oscar brings AI to health insurance, reducing costs and improving patient care.",
-    "url": "https://openai.com/index/oscar",
+    "title": "Start using ChatGPT instantly",
+    "description": "We’re making it easier for people to experience the benefits of AI without needing to sign up",
+    "url": "https://openai.com/index/start-using-chatgpt-instantly",
     "date": "Mon, 01 Apr 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Start using ChatGPT instantly",
-    "description": "We’re making it easier for people to experience the benefits of AI without needing to sign up",
-    "url": "https://openai.com/index/start-using-chatgpt-instantly",
+    "title": "Reducing health insurance costs and improving care",
+    "description": "Oscar brings AI to health insurance, reducing costs and improving patient care.",
+    "url": "https://openai.com/index/oscar",
     "date": "Mon, 01 Apr 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4800,14 +4800,6 @@
     "category": "ai"
   },
   {
-    "title": "Building a data-driven, efficient culture with AI",
-    "description": "Holiday Extras rolls out ChatGPT Enterprise across every team, boosting productivity by 500 hours weekly.",
-    "url": "https://openai.com/index/holiday-extras",
-    "date": "Mon, 18 Mar 2024 07:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
     "title": "Reimagining the email experience with AI",
     "description": "Superhuman introduces a new era of email with OpenAI.",
     "url": "https://openai.com/index/superhuman",
@@ -4819,6 +4811,14 @@
     "title": "Enterprise-ready trust and safety",
     "description": "Salesforce integrates OpenAI’s enterprise-ready LLMs to transform customer applications.",
     "url": "https://openai.com/index/salesforce",
+    "date": "Mon, 18 Mar 2024 07:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
+    "title": "Building a data-driven, efficient culture with AI",
+    "description": "Holiday Extras rolls out ChatGPT Enterprise across every team, boosting productivity by 500 hours weekly.",
+    "url": "https://openai.com/index/holiday-extras",
     "date": "Mon, 18 Mar 2024 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4856,14 +4856,6 @@
     "category": "ai"
   },
   {
-    "title": "Sparking a more productive company with ChatGPT Enterprise",
-    "description": "Match Group uses ChatGPT Enterprise to spark creativity and impact.",
-    "url": "https://openai.com/index/match-group",
-    "date": "Wed, 06 Mar 2024 08:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
     "title": "Using AI to improve patient access to clinical trials",
     "description": "Paradigm uses OpenAI’s API to improve patient access to clinical trials.",
     "url": "https://openai.com/index/paradigm",
@@ -4875,6 +4867,14 @@
     "title": "Improving health literacy and patient well-being",
     "description": "Lifespan uses GPT-4 to radically improve health literacy and patient outcomes.",
     "url": "https://openai.com/index/lifespan",
+    "date": "Wed, 06 Mar 2024 08:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
+    "title": "Sparking a more productive company with ChatGPT Enterprise",
+    "description": "Match Group uses ChatGPT Enterprise to spark creativity and impact.",
+    "url": "https://openai.com/index/match-group",
     "date": "Wed, 06 Mar 2024 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -5304,17 +5304,17 @@
     "category": "ai"
   },
   {
-    "title": "Testimony before the U.S. Senate",
-    "description": "The following is the written testimony of Sam Altman, Chief Executive Officer of OpenAI, before the U.S. Senate Committee on the Judiciary (Subcommittee on Privacy, Technology, & the Law).",
-    "url": "https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate",
+    "title": "Questions for the Record",
+    "description": "The following are the Questions for the Record following Sam Altman's testimony before the U.S. Senate Committee on the Judiciary (Subcommittee on Privacy, Technology, & the Law).",
+    "url": "https://openai.com/global-affairs/sam-altman-senate-questions-for-the-record",
     "date": "Thu, 22 Jun 2023 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Questions for the Record",
-    "description": "The following are the Questions for the Record following Sam Altman's testimony before the U.S. Senate Committee on the Judiciary (Subcommittee on Privacy, Technology, & the Law).",
-    "url": "https://openai.com/global-affairs/sam-altman-senate-questions-for-the-record",
+    "title": "Testimony before the U.S. Senate",
+    "description": "The following is the written testimony of Sam Altman, Chief Executive Officer of OpenAI, before the U.S. Senate Committee on the Judiciary (Subcommittee on Privacy, Technology, & the Law).",
+    "url": "https://openai.com/global-affairs/testimony-of-sam-altman-before-the-us-senate",
     "date": "Thu, 22 Jun 2023 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -5432,9 +5432,9 @@
     "category": "ai"
   },
   {
-    "title": "Transforming visual accessibility",
-    "description": "Be My Eyes uses GPT-4 to transform visual accessibility.",
-    "url": "https://openai.com/index/be-my-eyes",
+    "title": "Preserving languages for the future",
+    "description": "How Iceland is using GPT-4 to preserve its language.",
+    "url": "https://openai.com/index/government-of-iceland",
     "date": "Tue, 14 Mar 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -5448,14 +5448,6 @@
     "category": "ai"
   },
   {
-    "title": "Streamlining financial solutions for safety and growth",
-    "description": "Stripe leverages GPT-4 to streamline user experience and combat fraud.",
-    "url": "https://openai.com/index/stripe",
-    "date": "Tue, 14 Mar 2023 07:00:00 GMT",
-    "source": "OpenAI Blog",
-    "category": "ai"
-  },
-  {
     "title": "Filling crucial language learning gaps",
     "description": "GPT-4 deepens the conversation on Duolingo.",
     "url": "https://openai.com/index/duolingo",
@@ -5464,17 +5456,25 @@
     "category": "ai"
   },
   {
-    "title": "Preserving languages for the future",
-    "description": "How Iceland is using GPT-4 to preserve its language.",
-    "url": "https://openai.com/index/government-of-iceland",
+    "title": "GPT-4",
+    "description": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.",
+    "url": "https://openai.com/index/gpt-4-research",
     "date": "Tue, 14 Mar 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "GPT-4",
-    "description": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.",
-    "url": "https://openai.com/index/gpt-4-research",
+    "title": "Streamlining financial solutions for safety and growth",
+    "description": "Stripe leverages GPT-4 to streamline user experience and combat fraud.",
+    "url": "https://openai.com/index/stripe",
+    "date": "Tue, 14 Mar 2023 07:00:00 GMT",
+    "source": "OpenAI Blog",
+    "category": "ai"
+  },
+  {
+    "title": "Transforming visual accessibility",
+    "description": "Be My Eyes uses GPT-4 to transform visual accessibility.",
+    "url": "https://openai.com/index/be-my-eyes",
     "date": "Tue, 14 Mar 2023 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -5992,17 +5992,17 @@
     "category": "ai"
   },
   {
-    "title": "DALL·E: Creating images from text",
-    "description": "We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language.",
-    "url": "https://openai.com/index/dall-e",
+    "title": "CLIP: Connecting text and images",
+    "description": "We’re introducing a neural network called CLIP which efficiently learns visual concepts from natural language supervision. CLIP can be applied to any visual classification benchmark by simply providing the names of the visual categories to be recognized, similar to the “zero-shot” capabilities of GPT-2 and GPT-3.",
+    "url": "https://openai.com/index/clip",
     "date": "Tue, 05 Jan 2021 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "CLIP: Connecting text and images",
-    "description": "We’re introducing a neural network called CLIP which efficiently learns visual concepts from natural language supervision. CLIP can be applied to any visual classification benchmark by simply providing the names of the visual categories to be recognized, similar to the “zero-shot” capabilities of GPT-2 and GPT-3.",
-    "url": "https://openai.com/index/clip",
+    "title": "DALL·E: Creating images from text",
+    "description": "We’ve trained a neural network called DALL·E that creates images from text captions for a wide range of concepts expressible in natural language.",
+    "url": "https://openai.com/index/dall-e",
     "date": "Tue, 05 Jan 2021 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -6656,17 +6656,17 @@
     "category": "ai"
   },
   {
-    "title": "Improving GANs using optimal transport",
-    "description": "",
-    "url": "https://openai.com/index/improving-gans-using-optimal-transport",
+    "title": "Report from the OpenAI hackathon",
+    "description": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
+    "url": "https://openai.com/index/hackathon-follow-up",
     "date": "Thu, 15 Mar 2018 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Report from the OpenAI hackathon",
-    "description": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
-    "url": "https://openai.com/index/hackathon-follow-up",
+    "title": "Improving GANs using optimal transport",
+    "description": "",
+    "url": "https://openai.com/index/improving-gans-using-optimal-transport",
     "date": "Thu, 15 Mar 2018 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -6704,17 +6704,17 @@
     "category": "ai"
   },
   {
-    "title": "Ingredients for robotics research",
-    "description": "We’re releasing eight simulated robotics environments and a Baselines implementation of Hindsight Experience Replay, all developed for our research over the past year. We’ve used these environments to train models which work on physical robots. We’re also releasing a set of requests for robotics research.",
-    "url": "https://openai.com/index/ingredients-for-robotics-research",
+    "title": "Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research",
+    "description": "",
+    "url": "https://openai.com/index/multi-goal-reinforcement-learning",
     "date": "Mon, 26 Feb 2018 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Multi-Goal Reinforcement Learning: Challenging robotics environments and request for research",
-    "description": "",
-    "url": "https://openai.com/index/multi-goal-reinforcement-learning",
+    "title": "Ingredients for robotics research",
+    "description": "We’re releasing eight simulated robotics environments and a Baselines implementation of Hindsight Experience Replay, all developed for our research over the past year. We’ve used these environments to train models which work on physical robots. We’re also releasing a set of requests for robotics research.",
+    "url": "https://openai.com/index/ingredients-for-robotics-research",
     "date": "Mon, 26 Feb 2018 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -6728,17 +6728,17 @@
     "category": "ai"
   },
   {
-    "title": "Preparing for malicious uses of AI",
-    "description": "We’ve co-authored a paper that forecasts how malicious actors could misuse AI technology, and potential ways we can prevent and mitigate these threats. This paper is the outcome of almost a year of sustained work with our colleagues at the Future of Humanity Institute, the Centre for the Study of Existential Risk, the Center for a New American Security, the Electronic Frontier Foundation, and others.",
-    "url": "https://openai.com/index/preparing-for-malicious-uses-of-ai",
+    "title": "OpenAI supporters",
+    "description": "We’re excited to welcome new donors to OpenAI.",
+    "url": "https://openai.com/index/openai-supporters",
     "date": "Tue, 20 Feb 2018 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "OpenAI supporters",
-    "description": "We’re excited to welcome new donors to OpenAI.",
-    "url": "https://openai.com/index/openai-supporters",
+    "title": "Preparing for malicious uses of AI",
+    "description": "We’ve co-authored a paper that forecasts how malicious actors could misuse AI technology, and potential ways we can prevent and mitigate these threats. This paper is the outcome of almost a year of sustained work with our colleagues at the Future of Humanity Institute, the Centre for the Study of Existential Risk, the Center for a New American Security, the Electronic Frontier Foundation, and others.",
+    "url": "https://openai.com/index/preparing-for-malicious-uses-of-ai",
     "date": "Tue, 20 Feb 2018 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -6840,17 +6840,17 @@
     "category": "ai"
   },
   {
-    "title": "Meta-learning for wrestling",
-    "description": "We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.",
-    "url": "https://openai.com/index/meta-learning-for-wrestling",
+    "title": "Competitive self-play",
+    "description": "We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that self-play will be a core part of powerful AI systems in the future.",
+    "url": "https://openai.com/index/competitive-self-play",
     "date": "Wed, 11 Oct 2017 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Competitive self-play",
-    "description": "We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that self-play will be a core part of powerful AI systems in the future.",
-    "url": "https://openai.com/index/competitive-self-play",
+    "title": "Meta-learning for wrestling",
+    "description": "We show that for the task of simulated robot wrestling, a meta-learning agent can learn to quickly defeat a stronger non-meta-learning agent, and also show that the meta-learning agent can adapt to physical malfunction.",
+    "url": "https://openai.com/index/meta-learning-for-wrestling",
     "date": "Wed, 11 Oct 2017 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -7144,17 +7144,17 @@
     "category": "ai"
   },
   {
-    "title": "#Exploration: A study of count-based exploration for deep reinforcement learning",
-    "description": "",
-    "url": "https://openai.com/index/exploration",
+    "title": "OpenAI and Microsoft",
+    "description": "We’re working with Microsoft to start running most of our large-scale experiments on Azure.",
+    "url": "https://openai.com/index/openai-and-microsoft",
     "date": "Tue, 15 Nov 2016 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "OpenAI and Microsoft",
-    "description": "We’re working with Microsoft to start running most of our large-scale experiments on Azure.",
-    "url": "https://openai.com/index/openai-and-microsoft",
+    "title": "#Exploration: A study of count-based exploration for deep reinforcement learning",
+    "description": "",
+    "url": "https://openai.com/index/exploration",
     "date": "Tue, 15 Nov 2016 08:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -7280,17 +7280,17 @@
     "category": "ai"
   },
   {
-    "title": "Team update",
-    "description": "We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)",
-    "url": "https://openai.com/index/team-update",
+    "title": "Adversarial training methods for semi-supervised text classification",
+    "description": "",
+    "url": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification",
     "date": "Wed, 25 May 2016 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Adversarial training methods for semi-supervised text classification",
-    "description": "",
-    "url": "https://openai.com/index/adversarial-training-methods-for-semi-supervised-text-classification",
+    "title": "Team update",
+    "description": "We’d like to welcome the latest set of team members to OpenAI (and we’re still hiring!)",
+    "url": "https://openai.com/index/team-update",
     "date": "Wed, 25 May 2016 07:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
