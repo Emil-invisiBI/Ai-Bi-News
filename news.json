@@ -120,17 +120,17 @@
     "category": "fabric"
   },
   {
-    "title": "Outstanding connectivity for data movement in Fabric Data Factory",
-    "description": "In today’s data landscape, success depends not just on powerful analytics, but on how seamlessly and reliably you can move data across systems.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/outstanding-connectivity-for-data-movement-in-fabric-data-factory/",
+    "title": "dbt+ Microsoft Fabric: A strategic investment in the modern analytics stack",
+    "description": "Modern analytics teams are adopting open, SQL-first data transformation, robust CI/CD and governance, and seamless integration across lakehouse and warehouse platforms. dbt is now the standard for analytics engineering, while Microsoft Fabric unifies data engineering, science, warehousing, and BI in OneLake.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/dbt-microsoft-fabric-a-strategic-investment-in-the-modern-analytics-stack/",
     "date": "Tue, 24 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
   {
-    "title": "dbt+ Microsoft Fabric: A strategic investment in the modern analytics stack",
-    "description": "Modern analytics teams are adopting open, SQL-first data transformation, robust CI/CD and governance, and seamless integration across lakehouse and warehouse platforms. dbt is now the standard for analytics engineering, while Microsoft Fabric unifies data engineering, science, warehousing, and BI in OneLake.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/dbt-microsoft-fabric-a-strategic-investment-in-the-modern-analytics-stack/",
+    "title": "Outstanding connectivity for data movement in Fabric Data Factory",
+    "description": "In today’s data landscape, success depends not just on powerful analytics, but on how seamlessly and reliably you can move data across systems.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/outstanding-connectivity-for-data-movement-in-fabric-data-factory/",
     "date": "Tue, 24 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
@@ -144,18 +144,18 @@
     "category": "fabric"
   },
   {
-    "title": "Incremental copy gets more flexible: New watermark column types in Copy job in Fabric Data Factory (Generally Available)",
-    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/incremental-copy-gets-more-flexible-new-watermark-column-types-in-copy-job-in-fabric-data-factory-generally-available/",
-    "date": "Tue, 24 Mar 2026 11:00:00 Z",
+    "title": "What&#8217;s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Since introducing Fabric IQ, we’ve seen growing momentum around how organizations are using … \nContinue reading “What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-agents-preview/",
+    "date": "Tue, 24 Mar 2026 11:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
   {
-    "title": "Dataflow Gen2: Dataflow Diagnostics Download (Preview)",
-    "description": "This new capability provides administrators and support teams with a simpler and more consistent way to collect diagnostic information for Dataflow Gen2 runs on execution environments.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/dataflow-gen2-dataflow-diagnostics-download-preview/",
-    "date": "Tue, 24 Mar 2026 10:30:00 Z",
+    "title": "Incremental copy gets more flexible: New watermark column types in Copy job in Fabric Data Factory (Generally Available)",
+    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/incremental-copy-gets-more-flexible-new-watermark-column-types-in-copy-job-in-fabric-data-factory-generally-available/",
+    "date": "Tue, 24 Mar 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
