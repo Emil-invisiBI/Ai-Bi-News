@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Use Copilot to create visuals in Real-Time Dashboards (Preview)",
+    "description": "Real-Time Dashboards in Microsoft Fabric give you a way to monitor live data and share insights with your team. Now, with Copilot integration in the dashboard editing experience, you can use natural language to create and modify visuals directly, no KQL expertise required.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/use-copilot-to-create-visuals-in-real-time-dashboards-preview/",
+    "date": "Wed, 25 Mar 2026 13:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Industrial Analytics delivered at-scale: Powered by Fabric Real-Time Intelligence and Fusion Data Hub",
+    "description": "Industrial organizations generate a continuous stream of operational signals—temperature, pressure, flow, vibration, energy, and more. Much of that data is captured in plant historians, systems built to collect and store sensor and equipment data over long periods, often driven by compliance needs and operational reporting.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/industrial-analytics-delivered-at-scale-powered-by-fabric-real-time-intelligence-and-fusion-data-hub/",
+    "date": "Wed, 25 Mar 2026 13:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "SQL Server Management Studio (SSMS) 22.4.1 and GitHub Copilot in SSMS (Generally Available)",
     "description": "GitHub Copilot in SQL Server Management Studio (SSMS) now offers a few highly requested features and several bug fixes based on feedback items. Check out the full release notes to learn about the complete list of updates in the 22.4.1 release. We appreciate you taking time to file issues, share your requests, and upvote items; you’ll notice your feedback helped us shape this release, and will help us continue to evolve the GitHub Copilot in SSMS integration.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/sql-server-management-studio-ssms-22-4-1-and-github-copilot-in-ssms-generally-available/",
@@ -140,22 +156,6 @@
     "description": "Customers use Eventstream in Microsoft Fabric to ingest and process streaming data at scale. They use Fabric Activator to monitor conditions and initiate actions when thresholds are met or specific patterns are detected. Now, we’re bringing these experiences closer together.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/configure-and-manage-activator-rules-directly-in-eventstream-preview/",
     "date": "Tue, 24 Mar 2026 15:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "SharePoint Site Picker for easily connecting SharePoint data in Microsoft Fabric (Preview)",
-    "description": "The SharePoint Site Picker simplifies the process by replacing the manual URL entry with a browsable and searchable dropdown menu. By enabling site discovery directly within Fabric, it helps prevent URL format errors, reduces connection issues, and allows you to concentrate on building your data integration instead of searching through SharePoint.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/sharepoint-site-picker-for-easily-connecting-sharepoint-data-in-microsoft-fabric-preview/",
-    "date": "Tue, 24 Mar 2026 14:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric CLI v1.5 is here (Generally Available)",
-    "description": "Since the open-source launch in October, the Fabric CLI has gained one-command deployments, first-class Power BI support, an AI agent execution layer, interactive REPL mode, Python 3.13 support, and contributions from community members whose code ships in the CLI you install today.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-cli-v1-5-is-here-generally-available/",
-    "date": "Tue, 24 Mar 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
