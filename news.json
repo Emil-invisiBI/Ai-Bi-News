@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Find and manage workspaces faster with workspace tags (Generally Available)",
+    "description": "Fabric Tags adds meaningful metadata so people can find the right content faster and organize it consistently.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/find-and-manage-workspaces-faster-with-workspace-tags-generally-available/",
+    "date": "Wed, 25 Mar 2026 09:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Invoke SSIS Package Activity in Microsoft Fabric (Preview)",
+    "description": "SQL Server Integration Services (SSIS) has been a cornerstone of enterprise data integration for decades, powering mission-critical ETL workloads across thousands of organizations worldwide. Now Invoke SSIS Package activity (Preview) in Data Factory in Microsoft Fabric, brings the power of your existing SSIS investments directly into Fabric’s unified SaaS analytics platform.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/invoke-ssis-package-activity-in-microsoft-fabric-preview/",
+    "date": "Wed, 25 Mar 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Higher Performance with Copy job in Fabric Data Factory Auto Partitioning (Preview)",
     "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/higher-performance-with-copy-job-in-fabric-data-factory-auto-partitioning-preview/",
@@ -140,22 +156,6 @@
     "description": "Modern analytics teams are adopting open, SQL-first data transformation, robust CI/CD and governance, and seamless integration across lakehouse and warehouse platforms. dbt is now the standard for analytics engineering, while Microsoft Fabric unifies data engineering, science, warehousing, and BI in OneLake.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/dbt-microsoft-fabric-a-strategic-investment-in-the-modern-analytics-stack/",
     "date": "Tue, 24 Mar 2026 13:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Best-in-class connectivity for data movement in Fabric Data Factory",
-    "description": "In today’s data landscape, success depends not just on powerful analytics, but on how seamlessly and reliably you can move data across systems.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/outstanding-connectivity-for-data-movement-in-fabric-data-factory/",
-    "date": "Tue, 24 Mar 2026 13:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "What’s new with Fabric Activator: more connected and capabilities",
-    "description": "In our data-centric society, immediate responses have become a necessity rather than a choice. Fabric Activator for Microsoft Fabric enables organizations to move from passive monitoring to proactive action. By continuously monitoring streaming and event data, Activator helps you to automatically execute actions or send alerts whenever specific data conditions are met, ensuring timely and efficient operations.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-with-fabric-activator-more-connected-and-capabilities/",
-    "date": "Tue, 24 Mar 2026 11:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
