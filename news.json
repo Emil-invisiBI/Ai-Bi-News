@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Higher Performance with Copy job in Fabric Data Factory Auto Partitioning (Preview)",
+    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/higher-performance-with-copy-job-in-fabric-data-factory-auto-partitioning-preview/",
+    "date": "Wed, 25 Mar 2026 08:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Simplifying data movement across multiple Clouds with richer CDC in Copy job in Fabric Data Factory Oracle source, Fabric Data Warehouse sink and SCD Type 2 (Preview)",
+    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/simplifying-data-movement-across-multiple-clouds-with-richer-cdc-in-copy-job-in-fabric-data-factory-oracle-source-fabric-data-warehouse-sink-and-scd-type-2-preview/",
+    "date": "Wed, 25 Mar 2026 08:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Tenant level private link support for Microsoft Fabric API for GraphQL (Generally Available)",
     "description": "Microsoft Fabric API for GraphQL now supports Tenant Level Private Link, delivering enterprise-grade network security to your data APIs. This highly requested feature enables organizations to access their GraphQL APIs through private connectivity, ensuring that data traffic never traverses the public internet.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/34710/",
@@ -140,22 +156,6 @@
     "description": "In our data-centric society, immediate responses have become a necessity rather than a choice. Fabric Activator for Microsoft Fabric enables organizations to move from passive monitoring to proactive action. By continuously monitoring streaming and event data, Activator helps you to automatically execute actions or send alerts whenever specific data conditions are met, ensuring timely and efficient operations.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-with-fabric-activator-more-connected-and-capabilities/",
     "date": "Tue, 24 Mar 2026 11:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "What&#8217;s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)",
-    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Since introducing Fabric IQ, we’ve seen growing momentum around how organizations are using … \nContinue reading “What’s next for Fabric IQ Ontology: The operational context that powers your AI agents (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-next-for-fabric-iq-ontology-the-operational-context-that-powers-your-ai-agents-preview/",
-    "date": "Tue, 24 Mar 2026 11:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Incremental copy gets more flexible: New watermark column types in Copy job in Fabric Data Factory (Generally Available)",
-    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/incremental-copy-gets-more-flexible-new-watermark-column-types-in-copy-job-in-fabric-data-factory-generally-available/",
-    "date": "Tue, 24 Mar 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
