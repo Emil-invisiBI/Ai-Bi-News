@@ -112,6 +112,14 @@
     "category": "fabric"
   },
   {
+    "title": "Workspace level IP firewall rules in Microsoft Fabric (Generally Available)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  In today’s increasingly connected data landscape, protecting access to sensitive data is more … \nContinue reading “Workspace level IP firewall rules in Microsoft Fabric (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/workspace-level-ip-firewall-rules-in-microsoft-fabric-generally-available/",
+    "date": "Wed, 25 Mar 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Find and manage workspaces faster with workspace tags (Generally Available)",
     "description": "Fabric Tags adds meaningful metadata so people can find the right content faster and organize it consistently.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/find-and-manage-workspaces-faster-with-workspace-tags-generally-available/",
@@ -148,14 +156,6 @@
     "description": "Microsoft Fabric API for GraphQL now supports Tenant Level Private Link, delivering enterprise-grade network security to your data APIs. This highly requested feature enables organizations to access their GraphQL APIs through private connectivity, ensuring that data traffic never traverses the public internet.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/34710/",
     "date": "Tue, 24 Mar 2026 15:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Configure and manage Activator rules directly in Eventstream (Preview)",
-    "description": "Customers use Eventstream in Microsoft Fabric to ingest and process streaming data at scale. They use Fabric Activator to monitor conditions and initiate actions when thresholds are met or specific patterns are detected. Now, we’re bringing these experiences closer together.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/configure-and-manage-activator-rules-directly-in-eventstream-preview/",
-    "date": "Tue, 24 Mar 2026 15:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
