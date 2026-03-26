@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Gain full visibility into your Copy jobs with Workspace Monitoring in Microsoft Fabric (Preview)",
+    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/gain-full-visibility-into-your-copy-jobs-with-workspace-monitoring-in-microsoft-fabric-preview/",
+    "date": "Thu, 26 Mar 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "New migration experience from Azure Data Factory to Fabric (Preview)",
     "description": "As more organizations standardize Microsoft Fabric for end-to-end analytics, upgrading existing Azure Data Factory (ADF) workloads is a key step in modernization.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/new-migration-experience-from-azure-data-factory-to-fabric-preview/",
@@ -148,14 +156,6 @@
     "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/higher-performance-with-copy-job-in-fabric-data-factory-auto-partitioning-preview/",
     "date": "Wed, 25 Mar 2026 08:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Simplifying data movement across multiple Clouds with richer CDC in Copy job in Fabric Data Factory Oracle source, Fabric Data Warehouse sink and SCD Type 2 (Preview)",
-    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/simplifying-data-movement-across-multiple-clouds-with-richer-cdc-in-copy-job-in-fabric-data-factory-oracle-source-fabric-data-warehouse-sink-and-scd-type-2-preview/",
-    "date": "Wed, 25 Mar 2026 08:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
