@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "New migration experience from Azure Data Factory to Fabric (Preview)",
+    "description": "As more organizations standardize Microsoft Fabric for end-to-end analytics, upgrading existing Azure Data Factory (ADF) workloads is a key step in modernization.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/new-migration-experience-from-azure-data-factory-to-fabric-preview/",
+    "date": "Thu, 26 Mar 2026 08:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Use Copilot to create visuals in Real-Time Dashboards (Preview)",
     "description": "Real-Time Dashboards in Microsoft Fabric give you a way to monitor live data and share insights with your team. Now, with Copilot integration in the dashboard editing experience, you can use natural language to create and modify visuals directly, no KQL expertise required.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/use-copilot-to-create-visuals-in-real-time-dashboards-preview/",
@@ -148,14 +156,6 @@
     "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/simplifying-data-movement-across-multiple-clouds-with-richer-cdc-in-copy-job-in-fabric-data-factory-oracle-source-fabric-data-warehouse-sink-and-scd-type-2-preview/",
     "date": "Wed, 25 Mar 2026 08:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Tenant level private link support for Microsoft Fabric API for GraphQL (Generally Available)",
-    "description": "Microsoft Fabric API for GraphQL now supports Tenant Level Private Link, delivering enterprise-grade network security to your data APIs. This highly requested feature enables organizations to access their GraphQL APIs through private connectivity, ensuring that data traffic never traverses the public internet.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/34710/",
-    "date": "Tue, 24 Mar 2026 15:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
