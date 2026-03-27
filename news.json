@@ -80,6 +80,30 @@
     "category": "powerbi"
   },
   {
+    "title": "Workspace‑level customer‑managed keys support in BYOK‑enabled Microsoft Fabric capacities (Preview)",
+    "description": "Enterprise analytics platforms increasingly operate under strict security, compliance, and regulatory requirements. For many organizations, encryption is not sufficient without clear ownership and control of cryptographic keys.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/workspace%E2%80%91level-customer%E2%80%91managed-keys-support-in-byok%E2%80%91enabled-microsoft-fabric-capacities-preview/",
+    "date": "Fri, 27 Mar 2026 08:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "On-premises data gateway March 2026 release",
+    "description": "Here is the March 2026 release of the on-premises data gateway (version 3000.310).",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-march-2026-release/",
+    "date": "Fri, 27 Mar 2026 08:16:42 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Mastering monitoring in Microsoft Fabric Data Warehouse",
+    "description": "Modern analytics workloads demand more than fast queries — they demand observability.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/mastering-monitoring-in-microsoft-fabric-data-warehouse/",
+    "date": "Fri, 27 Mar 2026 08:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "On-premises data gateway February 2026 release",
     "description": "Here is the February 2026 release of the on-premises data gateway (version 3000.306).",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-february-2026-release/",
@@ -132,30 +156,6 @@
     "description": "AI teams need to move quickly, but the reality is that most of the data they need simply isn’t ready for AI. In fact, Gartner predicts that through 2026, 60% of AI projects will be abandoned because they lack AI-ready data.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/from-restricted-to-ai-ready-preparing-unstructured-data-directly-in-microsoft-fabric-with-tonic-textual-generally-available/",
     "date": "Thu, 26 Mar 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Gain full visibility into your Copy jobs with Workspace Monitoring in Microsoft Fabric (Preview)",
-    "description": "Copy job is the go-to solution in Microsoft Fabric Data Factory for simplified data movement across multiple clouds. With native support for bulk copy, incremental copy, and change data capture (CDC) replication, it can handle a wide range of movement scenarios through an intuitive, easy-to-use experience.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/gain-full-visibility-into-your-copy-jobs-with-workspace-monitoring-in-microsoft-fabric-preview/",
-    "date": "Thu, 26 Mar 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "New migration experience from Azure Data Factory to Fabric (Preview)",
-    "description": "As more organizations standardize Microsoft Fabric for end-to-end analytics, upgrading existing Azure Data Factory (ADF) workloads is a key step in modernization.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/new-migration-experience-from-azure-data-factory-to-fabric-preview/",
-    "date": "Thu, 26 Mar 2026 08:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Use Copilot to create visuals in Real-Time Dashboards (Preview)",
-    "description": "Real-Time Dashboards in Microsoft Fabric give you a way to monitor live data and share insights with your team. Now, with Copilot integration in the dashboard editing experience, you can use natural language to create and modify visuals directly, no KQL expertise required.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/use-copilot-to-create-visuals-in-real-time-dashboards-preview/",
-    "date": "Wed, 25 Mar 2026 13:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
