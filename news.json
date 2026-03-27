@@ -80,10 +80,18 @@
     "category": "powerbi"
   },
   {
-    "title": "Workspace‑level customer‑managed keys support in BYOK‑enabled Microsoft Fabric capacities (Preview)",
-    "description": "Enterprise analytics platforms increasingly operate under strict security, compliance, and regulatory requirements. For many organizations, encryption is not sufficient without clear ownership and control of cryptographic keys.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/workspace%E2%80%91level-customer%E2%80%91managed-keys-support-in-byok%E2%80%91enabled-microsoft-fabric-capacities-preview/",
-    "date": "Fri, 27 Mar 2026 08:30:00 Z",
+    "title": "Introducing capacity overage flexibility when you need it most (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Capacity overage, is a new opt‑in capability in Microsoft Fabric designed to help … \nContinue reading “Introducing capacity overage flexibility when you need it most (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-capacity-overage-preview-flexibility-when-you-need-it-most/",
+    "date": "Fri, 27 Mar 2026 09:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Microsoft JDBC Driver for Microsoft Fabric Data Engineering (Generally Available)",
+    "description": "The enterprise-grade JDBC driver enables secure, flexible, and performant connectivity to Spark SQL workloads running in Microsoft Fabric, using Fabric’s Livy APIs as the execution layer.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-jdbc-driver-for-microsoft-fabric-data-engineering-generally-available/",
+    "date": "Fri, 27 Mar 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
@@ -148,14 +156,6 @@
     "description": "We are releasing the preview of a domain‑native data solution built as a workload in Fabric to power analytics and AI-enabled use-cases for capital markets and hedge fund customers in the finance industry. Financial institutions are moving fast to modernize their analytics stack and accelerate AI adoption, however in capital markets, data complexity remains the single biggest blocker to achieving that goal.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/unlocking-financial-insights-with-capital-markets-datahub-workload-a-partner-led-innovation-in-microsoft-fabric-preview/",
     "date": "Thu, 26 Mar 2026 10:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "From restricted to AI-ready: Preparing unstructured data directly in Microsoft Fabric with Tonic Textual (Generally Available)",
-    "description": "AI teams need to move quickly, but the reality is that most of the data they need simply isn’t ready for AI. In fact, Gartner predicts that through 2026, 60% of AI projects will be abandoned because they lack AI-ready data.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/from-restricted-to-ai-ready-preparing-unstructured-data-directly-in-microsoft-fabric-with-tonic-textual-generally-available/",
-    "date": "Thu, 26 Mar 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
