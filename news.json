@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "On-premises data gateway February 2026 release",
+    "description": "Here is the February 2026 release of the on-premises data gateway (version 3000.306).",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-february-2026-release/",
+    "date": "Fri, 27 Mar 2026 00:34:53 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Upgrade your Synapse pipelines to Microsoft Fabric with confidence (Preview)",
     "description": "To modernize workloads on Microsoft Fabric, bringing Synapse pipelines forward is a critical next step.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/upgrade-your-synapse-pipelines-to-microsoft-fabric-with-confidence-preview/",
@@ -148,14 +156,6 @@
     "description": "Real-Time Dashboards in Microsoft Fabric give you a way to monitor live data and share insights with your team. Now, with Copilot integration in the dashboard editing experience, you can use natural language to create and modify visuals directly, no KQL expertise required.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/use-copilot-to-create-visuals-in-real-time-dashboards-preview/",
     "date": "Wed, 25 Mar 2026 13:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Industrial Analytics delivered at-scale: Powered by Fabric Real-Time Intelligence and Fusion Data Hub",
-    "description": "Industrial organizations generate a continuous stream of operational signals—temperature, pressure, flow, vibration, energy, and more. Much of that data is captured in plant historians, systems built to collect and store sensor and equipment data over long periods, often driven by compliance needs and operational reporting.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/industrial-analytics-delivered-at-scale-powered-by-fabric-real-time-intelligence-and-fusion-data-hub/",
-    "date": "Wed, 25 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
