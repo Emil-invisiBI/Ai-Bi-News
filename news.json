@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Modernize your ADF pipelines to unlock Fabric",
+    "description": "Moving your Azure Data Factory and Azure Synapse pipelines to Fabric Data Factory is now fast, easy, and free!",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/modernize-your-adf-pipelines-to-unlock-fabric/",
+    "date": "Mon, 30 Mar 2026 13:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Compute auto-scaling choices to better optimize price-performance for SQL databases in Microsoft Fabric (Preview)",
     "description": "One of the most common pieces of feedback we hear from customers using SQL databases in Microsoft Fabric is the need for stronger cost control and predictable resource usage, especially in shared capacities. Today, SQL databases in Fabric automatically scale to meet workload demand. This delivers great performance, but in shared environments it can also … \nContinue reading “Compute auto-scaling choices to better optimize price-performance for SQL databases in Microsoft Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/compute-auto-scaling-choices-to-better-optimize-price-performance-for-sql-databases-in-microsoft-fabric-preview/",
@@ -148,14 +156,6 @@
     "description": "Notebooks are rarely just a single file. Real-world notebook projects depend on supporting assets—such as reusable scripts, configuration files—that live alongside notebook code. While these files could be stored in a notebook’s built-in Resources folder, they were not included when committing notebooks to Git. This broke end-to-end source control and made CI/CD workflows harder to adopt.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-notebooks-resources-folder-support-in-git/",
     "date": "Thu, 26 Mar 2026 11:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Customer-managed keys (CMK) in Fabric SQL Database (Generally Available)",
-    "description": "Customer-managed keys (CMK) in Fabric SQL Database is a major step forward in empowering organizations to take control of their data security and compliance.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/customer-managed-keys-cmk-in-fabric-sql-database-generally-available/",
-    "date": "Thu, 26 Mar 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
