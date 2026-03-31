@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Item Recovery in Microsoft Fabric (Preview)",
+    "description": "Have you ever accidentally deleted something important? With Item recovery in Microsoft Fabric (Preview), you no longer need to worry. You can easily restore deleted items—whether it was a mistake or something unexpected—within a retention window you control.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/item-recovery-in-microsoft-fabric-preview/",
+    "date": "Tue, 31 Mar 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Dropped warehouse recovery in Microsoft Fabric (Preview)",
+    "description": "Accidental drops can happen anytime—ETL moves fast, schemas change, and mistakes happen. What matters is how fast and predictably you recover.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/dropped-warehouse-recovery-in-microsoft-fabric-preview/",
+    "date": "Tue, 31 Mar 2026 09:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "How Stibo Systems’ MDM powers trusted data for analytics and AI in Microsoft Fabric (Preview)",
     "description": "The preview of the Stibo Systems Master Data Management (MDM) workload on Microsoft Fabric which integrates enterprise customers’ master data and ingests it directly into Fabric OneLake through their DaaS (Data as a service) feature to unlock analytics and AI use-cases for them is now available.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/how-stibo-systems-mdm-powers-trusted-data-for-analytics-and-ai-in-microsoft-fabric-preview/",
@@ -140,22 +156,6 @@
     "description": "Modern analytics workloads demand more than fast queries — they demand observability.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/mastering-monitoring-in-microsoft-fabric-data-warehouse/",
     "date": "Fri, 27 Mar 2026 08:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "On-premises data gateway February 2026 release",
-    "description": "Here is the February 2026 release of the on-premises data gateway (version 3000.306).",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-february-2026-release/",
-    "date": "Fri, 27 Mar 2026 00:34:53 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Upgrade your Synapse pipelines to Microsoft Fabric with confidence (Preview)",
-    "description": "To modernize workloads on Microsoft Fabric, bringing Synapse pipelines forward is a critical next step.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/upgrade-your-synapse-pipelines-to-microsoft-fabric-with-confidence-preview/",
-    "date": "Thu, 26 Mar 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
