@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Get notified when scheduled jobs fail in Fabric (Generally Available)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  When you set up a scheduled job, the goal is usually to set … \nContinue reading “Get notified when scheduled jobs fail in Fabric (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/get-notified-when-scheduled-jobs-fail-in-fabric-generally-available/",
+    "date": "Tue, 31 Mar 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Announcing the latest innovations in Fabric Data Factory: Apache Airflow jobs and pipelines",
     "description": "Introduction The world of data integration is rapidly evolving, and staying up to date with the latest technologies is crucial for organizations seeking to make the most of their data assets. Available now are the newest innovations in Fabric Data Factory pipelines and Apache Airflow job orchestration, designed to empower data engineers, architects, and analytics … \nContinue reading “Announcing the latest innovations in Fabric Data Factory: Apache Airflow jobs and pipelines”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-the-latest-innovations-in-fabric-data-factory-apache-airflow-jobs-and-pipelines/",
@@ -148,14 +156,6 @@
     "description": "Modern analytics workloads demand more than fast queries — they demand observability.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/mastering-monitoring-in-microsoft-fabric-data-warehouse/",
     "date": "Fri, 27 Mar 2026 08:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "On-premises data gateway February 2026 release",
-    "description": "Here is the February 2026 release of the on-premises data gateway (version 3000.306).",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-february-2026-release/",
-    "date": "Fri, 27 Mar 2026 00:34:53 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
