@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "How Stibo Systems’ MDM powers trusted data for analytics and AI in Microsoft Fabric (Preview)",
+    "description": "The preview of the Stibo Systems Master Data Management (MDM) workload on Microsoft Fabric which integrates enterprise customers’ master data and ingests it directly into Fabric OneLake through their DaaS (Data as a service) feature to unlock analytics and AI use-cases for them is now available.",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/how-stibo-systems-mdm-powers-trusted-data-for-analytics-and-ai-in-microsoft-fabric-preview/",
+    "date": "Tue, 31 Mar 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Sensitivity labels in Fabric for public APIs (Generally Available)",
     "description": "To support advanced governance and automation scenarios, Sensitivity Labels are now exposed through Microsoft Fabric Public APIs. This enables developers, partners, and platform teams to programmatically get and manage sensitivity labels as part of information classification and AI workflows. Sensitivity labels in Fabric In Fabric, Sensitivity Labels (from Microsoft Purview Information Protection) help classify and … \nContinue reading “Sensitivity labels in Fabric for public APIs (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/sensitivity-labels-in-fabric-for-public-apis-generally-available/",
@@ -148,14 +156,6 @@
     "description": "To modernize workloads on Microsoft Fabric, bringing Synapse pipelines forward is a critical next step.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/upgrade-your-synapse-pipelines-to-microsoft-fabric-with-confidence-preview/",
     "date": "Thu, 26 Mar 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric notebooks support Lakehouse auto-binding in Git (Preview)",
-    "description": "Fabric notebooks now support lakehouse auto-binding when used with Git. It is designed to simplify multi-environment workflows and reduce the operational overhead of managing lakehouse references across development, test, and production workspaces.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-notebooks-support-lakehouse-auto-binding-in-git-preview/",
-    "date": "Thu, 26 Mar 2026 13:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
