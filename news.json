@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Announcing the latest innovations in Fabric Data Factory: Apache Airflow jobs and pipelines",
+    "description": "Introduction The world of data integration is rapidly evolving, and staying up to date with the latest technologies is crucial for organizations seeking to make the most of their data assets. Available now are the newest innovations in Fabric Data Factory pipelines and Apache Airflow job orchestration, designed to empower data engineers, architects, and analytics … \nContinue reading “Announcing the latest innovations in Fabric Data Factory: Apache Airflow jobs and pipelines”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-the-latest-innovations-in-fabric-data-factory-apache-airflow-jobs-and-pipelines/",
+    "date": "Tue, 31 Mar 2026 11:30:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Item Recovery in Microsoft Fabric (Preview)",
     "description": "Have you ever accidentally deleted something important? With Item recovery in Microsoft Fabric (Preview), you no longer need to worry. You can easily restore deleted items—whether it was a mistake or something unexpected—within a retention window you control.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/item-recovery-in-microsoft-fabric-preview/",
@@ -148,14 +156,6 @@
     "description": "Here is the March 2026 release of the on-premises data gateway (version 3000.310).",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-march-2026-release/",
     "date": "Fri, 27 Mar 2026 08:16:42 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Mastering monitoring in Microsoft Fabric Data Warehouse",
-    "description": "Modern analytics workloads demand more than fast queries — they demand observability.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/mastering-monitoring-in-microsoft-fabric-data-warehouse/",
-    "date": "Fri, 27 Mar 2026 08:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
