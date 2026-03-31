@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Sensitivity labels in Fabric for public APIs (Generally Available)",
+    "description": "To support advanced governance and automation scenarios, Sensitivity Labels are now exposed through Microsoft Fabric Public APIs. This enables developers, partners, and platform teams to programmatically get and manage sensitivity labels as part of information classification and AI workflows. Sensitivity labels in Fabric In Fabric, Sensitivity Labels (from Microsoft Purview Information Protection) help classify and … \nContinue reading “Sensitivity labels in Fabric for public APIs (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/sensitivity-labels-in-fabric-for-public-apis-generally-available/",
+    "date": "Tue, 31 Mar 2026 08:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Modernize your ADF pipelines to unlock Fabric",
     "description": "Moving your Azure Data Factory and Azure Synapse pipelines to Fabric Data Factory is now fast, easy, and free!",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/modernize-your-adf-pipelines-to-unlock-fabric/",
@@ -148,14 +156,6 @@
     "description": "Fabric notebooks now support lakehouse auto-binding when used with Git. It is designed to simplify multi-environment workflows and reduce the operational overhead of managing lakehouse references across development, test, and production workspaces.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-notebooks-support-lakehouse-auto-binding-in-git-preview/",
     "date": "Thu, 26 Mar 2026 13:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Fabric Notebooks: Resources Folder Support in Git",
-    "description": "Notebooks are rarely just a single file. Real-world notebook projects depend on supporting assets—such as reusable scripts, configuration files—that live alongside notebook code. While these files could be stored in a notebook’s built-in Resources folder, they were not included when committing notebooks to Git. This broke end-to-end source control and made CI/CD workflows harder to adopt.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-notebooks-resources-folder-support-in-git/",
-    "date": "Thu, 26 Mar 2026 11:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
