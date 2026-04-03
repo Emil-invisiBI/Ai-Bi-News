@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Fabric Influencers Spotlight: March 2026",
+    "description": "Welcome to the March 2026 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric. The Microsoft Fabric Community team has created the Fabric Influencers Spotlight to … \nContinue reading “Fabric Influencers Spotlight: March 2026”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-influencers-spotlight-march-2016/",
+    "date": "Fri, 03 Apr 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Five reasons to attend SQLBits in the UK",
     "description": "Microsoft SQL team is returning as headline sponsor of SQLBits 2026, taking place from 22–25 April at ICC Wales in Newport. I’m speaking for the whole team when I say we’d love to see you there. I’m here today to give you five reasons you should attend SQLBits. This year we’re teaming up with AMD … \nContinue reading “Five reasons to attend SQLBits in the UK”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/34973/",
@@ -148,14 +156,6 @@
     "description": "The enterprise-grade JDBC driver enables secure, flexible, and performant connectivity to Spark SQL workloads running in Microsoft Fabric, using Fabric’s Livy APIs as the execution layer.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-jdbc-driver-for-microsoft-fabric-data-engineering-generally-available/",
     "date": "Fri, 27 Mar 2026 09:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "On-premises data gateway March 2026 release",
-    "description": "Here is the March 2026 release of the on-premises data gateway (version 3000.310).",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-march-2026-release/",
-    "date": "Fri, 27 Mar 2026 08:16:42 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
