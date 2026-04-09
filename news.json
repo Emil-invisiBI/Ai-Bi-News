@@ -80,8 +80,16 @@
     "category": "powerbi"
   },
   {
+    "title": "What’s new in Fabric Eventstream: 2026 Q1 Edition",
+    "description": "Coauthor: Arindam Chatterjee Over the first quarter of 2026, Fabric Eventstreams shipped meaningful improvements across three themes that have repeatedly come up in feedback from our broad community of customers and partners: broader connectivity, richer real-time processing, and secure enterprise‑ready networking and operations. This post highlights some of the most impactful new Eventstreams-related features and … \nContinue reading “What’s new in Fabric Eventstream: 2026 Q1 Edition”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-in-fabric-eventstream-2026-q1-edition/",
+    "date": "Thu, 09 Apr 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Associated identities for items (Preview)",
-    "description": "Background Currently, many items still rely on the item’s owner identity for accessing connections and certain features (like delegated mode in SQL endpoint) specific to the item. If the owner leaves the organization or their credentials expire, items can become partially or fully non-functional. We’ve heard from many of you that the current remediation path … \nContinue reading “Associated identities for items (Preview)”",
+    "description": "Background Currently, many items rely on the item’s owner identity for accessing connections and certain features (like delegated mode in SQL endpoint) specific to the item. If the owner leaves the organization or their credentials expire, items can become partially or fully non-functional. We’ve heard from many of you that the current remediation path (like … \nContinue reading “Associated identities for items (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/associated-identities-for-items-preview/",
     "date": "Thu, 09 Apr 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
@@ -148,14 +156,6 @@
     "description": "Over the past few weeks, we’ve been actively reading through comments in the Reddit thread to gather UX feedback. Thank you all for taking the time to share your experiences — we appreciate your honesty and passion. Here’s a quick update on where things stand: Item dropdown no longer goes off-screen Several users noted that … \nContinue reading “Update on User Experience Feedback from the Reddit Thread (General Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/update-on-user-experience-feedback-from-the-reddit-thread-general-available/",
     "date": "Mon, 06 Apr 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Microsoft ADO.NET Driver for Microsoft Fabric Data Engineering (Preview)",
-    "description": "ADO.NET is a widely adopted data access technology in the .NET ecosystem that enables applications to connect to and work with data from databases and big data platforms. The Microsoft ADO.NET Driver for Fabric Data Engineering lets you connect, query, and manage Spark workloads in Microsoft Fabric with the reliability and simplicity of standard ADO.NET … \nContinue reading “Microsoft ADO.NET Driver for Microsoft Fabric Data Engineering (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/microsoft-ado-net-driver-for-microsoft-fabric-data-engineering-preview/",
-    "date": "Mon, 06 Apr 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
