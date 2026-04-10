@@ -4352,17 +4352,17 @@
     "category": "ai"
   },
   {
-    "title": "GPT-4o System Card",
-    "description": "",
-    "url": "https://openai.com/index/gpt-4o-system-card",
+    "title": "Enabling a data-driven workforce",
+    "description": "In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights.",
+    "url": "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
     "date": "Thu, 08 Aug 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "Enabling a data-driven workforce",
-    "description": "In this video, we share practical examples of how employees can use ChatGPT Enterprise to efficiently analyze data and uncover insights.",
-    "url": "https://openai.com/business/enabling-a-data-driven-workforce-webinar",
+    "title": "GPT-4o System Card",
+    "description": "",
+    "url": "https://openai.com/index/gpt-4o-system-card",
     "date": "Thu, 08 Aug 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
@@ -4472,17 +4472,17 @@
     "category": "ai"
   },
   {
-    "title": "Improved Techniques for Training Consistency Models",
-    "description": "Consistency models are a nascent family of generative models that can sample high quality data in one step without the need for adversarial training.",
-    "url": "https://openai.com/index/improved-techniques-for-training-consistency-models",
+    "title": "A Holistic Approach to Undesired Content Detection in the Real World",
+    "description": "We present a holistic approach to building a robust and useful natural language classification system for real-world content moderation.",
+    "url": "https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world",
     "date": "Thu, 20 Jun 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
   {
-    "title": "A Holistic Approach to Undesired Content Detection in the Real World",
-    "description": "We present a holistic approach to building a robust and useful natural language classification system for real-world content moderation.",
-    "url": "https://openai.com/index/a-holistic-approach-to-undesired-content-detection-in-the-real-world",
+    "title": "Improved Techniques for Training Consistency Models",
+    "description": "Consistency models are a nascent family of generative models that can sample high quality data in one step without the need for adversarial training.",
+    "url": "https://openai.com/index/improved-techniques-for-training-consistency-models",
     "date": "Thu, 20 Jun 2024 00:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
