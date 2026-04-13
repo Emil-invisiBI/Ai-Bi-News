@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Announcing Full Collation Support for SQL Databases in Microsoft Fabric (Preview)",
+    "description": "We heard from you and are introducing a major update for SQL database in Microsoft Fabric. Now, you can use all Azure SQL database collations when creating databases. This enhancement gives SQL database in Fabric users greater flexibility and compatibility for global data scenarios, reporting, and app development—no matter your language or regional requirements. What … \nContinue reading “Announcing Full Collation Support for SQL Databases in Microsoft Fabric (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-full-collation-support-for-sql-databases-in-microsoft-fabric-preview/",
+    "date": "Mon, 13 Apr 2026 10:51:08 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "What’s new in Fabric Eventstream: 2026 Q1 Edition",
     "description": "Coauthor: Arindam Chatterjee Over the first quarter of 2026, Fabric Eventstreams shipped meaningful improvements across three themes that have repeatedly come up in feedback from our broad community of customers and partners: broader connectivity, richer real-time processing, and secure enterprise‑ready networking and operations. This post highlights some of the most impactful new Eventstreams-related features and … \nContinue reading “What’s new in Fabric Eventstream: 2026 Q1 Edition”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/whats-new-in-fabric-eventstream-2026-q1-edition/",
@@ -148,14 +156,6 @@
     "description": "Data warehouses traditionally focus on structured and semi-structured data. Free-form text such as notes, logs, or comments was difficult to process in data warehousing scenarios without external components. Microsoft Fabric Data Warehouse is opening new scenarios in modern data warehousing by enabling you to work with unstructured text using new AI capabilities. We are introducing … \nContinue reading “Working with unstructured text in Fabric Data Warehouse with built-in AI functions (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/working-with-unstructured-text-in-fabric-data-warehouse-with-built-in-ai-functions-preview/",
     "date": "Mon, 06 Apr 2026 12:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Update on User Experience Feedback from the Reddit Thread (General Available)",
-    "description": "Over the past few weeks, we’ve been actively reading through comments in the Reddit thread to gather UX feedback. Thank you all for taking the time to share your experiences — we appreciate your honesty and passion. Here’s a quick update on where things stand: Item dropdown no longer goes off-screen Several users noted that … \nContinue reading “Update on User Experience Feedback from the Reddit Thread (General Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/update-on-user-experience-feedback-from-the-reddit-thread-general-available/",
-    "date": "Mon, 06 Apr 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
