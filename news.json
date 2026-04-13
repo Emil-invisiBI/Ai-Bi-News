@@ -80,6 +80,22 @@
     "category": "powerbi"
   },
   {
+    "title": "Bring your local files to OneLake with OneLake file explorer (Generally Available)",
+    "description": "Adopted by thousands of active users, OneLake File Explorer enables developers, data scientists, and business users to move data from local files into OneLake quickly—without changing how they work. From local files to cloud analytics—without breaking your flow Imagine this scenario: You’re a data engineer working with files on your local machine—CSV extracts, Excel files … \nContinue reading “Bring your local files to OneLake with OneLake file explorer (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/bring-your-local-files-to-onelake-with-onelake-file-explorer-generally-available/",
+    "date": "Mon, 13 Apr 2026 11:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)",
+    "description": "Schema evolution is a fact of life for modern analytics platforms. As data models grow, teams need to add columns, drop unused fields, and evolve constraints—often as part of tightly controlled deployment pipelines. Fabric DW supported transactional execution for key table‑focused DDLs like CREATE TABLE, DROP TABLE, TRUNCATE TABLE, CTAS and sp_rename—with this release, ALTER … \nContinue reading “ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/alter-table-inside-explicit-transactions-in-fabric-data-warehouse-generally-available/",
+    "date": "Mon, 13 Apr 2026 11:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Announcing Full Collation Support for SQL Databases in Microsoft Fabric (Preview)",
     "description": "We heard from you and are introducing a major update for SQL database in Microsoft Fabric. Now, you can use all Azure SQL database collations when creating databases. This enhancement gives SQL database in Fabric users greater flexibility and compatibility for global data scenarios, reporting, and app development—no matter your language or regional requirements. What … \nContinue reading “Announcing Full Collation Support for SQL Databases in Microsoft Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/announcing-full-collation-support-for-sql-databases-in-microsoft-fabric-preview/",
@@ -140,22 +156,6 @@
     "description": "Modern organizations are at a crossroads. Legacy SQL Server workloads need modernization, but migration complexity often stands in the way. What if you could bring your SQL databases into a unified analytics platform—without the hassle of manual schema conversion, complex ETL pipelines, or costly re-architecture? That’s exactly what the new Migration Assistant for SQL database … \nContinue reading “Introducing Migration assistant for SQL database in Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/introducing-migration-assistant-for-sql-database-in-fabric-preview/",
     "date": "Mon, 06 Apr 2026 15:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Use ANY_VALUE() for simpler grouping of results in Fabric Data Warehouse (Generally Available)",
-    "description": "Fabric Data Warehouse now supports the ANY_VALUE() aggregate, making it easier to write readable, efficient T-SQL when you want to group by a key but still return descriptive columns that are functionally the same for every row in the group. What is ANY_VALUE()? ANY_VALUE() is an aggregate or analytic function that returns an arbitrary value … \nContinue reading “Use ANY_VALUE() for simpler grouping of results in Fabric Data Warehouse (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/use-any_value-for-simpler-grouping-of-results-in-fabric-data-warehouse-generally-available/",
-    "date": "Mon, 06 Apr 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Working with unstructured text in Fabric Data Warehouse with built-in AI functions (Preview)",
-    "description": "Data warehouses traditionally focus on structured and semi-structured data. Free-form text such as notes, logs, or comments was difficult to process in data warehousing scenarios without external components. Microsoft Fabric Data Warehouse is opening new scenarios in modern data warehousing by enabling you to work with unstructured text using new AI capabilities. We are introducing … \nContinue reading “Working with unstructured text in Fabric Data Warehouse with built-in AI functions (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/working-with-unstructured-text-in-fabric-data-warehouse-with-built-in-ai-functions-preview/",
-    "date": "Mon, 06 Apr 2026 12:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
