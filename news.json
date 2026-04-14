@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Unifying “Analyze data with” analytics across Fabric (Preview)",
+    "description": "As Microsoft Fabric continues to converge analytics experiences across workloads, one of the most important steps forward is reducing friction in how users move from raw data to insights. With the latest integrations, the Eventhouse Endpoint is now deeply embedded into the “Analyze data with” entry points across Lakehouse, Data Warehouse, and Eventhouse, bringing a … \nContinue reading “Unifying “Analyze data with” analytics across Fabric (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/unifying-analyze-data-with-analytics-across-fabric-preview/",
+    "date": "Tue, 14 Apr 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "One platform, many insights: How Eventhouse brings analytics together (Preview)",
     "description": "Modern analytics isn’t just about storing data. It’s about detecting issues early, understanding them fast, and acting with confidence. Eventhouse in Microsoft Fabric brings advanced analytics capabilities together so teams can move from raw events to insight and action without stitching tools or duplicating data. With native integrations for Anomaly Detection, Data Agents, SQL Endpoints, … \nContinue reading “One platform, many insights: How Eventhouse brings analytics together (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/one-data-many-insights-how-eventhouse-brings-analytics-together-preview/",
@@ -148,14 +156,6 @@
     "description": "Organizations today manage data across multiple storage systems, often in formats like CSV, Parquet, and JSON. While this data is readily available, turning it into analytics-ready tables typically requires building and maintaining complex ETL pipelines. Shortcut transformations remove that complexity. With Shortcut transformations, you can convert structured files referenced through OneLake shortcuts into Delta tables … \nContinue reading “Shortcut transformations: Turn files into Delta tables without pipelines (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/shortcut-transformations-and-turn-files-into-delta-tables-without-pipelines-generally-available/",
     "date": "Tue, 07 Apr 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Secure data streaming: Custom CA and mTLS in Fabric Eventstream connectors (Preview)",
-    "description": "Security is non-negotiable when it comes to real-time data streaming. In regulated industries such as banking, healthcare, and telecommunications, organizations must ensure that every data connection is encrypted and mutually authenticated. But many enterprises rely on internal Certificate Authorities (CAs) or require mutual TLS (mTLS) to meet their security policies, which means that the standard, … \nContinue reading “Secure data streaming: Custom CA and mTLS in Fabric Eventstream connectors (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/secure-data-streaming-custom-ca-and-mtls-in-fabric-eventstream-connectors-preview/",
-    "date": "Tue, 07 Apr 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
