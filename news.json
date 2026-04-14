@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Capacity Scheduler: Smarter capacity control for Eventhouse (Preview)",
+    "description": "Modern, real-time analytics workloads are rarely flat. In Eventhouse, some of the customers consistently told us that their usage follows clear, predictable patterns: heavy ingestion during business hours, lighter query traffic overnight, quiet weekends, and short but critical pipeline windows. Previously, customers had to choose a single minimum capacity value for the entire week, paying … \nContinue reading “Capacity Scheduler: Smarter capacity control for Eventhouse (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/capacity-scheduler-smarter-capacity-control-for-eventhouse-preview/",
+    "date": "Tue, 14 Apr 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Unifying “Analyze data with” analytics across Fabric (Preview)",
     "description": "As Microsoft Fabric continues to converge analytics experiences across workloads, one of the most important steps forward is reducing friction in how users move from raw data to insights. With the latest integrations, the Eventhouse Endpoint is now deeply embedded into the “Analyze data with” entry points across Lakehouse, Data Warehouse, and Eventhouse, bringing a … \nContinue reading “Unifying “Analyze data with” analytics across Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/unifying-analyze-data-with-analytics-across-fabric-preview/",
@@ -148,14 +156,6 @@
     "description": "Accidental drops can happen anytime—ETL moves fast, schemas change, and mistakes happen. What matters is how fast and predictably you recover.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/dropped-warehouse-recovery-in-microsoft-fabric-preview/",
     "date": "Wed, 08 Apr 2026 08:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Shortcut transformations: Turn files into Delta tables without pipelines (Generally Available)",
-    "description": "Organizations today manage data across multiple storage systems, often in formats like CSV, Parquet, and JSON. While this data is readily available, turning it into analytics-ready tables typically requires building and maintaining complex ETL pipelines. Shortcut transformations remove that complexity. With Shortcut transformations, you can convert structured files referenced through OneLake shortcuts into Delta tables … \nContinue reading “Shortcut transformations: Turn files into Delta tables without pipelines (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/shortcut-transformations-and-turn-files-into-delta-tables-without-pipelines-generally-available/",
-    "date": "Tue, 07 Apr 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
