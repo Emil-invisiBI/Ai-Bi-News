@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Answers to common questions about Fabric Data Factory",
+    "description": "As the Data Integration Customer Advisory Team (CAT) lead, I spent a lot of time talking to customers at the recent FabCon/SQLCon about Fabric Data Factory, and I came away with a clear picture of what’s on customers’ minds when it comes to the future of data integration. Many of the same questions came up … \nContinue reading “Answers to common questions about Fabric Data Factory”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/answers-to-common-questions-about-fabric-data-factory/",
+    "date": "Thu, 16 Apr 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "One platform, many insights: How Eventhouse brings analytics together (Preview)",
     "description": "Modern analytics isn’t just about storing data. It’s about detecting issues early, understanding them fast, and acting with confidence. Eventhouse in Microsoft Fabric brings advanced analytics capabilities together so teams can move from raw events to insight and action without stitching tools or duplicating data. With native integrations for Anomaly Detection, Data Agents, SQL Endpoints, … \nContinue reading “One platform, many insights: How Eventhouse brings analytics together (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/one-data-many-insights-how-eventhouse-brings-analytics-together-preview/",
@@ -148,14 +156,6 @@
     "description": "Have you ever accidentally deleted something important? With Item recovery in Microsoft Fabric (Preview), you no longer need to worry. You can easily restore deleted items—whether it was a mistake or something unexpected—within a retention window you control.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/item-recovery-in-microsoft-fabric-preview/",
     "date": "Wed, 08 Apr 2026 08:30:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Dropped warehouse recovery in Microsoft Fabric (Preview)",
-    "description": "Accidental drops can happen anytime—ETL moves fast, schemas change, and mistakes happen. What matters is how fast and predictably you recover.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/dropped-warehouse-recovery-in-microsoft-fabric-preview/",
-    "date": "Wed, 08 Apr 2026 08:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
