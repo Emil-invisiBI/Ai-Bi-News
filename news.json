@@ -1,5 +1,85 @@
 [
   {
+    "title": "Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future",
+    "description": "For more than eight years, customers have relied on Power BI Dataflows (Gen1) as a core part of their analytics solutions. We’re grateful for the trust you placed in the Power Query experience to build reusable, low-code data preparation pipelines that power reports, semantic models, and downstream analytics. Now, we’re sharing an update on the … \nContinue reading “Dataflows: Thank you for eight years of Gen1—and why Gen2 is the future”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/dataflows-thank-you-for-eight-years-of-gen1-and-why-gen2-is-the-future/",
+    "date": "Thu, 02 Apr 2026 09:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Chat with Copilot inside a report on the Power BI mobile app (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  The next evolution of in-report Copilot on the mobile app is now available … \nContinue reading “Chat with Copilot inside a report on the Power BI mobile app (Preview)”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/chat-with-copilot-inside-a-report-on-the-power-bi-mobile-app-preview/",
+    "date": "Mon, 30 Mar 2026 10:30:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "TMDL View on the Web (Preview)",
+    "description": "TMDL View on the Web will be available in the coming weeks, providing a powerful code-first semantic modelling experience directly to your browser.",
+    "url": "https://powerbi.microsoft.com/en-us/blog/tmdl-view-on-the-web-preview/",
+    "date": "Fri, 20 Mar 2026 14:15:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Semantic Layers: The foundation of enterprise AI",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Power BI is the decision layer for millions of users because it doesn’t … \nContinue reading “Semantic Layers: The foundation of enterprise AI”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/semantic-layers-the-foundation-of-enterprise-ai/",
+    "date": "Wed, 18 Mar 2026 06:08:36 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Deep Dive into Modern Visual Defaults and Customizing Theme Improvements (Preview)",
+    "description": "If you haven’t already, check out Arun Ulag’s hero blog “FabCon and SQLCon 2026: Unifying databases and Fabric on a single, complete platform” for a complete look at all of our FabCon and SQLCon announcements across both Fabric and our database offerings.  Power BI Desktop visuals now start with a modern look. This preview introduces … \nContinue reading “Deep Dive into Modern Visual Defaults and Customizing Theme Improvements (Preview)”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-modern-visual-defaults-and-customizing-theme-improvements-preview/",
+    "date": "Wed, 18 Mar 2026 06:08:15 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Power BI March 2026 Feature Summary",
+    "description": "Welcome to the Power BI March 2026 Feature Summary—and welcome to FabCon! As FabCon gets underway, this month’s update reflects the momentum we’re seeing across Power BI and the conversations happening with customers right now. March brings a thoughtful set of improvements across Copilot, reporting, modeling, and data connectivity—focused on making everyday authoring smoother, visuals … \nContinue reading “Power BI March 2026 Feature Summary”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-march-2026-feature-summary/",
+    "date": "Wed, 18 Mar 2026 06:07:49 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Input slicer: Filter reports and collect user input (Generally Available)",
+    "description": "Previously known as the “text slicer” while in preview, this visual lets you type or paste values directly into a slicer to filter your report—no scrolling or searching through long lists required. What you can do with the input slicer Report consumers can quickly filter the report to what they are looking for using the … \nContinue reading “Input slicer: Filter reports and collect user input (Generally Available)”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/input-slicer-filter-reports-and-collect-user-input-generally-available/",
+    "date": "Tue, 24 Feb 2026 12:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Power BI February 2026 Feature Summary",
+    "description": "Welcome to the February Power BI update! Power BI’s February 2026 update is here, and it’s a good one. This release brings smarter Copilot and AI experiences, more flexible ways to interact with reports, polished visuals, and useful modeling enhancements—plus a few important updates to keep in mind. With FabCon right around the corner, it’s … \nContinue reading “Power BI February 2026 Feature Summary”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/power-bi-february-2026-feature-summary/",
+    "date": "Tue, 24 Feb 2026 09:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Deprecation of old Excel and CSV import experience in Power BI Service",
+    "description": "Excel and CSV files remain a valid data source for Power BI semantic models and reports. You can use them to create reports in the Power BI service from the Create page or in Power BI Desktop. This blog post is for users who created reports using the old experience to import an Excel or … \nContinue reading “Deprecation of old Excel and CSV import experience in Power BI Service”",
+    "url": "https://powerbi.microsoft.com/en-us/blog/deprecation-of-old-excel-and-csv-import-experience-in-power-bi-service/",
+    "date": "Tue, 10 Feb 2026 09:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
+    "title": "Deep dive into composite semantic models with Direct Lake and import tables",
+    "description": "Getting your data job done just got easier with composite semantic models, mixing Direct Lake tables with import tables, now available in public preview.",
+    "url": "https://powerbi.microsoft.com/en-us/blog/deep-dive-into-composite-semantic-models-with-direct-lake-and-import-tables/",
+    "date": "Mon, 02 Feb 2026 09:00:00 Z",
+    "source": "Power BI Blog",
+    "category": "powerbi"
+  },
+  {
     "title": "Give your AI agent the keys to OneLake: OneLake MCP (Generally Available)",
     "description": "Have you ever tried to understand what’s stored in your Fabric items? Would you even know where to begin? I had 92,000 UK property transactions sitting in an open mirrored database. Rather than spending hours sorting through documentation, I just asked my AI agent: “Document what’s in the House Price Open Mirror in my UK … \nContinue reading “Give your AI agent the keys to OneLake: OneLake MCP (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/give-your-ai-agent-the-keys-to-onelake-onelake-mcp-generally-available/",
