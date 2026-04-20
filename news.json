@@ -120,17 +120,17 @@
     "category": "fabric"
   },
   {
-    "title": "Bring your local files to OneLake with OneLake file explorer (Generally Available)",
-    "description": "Adopted by thousands of active users, OneLake File Explorer enables developers, data scientists, and business users to move data from local files into OneLake quickly—without changing how they work. From local files to cloud analytics—without breaking your flow Imagine this scenario: You’re a data engineer working with files on your local machine—CSV extracts, Excel files … \nContinue reading “Bring your local files to OneLake with OneLake file explorer (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/bring-your-local-files-to-onelake-with-onelake-file-explorer-generally-available/",
+    "title": "ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)",
+    "description": "Schema evolution is a fact of life for modern analytics platforms. As data models grow, teams need to add columns, drop unused fields, and evolve constraints—often as part of tightly controlled deployment pipelines. Fabric DW supported transactional execution for key table‑focused DDLs like CREATE TABLE, DROP TABLE, TRUNCATE TABLE, CTAS and sp_rename—with this release, ALTER … \nContinue reading “ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/alter-table-inside-explicit-transactions-in-fabric-data-warehouse-generally-available/",
     "date": "Mon, 13 Apr 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
   {
-    "title": "ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)",
-    "description": "Schema evolution is a fact of life for modern analytics platforms. As data models grow, teams need to add columns, drop unused fields, and evolve constraints—often as part of tightly controlled deployment pipelines. Fabric DW supported transactional execution for key table‑focused DDLs like CREATE TABLE, DROP TABLE, TRUNCATE TABLE, CTAS and sp_rename—with this release, ALTER … \nContinue reading “ALTER TABLE inside explicit transactions in Fabric Data Warehouse (Generally Available)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/alter-table-inside-explicit-transactions-in-fabric-data-warehouse-generally-available/",
+    "title": "Bring your local files to OneLake with OneLake file explorer (Generally Available)",
+    "description": "Adopted by thousands of active users, OneLake File Explorer enables developers, data scientists, and business users to move data from local files into OneLake quickly—without changing how they work. From local files to cloud analytics—without breaking your flow Imagine this scenario: You’re a data engineer working with files on your local machine—CSV extracts, Excel files … \nContinue reading “Bring your local files to OneLake with OneLake file explorer (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/bring-your-local-files-to-onelake-with-onelake-file-explorer-generally-available/",
     "date": "Mon, 13 Apr 2026 11:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
