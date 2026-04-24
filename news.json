@@ -88,14 +88,6 @@
     "category": "fabric"
   },
   {
-    "title": "Monitor your Eventstreams with workspace monitoring (Preview)",
-    "description": "When something goes wrong in a streaming pipeline, the first question is always the same: what happened, and where? Previously, answering that question for Eventstreams meant finding and interpreting metrics in the Data Insights tab, checking Eventstream components one by one, or opening a support ticket and waiting for someone to investigate. There was minimal … \nContinue reading “Monitor your Eventstreams with workspace monitoring (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/monitor-your-eventstreams-with-workspace-monitoring-preview/",
-    "date": "Thu, 23 Apr 2026 12:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
     "title": "Resource instance rules for OneLake in Microsoft Fabric (Preview)",
     "description": "As enterprises adopt OneLake as their unified data lake for analytics, securing how external services access data in OneLake becomes increasingly important—especially in environments where public internet access must be tightly controlled. Today, we’re introducing resource instance rules for OneLake in preview. This new capability allows workspace admins to explicitly allow inbound access from trusted … \nContinue reading “Resource instance rules for OneLake in Microsoft Fabric (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/resource-instance-rules-for-onelake-in-microsoft-fabric-preview/",
@@ -156,6 +148,14 @@
     "description": "In our previous post, Operationalizing Agentic Applications with Microsoft Fabric, we focused on a core challenge teams encounter once an agentic application moves beyond a proof of concept: operational reality. Specifically, how do you observe, govern, evaluate, and analyze what agents are doing once they interact with real users, data, and business processes at scale? … \nContinue reading “Evolving Agentic Applications on Microsoft Fabric: From Automated Deployment to Integrating Data Agents”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/evolving-agentic-applications-on-microsoft-fabric-from-automated-deployment-to-integrating-data-agents/",
     "date": "Mon, 20 Apr 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
+    "title": "Secure your data streams: How to choose the right network security feature in Eventstream",
+    "description": "Eventstream in Fabric Real-Time Intelligence stream data from both inside and outside the Fabric platform. When your external sources sit behind firewalls or in private networks, choosing the right network security feature is essential. This post breaks down the available options in Eventstream and helps you determine which one fits your scenario. Understanding network traffic … \nContinue reading “Secure your data streams: How to choose the right network security feature in Eventstream”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/secure-your-data-streams-how-to-choose-the-right-network-security-feature-in-eventstream/",
+    "date": "Mon, 20 Apr 2026 09:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
