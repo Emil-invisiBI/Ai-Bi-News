@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Simplify Real-Time Pipelines with the Fabric Eventstreams SQL Operator (Generally Available)",
+    "description": "The SQL operator was first introduced in preview to give customers an early look at a code‑first transformation experience in Fabric Eventstreams. During preview, customers used the SQL operator to simplify real-time pipelines, consolidate transformation logic, and unlock advanced scenarios using familiar SQL semantics. Feedback from this phase directly shaped the GA release—driving improvements across … \nContinue reading “Simplify Real-Time Pipelines with the Fabric Eventstreams SQL Operator (Generally Available)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/simplify-real-time-pipelines-with-the-fabric-eventstreams-sql-operator-generally-available/",
+    "date": "Tue, 28 Apr 2026 09:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Bring your Dremio data into OneLake (Preview)",
     "description": "Starting today, Microsoft Fabric customers who use Dremio’s Agentic Lakehouse Platform can seamlessly bring their Dremio-managed data into Microsoft OneLake, without data duplication, unlocking the full suite of Fabric workloads and integrations. Figure: Creating a new Mirrored Dremio catalog item in Fabric. Bringing Dremio data into Fabric — simplified Many organizations rely on Dremio as … \nContinue reading “Bring your Dremio data into OneLake (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/bring-your-dremio-data-into-onelake-preview/",
@@ -148,14 +156,6 @@
     "description": "Something fundamental is changing in how developers interact with data platforms. Not a feature update, not a UI refresh, but a shift in the interface itself.",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/agentic-fabric-how-mcp-is-turning-your-data-platform-into-an-ai-native-operating-system/",
     "date": "Tue, 21 Apr 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Evolving Agentic Applications on Microsoft Fabric: From Automated Deployment to Integrating Data Agents",
-    "description": "In our previous post, Operationalizing Agentic Applications with Microsoft Fabric, we focused on a core challenge teams encounter once an agentic application moves beyond a proof of concept: operational reality. Specifically, how do you observe, govern, evaluate, and analyze what agents are doing once they interact with real users, data, and business processes at scale? … \nContinue reading “Evolving Agentic Applications on Microsoft Fabric: From Automated Deployment to Integrating Data Agents”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/evolving-agentic-applications-on-microsoft-fabric-from-automated-deployment-to-integrating-data-agents/",
-    "date": "Mon, 20 Apr 2026 10:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
