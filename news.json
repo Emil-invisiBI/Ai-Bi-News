@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "On-premises data gateway April 2026 release",
+    "description": "The April 2026 release of the on-premises data gateway is (version 3000.314). New Features On-premises Data Gateway Auto-Update (Admin Triggered) | (Generally Available) With this capability, gateway administrators now have greater control and flexibility over gateway lifecycle management. Instead of relying solely on automatic background updates, admins can: This enhancement improves operational predictability while still … \nContinue reading “On-premises data gateway April 2026 release”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/on-premises-data-gateway-april-2026-release/",
+    "date": "Wed, 29 Apr 2026 10:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Simplify Real-Time Pipelines with the Fabric Eventstreams SQL Operator (Generally Available)",
     "description": "The SQL operator was first introduced in preview to give customers an early look at a code‑first transformation experience in Fabric Eventstreams. During preview, customers used the SQL operator to simplify real-time pipelines, consolidate transformation logic, and unlock advanced scenarios using familiar SQL semantics. Feedback from this phase directly shaped the GA release—driving improvements across … \nContinue reading “Simplify Real-Time Pipelines with the Fabric Eventstreams SQL Operator (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/simplify-real-time-pipelines-with-the-fabric-eventstreams-sql-operator-generally-available/",
@@ -148,14 +156,6 @@
     "description": "Empowering customers with enhanced security and control. This milestone marks a significant step forward in empowering our customers to take control of their data security and compliance needs within the Eventhouse platform. With CMK, you can manage your own encryption keys, providing an added layer of security and flexibility. This feature allows you to meet … \nContinue reading “Customer Managed Keys (CMK) for Eventhouse (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/customer-managed-keys-cmk-for-eventhouse-preview/",
     "date": "Wed, 22 Apr 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Agentic Fabric: How MCP is turning your data platform into an AI-native operating system",
-    "description": "Something fundamental is changing in how developers interact with data platforms. Not a feature update, not a UI refresh, but a shift in the interface itself.",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/agentic-fabric-how-mcp-is-turning-your-data-platform-into-an-ai-native-operating-system/",
-    "date": "Tue, 21 Apr 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
