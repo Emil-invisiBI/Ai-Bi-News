@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Discover Fabric items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
+    "description": "The OneLake Catalog helps people find, explore, and curate Fabric items across their organization. With OneLake Catalog Search API, MCP and CLI tools, that same discovery experience is now available programmatically, making it possible to build search directly into scripts, internal tools, and agentic workflows. Search across workspaces The OneLake Catalog Search REST API brings … \nContinue reading “Discover Fabric items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/discover-fabric-items-across-workspaces-with-the-onelake-catalog-search-api-mcp-and-cli-tools-preview/",
+    "date": "Thu, 30 Apr 2026 14:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Azure Data Studio to VS Code: What it means for SQL database in Fabric developers",
     "description": "Azure Data Studio (ADS) has been a familiar tool for SQL developers, but with its retirement on February 6, 2025, and end of support on February 28, 2026, teams need a clear path forward. For those working with SQL database in Microsoft Fabric, the transition to Visual Studio Code (VS Code) is not just a … \nContinue reading “Azure Data Studio to VS Code: What it means for SQL database in Fabric developers”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/azure-data-studio-to-vs-code-what-it-means-for-sql-database-in-fabric-developers/",
@@ -148,14 +156,6 @@
     "description": "Nested folders, shortcut transformations, subfolder processing, OneLake, shortcuts, Lakehouse Data lakes rarely come in flat structures. In practice, data is organized across multi-level folder hierarchies, partitioned by date, region, source system, or business unit. Previously, shortcut transformations processed files at a single folder level, requiring users to set up separate transforms for each subdirectory. Moving … \nContinue reading “Nested folders support in shortcut transformations (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/nested-folders-support-in-shortcut-transformations-generally-available/",
     "date": "Thu, 23 Apr 2026 14:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Resource instance rules for OneLake in Microsoft Fabric (Preview)",
-    "description": "As enterprises adopt OneLake as their unified data lake for analytics, securing how external services access data in OneLake becomes increasingly important—especially in environments where public internet access must be tightly controlled. Today, we’re introducing resource instance rules for OneLake in preview. This new capability allows workspace admins to explicitly allow inbound access from trusted … \nContinue reading “Resource instance rules for OneLake in Microsoft Fabric (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/resource-instance-rules-for-onelake-in-microsoft-fabric-preview/",
-    "date": "Thu, 23 Apr 2026 10:30:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
