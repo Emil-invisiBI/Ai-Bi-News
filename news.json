@@ -80,18 +80,18 @@
     "category": "powerbi"
   },
   {
-    "title": "Fabric April 2026 Feature Summary ",
-    "description": "Welcome to the April 2026 Microsoft Fabric update! This month’s update brings a broad set of new capabilities across Microsoft Fabric, spanning the platform experience, Data Engineering, Data Science, Data Warehouse, and Real-Time Intelligence. Read on to learn about improvements to the Fabric experience, deeper VS Code integration, enhanced notebook resiliency, expanded machine learning and … \nContinue reading “Fabric April 2026 Feature Summary “",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-april-2026-feature-summary/",
-    "date": "Thu, 30 Apr 2026 09:01:26 Z",
+    "title": "Monitor your Eventstreams with workspace monitoring (Preview)",
+    "description": "Do you ever wonder how much data volume is flowing in and out of your Eventstream? Or wish you could query the health or errors in one place without selecting each Eventstream component? Now you can. Eventstream observability through Workspace Monitoring provides monitoring to your streaming pipelines with a single toggle and minimal configuration. Simply … \nContinue reading “Monitor your Eventstreams with workspace monitoring (Preview)”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/monitor-your-eventstreams-with-workspace-monitoring-preview/",
+    "date": "Thu, 30 Apr 2026 10:46:34 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
   {
-    "title": "Monitor your Eventstreams with workspace monitoring (Preview)",
-    "description": "When something goes wrong in a streaming pipeline, the first question is always the same: what happened, and where? Previously, answering that question for Eventstreams meant finding and interpreting metrics in the Data Insights tab, checking Eventstream components one by one, or opening a support ticket and waiting for someone to investigate. There was minimal … \nContinue reading “Monitor your Eventstreams with workspace monitoring (Preview)”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/monitor-your-eventstreams-with-workspace-monitoring-preview/",
-    "date": "Thu, 30 Apr 2026 09:00:00 Z",
+    "title": "Fabric April 2026 Feature Summary ",
+    "description": "Welcome to the April 2026 Microsoft Fabric update! This month’s update brings a broad set of new capabilities across Microsoft Fabric, spanning the platform experience, Data Engineering, Data Science, Data Warehouse, and Real-Time Intelligence. Read on to learn about improvements to the Fabric experience, deeper VS Code integration, enhanced notebook resiliency, expanded machine learning and … \nContinue reading “Fabric April 2026 Feature Summary “",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/fabric-april-2026-feature-summary/",
+    "date": "Thu, 30 Apr 2026 09:01:26 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
