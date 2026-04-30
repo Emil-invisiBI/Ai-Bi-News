@@ -80,6 +80,14 @@
     "category": "powerbi"
   },
   {
+    "title": "Pipelines are evolving beyond ETL",
+    "description": "For years, data pipelines have been synonymous with ETL (Extract, Transform, Load): extract data from one place, transform it, and load it somewhere else. That model worked well when analytics workflows were mostly batch driven and isolated from the rest of the business. But that world has changed. Now, organizations use data platforms to power … \nContinue reading “Pipelines are evolving beyond ETL”",
+    "url": "https://blog.fabric.microsoft.com/en-US/blog/pipelines-are-evolving-beyond-etl/",
+    "date": "Thu, 30 Apr 2026 12:00:00 Z",
+    "source": "Microsoft Fabric Blog",
+    "category": "fabric"
+  },
+  {
     "title": "Monitor your Eventstreams with workspace monitoring (Preview)",
     "description": "Do you ever wonder how much data volume is flowing in and out of your Eventstream? Or wish you could query the health or errors in one place without selecting each Eventstream component? Now you can. Eventstream observability through Workspace Monitoring provides monitoring to your streaming pipelines with a single toggle and minimal configuration. Simply … \nContinue reading “Monitor your Eventstreams with workspace monitoring (Preview)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/monitor-your-eventstreams-with-workspace-monitoring-preview/",
@@ -148,14 +156,6 @@
     "description": "Machine learning teams need more than a great model — they need a reliable way to move that model from experimentation to production. Cross-workspace logging for MLflow in Microsoft Fabric, is a capability that enables you to build end-to-end MLOps workflows using the standard MLflow APIs you already know. Figure: Animated gif of Log ML … \nContinue reading “Cross-workspace logging for MLflow in Microsoft Fabric: Build MLOps workflows with confidence (Generally Available)”",
     "url": "https://blog.fabric.microsoft.com/en-US/blog/cross-workspace-logging-for-mlflow-in-microsoft-fabric-build-mlops-workflows-with-confidence-generally-available/",
     "date": "Thu, 23 Apr 2026 10:00:00 Z",
-    "source": "Microsoft Fabric Blog",
-    "category": "fabric"
-  },
-  {
-    "title": "Stream SQL Change Events to Microsoft Fabric Eventstream with Change Event Streaming for Real-Time Analytics",
-    "description": "Coauthor: Nikola Zagorac In today’s data-driven world, the ability to capture and act on data changes in real time is a competitive necessity. From financial services processing millions of transactions per second to e-commerce platforms tracking inventory and customer behavior, real-time data streaming has become the backbone of modern decision-making—and nowhere is this more critical … \nContinue reading “Stream SQL Change Events to Microsoft Fabric Eventstream with Change Event Streaming for Real-Time Analytics”",
-    "url": "https://blog.fabric.microsoft.com/en-US/blog/stream-sql-change-events-to-microsoft-fabric-eventstream-with-change-event-streaming-for-real-time-analytics/",
-    "date": "Wed, 22 Apr 2026 14:00:00 Z",
     "source": "Microsoft Fabric Blog",
     "category": "fabric"
   },
