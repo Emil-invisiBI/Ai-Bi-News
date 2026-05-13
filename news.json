@@ -160,10 +160,26 @@
     "category": "other"
   },
   {
+    "title": "Fabric Eventstream can now publish Business Events (Preview)",
+    "description": "Author: Roberto Cervantes Rivero - Senior Product Manager",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
+    "date": "Wed, 13 May 2026 17:00:00 GMT",
+    "source": "Unknown",
+    "category": "other"
+  },
+  {
+    "title": "Why your database schema belongs in Git",
+    "description": "Author: Iqra Shaikh - Product Manager 2",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Why-your-database-schema-belongs-in-Git/ba-p/5179521",
+    "date": "Wed, 13 May 2026 16:41:11 GMT",
+    "source": "Unknown",
+    "category": "other"
+  },
+  {
     "title": "Service Principal Support for Data Agents in Fabric (Preview)",
     "description": "Amir Jafari - Principal Product ManagerJoanne Wong - Senior Product Marketing Manager",
     "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Service-Principal-Support-for-Data-Agents-in-Fabric-Preview/ba-p/5181634",
-    "date": "Wed, 13 May 2026 16:00:00 GMT",
+    "date": "Wed, 13 May 2026 16:06:48 GMT",
     "source": "Unknown",
     "category": "other"
   },
@@ -300,22 +316,6 @@
     "description": "Author: Vaibhav Shirvastava - Principal Program Manager",
     "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Simplify-Real-Time-Pipelines-with-the-Fabric-Eventstreams-SQL/ba-p/5171983",
     "date": "Wed, 06 May 2026 14:56:19 GMT",
-    "source": "Unknown",
-    "category": "other"
-  },
-  {
-    "title": "Bring your Dremio data into OneLake (Preview)",
-    "description": "Author: Matthew Hicks - Principal Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Bring-your-Dremio-data-into-OneLake-Preview/ba-p/5171986",
-    "date": "Tue, 05 May 2026 19:27:58 GMT",
-    "source": "Unknown",
-    "category": "other"
-  },
-  {
-    "title": "Fabric Influencers Spotlight April 2026",
-    "description": "Welcome to the April 2026 edition of the Fabric Influencers Spotlight, a recurring monthly post here to shine a bright light on the places on the internet where Microsoft MVPs & Fabric Super Users are doing some amazing work on all aspects of Microsoft Fabric.\r\n\r\nThe Microsoft Fabric Community team has created the Fabric Influencers Spotlight to highlight and amplify blog posts, videos, presentations, and other content related to Microsoft Fabric. We’ve cultivated submissions from members of Microsoft MVPs & Fabric Super Users from the Fabric community that cover the Fabric Platform, Data Engineering & Data Science in Fabric, Data Warehousing, Power BI, Real-Time Intelligence, Data Integration, Fabric Administration & Governance and Databases. \r\n\r\nMicrosoft Most Valuable Professionals, or MVPs, are technology experts who utilize their deep knowledge of Microsoft products and services to bring together diverse platforms, products, and solutions, to solve real world problems, and to bring “leading edge” content to the data community. \r\n\r\nTo learn about the Microsoft MVP Award and to find MVPs, visit the official website.\r\n\r\nFabric Super Users are the heroes of the Fabric Community. They contribute helpful answers, write informative blog posts, post data stories and are key contributors to the Fabric product via engagement with the product group. \r\n\r\nTo learn more about the Super User program, visit the official website.\r\n\r\n\r\n\r\nData Warehouse\r\n\r\nDominic Godfroid\r\n\r\nAffiliation: Super User\r\n\r\nYouTube: Fabric Warehouse: J'ai testé les 7 fonctions IA en SQL\r\n\r\nIn this video, I test all 7 T-SQL AI Functions available in Microsoft Fabric Data Warehous: ai_analyze_sentiment, ai_classify, ai_extract, ai_translate, ai_fix_grammar, ai_summarize, and ai_generate_response, on a real dataset of 124 beers from 30 countries with reviews in 5 languages.\r\n\r\n\r\n\r\nPower BI\r\n\r\nCengizhan Arslan, LinkedIn\r\n\r\nAffiliation: Super User\r\n\r\nBlog: Custom Totals vs DAX Wrappers: Convenience Meets the Engine\r\n\r\nPower BI's new Custom Totals feature lets you override visual totals without writing DAX, but does the convenience come at a performance cost? This benchmark compares the Custom Totals approach against the traditional AVERAGEX wrapper pattern across two fundamentally different measure types, revealing why the right answer is not the same for additive and non-additive aggregations. The results will surprise anyone who assumed the two approaches were interchangeable.\r\n\r\nRufyda Rahma, LinkedIn\r\n\r\nAffiliation: Super User\r\n\r\nYouTube: From Idea to Portfolio: A Complete Data Analytics Project Journey Using Power BI & SQL\r\n\r\nThis video walks through the end-to-end journey of building a real-world data analytics project, from selecting the right idea to delivering a portfolio-ready case study. It covers key steps including team collaboration, task distribution, and best practices for documentation. The content also highlights how tools like Power BI can be used to transform data into actionable insights. It is designed to help beginners build a strong portfolio and prepare for data analytics roles.\r\n\r\n\r\n\r\nData Engineering\r\n\r\nReitse Eskens, LinkedIn\r\n\r\nAffiliation: MVP\r\n\r\nBlog: Mirroring SQL Server 2025 to Microsoft Fabric, a level deeper\r\n\r\nThis blog provides a deep-dive into how SQL Server 2025 processes data changes and publishes them to Microsoft Fabric. Next, we look at how Fabric works with these incoming data changes.\r\n\r\nAntoine Wang, LinkedIn\r\n\r\nAffiliation: Super User\r\n\r\nBlog: Microsoft Fabric: maîtrisez l’écosystème d’ingestion et d’orchestration, du Low-Code au Big Data\r\n\r\nThe article explains that Fabric now includes a wide range of ingestion options (Pipelines, Dataflows Gen2, Notebooks, Eventstream, Copy Job, Airflow, Shortcuts, Mirroring). The challenge is no longer “how to ingest data?” but “which tool should I pick?” I have presented the decision matrix that helps choose the right tool based on latency, volume, transformation needs, and virtualization.\r\n\r\n\r\n\r\nData Integration\r\n\r\nErwin de Kreuk, LinkedIn\r\n\r\nAffiliation: MVP\r\n\r\nBlog: Fabric Metadata-Driven Framework (FMD) April Release\r\n\r\nThe Fabric Metadata‑Driven (FMD) Framework accelerates governed, repeatable data integration on Microsoft Fabric. This April release focuses on hardening, identity alignment, and improved stability driven by real‑world usage and parallel workloads.\r\n\r\n\r\n\r\nFabric Platform, Administrative & Governance\r\n\r\nPragati Jain\r\n\r\nAffiliation: MVP\r\n\r\nBlog: Site to Insight: Fabric’s New SharePoint Picker\r\n\r\nOne of the greatest things about attending FABCON in Atlanta recently wasn’t just the incredible community or the deep-dive sessions – it was those “aha!” moments during the keynote announcements. Among the many massive reveals, there was one specific update that caught my attention as a massive “quality of life” win: the SharePoint Site Picker (Preview). For anyone who works between SharePoint and Fabric daily, this was easily one of my favorite announcements of the conference. Here’s why it’s a game-changer.\r\n\r\nErwin de Kreuk, LinkedIn\r\n\r\nAffiliation: MVP\r\n\r\nBlog: Microsoft Fabric Becomes Enterprise‑Grade in the AI Era\r\n\r\nFabCon Atlanta 2026 made one thing unmistakably clear: Microsoft Fabric has crossed the line from promise to production. This was not a conference full of “what’s coming next.” It was a conference about what is ready.\r\n\r\n\r\n\r\nReal-Time Intelligence\r\n\r\nInturi Suparna Babu, LinkedIn\r\n\r\nAffiliation: Super User\r\n\r\nBlog: Building Real-Time Indian Railways Dashboard in Microsoft Fabric – A step-by-step guide\r\n\r\nIn this blog, I’ll walk you through how to build a Real-Time Indian Railways Train Running Status Dashboard using Microsoft Fabric. We’ll stream live railway data from a public API into Eventstream, store it in Eventhouse, transform it using KQL, and finally visualize it in a real-time dashboard.\r\n\r\n\r\n\r\nWe’ll see you next month!\r\n\r\nThat’s all for this month’s spotlight on the Microsoft Fabric Influencers. We wanted to extend our thanks to the MVPs and Super Users whose expertise continues to enrich the Fabric community. We anticipate the innovative ideas and valuable insights that will emerge in the coming months and invite everyone to stay engaged here on the Fabric Community Platform. Together, we will continue to deliver knowledge and collaboration that empowers every member of our community to achieve more. Stay tuned!",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Fabric-Influencers-Spotlight-April-2026/ba-p/5171993",
-    "date": "Fri, 01 May 2026 15:49:06 GMT",
     "source": "Unknown",
     "category": "other"
   },
