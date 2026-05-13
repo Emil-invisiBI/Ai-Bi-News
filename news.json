@@ -323,7 +323,7 @@
     "title": "Building a safe, effective sandbox to enable Codex on Windows",
     "description": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions.",
     "url": "https://openai.com/index/building-codex-windows-sandbox",
-    "date": "Fri, 15 May 2026 00:00:00 GMT",
+    "date": "Wed, 13 May 2026 11:00:00 GMT",
     "source": "OpenAI Blog",
     "category": "ai"
   },
