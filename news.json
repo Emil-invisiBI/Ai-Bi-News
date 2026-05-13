@@ -162,7 +162,7 @@
   {
     "title": "Fabric Eventstream can now publish Business Events (Preview)",
     "description": "Author: Roberto Cervantes Rivero - Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-Eventstream-can-now-publish-Business-Events-Preview/ba-p/5180050",
     "date": "Wed, 13 May 2026 17:00:00 GMT",
     "source": "Unknown",
     "category": "other"
@@ -170,7 +170,7 @@
   {
     "title": "Why your database schema belongs in Git",
     "description": "Author: Iqra Shaikh - Product Manager 2",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Why-your-database-schema-belongs-in-Git/ba-p/5179521",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Why-your-database-schema-belongs-in-Git/ba-p/5179521",
     "date": "Wed, 13 May 2026 16:41:11 GMT",
     "source": "Unknown",
     "category": "other"
@@ -178,7 +178,7 @@
   {
     "title": "Service Principal Support for Data Agents in Fabric (Preview)",
     "description": "Amir Jafari - Principal Product ManagerJoanne Wong - Senior Product Marketing Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Service-Principal-Support-for-Data-Agents-in-Fabric-Preview/ba-p/5181634",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Service-Principal-Support-for-Data-Agents-in-Fabric-Preview/ba-p/5181634",
     "date": "Wed, 13 May 2026 16:06:48 GMT",
     "source": "Unknown",
     "category": "other"
@@ -186,7 +186,7 @@
   {
     "title": "Optimize your storage costs with OneLake storage tiers and lifecycle management (Preview)",
     "description": "Author: Matt Basile - Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Optimize-your-storage-costs-with-OneLake-storage-tiers-and/ba-p/5179295",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Optimize-your-storage-costs-with-OneLake-storage-tiers-and/ba-p/5179295",
     "date": "Tue, 12 May 2026 17:30:00 GMT",
     "source": "Unknown",
     "category": "other"
@@ -194,7 +194,7 @@
   {
     "title": "Configurable Data Retention in Microsoft Fabric Warehouse (Preview)",
     "description": "Author: Ambika Jagadish, Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Configurable-Data-Retention-in-Microsoft-Fabric-Warehouse/ba-p/5181211",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Configurable-Data-Retention-in-Microsoft-Fabric-Warehouse/ba-p/5181211",
     "date": "Tue, 12 May 2026 17:26:00 GMT",
     "source": "Unknown",
     "category": "other"
@@ -202,7 +202,7 @@
   {
     "title": "Data Warehouse Monitor: A Unified Monitoring Experience for Fabric Data Warehouse (Preview)",
     "description": "Authored by: Mariya Ali - Program Manager II and Twinkle Cyril - Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Data-Warehouse-Monitor-A-Unified-Monitoring-Experience-for/ba-p/5180024",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Data-Warehouse-Monitor-A-Unified-Monitoring-Experience-for/ba-p/5180024",
     "date": "Mon, 11 May 2026 16:30:00 GMT",
     "source": "Unknown",
     "category": "other"
@@ -210,7 +210,7 @@
   {
     "title": "High Concurrency Support for the Fabric Livy API— Scalable Spark Automation (Preview)",
     "description": "Author: Avinanda Chattapadday — Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/High-Concurrency-Support-for-the-Fabric-Livy-API-Scalable-Spark/ba-p/5178390",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/High-Concurrency-Support-for-the-Fabric-Livy-API-Scalable-Spark/ba-p/5178390",
     "date": "Wed, 06 May 2026 21:00:00 GMT",
     "source": "Unknown",
     "category": "other"
@@ -218,7 +218,7 @@
   {
     "title": "OneLake catalog is now natively available in Foundry (Generally Available)",
     "description": "Author: Miquella de Boer - Principal Product Manager Lead",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/OneLake-catalog-is-now-natively-available-in-Foundry-Generally/ba-p/5178376",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-catalog-is-now-natively-available-in-Foundry-Generally/ba-p/5178376",
     "date": "Wed, 06 May 2026 18:37:02 GMT",
     "source": "Unknown",
     "category": "other"
@@ -226,7 +226,7 @@
   {
     "title": "OneLake security (Generally Available)",
     "description": "Author: Aaron Merrill - Principal Program Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/OneLake-security-Generally-Available/ba-p/5176756",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/OneLake-security-Generally-Available/ba-p/5176756",
     "date": "Wed, 06 May 2026 21:29:33 GMT",
     "source": "Unknown",
     "category": "other"
@@ -234,7 +234,7 @@
   {
     "title": "Direct Lake on SQL with Fabric Data Warehouse",
     "description": "Author: Justin Barry - Sr. Cloud Solution Architect",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Direct-Lake-on-SQL-with-Fabric-Data-Warehouse/ba-p/5177641",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Direct-Lake-on-SQL-with-Fabric-Data-Warehouse/ba-p/5177641",
     "date": "Tue, 05 May 2026 19:04:47 GMT",
     "source": "Unknown",
     "category": "other"
@@ -242,7 +242,7 @@
   {
     "title": "From repetition to reuse: accelerate data prep with My queries in Dataflow Gen2",
     "description": "Author: Miguel Escobar - Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/From-repetition-to-reuse-accelerate-data-prep-with-My-queries-in/ba-p/5176763",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/From-repetition-to-reuse-accelerate-data-prep-with-My-queries-in/ba-p/5176763",
     "date": "Tue, 05 May 2026 19:06:28 GMT",
     "source": "Unknown",
     "category": "other"
@@ -250,7 +250,7 @@
   {
     "title": "Simplify Schema Changes in Fabric Data Warehouse with ALTER COLUMN (Preview)",
     "description": "Author: Twinkle Cyril - Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Simplify-Schema-Changes-in-Fabric-Data-Warehouse-with-ALTER/ba-p/5177593",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Simplify-Schema-Changes-in-Fabric-Data-Warehouse-with-ALTER/ba-p/5177593",
     "date": "Tue, 05 May 2026 19:08:11 GMT",
     "source": "Unknown",
     "category": "other"
@@ -258,7 +258,7 @@
   {
     "title": "Providing more insights & tools: Capacity health, timepoint summary, timepoint detail, chargeback now generally available",
     "description": "Author: Pankaj Arora - Principal Product Manager _____________________________________________________",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Providing-more-insights-amp-tools-Capacity-health-timepoint/ba-p/5176753",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Providing-more-insights-amp-tools-Capacity-health-timepoint/ba-p/5176753",
     "date": "Tue, 05 May 2026 20:00:59 GMT",
     "source": "Unknown",
     "category": "other"
@@ -266,7 +266,7 @@
   {
     "title": "Pipelines are evolving beyond ETL",
     "description": "Author: Connie Xu - Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Pipelines-are-evolving-beyond-ETL/ba-p/5177527",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Pipelines-are-evolving-beyond-ETL/ba-p/5177527",
     "date": "Tue, 05 May 2026 19:09:38 GMT",
     "source": "Unknown",
     "category": "other"
@@ -274,7 +274,7 @@
   {
     "title": "Discover items across workspaces with the OneLake Catalog Search API, MCP and CLI tools (Preview)",
     "description": "Author: Nadav Schachter - Senior Product Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Discover-items-across-workspaces-with-the-OneLake-Catalog-Search/ba-p/5176768",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Discover-items-across-workspaces-with-the-OneLake-Catalog-Search/ba-p/5176768",
     "date": "Tue, 05 May 2026 19:10:44 GMT",
     "source": "Unknown",
     "category": "other"
@@ -282,7 +282,7 @@
   {
     "title": "Fabric April 2026 Feature Summary",
     "description": "Author: Katie Murray - Senior Program Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Fabric-April-2026-Feature-Summary/ba-p/5176490",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Fabric-April-2026-Feature-Summary/ba-p/5176490",
     "date": "Tue, 12 May 2026 22:19:20 GMT",
     "source": "Unknown",
     "category": "other"
@@ -290,7 +290,7 @@
   {
     "title": "Monitor your Eventstreams with workspace monitoring (Preview)",
     "description": "Author: Anasheh Boisvert - Senior Program Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Monitor-your-Eventstreams-with-workspace-monitoring-Preview/ba-p/5161116",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Monitor-your-Eventstreams-with-workspace-monitoring-Preview/ba-p/5161116",
     "date": "Tue, 05 May 2026 19:21:33 GMT",
     "source": "Unknown",
     "category": "other"
@@ -298,7 +298,7 @@
   {
     "title": "On-premises data gateway April 2026 release",
     "description": "Author: Leo Li - Principal Program Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/On-premises-data-gateway-April-2026-release/ba-p/5171981",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/On-premises-data-gateway-April-2026-release/ba-p/5171981",
     "date": "Tue, 05 May 2026 19:24:04 GMT",
     "source": "Unknown",
     "category": "other"
@@ -306,7 +306,7 @@
   {
     "title": "Manage failure notifications from the monitoring hub in Fabric (Preview)",
     "description": "Author: Michael BruhjellManage failure notifications for all your scheduled items from a single location. The monitoring hub in Microsoft Fabric now includes a Schedule failures page where you can view, configure, and update notification recipients — no more opening each item individually.",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Manage-failure-notifications-from-the-monitoring-hub-in-Fabric/ba-p/5160381",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Manage-failure-notifications-from-the-monitoring-hub-in-Fabric/ba-p/5160381",
     "date": "Wed, 06 May 2026 19:00:00 GMT",
     "source": "Unknown",
     "category": "other"
@@ -314,7 +314,7 @@
   {
     "title": "Simplify Real-Time Pipelines with the Fabric Eventstreams SQL Operator (Generally Available)",
     "description": "Author: Vaibhav Shirvastava - Principal Program Manager",
-    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blogs/Simplify-Real-Time-Pipelines-with-the-Fabric-Eventstreams-SQL/ba-p/5171983",
+    "url": "https://community.fabric.microsoft.com/t5/Fabric-Updates-Blog/Simplify-Real-Time-Pipelines-with-the-Fabric-Eventstreams-SQL/ba-p/5171983",
     "date": "Wed, 06 May 2026 14:56:19 GMT",
     "source": "Unknown",
     "category": "other"
